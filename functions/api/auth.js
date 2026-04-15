@@ -14,40 +14,61 @@ export async function onRequestPost(context) {
     const normalizedEmail = email.trim().toLowerCase();
     const apiKey = context.env.BUTTONDOWN_API_KEY;
 
-    // Check if subscriber exists
+    if (!apiKey) {
+      // No API key configured — grant access but don't subscribe
+      return Response.json({ status: 'new' }, { headers: corsHeaders });
+    }
+
+    // Step 1: Check if subscriber already exists
     const checkRes = await fetch(
-      `https://api.buttondown.email/v1/subscribers?email=${encodeURIComponent(normalizedEmail)}`,
+      `https://api.buttondown.com/v1/subscribers?email=${encodeURIComponent(normalizedEmail)}`,
       { headers: { 'Authorization': `Token ${apiKey}` } }
     );
 
     if (checkRes.ok) {
       const data = await checkRes.json();
-      if (data.results && data.results.length > 0) {
+      const results = data.results || data;
+      if (Array.isArray(results) && results.length > 0) {
         return Response.json({ status: 'existing' }, { headers: corsHeaders });
       }
     }
 
-    // Create new subscriber
-    const createRes = await fetch('https://api.buttondown.email/v1/subscribers', {
+    // Step 2: Create new subscriber
+    const createRes = await fetch('https://api.buttondown.com/v1/subscribers', {
       method: 'POST',
-      headers: { 'Authorization': `Token ${apiKey}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email: normalizedEmail, type: 'regular' }),
+      headers: {
+        'Authorization': `Token ${apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email_address: normalizedEmail,
+        type: 'regular',
+      }),
     });
 
     if (createRes.ok || createRes.status === 201) {
       return Response.json({ status: 'new' }, { headers: corsHeaders });
     }
 
-    if (createRes.status === 400) {
-      const err = await createRes.json();
-      if (JSON.stringify(err).includes('already')) {
+    // Step 3: Handle errors
+    const errBody = await createRes.text();
+
+    // If subscriber already exists (race condition or API quirk)
+    if (createRes.status === 400 || createRes.status === 409) {
+      if (errBody.toLowerCase().includes('already') || errBody.toLowerCase().includes('exists')) {
         return Response.json({ status: 'existing' }, { headers: corsHeaders });
       }
     }
 
-    return Response.json({ status: 'error', message: 'Failed' }, { status: 500, headers: corsHeaders });
+    return Response.json(
+      { status: 'error', message: `Subscription failed (${createRes.status})` },
+      { status: 500, headers: corsHeaders }
+    );
   } catch (e) {
-    return Response.json({ status: 'error', message: 'Internal error' }, { status: 500, headers: corsHeaders });
+    return Response.json(
+      { status: 'error', message: 'Internal error' },
+      { status: 500, headers: corsHeaders }
+    );
   }
 }
 
