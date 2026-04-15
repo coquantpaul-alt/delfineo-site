@@ -1,0 +1,33 @@
+---
+title: "SumUp prépare une introduction en Bourse à plus de 10 Mds$, Londres favorite"
+category: "Fintech"
+date: "2026-04-15"
+dateDisplay: "15 avril 2026"
+summary: "La fintech londonienne SumUp, connue pour ses terminaux de paiement destinés aux petits commerçants, a démarché des banques d'investissement pour préparer son introduction en Bourse, qui pourrait valoriser l'entreprise à plus de 10 Mds$, selon les informations de Bloomberg citées par Les Échos. Le groupe privilégie désormais la place de Londres — une bouffée d'oxygène pour une City qui souffre d'une pénurie d'IPO depuis plusieurs années —, même si Amsterdam et Francfort sont également dans la course, et qu'une cotation aux États-Unis (un temps envisagée) semble écartée, la présence commerciale de SumUp outre-Atlantique étant jugée trop modeste. Deutsche Bank, Goldman Sachs, Jefferies et JP Morgan devraient travailler sur l'opération, avec le cabinet britannique STJ Advisors LLP en conseil financier indépendant. Créée à Londres en 2012, SumUp est désormais présente dans 37 pays et revendique plus de 4 millions de commerçants. En décembre, la fintech annonçait 1 Md€ de dépôts sur ses comptes pro (1,5 million d'utilisateurs actifs). Elle étoffe son offre produit — dépôt d'espèces en point de vente lancé en Italie, Espagne et France fin 2025, IBAN locaux déployés en Italie dès 2026 et en France ensuite — et étudie une demande de licence bancaire complète (elle opère aujourd'hui sous une licence d'établissement de monnaie électronique). Le groupe prévoit aussi de sortir du pur B2B en ciblant les consommateurs via cashback et programmes de fidélité au sein de son réseau de commerçants. Source : Les Échos, 15 avril 2026 — Tifenn Clinkemaillié."
+order: 8
+---
+
+# SumUp prépare une introduction en Bourse à plus de 10 Mds$, Londres favorite
+
+**L'histoire en une phrase :** SumUp, la fintech londonienne des terminaux de paiement, a discrètement mandaté ses banques pour une IPO à Londres qui pourrait valoriser l'entreprise à plus de **10 Mds$**, à rebours de la tendance récente des fintechs européennes (Klarna) qui ont choisi Wall Street.
+
+## Chiffres clés
+
+- Valorisation potentielle : **>10 Mds$**.
+- Banques mandatées : **Deutsche Bank, Goldman Sachs, Jefferies, JP Morgan**. Conseil indépendant : **STJ Advisors LLP**.
+- Créée à Londres en **2012**, présente dans **37 pays**, plus de **4 millions de commerçants**.
+- Dépôts sur comptes pro : **1 Md€** en décembre, avec **1,5 million d'utilisateurs actifs**.
+- Opère aujourd'hui sous une licence d'**établissement de monnaie électronique** ; étudie une demande de **licence bancaire** complète.
+
+## Pourquoi c'est important (jargon expliqué)
+
+- Une **fintech** = entreprise technologique qui propose des services financiers. SumUp vend des terminaux de paiement (« card readers ») aux petits commerçants, plus des comptes pro et des services associés.
+- Une **IPO** (initial public offering) = introduction en Bourse, c'est-à-dire la première cotation des actions sur un marché réglementé.
+- Une **licence d'établissement de monnaie électronique** = un régime réglementaire allégé par rapport à la licence bancaire complète. SumUp passe aujourd'hui par des banques partenaires pour certains services ; une licence bancaire lui permettrait de collecter et prêter des dépôts en direct — relevant à la fois le plafond de revenus et le fardeau en capital.
+- Le choix de Londres est un signal pour la City, qui a perdu plusieurs grandes cotations au profit de New York. Le choix inverse de Klarna avait créé le précédent opposé.
+
+## À retenir
+
+Une rare IPO tech européenne à plus de 10 Mds$ potentiellement à Londres. Lecture stratégique : SumUp quitte le pur paiement pour devenir une banque de PME à part entière (dépôts, IBAN locaux, éventuelle licence bancaire), voire un acteur grand public. À surveiller : la confirmation de la place et la décision sur la licence — ensemble, elles redéfiniront la façon dont les fintechs européennes pensent leur cotation.
+
+*Source : Les Échos, 15 avril 2026 — Tifenn Clinkemaillié.*
