@@ -3,9 +3,15 @@
   Handles: subscribe/reconnect modal, session persistence, content gating.
 -->
 <script>
+  // ─── Config ───────────────────────────────────────────────────
+  // Set to true to re-enable the email wall once Buttondown is ready
+  const EMAIL_WALL_ENABLED = false;
+
   // ─── State ────────────────────────────────────────────────────
   const AUTH_KEY = 'delfineo_session';
-  let subscriber = sessionStorage.getItem(AUTH_KEY) || null;
+  let subscriber = EMAIL_WALL_ENABLED
+    ? (sessionStorage.getItem(AUTH_KEY) || null)
+    : 'open-access';
   let pendingHref = null;
 
   // ─── DOM refs ─────────────────────────────────────────────────
