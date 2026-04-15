@@ -6,7 +6,8 @@ export async function onRequestPost(context) {
   };
 
   try {
-    const { email } = await context.request.json();
+    const { email, debug } = await context.request.json();
+
     if (!email || !email.includes('@')) {
       return Response.json({ status: 'error', message: 'Invalid email' }, { status: 400, headers: corsHeaders });
     }
@@ -14,12 +15,63 @@ export async function onRequestPost(context) {
     const normalizedEmail = email.trim().toLowerCase();
     const apiKey = context.env.BUTTONDOWN_API_KEY;
 
+    // Debug mode: return raw API responses
+    if (debug) {
+      const diagnostics = {
+        apiKeyPresent: !!apiKey,
+        apiKeyPrefix: apiKey ? apiKey.substring(0, 8) + '...' : null,
+        email: normalizedEmail,
+        steps: [],
+      };
+
+      // Test 1: Check subscriber
+      try {
+        const checkUrl = `https://api.buttondown.com/v1/subscribers?email=${encodeURIComponent(normalizedEmail)}`;
+        const checkRes = await fetch(checkUrl, {
+          headers: { 'Authorization': `Token ${apiKey}` },
+        });
+        const checkBody = await checkRes.text();
+        diagnostics.steps.push({
+          step: 'check_subscriber',
+          url: checkUrl,
+          status: checkRes.status,
+          body: checkBody.substring(0, 500),
+        });
+      } catch (e) {
+        diagnostics.steps.push({ step: 'check_subscriber', error: e.message });
+      }
+
+      // Test 2: Create subscriber
+      try {
+        const createUrl = 'https://api.buttondown.com/v1/subscribers';
+        const createRes = await fetch(createUrl, {
+          method: 'POST',
+          headers: {
+            'Authorization': `Token ${apiKey}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ email_address: normalizedEmail, type: 'regular' }),
+        });
+        const createBody = await createRes.text();
+        diagnostics.steps.push({
+          step: 'create_subscriber',
+          url: createUrl,
+          status: createRes.status,
+          body: createBody.substring(0, 500),
+        });
+      } catch (e) {
+        diagnostics.steps.push({ step: 'create_subscriber', error: e.message });
+      }
+
+      return Response.json(diagnostics, { headers: corsHeaders });
+    }
+
+    // --- Normal flow ---
     if (!apiKey) {
-      // No API key configured — grant access but don't subscribe
       return Response.json({ status: 'new' }, { headers: corsHeaders });
     }
 
-    // Step 1: Check if subscriber already exists
+    // Check if subscriber exists
     const checkRes = await fetch(
       `https://api.buttondown.com/v1/subscribers?email=${encodeURIComponent(normalizedEmail)}`,
       { headers: { 'Authorization': `Token ${apiKey}` } }
@@ -33,27 +85,21 @@ export async function onRequestPost(context) {
       }
     }
 
-    // Step 2: Create new subscriber
+    // Create new subscriber
     const createRes = await fetch('https://api.buttondown.com/v1/subscribers', {
       method: 'POST',
       headers: {
         'Authorization': `Token ${apiKey}`,
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({
-        email_address: normalizedEmail,
-        type: 'regular',
-      }),
+      body: JSON.stringify({ email_address: normalizedEmail, type: 'regular' }),
     });
 
     if (createRes.ok || createRes.status === 201) {
       return Response.json({ status: 'new' }, { headers: corsHeaders });
     }
 
-    // Step 3: Handle errors
     const errBody = await createRes.text();
-
-    // If subscriber already exists (race condition or API quirk)
     if (createRes.status === 400 || createRes.status === 409) {
       if (errBody.toLowerCase().includes('already') || errBody.toLowerCase().includes('exists')) {
         return Response.json({ status: 'existing' }, { headers: corsHeaders });
@@ -61,12 +107,12 @@ export async function onRequestPost(context) {
     }
 
     return Response.json(
-      { status: 'error', message: `Subscription failed (${createRes.status})` },
+      { status: 'error', message: `Failed (${createRes.status}): ${errBody.substring(0, 200)}` },
       { status: 500, headers: corsHeaders }
     );
   } catch (e) {
     return Response.json(
-      { status: 'error', message: 'Internal error' },
+      { status: 'error', message: `Internal error: ${e.message}` },
       { status: 500, headers: corsHeaders }
     );
   }
