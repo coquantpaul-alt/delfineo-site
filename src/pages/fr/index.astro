@@ -1,0 +1,143 @@
+---
+import Base from '../../layouts/Base.astro';
+import AuthScript from '../../components/AuthScript.astro';
+import { t } from '../../i18n.js';
+import { getCollection } from 'astro:content';
+
+const lang = 'fr';
+const altLang = 'en';
+const i = (key) => t(lang, key);
+
+const allResearch = await getCollection('research', ({ id }) => id.startsWith(`${lang}/`));
+const allNews = await getCollection('news', ({ id }) => id.startsWith(`${lang}/`));
+
+const research = allResearch.sort((a, b) => (a.data.order || 99) - (b.data.order || 99));
+const news = allNews.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+const newsByDate = {};
+for (const item of news) {
+  const d = item.data.date;
+  if (!newsByDate[d]) newsByDate[d] = { date: d, dateDisplay: item.data.dateDisplay, items: [] };
+  newsByDate[d].items.push(item);
+}
+const newsGroups = Object.values(newsByDate);
+---
+
+<Base title="Delfineo — Recherche & Actualités en Investissement Value" lang={lang}>
+  <header class="site-header">
+    <a href={`/${lang}/`} class="site-logo">
+      <h1>DELFINEO</h1>
+      <p class="tagline">{i('tagline')}</p>
+    </a>
+    <nav class="nav">
+      <button class="tab-btn active" id="tab-news" onclick="showTab('news')">
+        {i('news')} <span class="tab-badge">{news.length}</span>
+      </button>
+      <button class="tab-btn" id="tab-research" onclick="showTab('research')">
+        {i('research')}
+      </button>
+      <span class="nav-divider"></span>
+      <div class="lang-toggle">
+        <a href={`/${altLang}/`} style="text-decoration:none"><span>EN</span></a>
+        <span class="sep">/</span>
+        <span class="active">FR</span>
+      </div>
+      <span class="nav-divider"></span>
+      <div id="user-area" class="user-badge" data-signout={i('signOut')} style="display:none"></div>
+      <button class="btn-subscribe" data-subscribe>{i('subscribe')}</button>
+    </nav>
+  </header>
+
+  <main style="max-width:800px;margin:0 auto;padding:20px 48px 100px;">
+    <div id="panel-news" class="fade-in">
+      <div class="section-header" style="margin-bottom:16px">
+        <p class="label">{i('newsLabel')}</p>
+        <h2>{i('newsTitle')}</h2>
+        <p>{i('newsSub')}</p>
+      </div>
+      {newsGroups.map((group, gi) => (
+        <div style="margin-bottom:44px">
+          <div class="news-day-header">
+            <span class="day-label">{gi === 0 ? "Aujourd'hui" : group.dateDisplay}</span>
+            <span class="day-date">{group.dateDisplay}</span>
+          </div>
+          {group.items.map((item) => (
+            <a href={`/${lang}/news/${item.slug.replace(`${lang}/`, '')}/`} class="news-item" data-gated>
+              <div class="meta">
+                <span class="category">{item.data.category}</span>
+                <span class="lock-badge lock-badge-sm">✉</span>
+              </div>
+              <h3>{item.data.title}</h3>
+              <p>{item.data.summary}</p>
+            </a>
+          ))}
+        </div>
+      ))}
+    </div>
+
+    <div id="panel-research" class="fade-in" style="display:none">
+      <div class="section-header" style="margin-bottom:8px">
+        <p class="label">{i('researchLabel')}</p>
+        <h2>{i('researchTitle')}</h2>
+        <p>{i('researchSub')}</p>
+      </div>
+      {research.map((article) => (
+        <a href={`/${lang}/research/${article.slug.replace(`${lang}/`, '')}/`} class="research-card" data-gated>
+          <div class="meta">
+            <span class="category">{article.data.category}</span>
+            <span class="date">{article.data.date}</span>
+            <span class="read-time">{article.data.readTime}</span>
+            <span class="lock-badge">{i('emailToRead')}</span>
+          </div>
+          <h2>{article.data.title}</h2>
+          <p>{article.data.subtitle}</p>
+        </a>
+      ))}
+    </div>
+
+    <section class="about-section">
+      <h3>{i('aboutTitle')}</h3>
+      <p>{i('about1')}</p>
+      <p>{i('about2')}</p>
+      <p>{i('about3')}</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>{i('copy')}</span>
+    <span>{i('disclaimer')}</span>
+  </footer>
+
+  <div id="auth-overlay" class="auth-overlay" style="display:none">
+    <div class="auth-modal">
+      <button id="auth-close" class="close">×</button>
+      <div class="bar"></div>
+      <div id="auth-form-state">
+        <h2>{i('authTitle')}</h2>
+        <p class="desc">{i('authDesc')}</p>
+        <p class="hint">{i('authHint')}</p>
+        <div class="auth-form">
+          <input id="auth-email" type="email" placeholder="votre@email.com" />
+          <button id="auth-btn" data-label={i('authBtn')} data-checking={i('authChecking')}>{i('authBtn')}</button>
+        </div>
+        <p id="auth-error" class="auth-error" data-email-error={i('authErrorEmail')}></p>
+        <p class="auth-footer">{i('authFree')}</p>
+      </div>
+      <div id="auth-success-state" class="auth-success" style="display:none">
+        <div class="check">✓</div>
+        <h2 id="success-title" data-existing={i('authWelcomeBack')} data-new={i('authWelcomeNew')}></h2>
+        <p id="success-msg" data-existing={i('authMsgExisting')} data-new={i('authMsgNew')}></p>
+      </div>
+    </div>
+  </div>
+
+  <script is:inline>
+    function showTab(tab) {
+      document.getElementById('panel-news').style.display = tab === 'news' ? 'block' : 'none';
+      document.getElementById('panel-research').style.display = tab === 'research' ? 'block' : 'none';
+      document.getElementById('tab-news').classList.toggle('active', tab === 'news');
+      document.getElementById('tab-research').classList.toggle('active', tab === 'research');
+    }
+  </script>
+  <AuthScript />
+</Base>

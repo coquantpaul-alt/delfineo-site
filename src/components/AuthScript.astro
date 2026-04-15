@@ -1,0 +1,158 @@
+<!-- 
+  Email wall script. Include on every page.
+  Handles: subscribe/reconnect modal, session persistence, content gating.
+-->
+<script>
+  // ─── State ────────────────────────────────────────────────────
+  const AUTH_KEY = 'delfineo_session';
+  let subscriber = sessionStorage.getItem(AUTH_KEY) || null;
+  let pendingHref = null;
+
+  // ─── DOM refs ─────────────────────────────────────────────────
+  const overlay = document.getElementById('auth-overlay');
+  const emailInput = document.getElementById('auth-email');
+  const authBtn = document.getElementById('auth-btn');
+  const authClose = document.getElementById('auth-close');
+  const authError = document.getElementById('auth-error');
+  const authForm = document.getElementById('auth-form-state');
+  const authSuccess = document.getElementById('auth-success-state');
+  const successTitle = document.getElementById('success-title');
+  const successMsg = document.getElementById('success-msg');
+  
+  // All gated links
+  const gatedLinks = document.querySelectorAll('[data-gated]');
+  // Subscribe buttons
+  const subBtns = document.querySelectorAll('[data-subscribe]');
+  // User badge area
+  const userArea = document.getElementById('user-area');
+
+  // ─── Init ─────────────────────────────────────────────────────
+  function init() {
+    if (subscriber) {
+      unlockAll();
+      showUserBadge();
+    }
+  }
+
+  function unlockAll() {
+    document.querySelectorAll('.lock-badge').forEach(el => el.style.display = 'none');
+  }
+
+  function showUserBadge() {
+    if (!userArea) return;
+    const name = subscriber.split('@')[0];
+    userArea.innerHTML = `
+      <span class="name"><span class="dot"></span>${name}</span>
+      <button class="sign-out" id="sign-out-btn">${userArea.dataset.signout || 'Sign out'}</button>
+    `;
+    // Hide subscribe buttons
+    subBtns.forEach(b => b.style.display = 'none');
+    // Sign out handler
+    document.getElementById('sign-out-btn')?.addEventListener('click', () => {
+      sessionStorage.removeItem(AUTH_KEY);
+      subscriber = null;
+      location.reload();
+    });
+  }
+
+  // ─── Gate handler ─────────────────────────────────────────────
+  gatedLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      if (subscriber) return; // allow navigation
+      e.preventDefault();
+      pendingHref = link.getAttribute('href');
+      showModal();
+    });
+  });
+
+  subBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      pendingHref = null;
+      showModal();
+    });
+  });
+
+  // ─── Modal ────────────────────────────────────────────────────
+  function showModal() {
+    if (!overlay) return;
+    overlay.style.display = 'flex';
+    authForm.style.display = 'block';
+    authSuccess.style.display = 'none';
+    authError.textContent = '';
+    emailInput?.focus();
+  }
+
+  function hideModal() {
+    if (!overlay) return;
+    overlay.style.display = 'none';
+    pendingHref = null;
+  }
+
+  authClose?.addEventListener('click', hideModal);
+  overlay?.addEventListener('click', (e) => {
+    if (e.target === overlay) hideModal();
+  });
+
+  // ─── Submit ───────────────────────────────────────────────────
+  async function handleSubmit() {
+    const email = emailInput?.value?.trim().toLowerCase();
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      authError.textContent = authError.dataset.emailError || 'Please enter a valid email.';
+      return;
+    }
+
+    authBtn.disabled = true;
+    authBtn.textContent = authBtn.dataset.checking || 'Checking...';
+    authError.textContent = '';
+
+    try {
+      const res = await fetch('/api/auth', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      });
+      const data = await res.json();
+
+      if (data.status === 'existing' || data.status === 'new') {
+        subscriber = email;
+        sessionStorage.setItem(AUTH_KEY, email);
+        
+        // Show success
+        authForm.style.display = 'none';
+        authSuccess.style.display = 'block';
+        successTitle.textContent = data.status === 'existing' 
+          ? (successTitle.dataset.existing || 'Welcome back')
+          : (successTitle.dataset.new || 'Welcome to Delfineo');
+        successMsg.textContent = data.status === 'existing'
+          ? (successMsg.dataset.existing || 'Email recognized — unlocking all content.')
+          : (successMsg.dataset.new || "You're subscribed — unlocking all content.");
+
+        unlockAll();
+        showUserBadge();
+
+        // Redirect after delay
+        setTimeout(() => {
+          hideModal();
+          if (pendingHref) {
+            window.location.href = pendingHref;
+          }
+        }, 1200);
+      } else {
+        authError.textContent = 'Something went wrong. Please try again.';
+      }
+    } catch {
+      authError.textContent = 'Connection error. Please try again.';
+    } finally {
+      authBtn.disabled = false;
+      authBtn.textContent = authBtn.dataset.label || 'Continue';
+    }
+  }
+
+  authBtn?.addEventListener('click', handleSubmit);
+  emailInput?.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') handleSubmit();
+  });
+
+  // ─── Go ───────────────────────────────────────────────────────
+  init();
+</script>

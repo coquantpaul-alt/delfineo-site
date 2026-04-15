@@ -1,0 +1,91 @@
+---
+import Base from '../../../layouts/Base.astro';
+import AuthScript from '../../../components/AuthScript.astro';
+import { t } from '../../../i18n.js';
+import { getCollection } from 'astro:content';
+
+const lang = 'fr';
+const i = (key) => t(lang, key);
+
+export async function getStaticPaths() {
+  const articles = await getCollection('research', ({ id }) => id.startsWith('fr/'));
+  return articles.map((article) => ({
+    params: { slug: article.slug.replace('fr/', '') },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await article.render();
+---
+
+<Base title={`${article.data.title} — Delfineo`} description={article.data.subtitle} lang={lang}>
+  <header class="site-header">
+    <a href={`/${lang}/`} class="site-logo">
+      <h1>DELFINEO</h1>
+      <p class="tagline">{i('tagline')}</p>
+    </a>
+    <nav class="nav">
+      <a href={`/${lang}/`} class="tab-btn">{i('news')}</a>
+      <a href={`/${lang}/`} class="tab-btn">{i('research')}</a>
+      <span class="nav-divider"></span>
+      <div class="lang-toggle">
+        <a href={`/en/research/${article.slug.replace('fr/', '')}/`} style="text-decoration:none"><span>EN</span></a>
+        <span class="sep">/</span>
+        <span class="active">FR</span>
+      </div>
+      <span class="nav-divider"></span>
+      <div id="user-area" class="user-badge" data-signout={i('signOut')} style="display:none"></div>
+      <button class="btn-subscribe" data-subscribe>{i('subscribe')}</button>
+    </nav>
+  </header>
+
+  <main class="content-article" style="padding:40px 24px 80px;">
+    <a href={`/${lang}/`} class="article-back">{i('backResearch')}</a>
+
+    <div class="article-detail">
+      <div style="display:flex;align-items:center;gap:14px;margin-bottom:20px;flex-wrap:wrap">
+        <span style="font-family:var(--font-sans);font-size:0.68rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent)">{article.data.category}</span>
+        <span style="font-family:var(--font-sans);font-size:0.72rem;color:var(--text-dim)">{article.data.date}</span>
+        <span style="font-family:var(--font-sans);font-size:0.72rem;color:var(--text-dim)">{article.data.readTime}</span>
+      </div>
+
+      <h1 class="research">{article.data.title}</h1>
+      <p class="subtitle">{article.data.subtitle}</p>
+
+      <div class="article-body">
+        <Content />
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span>{i('copy')}</span>
+    <span>{i('disclaimer')}</span>
+  </footer>
+
+  <div id="auth-overlay" class="auth-overlay" style="display:none">
+    <div class="auth-modal">
+      <button id="auth-close" class="close">×</button>
+      <div class="bar"></div>
+      <div id="auth-form-state">
+        <h2>{i('authTitle')}</h2>
+        <p class="desc">{i('authDesc')}</p>
+        <p class="hint">{i('authHint')}</p>
+        <div class="auth-form">
+          <input id="auth-email" type="email" placeholder="votre@email.com" />
+          <button id="auth-btn" data-label={i('authBtn')} data-checking={i('authChecking')}>{i('authBtn')}</button>
+        </div>
+        <p id="auth-error" class="auth-error" data-email-error={i('authErrorEmail')}></p>
+        <p class="auth-footer">{i('authFree')}</p>
+      </div>
+      <div id="auth-success-state" class="auth-success" style="display:none">
+        <div class="check">✓</div>
+        <h2 id="success-title" data-existing={i('authWelcomeBack')} data-new={i('authWelcomeNew')}></h2>
+        <p id="success-msg" data-existing={i('authMsgExisting')} data-new={i('authMsgNew')}></p>
+      </div>
+    </div>
+  </div>
+
+  <AuthScript />
+</Base>
