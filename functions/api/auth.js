@@ -6,8 +6,7 @@ export async function onRequestPost(context) {
   };
 
   try {
-    const { email, debug } = await context.request.json();
-
+    const { email } = await context.request.json();
     if (!email || !email.includes('@')) {
       return Response.json({ status: 'error', message: 'Invalid email' }, { status: 400, headers: corsHeaders });
     }
@@ -15,63 +14,13 @@ export async function onRequestPost(context) {
     const normalizedEmail = email.trim().toLowerCase();
     const apiKey = context.env.BUTTONDOWN_API_KEY;
 
-    // Debug mode: return raw API responses
-    if (debug) {
-      const diagnostics = {
-        apiKeyPresent: !!apiKey,
-        apiKeyPrefix: apiKey ? apiKey.substring(0, 8) + '...' : null,
-        email: normalizedEmail,
-        steps: [],
-      };
-
-      // Test 1: Check subscriber
-      try {
-        const checkUrl = `https://api.buttondown.com/v1/subscribers?email=${encodeURIComponent(normalizedEmail)}`;
-        const checkRes = await fetch(checkUrl, {
-          headers: { 'Authorization': `Token ${apiKey}` },
-        });
-        const checkBody = await checkRes.text();
-        diagnostics.steps.push({
-          step: 'check_subscriber',
-          url: checkUrl,
-          status: checkRes.status,
-          body: checkBody.substring(0, 500),
-        });
-      } catch (e) {
-        diagnostics.steps.push({ step: 'check_subscriber', error: e.message });
-      }
-
-      // Test 2: Create subscriber
-      try {
-        const createUrl = 'https://api.buttondown.com/v1/subscribers';
-        const createRes = await fetch(createUrl, {
-          method: 'POST',
-          headers: {
-            'Authorization': `Token ${apiKey}`,
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ email_address: normalizedEmail, type: 'regular' }),
-        });
-        const createBody = await createRes.text();
-        diagnostics.steps.push({
-          step: 'create_subscriber',
-          url: createUrl,
-          status: createRes.status,
-          body: createBody.substring(0, 500),
-        });
-      } catch (e) {
-        diagnostics.steps.push({ step: 'create_subscriber', error: e.message });
-      }
-
-      return Response.json(diagnostics, { headers: corsHeaders });
-    }
-
-    // --- Normal flow ---
     if (!apiKey) {
       return Response.json({ status: 'new' }, { headers: corsHeaders });
     }
 
-    // Check if subscriber exists
+    // Step 1: Check if subscriber already exists
+    // The Buttondown API ?email= filter is not an exact match,
+    // so we must verify the results ourselves
     const checkRes = await fetch(
       `https://api.buttondown.com/v1/subscribers?email=${encodeURIComponent(normalizedEmail)}`,
       { headers: { 'Authorization': `Token ${apiKey}` } }
@@ -79,13 +28,17 @@ export async function onRequestPost(context) {
 
     if (checkRes.ok) {
       const data = await checkRes.json();
-      const results = data.results || data;
-      if (Array.isArray(results) && results.length > 0) {
+      const results = data.results || [];
+      // Exact match check — the API may return non-exact matches
+      const exactMatch = results.find(
+        (sub) => sub.email_address && sub.email_address.toLowerCase() === normalizedEmail
+      );
+      if (exactMatch) {
         return Response.json({ status: 'existing' }, { headers: corsHeaders });
       }
     }
 
-    // Create new subscriber
+    // Step 2: Create new subscriber
     const createRes = await fetch('https://api.buttondown.com/v1/subscribers', {
       method: 'POST',
       headers: {
@@ -99,20 +52,29 @@ export async function onRequestPost(context) {
       return Response.json({ status: 'new' }, { headers: corsHeaders });
     }
 
+    // Step 3: Handle errors
     const errBody = await createRes.text();
-    if (createRes.status === 400 || createRes.status === 409) {
-      if (errBody.toLowerCase().includes('already') || errBody.toLowerCase().includes('exists')) {
-        return Response.json({ status: 'existing' }, { headers: corsHeaders });
-      }
+    let errData = {};
+    try { errData = JSON.parse(errBody); } catch {}
+
+    // Subscriber already exists (race condition)
+    if (errData.code === 'email_already_exists' ||
+        (errBody.toLowerCase().includes('already') || errBody.toLowerCase().includes('exists'))) {
+      return Response.json({ status: 'existing' }, { headers: corsHeaders });
+    }
+
+    // Firewall block — still grant access but don't pretend they're subscribed
+    if (errData.code === 'subscriber_blocked') {
+      return Response.json({ status: 'new' }, { headers: corsHeaders });
     }
 
     return Response.json(
-      { status: 'error', message: `Failed (${createRes.status}): ${errBody.substring(0, 200)}` },
+      { status: 'error', message: 'Something went wrong. Please try again.' },
       { status: 500, headers: corsHeaders }
     );
   } catch (e) {
     return Response.json(
-      { status: 'error', message: `Internal error: ${e.message}` },
+      { status: 'error', message: 'Internal error' },
       { status: 500, headers: corsHeaders }
     );
   }
