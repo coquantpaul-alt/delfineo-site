@@ -20,7 +20,7 @@ const news = defineCollection({
     date: z.string(),       // ISO date: 2026-04-15
     dateDisplay: z.string(), // "April 15, 2026" or "15 avril 2026"
     summary: z.string(),
-    insight: z.string(),
+    insight: z.string().optional(),
     order: z.number().optional(),
   }),
 });
