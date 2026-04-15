@@ -57,10 +57,12 @@ const { item } = Astro.props;
       </div>
 
       <!-- Delfineo's Take -->
-      <div class="take-block">
-        <p class="label">{i('take')}</p>
-        <p>{item.data.insight}</p>
-      </div>
+      {item.data.insight && (
+        <div class="take-block">
+          <p class="label">{i('take')}</p>
+          <p>{item.data.insight}</p>
+        </div>
+      )}
     </div>
   </main>
 
