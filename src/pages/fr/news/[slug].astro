@@ -55,10 +55,12 @@ const { item } = Astro.props;
         <p style="font-family:var(--font-serif);font-size:1.04rem;color:var(--text-mid);line-height:1.82;margin:0">{item.data.summary}</p>
       </div>
 
-      <div class="take-block">
-        <p class="label">{i('take')}</p>
-        <p>{item.data.insight}</p>
-      </div>
+      {item.data.insight && (
+        <div class="take-block">
+          <p class="label">{i('take')}</p>
+          <p>{item.data.insight}</p>
+        </div>
+      )}
     </div>
   </main>
 
