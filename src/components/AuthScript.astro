@@ -10,7 +10,7 @@
   // ─── State ────────────────────────────────────────────────────
   const AUTH_KEY = 'delfineo_session';
   let subscriber = EMAIL_WALL_ENABLED
-    ? (sessionStorage.getItem(AUTH_KEY) || null)
+    ? (localStorage.getItem(AUTH_KEY) || null)
     : 'open-access';
   let pendingHref = null;
 
@@ -55,7 +55,7 @@
     subBtns.forEach(b => b.style.display = 'none');
     // Sign out handler
     document.getElementById('sign-out-btn')?.addEventListener('click', () => {
-      sessionStorage.removeItem(AUTH_KEY);
+      localStorage.removeItem(AUTH_KEY);
       subscriber = null;
       location.reload();
     });
@@ -121,7 +121,7 @@
 
       if (data.status === 'existing' || data.status === 'new') {
         subscriber = email;
-        sessionStorage.setItem(AUTH_KEY, email);
+        localStorage.setItem(AUTH_KEY, email);
         
         // Show success
         authForm.style.display = 'none';
