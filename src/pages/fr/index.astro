@@ -148,6 +148,11 @@ const newsGroups = Object.values(newsByDate);
       document.getElementById('tab-news').classList.toggle('active', tab === 'news');
       document.getElementById('tab-research').classList.toggle('active', tab === 'research');
     }
+    // Open the right tab when arriving via ?tab=research or ?tab=news
+    (function() {
+      const t = new URLSearchParams(window.location.search).get('tab');
+      if (t === 'research' || t === 'news') showTab(t);
+    })();
   </script>
   <AuthScript />
 </Base>
