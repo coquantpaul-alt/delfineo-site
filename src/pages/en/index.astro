@@ -13,9 +13,11 @@ const allResearch = await getCollection('research', ({ id }) => id.startsWith(`$
 const allNews = await getCollection('news', ({ id }) => id.startsWith(`${lang}/`));
 
 // Sort
+const MO = {january:1,february:2,march:3,april:4,may:5,june:6,july:7,august:8,september:9,october:10,november:11,december:12,janvier:1,'février':2,mars:3,avril:4,mai:5,juin:6,juillet:7,'août':8,septembre:9,octobre:10,novembre:11,'décembre':12};
+const researchDate = (s) => { const [m, y] = s.split(' '); return parseInt(y) * 12 + (MO[m.toLowerCase()] || 0); };
 const research = allResearch.sort((a, b) => {
-  const da = new Date(a.data.date), db = new Date(b.data.date);
-  if (db.getTime() !== da.getTime()) return db.getTime() - da.getTime();
+  const da = researchDate(a.data.date), db = researchDate(b.data.date);
+  if (da !== db) return db - da;
   return a.data.title.localeCompare(b.data.title);
 });
 const news = allNews.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
