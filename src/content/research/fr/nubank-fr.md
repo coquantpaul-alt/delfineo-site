@@ -7,7 +7,7 @@ readTime: "29 min"
 order: 1
 ---
 
-*Avertissement : Veuillez noter que l'auteur (Paul Coquant) n'est ni acheteur ni vendeur de Nubank Holdings Ltd. Bien qu'il reste confiant dans la thèse présentée ici, il peut ajuster cette exposition à tout moment en fonction des conditions de marché. Cet article représente son opinion personnelle et ne doit pas être considéré comme des recommandations d'investissement.*
+*Avertissement : Veuillez noter que l'auteur (Paul Coquant) détient des actions Nubank Holdings Ltd. Bien qu'il reste confiant dans la thèse présentée ici, il peut ajuster cette exposition à tout moment en fonction des conditions de marché. Cet article représente son opinion personnelle et ne doit pas être considéré comme des recommandations d'investissement.*
 
 ## Introduction : activité, histoire et équipe dirigeante de Nubank
 
