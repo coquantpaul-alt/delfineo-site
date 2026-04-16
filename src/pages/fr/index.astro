@@ -14,6 +14,10 @@ const allNews = await getCollection('news', ({ id }) => id.startsWith(`${lang}/`
 const research = allResearch.sort((a, b) => (a.data.order || 99) - (b.data.order || 99));
 const news = allNews.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 
+// Today's date (for "Aujourd'hui" label and badge count)
+const today = new Date().toISOString().slice(0, 10);
+const todayCount = news.filter((item) => item.data.date === today).length;
+
 const newsByDate = {};
 for (const item of news) {
   const d = item.data.date;
@@ -31,7 +35,7 @@ const newsGroups = Object.values(newsByDate);
     </a>
     <nav class="nav">
       <button class="tab-btn active" id="tab-news" onclick="showTab('news')">
-        {i('news')} <span class="tab-badge">{news.length}</span>
+        {i('news')} {todayCount > 0 && <span class="tab-badge">{todayCount}</span>}
       </button>
       <button class="tab-btn" id="tab-research" onclick="showTab('research')">
         {i('research')}
@@ -58,7 +62,7 @@ const newsGroups = Object.values(newsByDate);
       {newsGroups.map((group, gi) => (
         <div style="margin-bottom:44px">
           <div class="news-day-header">
-            <span class="day-label">{group.date === new Date().toISOString().slice(0, 10) ? "Aujourd'hui" : group.dateDisplay}</span>
+            <span class="day-label">{group.date === today ? "Aujourd'hui" : group.dateDisplay}</span>
             <span class="day-date">{group.dateDisplay}</span>
           </div>
           {group.items.map((item) => (
