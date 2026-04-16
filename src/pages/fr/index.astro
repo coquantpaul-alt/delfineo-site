@@ -11,7 +11,11 @@ const i = (key) => t(lang, key);
 const allResearch = await getCollection('research', ({ id }) => id.startsWith(`${lang}/`));
 const allNews = await getCollection('news', ({ id }) => id.startsWith(`${lang}/`));
 
-const research = allResearch.sort((a, b) => (a.data.order || 99) - (b.data.order || 99));
+const research = allResearch.sort((a, b) => {
+  const da = new Date(a.data.date), db = new Date(b.data.date);
+  if (db.getTime() !== da.getTime()) return db.getTime() - da.getTime();
+  return a.data.title.localeCompare(b.data.title);
+});
 const news = allNews.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 
 // Today's date (for "Aujourd'hui" label and badge count)
