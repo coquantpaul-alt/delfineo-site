@@ -3,10 +3,8 @@ import Base from '../../../layouts/Base.astro';
 import AuthScript from '../../../components/AuthScript.astro';
 import { t } from '../../../i18n.js';
 import { getCollection } from 'astro:content';
-
 const lang = 'en';
 const i = (key) => t(lang, key);
-
 export async function getStaticPaths() {
   const items = await getCollection('news', ({ id }) => id.startsWith('en/'));
   return items.map((item) => ({
@@ -14,11 +12,9 @@ export async function getStaticPaths() {
     props: { item },
   }));
 }
-
 const { item } = Astro.props;
 ---
-
-<Base title={`${item.data.title} — Delfineo`} description={item.data.summary.slice(0, 160)} lang={lang}>
+<Base title={`${item.data.title} — Delfineo`} description={item.data.summary.replace(/\s+/g, ' ').slice(0, 160)} lang={lang}>
   <header class="site-header">
     <a href={`/${lang}/`} class="site-logo">
       <h1>DELFINEO</h1>
@@ -38,39 +34,38 @@ const { item } = Astro.props;
       <button class="btn-subscribe" data-subscribe>{i('subscribe')}</button>
     </nav>
   </header>
-
   <main class="content-article" style="padding:40px 24px 80px;">
     <a href={`/${lang}/`} class="article-back">{i('backNews')}</a>
-
     <div class="article-detail">
       <div style="display:flex;align-items:center;gap:14px;margin-bottom:20px;flex-wrap:wrap">
         <span style="font-family:var(--font-sans);font-size:0.68rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent)">{item.data.category}</span>
         <span style="font-family:var(--font-sans);font-size:0.72rem;color:var(--text-dim)">{item.data.dateDisplay}</span>
       </div>
-
       <h1 class="news">{item.data.title}</h1>
-
       <!-- Summary -->
       <div style="margin-bottom:36px;margin-top:32px">
         <p class="summary-label">{i('summary')}</p>
-        <p style="font-family:var(--font-serif);font-size:1.04rem;color:var(--text-mid);line-height:1.82;margin:0">{item.data.summary}</p>
+        <div style="font-family:var(--font-serif);font-size:1.04rem;color:var(--text-mid);line-height:1.82">
+          {item.data.summary.split(/\n\s*\n/).map((para) => (
+            <p style="margin:0 0 1em 0">{para.trim()}</p>
+          ))}
+        </div>
       </div>
-
       <!-- Delfineo's Take -->
       {item.data.insight && (
         <div class="take-block">
           <p class="label">{i('take')}</p>
-          <p>{item.data.insight}</p>
+          {item.data.insight.split(/\n\s*\n/).map((para) => (
+            <p>{para.trim()}</p>
+          ))}
         </div>
       )}
     </div>
   </main>
-
   <footer class="site-footer">
     <span>{i('copy')}</span>
     <span>{i('disclaimer')}</span>
   </footer>
-
   <div id="auth-overlay" class="auth-overlay" style="display:none">
     <div class="auth-modal">
       <button id="auth-close" class="close">×</button>
@@ -93,6 +88,5 @@ const { item } = Astro.props;
       </div>
     </div>
   </div>
-
   <AuthScript />
 </Base>
