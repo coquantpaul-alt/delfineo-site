@@ -64,7 +64,7 @@ const newsGroups = Object.values(newsByDate);
       {newsGroups.map((group, gi) => (
         <div style="margin-bottom:44px">
           <div class="news-day-header">
-            <span class="day-label">{gi === 0 ? 'Today' : group.dateDisplay}</span>
+            <span class="day-label">{group.date === new Date().toISOString().slice(0, 10) ? 'Today' : group.dateDisplay}</span>
             <span class="day-date">{group.dateDisplay}</span>
           </div>
           {group.items.map((item) => (
