@@ -665,5 +665,32 @@ img { max-width: 100%; height: auto; }
   .site-footer { padding: 20px; flex-direction: column; }
   .article-detail h1.research { font-size: 1.7rem; }
   .article-detail h1.news { font-size: 1.4rem; }
-  .section-header h2 { font-size: 1.6rem; }
+
+  /* Tighter main padding on mobile */
+  main { padding: 8px 20px 60px !important; }
+
+  /* Compact hero section */
+  .section-header { padding: 16px 0 14px; }
+  .section-header .label { font-size: 0.62rem; margin: 0 0 8px; }
+  .section-header h2 { font-size: 1.4rem; margin: 0 0 6px; line-height: 1.2; }
+  .section-header p { font-size: 0.85rem; line-height: 1.45; }
+
+  /* Compact day header */
+  .news-day-header { padding: 10px 0 6px; margin-bottom: 2px; }
+  .news-day-header .day-label { font-size: 0.78rem; }
+  .news-day-header .day-date { font-size: 0.7rem; }
+
+  /* Compact news cards */
+  .news-item { padding: 11px 0; }
+  .news-item .meta { margin-bottom: 4px; gap: 10px; }
+  .news-item .category { font-size: 0.6rem; }
+  .news-item h3 { font-size: 0.98rem; line-height: 1.28; margin: 0 0 3px; }
+  .news-item p {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    -webkit-line-clamp: 2;
+  }
+
+  /* Tighter gap between day groups */
+  #panel-news > div[style*="margin-bottom:44px"] { margin-bottom: 20px !important; }
 }
