@@ -7,7 +7,7 @@ readTime: "29 min"
 order: 1
 ---
 
-*Disclaimer: Please note that the author (Paul Coquant) is not long nor short Nubank Holdings Ltd. While he remains confident in the thesis presented here, he may adjust this exposure at any time based on market conditions. This article represents his personal opinion and should not be viewed as investment recommendations.*
+*Disclaimer: Please note that the author (Paul Coquant) is long Nubank Holdings Ltd. While he remains confident in the thesis presented here, he may adjust this exposure at any time based on market conditions. This article represents his personal opinion and should not be viewed as investment recommendations.*
 
 ## Introduction: Nubank business, history and management team
 
