@@ -1,5 +1,5 @@
 ---
-title: "Nubank – analyse"
+title: "Nubank : un compounder à 30% de RoE — à posséder à 12 $, pas à 15 $"
 subtitle: "Le regard d'un investisseur value sur la banque de détail à la croissance la plus rapide au monde."
 category: "Fintechs Latino-Américaines"
 date: "Avril 2026"

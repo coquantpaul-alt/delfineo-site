@@ -1,5 +1,5 @@
 ---
-title: "Waga Energy – analyse"
+title: "Waga Energy : l'économie d'une infra, le potentiel d'une valeur de croissance"
 subtitle: "Waga Energy est une activité de type infrastructure dont la croissance offre un upside substantiel aux investisseurs sans pratiquement aucun risque baissier."
 category: "Infrastructure d'Énergie Renouvelable"
 date: "Mars 2026"

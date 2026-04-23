@@ -1,5 +1,5 @@
 ---
-title: "Edenred : Une grande entreprise à une valorisation asymétrique"
+title: "Edenred : un péage valorisé comme une faillite — +150% de potentiel"
 subtitle: "Le leader mondial des paiements fléchés opère un modèle de péage qui est actuellement valorisé comme s'il était en faillite — nous voyons +150% de hausse."
 category: "Paiements Européens"
 date: "Janvier 2026"

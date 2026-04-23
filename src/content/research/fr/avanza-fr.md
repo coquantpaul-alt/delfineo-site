@@ -1,5 +1,5 @@
 ---
-title: "Avanza Bank – analyse"
+title: "Avanza : un compounder de cash à un prix raisonnable"
 subtitle: "Avanza Bank est un impressionnant compounder de cash, à un prix raisonnable."
 category: "Fintech Nordique"
 date: "Février 2026"

@@ -1,5 +1,5 @@
 ---
-title: "Fineco Bank – analysis"
+title: "Fineco: A Great Business, Priced for Perfection — We Pass"
 subtitle: "Fineco Bank is a great business but does not constitute a sound investment at current valuation."
 category: "European Digital Banking"
 date: "February 2026"

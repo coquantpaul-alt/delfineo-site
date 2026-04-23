@@ -1,5 +1,5 @@
 ---
-title: "Waga Energy – analysis"
+title: "Waga Energy: Infrastructure Economics, Growth-Stock Upside"
 subtitle: "Waga Energy is an infra-like business whose growth offer substantial upside to investors without nearly any downside risk."
 category: "Renewable Energy Infrastructure"
 date: "March 2026"

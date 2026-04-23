@@ -1,5 +1,5 @@
 ---
-title: "Cellnex TowerCo – analyse"
+title: "Cellnex : d'un constructeur gourmand en capex à une machine à 10 Mds€ de retour aux actionnaires"
 subtitle: "Une entreprise dotée d'un « moat » inimitable qui va bientôt se transformer en une formidable machine à cash-flow."
 category: "Infrastructures Télécoms Européennes"
 date: "Février 2026"

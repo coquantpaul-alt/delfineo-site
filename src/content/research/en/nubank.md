@@ -1,5 +1,5 @@
 ---
-title: "Nubank – analysis"
+title: "Nubank: A 30%-RoE Compounder — Worth Owning at $12, Not $15"
 subtitle: "A value-investor's look at the world's fastest-growing retail bank."
 category: "Latin American Fintechs"
 date: "April 2026"

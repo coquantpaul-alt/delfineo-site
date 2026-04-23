@@ -1,5 +1,5 @@
 ---
-title: "Avanza Bank – analysis"
+title: "Avanza: A Cash Compounder at a Fair Price"
 subtitle: "Avanza Bank is an impressive cash compounder, priced reasonably."
 category: "Nordic Fintech"
 date: "February 2026"

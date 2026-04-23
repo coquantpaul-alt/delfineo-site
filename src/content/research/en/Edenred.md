@@ -1,5 +1,5 @@
 ---
-title: "Edenred: An asymmetric opportunity to invest in a great company?"
+title: "Edenred: A Toll-Bridge Priced Like a Bankruptcy — 150% Upside"
 subtitle: "The global leader in earmarked payments operates a toll-bridge business model that is currently valued as if it were bankrupt — we see +150% upside."
 category: "European Payments"
 date: "January 2026"

@@ -1,5 +1,5 @@
 ---
-title: "Scout24 : Une grande entreprise à une valorisation raisonnable"
+title: "Scout24 : 60% de marge, un prix raisonnable, un chiffre d'affaires doublé d'ici 2030"
 subtitle: "La plateforme immobilière dominante en Allemagne contrôle 70% du trafic de recherche et opère avec 60% de marge d'EBITDA — un générateur de cash-flow à un prix juste."
 category: "Plateformes Numériques Européennes"
 date: "Janvier 2026"

@@ -1,5 +1,5 @@
 ---
-title: "GTT – analysis"
+title: "GTT: The Moat Stays Intact — But the River Runs Dry"
 subtitle: "GTT's important 'moat' hides a potential value trap in the long term."
 category: "LNG Infrastructure"
 date: "March 2026"

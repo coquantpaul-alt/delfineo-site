@@ -1,5 +1,5 @@
 ---
-title: "Cellnex TowerCo – analysis"
+title: "Cellnex: From Capex-Hungry Builder to €10bn Cash-Return Machine"
 subtitle: "A business with an unreplicable \"moat\" which will soon turn into a massive cash-flow machine."
 category: "European Telecom Infrastructure"
 date: "February 2026"

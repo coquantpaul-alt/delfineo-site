@@ -1,5 +1,5 @@
 ---
-title: "Fineco Bank – analyse"
+title: "Fineco : une excellente affaire, valorisée à la perfection — nous passons"
 subtitle: "Fineco Bank est une excellente entreprise mais ne constitue pas un investissement sain à sa valorisation actuelle."
 category: "Banque Digitale Européenne"
 date: "Février 2026"

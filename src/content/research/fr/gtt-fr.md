@@ -1,5 +1,5 @@
 ---
-title: "GTT – analyse"
+title: "GTT : le « moat » demeure — mais la rivière se tarit"
 subtitle: "L'important « moat » de GTT dissimule un possible piège de valeur à long terme."
 category: "Infrastructure GNL"
 date: "Mars 2026"

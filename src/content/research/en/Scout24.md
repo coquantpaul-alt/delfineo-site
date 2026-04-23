@@ -1,5 +1,5 @@
 ---
-title: "Scout24: A Great Business at a Reasonable Valuation"
+title: "Scout24: 60% Margins, a Reasonable Price, Doubling Revenue by 2030"
 subtitle: "Germany's dominant real estate platform controls 70% of search traffic and operates with 60% EBITDA margins — a cash-flow compounder at a fair price."
 category: "European Digital Platforms"
 date: "January 2026"
