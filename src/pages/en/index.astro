@@ -182,14 +182,9 @@ for (const item of news) metaCounts[metaFor(item.data.category)]++;
       url.searchParams.set('tab', tab);
       history.replaceState(null, '', url);
     }
-    // On load: read ?tab and ?section params
-    (function() {
-      const params = new URLSearchParams(window.location.search);
-      const t = params.get('tab');
-      if (t === 'research' || t === 'news') showTab(t);
-      const s = params.get('section');
-      if (s) applyFilter(s, false);
-    })();
+    // Expose to window so inline onclick="showTab(...)" handlers still find it
+    // (define:vars wraps this script in a local scope)
+    window.showTab = showTab;
 
     // ── Meta-section filter ──
     function applyFilter(meta, updateUrl) {
@@ -243,6 +238,15 @@ for (const item of news) metaCounts[metaFor(item.data.category)]++;
         history.replaceState(null, '', url);
       }
     }
+
+    // On load: read ?tab and ?section params
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const t = params.get('tab');
+      if (t === 'research' || t === 'news') showTab(t);
+      const s = params.get('section');
+      if (s) applyFilter(s, false);
+    })();
 
     // Wire up chip clicks
     document.addEventListener('click', function(e) {
