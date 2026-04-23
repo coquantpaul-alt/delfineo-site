@@ -1,6 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import AuthScript from '../../../components/AuthScript.astro';
+import ShareStrip from '../../../components/ShareStrip.astro';
 import { t } from '../../../i18n.js';
 import { getCollection } from 'astro:content';
 
@@ -57,6 +58,7 @@ const { Content } = await article.render();
         <Content />
       </div>
     </div>
+    <ShareStrip lang={lang} />
   </main>
 
   <footer class="site-footer">
