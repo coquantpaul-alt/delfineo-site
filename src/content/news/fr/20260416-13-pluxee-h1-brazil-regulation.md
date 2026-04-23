@@ -11,9 +11,6 @@ summary: |
   Le Brésil entre en zone de turbulence réglementaire. La nouvelle loi y plafonne les commissions sur les titres-restaurant et réduit les délais de remboursement aux émetteurs depuis début mars ; l'ouverture du système à de nouveaux acteurs intervient en mai. L'impact sur les résultats débutera au second semestre 2026 et se prolongera jusqu'au premier semestre 2027. Pluxee investit 9 % de son CA dans le numérique et l'IA pour fidéliser son réseau de 800 000 commerçants et vise « un retour à une trajectoire de croissance durable et rentable à compter du second semestre de l'exercice 2027 ». Source : Les Echos, 16 avril 2026, Ninon Renaud.
 order: 13
 ---
-
-# Pluxee : résultats semestriels solides mais le moteur brésilien menacé par la nouvelle régulation
-
 **L'information en une phrase :** Pluxee livre un premier semestre en hausse sur tous les indicateurs — CA, résultat net, Ebitda, trésorerie — mais prévient que la réforme des titres-restaurant au Brésil, son plus gros moteur de croissance, va peser de mi-2026 à mi-2027 avant un retour à une trajectoire durable.
 
 ## Chiffres clés

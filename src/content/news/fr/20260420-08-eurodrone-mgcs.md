@@ -11,9 +11,6 @@ summary: |
 
   Plusieurs causes expliquent ce basculement. Les délais de livraison américains — de 18 à 36 mois pour un F-35 contre 5 à 7 ans pour un Rafale en temps de guerre — restent un facteur décisif. L'interopérabilité au sein de l'Otan, la maturité des systèmes déjà produits en série, et une intégration plus rapide aux chaînes de commandement allié jouent aussi. À l'inverse, les programmes communs européens souffrent d'une gouvernance fragmentée : chaque État exige sa part industrielle, ce qui étire les calendriers et renchérit les coûts. La France pousse depuis 2017 pour construire une base industrielle et technologique de défense européenne (BITDE) ; les faits démontrent que cette bataille est, pour l'instant, largement perdue. Source : Les Echos, 20 avril 2026, Anne Drif.
 ---
-
-# Défense européenne : les grands programmes communs abandonnés au profit des États-Unis
-
 **L'histoire en une phrase.** Les grands programmes d'armement européens — SCAF, MGCS, Eurodrone — s'effondrent les uns après les autres, tandis que plus de 60 % des commandes d'armement des Vingt-Sept entre février 2022 et juin 2023 sont allées à l'étranger, dont 63 % aux industriels américains.
 
 ## Chiffres clés

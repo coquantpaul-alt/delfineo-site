@@ -10,9 +10,6 @@ summary: |
 
   The European Commission, seized by Germany's VDMA, has opened an anti-subsidy probe on mobile cranes, and new tariffs already cover aerial platforms. Overall French equipment sales fell 1% in 2025, with large earthmoving down 13% — the second-worst year since 2014. Evolis warns the Chinese threat is 'a tsunami', especially in electric equipment. Source: Les Echos, 16 April 2026, Christophe Palierse.
 ---
-
-# Chinese construction-equipment brands surge into France: 'a tsunami'
-
 **The story in one line:** After solar panels, heat pumps and EVs, construction and logistics equipment is the next European industrial market being reshaped by a wave of aggressive Chinese entrants — and France is the prime target.
 
 ## Key numbers

@@ -11,9 +11,6 @@ summary: |
 
   The company is emerging from a turbulent period in which Washington labelled it a "Kremlin puppet" and blocked it from acquiring overseas assets from Russia's Lukoil, culminating in the departure of owner Torbjörn Törnqvist and the management buyout. The US is now Gunvor's main focus, holding more than $4bn of assets and accounting for roughly a third of its trading. Pedersen has signalled interest in buying refining assets. The buyout left him and partners owing several billion dollars to Törnqvist, tied to his 86% stake in the $6bn company. Source: Financial Times, 20 April 2026, Malcolm Moore.
 ---
-
-# Oil prices set for more turbulence in months ahead, warns Gunvor chief
-
 **The story in one line.** Gunvor's new CEO Gary Pedersen expects oil markets to be "very choppy" through Q2 as seasonal weakness collides with Iran-war headlines, after Gunvor already matched its entire 2025 profit in Q1 alone.
 
 ## Key numbers

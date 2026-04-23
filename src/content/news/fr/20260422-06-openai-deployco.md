@@ -10,9 +10,6 @@ summary: |
 
   Les commanditaires se voient garantir un rendement annuel de 17,5 % sur cinq ans, un plancher qu'OpenAI prévoit de dépasser. C'est à peu près le rendement minimum visé par un fonds de PE, et la garantie réduit le risque porté par les investisseurs. En échange, OpenAI sécurise du « capital patient » adossé à son canal de distribution. Source : Financial Times, 22 avril 2026, George Hammond.
 ---
-
-# OpenAI prêt à engager jusqu'à 1,5 Md$ dans une coentreprise avec le private equity
-
 **L'histoire en une ligne.** OpenAI verrouille 4 Md$ de capitaux de private equity assortis d'une garantie de rendement de 17,5 % pour brancher son bras de déploiement sur leurs sociétés de portefeuille — frappe directe contre Anthropic dans l'entreprise.
 
 ## Chiffres clés

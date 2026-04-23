@@ -10,9 +10,6 @@ summary: |
 
   Les revenus de Cursor sont sous pression alors qu'OpenAI, Anthropic et Google publient leurs propres modèles de code ; son dernier modèle Composer s'appuie sur un modèle open source de la chinoise Moonshot AI. Cursor accéderait en retour au compute de SpaceX, dont le supercalculateur Colossus construit en 122 jours. Source : Financial Times, 21 avril 2026, George Hammond et Stephen Morris.
 ---
-
-# SpaceX obtient une option pour racheter la start-up IA Cursor à 60 Md$
-
 **L'histoire en une ligne.** Musk s'est offert une option sur Cursor à 60 Md$, assortie d'une pénalité de 10 Md$ — une manœuvre pré-IPO pour adjoindre une capacité IA de codage à SpaceX-xAI avant que les marchés publics ne tranchent.
 
 ## Chiffres clés

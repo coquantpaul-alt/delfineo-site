@@ -11,9 +11,6 @@ summary: |
 
   La concurrence sera rude. L'analyste Bernstein Richard Clarke souligne la difficulté de pénétrer un marché de la réservation hôtelière dominé par Booking.com et Expedia. Hilton, Marriott et InterContinental Hotels Group multiplient eux-mêmes les partenariats « soft » et « conversion-friendly » pour ajouter des hôtels indépendants à leur réseau sans le coût de nouvelles constructions. Source : Financial Times, 18 avril 2026, Stephanie Stacey.
 ---
-
-# Airbnb intègre des hôtels indépendants à sa plateforme dans une expérience pour relancer sa croissance et viser le voyage d'affaires
-
 **L'essentiel en une phrase.** Airbnb ouvre sa plateforme aux hôtels indépendants et boutique dans une expérience à New York, Los Angeles, Paris et Madrid, en cassant les commissions de Booking.com et d'Expedia pour ranimer une croissance en berne.
 
 ## Chiffres-clés

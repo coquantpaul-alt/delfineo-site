@@ -11,10 +11,6 @@ summary: |
   Le résultat opérationnel a progressé de 10 % à 1,26 Md€ en 2025. L'opération raviverait un marché IPO européen atone, en retrait face aux États-Unis où les méga-cotations tech dominent. Aucune banque n'a été mandatée et le calendrier pourrait glisser en 2027. En 2024, Belron avait réalisé l'un des plus gros « dividend recap » financés par la dette de l'histoire du private equity. Source : Financial Times, 16 avril 2026, Ivan Levingston, Ashley Armstrong et Arash Massoudi.
 order: 5
 ---
-
-
-# Le propriétaire d'Autoglass, Belron, vise une IPO à 30 Mds€ à Amsterdam
-
 **L'histoire en une phrase :** Belron, leader mondial de la réparation de pare-brise, se prépare à une IPO à Amsterdam valorisée 30 à 40 Mds€, l'une des plus importantes en Europe depuis des années.
 
 ## Chiffres clés

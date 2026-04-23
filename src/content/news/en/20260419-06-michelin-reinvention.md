@@ -11,9 +11,6 @@ summary: |
 
   The diversification math matters. Polymer composites generated €1.3bn in sales in 2025 (€1.7bn including recent purchases), a fraction of group revenues but the group's most profitable business at 15% margins. Michelin did three US composite acquisitions last year for around €1bn combined enterprise value, and Menegaux says the group plans to make at least that many every year globally. Menegaux also warned that the EU's looming Chinese-tyre tariffs and its "Buy European" automotive framework should not become a "stipend" that removes the incentive to innovate. Source: Financial Times, 18 April 2026, Sarah White.
 ---
-
-# Michelin leans on moon buggies and polymer composites to defend French plants
-
 **The story in one line.** Michelin is conceding that mass-market tyre exports from Europe are over, and is narrowing French production to ultra-high-end tyres while building a new, higher-margin polymer composites business — even as 1,200 French jobs have already gone.
 
 ## Key numbers

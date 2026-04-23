@@ -11,9 +11,6 @@ summary: |
 
   Trump a affirmé vendredi que l'Iran avait accepté de suspendre indéfiniment son programme nucléaire et de livrer son stock d'uranium hautement enrichi, ce que Téhéran, par la voix de son négociateur en chef Mohammad Bagher Ghalibaf, a démenti catégoriquement. Les cours du pétrole et du gaz avaient reculé vendredi sur l'espoir d'une réouverture ; le revirement de samedi réintroduit la prime de risque. Source : Financial Times, 18 avril 2026, Najmeh Bozorgmehr, Andrew England, Alice Hancock et James Politi.
 ---
-
-# L'Iran revendique le « contrôle strict » du détroit d'Ormuz et refuse sa pleine réouverture
-
 **L'histoire en une phrase.** L'Iran est revenu sur le signal donné vendredi d'une réouverture du détroit d'Ormuz : Téhéran a déclaré samedi que la voie maritime restait sous son « contrôle strict » après que deux navires ont essuyé des tirs et que Donald Trump a maintenu le blocus américain des ports iraniens.
 
 ## Chiffres clés

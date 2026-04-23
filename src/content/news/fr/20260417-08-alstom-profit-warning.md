@@ -11,10 +11,6 @@ summary: |
   Pour l'exercice en cours, la direction table désormais sur environ +5 % de croissance organique, une marge d'exploitation ajustée d'environ 6,5 %, et un cash-flow libre positif. Un « plan de transformation opérationnelle » sera présenté d'ici aux résultats audités du 13 mai. « Soyons clairs, ce n'est pas la manière dont je pensais débuter mon mandat », a reconnu Martin Sion. Source : Les Echos, 16 avril 2026, Denis Fainsilber.
 order: 8
 ---
-
-
-# Alstom lance un sévère avertissement sur résultats, l'action plonge de près de 30 %
-
 **L'histoire en une phrase :** Le nouveau DG d'Alstom Martin Sion hérite d'un profit warning : marge ajustée revue à 6 % contre 7 % promis, objectif de cash-flow libre 2024-2027 abandonné, titre en baisse de près de 30 %.
 
 ## Chiffres clés

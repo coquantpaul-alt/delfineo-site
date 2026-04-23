@@ -11,10 +11,6 @@ summary: |
   As part of the transaction, OnlyFans will work with Architect to develop new financial-services products for its creators, who often struggle to access traditional banking. Radvinsky, the Ukrainian-American entrepreneur who acquired OnlyFans' parent Fenix International in 2018, died at 43 of cancer. The deal opens the door to further disposals while keeping the family trust in control. Source: Financial Times, 17 April 2026, Daniel Thomas, Kieran Smith and Oliver Barnes.
 order: 2
 ---
-
-
-# OnlyFans tops $3bn valuation in minority-stake sale after owner's death
-
 **The story in one line:** Architect Capital is nearing a <20% stake in OnlyFans at a $3bn+ valuation, the first outside investment since founder Leonid Radvinsky's death.
 
 ## Key numbers

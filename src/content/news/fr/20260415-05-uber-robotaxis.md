@@ -7,9 +7,6 @@ summary: "Uber abandonne son modèle « asset-light » issu de la gig economy et
 insight: "Le vrai pari porte sur la « financiarisation » : Uber prévoit que des gestionnaires de flotte, des investisseurs institutionnels et du private credit finiront par détenir et financer les robotaxis — transformant les flottes autonomes en classe d'actifs négociable, à l'image des data centers. Si le pari réussit, Uber reste la porte d'entrée consommateur sans porter tout le coût en capital. Sinon, Uber devient structurellement une entreprise capitalistique en concurrence avec trois bilans à mille milliards (Alphabet, Tesla, Amazon). À surveiller : le take rate — déjà redescendu de 30% à moins de 20% net des assurances aux États-Unis."
 order: 6
 ---
-
-# Uber engage 10 milliards de dollars dans les robotaxis, un virage stratégique majeur
-
 **L'histoire en une phrase :** Uber abandonne son fameux modèle « asset-light » et engage plus de **10 milliards de dollars** pour acheter des voitures autonomes et prendre des participations dans leurs constructeurs, afin de rester pertinent alors que Waymo, Tesla et Zoox (Amazon) menacent de le contourner entièrement.
 
 ## Chiffres clés

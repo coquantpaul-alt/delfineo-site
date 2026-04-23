@@ -10,9 +10,6 @@ summary: |
 
   The company also announced a further £500 million in cost savings for the coming year, giving it firepower to fund additional promotions. Shares rose 3% on Thursday morning and are up 37% over the past 12 months, taking the market capitalisation to £30 billion. Source: Financial Times, 16 April 2026, Philip Stafford.
 ---
-
-# Tesco widens FY27 guidance as Middle East war clouds consumer outlook
-
 **The story in one line:** Tesco delivered a flat but top-of-range profit year and captured its highest UK grocery market share in over a decade, but widened its FY27 guidance to reflect war-related uncertainty on UK households.
 
 ## Key numbers

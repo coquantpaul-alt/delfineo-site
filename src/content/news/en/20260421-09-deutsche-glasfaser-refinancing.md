@@ -11,9 +11,6 @@ summary: |
 
   Both investors have faced pain elsewhere: EQT handed its French nursing-home group Colisée to lenders last year over a €1.8bn debt pile, and Omers wrote off its 31% stake in UK's Thames Water in 2024. "A big cleansing moment for the company, but they are not out of the woods yet", said James Ratzer of New Street Research. Source: Financial Times, 21 April 2026, Kieran Smith, Daniel Thomas and Ivan Levingston.
 ---
-
-# EQT and Omers offer to lift funding for Deutsche Glasfaser to €5bn
-
 **The story in one line.** Rather than lose Germany's #2 fibre broadband operator to its creditors, EQT and Omers will inject another ~€850mn of equity on top of the €4bn already committed, cutting a fresh refinancing deal with lenders.
 
 ## Key numbers

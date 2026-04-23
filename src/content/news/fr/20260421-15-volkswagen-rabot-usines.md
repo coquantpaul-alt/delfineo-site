@@ -10,9 +10,6 @@ summary: |
 
   Volkswagen n'est pas le seul groupe lesté par la surcapacité européenne : selon l'institut Inovev, 13,7 millions de véhicules ont été fabriqués l'an dernier en Europe (Royaume-Uni inclus), contre 17,5 millions en 2019. Stellantis a annoncé la semaine dernière la fin de la production automobile à Poissy. Source : Les Echos, 21 avril 2026, Lionel Steinmann.
 ---
-
-# Automobile : Volkswagen prêt à imposer un nouveau coup de rabot à ses usines
-
 **L'histoire en une ligne.** Volkswagen prépare un troisième tour de vis — jusqu'à 1 million de capacités supplémentaires rabotées — dans un secteur européen qui a perdu près de 4 millions de véhicules produits depuis 2019.
 
 ## Chiffres clés

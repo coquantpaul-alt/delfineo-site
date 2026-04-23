@@ -10,9 +10,6 @@ summary: |
 
   Bank of England governor Andrew Bailey flagged cyber risk as the threat 'that never goes away' since the 2008 crisis. Banks' legacy IT systems (decades-old core software) are seen as particularly exposed because of layered modern tools and a highly interconnected sector sharing a narrow set of vendors for onboarding, KYC (Know Your Customer anti-money-laundering checks) and transaction processing. Michaud points to Europe's AI Act and DORA (the Digital Operational Resilience Act governing banks' IT-risk management) as defences. Source: Les Echos, 16 April 2026, Ingrid Feuerstein.
 ---
-
-# EBA puts Anthropic's Mythos AI on high alert for European banks
-
 **The story in one line:** Global banking regulators — now joined by Europe's EBA under new president François-Louis Michaud — have elevated Anthropic's unreleased 'Mythos' model to a top-tier cyber threat for the financial system.
 
 ## Key numbers

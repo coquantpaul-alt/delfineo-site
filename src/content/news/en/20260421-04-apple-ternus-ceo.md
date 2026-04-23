@@ -11,9 +11,6 @@ summary: |
 
   Ternus is best known for leading Apple's 2020 shift away from Intel chips to in-house silicon. He now also oversees software design teams as the company prepares to unveil a revamped Siri assistant, widely seen as Apple's most visible test of its ability to catch up in generative AI. Source: Financial Times, 21 April 2026, Michael Acton.
 ---
-
-# Apple's next chief John Ternus faces defining AI moment
-
 **The story in one line.** Apple has picked hardware chief John Ternus to succeed Tim Cook as CEO in September, betting that an engineer-in-chief can navigate the iPhone-maker through the AI transition and a fragile supply chain.
 
 ## Key numbers

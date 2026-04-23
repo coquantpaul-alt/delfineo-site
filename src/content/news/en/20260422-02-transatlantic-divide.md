@@ -10,9 +10,6 @@ summary: |
 
   Schadlow also flags Europe's own strategic complacency: Nord Stream 2 and deep dependence on external energy suppliers, warnings Washington had issued for years. Bridging the gap, she concludes, requires less outrage and more clarity about the underlying differences. Source: Financial Times, 22 April 2026, Nadia Schadlow.
 ---
-
-# The real transatlantic divide is about more than Trump
-
 **The story in one line.** A former Trump White House strategist argues the US-Europe split on Iran reflects fundamentally different assumptions about risk and multilateralism — and won't heal when the Oval Office changes hands.
 
 ## Key numbers

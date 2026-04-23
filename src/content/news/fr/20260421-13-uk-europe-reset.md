@@ -11,9 +11,6 @@ summary: |
 
   Bruxelles n'est pas pressée : « Nous avons dix priorités bien plus hautes », dit un diplomate. Le Reform UK de Nigel Farage, en tête des sondages, a promis de déchirer tout accord. Les 18 premiers mois de négociations ont « entamé la confiance des deux côtés », avec les gains rapides espérés par Londres (musiciens en tournée) rejetés comme du « cherry-picking ». Source : Financial Times, 21 avril 2026, Peter Foster, George Parker et Andy Bounds.
 ---
-
-# Trop tard pour que Starmer rapproche le Royaume-Uni de l'Europe ?
-
 **L'essentiel en une phrase.** Starmer a enfin fait du rapprochement avec l'UE sa marque politique, mais le paquet du sommet de juillet n'offrira qu'une fraction de ce qu'a coûté le Brexit — et Bruxelles a d'autres priorités.
 
 ## Chiffres clés

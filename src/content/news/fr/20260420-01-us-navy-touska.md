@@ -11,9 +11,6 @@ summary: |
 
   Les discussions prévues au Pakistan — avec les émissaires Steve Witkoff et Jared Kushner — paraissent fragiles : l'agence Tasnim News a indiqué que Téhéran n'enverra pas de négociateurs tant que le blocus perdure. Les marchés à terme tablent désormais sur moins de 50 % de probabilité d'une seule baisse de 25 points de base par la Fed cette année, et un sondage NBC montre que deux tiers des Américains désapprouvent la gestion de la guerre par Trump. Source : Financial Times, 19 avril 2026, James Politi, Najmeh Bozorgmehr et Michael Acton.
 ---
-
-# La marine américaine arraisonne un navire iranien après une tentative de franchissement du blocus
-
 **L'histoire en une phrase.** La marine américaine a tiré sur le cargo iranien Touska et l'a arraisonné dans le golfe d'Oman dimanche, propulsant le Brent à un pic intrajournalier de 97,50 dollars le baril et plongeant les négociations de paix prévues au Pakistan au bord de la rupture.
 
 ## Chiffres clés

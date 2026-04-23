@@ -11,9 +11,6 @@ summary: |
 
   Les analystes cités — Nicole Grajewski (Sciences Po), Afshon Ostovar, Farzin Nadimi (Washington Institute for Near East Policy) et Michael Connell (Center for Naval Analyses) — soulignent que ces revues importent moins pour leurs conclusions que pour ce qu'elles révèlent des priorités : drones, cyber, IA, défense aérienne, et faiblesses internes comme les discriminations liées à la pauvreté ou à l'origine ethnique, les pensées suicidaires chez les soldats, et les hôpitaux militaires trop dépendants du privé. Source : Financial Times, 18 avril 2026, Jacob Judah.
 ---
-
-# Comment l'Iran a tiré les leçons de la guerre en Ukraine
-
 **L'histoire en une phrase.** Un dépouillement par le FT de plus de 300 articles de revues de défense iraniennes montre qu'à la veille de la guerre contre Israël et les États-Unis, l'armée de Téhéran tirait méthodiquement du conflit ukrainien des leçons tactiques et d'acquisition — drones, désignation d'objectifs par IA, et cyberguerre en tête.
 
 ## Chiffres clés

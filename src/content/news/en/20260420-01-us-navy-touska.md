@@ -11,9 +11,6 @@ summary: |
 
   Planned talks in Pakistan — with envoys Steve Witkoff and Jared Kushner — look uncertain: Iran's Tasnim News Agency said Tehran will not send negotiators while the blockade stands. Futures now imply less than a 50 per cent chance of a single quarter-point Fed rate cut this year, and an NBC poll shows two-thirds of Americans disapprove of Trump's handling of the war. Source: Financial Times, 19 April 2026, James Politi, Najmeh Bozorgmehr and Michael Acton.
 ---
-
-# US navy seizes Iranian ship after it breaches blockade
-
 **The story in one line.** The US navy fired on and boarded the Iranian cargo ship Touska in the Gulf of Oman on Sunday, pushing Brent crude to a one-day peak of $97.50 a barrel and sending planned peace talks in Pakistan to the brink of collapse.
 
 ## Key numbers

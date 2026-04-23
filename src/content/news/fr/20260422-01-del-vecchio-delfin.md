@@ -10,9 +10,6 @@ summary: |
 
   L'enjeu dépasse la succession : EssilorLuxottica est candidat désigné par Giorgio Armani à la reprise de son groupe de luxe, et le renouvellement de la gouvernance du groupe optique est prévu au printemps 2027. En parallèle, EssilorLuxottica a publié un chiffre d'affaires trimestriel de 7,13 milliards d'euros, en hausse de 10,8 % à taux de change constants. Source : Les Echos, 22 avril 2026, Olivier Tosseri.
 ---
-
-# EssilorLuxottica : Leonardo-Maria Del Vecchio rachète Delfin pour 10 milliards d'euros
-
 **L'histoire en une ligne.** Un héritier s'apprête à verrouiller la holding familiale qui contrôle EssilorLuxottica, Generali et BMPS — et, à travers elle, le destin d'Armani.
 
 ## Chiffres clés

@@ -11,9 +11,6 @@ summary: |
 
   Orcel défend « une fusion intra-marché entre deux banques complémentaires qui tentent de se rapprocher depuis 25 ans ». UniCredit a projeté jusqu'à 7 000 suppressions de postes. L'action Commerzbank a gagné 1,2 % à Francfort ; UniCredit a cédé 3 % à Milan. Source : Financial Times, 20 avril 2026, Silvia Sciorilli Borrelli, Simon Foy et Florian Müller.
 ---
-
-# Merz et Commerzbank attaquent les « tactiques hostiles » d'Orcel dans la bataille UniCredit
-
 **L'essentiel en une phrase.** Le chancelier allemand et le conseil de Commerzbank ont rejeté publiquement l'offre de 35 Mds € d'UniCredit, qualifiée d'« hostile » et de « trompeuse » — l'une des batailles M&A bancaires les plus politiquement chargées d'Europe.
 
 ## Chiffres clés

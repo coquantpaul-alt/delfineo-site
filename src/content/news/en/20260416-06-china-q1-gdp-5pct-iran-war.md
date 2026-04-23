@@ -10,9 +10,6 @@ summary: |
 
   The Iran war is expected to bite: Beijing's deputy statistics commissioner Mao Shengyong conceded China 'will definitely be affected to some degree' by the energy shock, which compresses margins in an already hyper-competitive industrial sector while easing deflationary pressure. Xi Jinping is due to meet Donald Trump in Beijing in mid-May, with markets hoping the year-long trade truce will be extended. Coface and the Conference Board flagged fading fiscal support and cautious homebuyers as the main domestic headwinds. Source: Financial Times, 16 April 2026, Joe Leahy, Wenjie Ding, Haohsiang Ko and Thomas Hale.
 ---
-
-# China Q1 GDP growth hits 5% as high-tech exports offset weak consumption
-
 **The story in one line:** China printed Q1 2026 GDP growth of 5% — above consensus — powered by high-tech manufacturing and exports, even as domestic consumption and property remained soft and the Iran war threatens external demand.
 
 ## Key numbers

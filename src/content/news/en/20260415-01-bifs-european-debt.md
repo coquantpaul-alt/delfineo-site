@@ -7,9 +7,6 @@ summary: "Since the Iran war broke out on 28 February, Britain, Italy and France
 insight: "The real signal isn't the absolute yield move — it's that UK gilts and Italian BTPs now correlate at their highest level in decades. Bond investors have started treating the two countries as a single fiscal vulnerability trade, echoing the Piigs grouping of the 2010s. France, once firmly in the 'core', is being pulled into the same basket. For European equity valuations, this means a higher discount rate for longer, regardless of what the ECB does."
 order: 2
 ---
-
-# "Bifs" replace "Piigs" as Europe's bond market whipping boys
-
 **The story in one line:** Since the Iran war broke out on 28 February, Britain, Italy and France ("the Bifs") have seen their government borrowing costs rise more than any other major European country, because investors think they are the least able to pay for higher defence and energy bills.
 
 ## Key numbers

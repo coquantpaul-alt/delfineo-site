@@ -11,9 +11,6 @@ summary: |
 
   Orcel argued the deal would be "an in-market merger of two complementary banks that have tried to come together for 25 years", delivering pan-European cost synergies above what purely domestic deals could achieve. UniCredit has projected up to 7,000 job cuts. Commerzbank shares rose 1.2% in Frankfurt; UniCredit fell 3% in Milan. Source: Financial Times, 20 April 2026, Silvia Sciorilli Borrelli, Simon Foy and Florian Müller.
 ---
-
-# Merz and Commerzbank attack Orcel's 'hostile tactics' in UniCredit takeover battle
-
 **The story in one line.** Germany's chancellor and Commerzbank's board have publicly rejected UniCredit's €35bn approach as "hostile" and "misleading", in one of Europe's most politically charged bank M&A battles.
 
 ## Key numbers

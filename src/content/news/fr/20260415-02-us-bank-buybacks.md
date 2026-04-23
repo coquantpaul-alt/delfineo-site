@@ -7,9 +7,6 @@ summary: "Les six plus grandes banques américaines ont dépensé un record de 3
 insight: "Deux forces convergent : la dérégulation libère du capital, et la volatilité de marché liée à la guerre en Iran dope les profits de trading. Résultat : le plus gros retour aux actionnaires depuis la crise de 2008. Mais le ratio capitaux propres / actifs pondérés du risque chez Goldman vient de chuter à son plus bas depuis 2020 — le coussin protégeant les déposants est délibérément aminci. La réticence de Dimon à racheter davantage (« je préfère racheter quand c'est vraiment une décote ») est la voix dissidente qu'il faut écouter."
 order: 3
 ---
-
-# Les grandes banques américaines dépensent un record de 33 milliards de dollars en rachats d'actions
-
 **L'histoire en une phrase :** Les six plus grandes banques américaines ont dépensé un record de **33 milliards de dollars** au T1 2026 à racheter leurs propres actions — résultat direct de bénéfices plus élevés et de l'assouplissement des règles sous l'administration Trump, qui leur permet de détenir moins de « capital de sécurité » et de restituer davantage aux actionnaires.
 
 ## Chiffres clés

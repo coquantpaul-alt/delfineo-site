@@ -11,9 +11,6 @@ summary: |
   Brazil is entering regulatory turbulence. New rules cap meal-voucher commissions and shorten issuer reimbursement periods from early March; the system opens to new entrants in May. The impact on results will begin in H2 2026 and continue through H1 2027. Pluxee invests 9% of revenue in digital tools and AI to strengthen loyalty across its 800,000-merchant network, and targets "a return to a path of sustainable and profitable growth from the second half of fiscal 2027". Source: Les Echos, 16 April 2026, Ninon Renaud.
 order: 13
 ---
-
-# Pluxee: solid H1 results but Brazilian growth engine threatened by new regulation
-
 **The story in one line:** Pluxee posts an H1 up across every metric — revenue, net income, EBITDA, cash — but warns that Brazil's meal-voucher reform, its biggest growth engine, will weigh from mid-2026 through mid-2027 before a return to sustainable growth.
 
 ## Key numbers

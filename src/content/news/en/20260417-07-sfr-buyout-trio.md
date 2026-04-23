@@ -11,10 +11,6 @@ summary: |
   The consortium frames this as a "socially responsible" operation with a focus on jobs, promising higher investment in high-speed networks, cybersecurity and AI. The deal still needs consultation with employee-representative bodies, then regulatory clearances — notably on merger control (antitrust), historically a major hurdle to French telecoms consolidation. Source: Les Echos, 17 April 2026, Thomas Pontiroli.
 order: 7
 ---
-
-
-# SFR buyout: Bouygues, Iliad and Orange enter exclusive talks with Altice
-
 **The story in one line:** Bouygues Telecom, Iliad and Orange have gone exclusive with Altice France to buy SFR at a €20.35bn enterprise value — a historic turning point for French telecoms.
 
 ## Key numbers

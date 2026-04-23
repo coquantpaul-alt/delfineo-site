@@ -10,9 +10,6 @@ summary: |
 
   Le message politique est direct : les prix cassés de SpaceX reposent sur les contrats institutionnels américains, et l'Europe doit instaurer une « préférence européenne » pour ses lancements institutionnels sous peine de voir les tarifs « flamber » une fois la concurrence éliminée. Ariane 6 est présentée comme la « voie indépendante » pour la recherche, les télécoms et le militaire. Source : Les Echos, 23 avril 2026, Anne Drif.
 ---
-
-# ArianeGroup : Christophe Bruneau alerte les Européens sur la dépendance à SpaceX
-
 **L'histoire en une ligne.** Le nouveau patron d'ArianeGroup met en garde les Européens — si SpaceX « ferme le robinet » demain, il n'y aura plus d'accès souverain à l'espace — et réclame une préférence européenne sur les lancements institutionnels.
 
 ## Chiffres clés

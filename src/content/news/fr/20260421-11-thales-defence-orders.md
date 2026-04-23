@@ -11,9 +11,6 @@ summary: |
 
   L'ombre au tableau : les prises de commandes cyber et digital baissent de 7 %, quatrième trimestre consécutif de recul. L'aérospatial est aussi en recul de 1 %. Malgré le bon T1, Thales a confirmé sans relever ses objectifs annuels (6 à 7 % de croissance, 23,3-23,6 Mds €). L'action a cédé plus de 3 % à l'ouverture mardi. Source : Les Echos, 21 avril 2026, Anne Drif.
 ---
-
-# Défense : les prises de commandes de Thales s'envolent de 71 %
-
 **L'essentiel en une phrase.** Le T1 2026 de Thales affiche des prises de commandes défense aérienne en hausse de 71 % grâce à la demande européenne et moyen-orientale pour le SAMP/T, mais le ralentissement persistant en cyber et digital explique le maintien des objectifs 2026.
 
 ## Chiffres clés

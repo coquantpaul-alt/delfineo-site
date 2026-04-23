@@ -11,9 +11,6 @@ summary: |
   Côté emploi, la direction mise sur les départs naturels. Les effectifs du site industriel passeront de 1 800 ouvriers aujourd'hui (dont 1 500 réellement opérationnels) à 1 200 d'ici 2030, sans plan social. Une partie de l'enveloppe financera les formations. Le syndicat majoritaire CFE-CGC salue « une première étape importante ». Cette décision — qui n'est pas sans rappeler la reconversion de Flins chez Renault — ne résout que partiellement le problème de surcapacité européenne de Stellantis : la plupart de ses usines tournent au ralenti, et Bloomberg a rapporté des discussions avec des constructeurs chinois pour occuper les lignes. Le plan stratégique de mai sera scruté. Source : Les Echos, 16 avril 2026, Yann Duvert.
 order: 14
 ---
-
-# Stellantis arrête la production automobile à Poissy fin 2028, réoriente le site vers l'après-vente
-
 **L'information en une phrase :** Stellantis acte la fin de l'assemblage automobile à Poissy d'ici fin 2028 et engage environ 100 M€ pour convertir le site historique de l'automobile française en pôle de pièces détachées, d'après-vente et d'économie circulaire, sans plan social mais avec une réduction des effectifs ouvriers d'environ 600 personnes d'ici 2030.
 
 ## Chiffres clés

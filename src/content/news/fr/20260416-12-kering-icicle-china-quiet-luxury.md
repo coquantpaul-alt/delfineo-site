@@ -13,9 +13,6 @@ insight: |
   Cette prise de participation est le premier acte concret du plan « ReconKering » présenté le même jour à Florence (voir notre brief du 16 avril sur le plan stratégique de Luca de Meo) : le fonds House of Wonders y est la couverture explicite contre la « Gucci dépendance ». Pour Delfineo, la question est moins la taille de l'opération — un ticket minoritaire dans une maison à 300 M€ de CA — que le signal d'exécution. Kering commence à faire ce qu'il a promis. Les prochains investissements du fonds, probablement asiatiques, serviront de test de crédibilité pour la thèse « next luxury » de de Meo.
 order: 12
 ---
-
-# Kering prend une participation dans la marque chinoise de « quiet luxury » Icicle via House of Wonders
-
 **L'information en une phrase :** Premier investissement du fonds House of Wonders annoncé par Luca de Meo dès son arrivée chez Kering en septembre 2025 : une prise de participation minoritaire dans Icicle, marque shanghaienne de « quiet luxury » à 300 M€ de CA, accélération concrète de la stratégie de diversification hors Gucci.
 
 ## Chiffres clés

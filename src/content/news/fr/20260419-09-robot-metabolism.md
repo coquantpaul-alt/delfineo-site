@@ -11,9 +11,6 @@ summary: |
 
   La réalité est plus rude. À Penn, Mark Yim — pionnier de la robotique modulaire — reconnaît que les trois promesses de l'an 2000 (polyvalence, accessibilité, fiabilité) ne sont pas tenues : « ils ne savent rien faire, ils sont ruineux et ils cassent tout le temps. » Au MIT, Daniela Rus, directrice du CSAIL, juge que les démonstrations de robots reproductifs sont « très simples par rapport à la promesse ». Néanmoins, devant le FT, le labo de Columbia a obtenu une petite victoire : huit triangles de Zhang ont rampé millimètre par millimètre dans un couloir en linoléum, se sont accrochés pour former un serpent, puis se sont scindés en deux tétraèdres qui se sont repliés sur eux-mêmes — un acte primitif de reproduction robotique. Source : Financial Times, 18 avril 2026, Oliver Roeder.
 ---
-
-# Le laboratoire de Columbia qui veut fabriquer des robots qui mangent, se réparent et se reproduisent
-
 **L'histoire en une phrase.** Le Creative Machines Lab de Hod Lipson, à Columbia, pose les fondations conceptuelles d'un futur où les robots ne sont plus des appareils monolithiques mais des systèmes quasi vivants capables de se répliquer — un pari long sur le « métabolisme robotique » au moment précis où le capital IA a fui ailleurs.
 
 ## Chiffres clés

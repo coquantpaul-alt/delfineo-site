@@ -11,9 +11,6 @@ summary: |
 
   Fondée en 2013 pendant la crise de l'euro, l'AfD se radicalise à mesure qu'elle progresse — 21 % des suffrages l'an dernier, son record, en deuxième position aux élections fédérales. Certains députés de l'Ouest soutiennent encore le réarmement porté par le chancelier Friedrich Merz et le ministre de la Défense Boris Pistorius, mais la ligne orientale juge la souveraineté militaire non prioritaire face aux économies budgétaires, et estime que la Russie n'est pas vraiment une menace. Source : Financial Times, 18 avril 2026, Laura Pitel (avec la contribution de Max Seddon).
 ---
-
-# L'extrême droite allemande se déchire sur le service militaire
-
 **L'histoire en une phrase.** L'aile pro-américaine et pro-réarmement de l'AfD perd la main au profit de sa faction orientale pro-Moscou : le porte-parole défense de longue date Rüdiger Lucassen démissionne, remplacé par Jan Nolte, à cinq mois d'élections régionales décisives dans l'est allemand.
 
 ## Chiffres clés

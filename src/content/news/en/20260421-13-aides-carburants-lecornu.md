@@ -10,9 +10,6 @@ summary: |
 
   Support for hauliers — introduced last month at 20 cents per litre — will be extended into May. Transport minister Philippe Tabarot has opened talks with taxi and ride-hail (VTC) representatives, who may receive further measures. April's payments are expected to be disbursed in May. Source: Les Echos, 21 April 2026, Hortense Goulard.
 ---
-
-# Fuel prices: Lecornu government extends aid to high-mileage workers and construction firms
-
 **The story in one line.** Lecornu is scaling up fuel-price aid to €170m per month, more than double the previous envelope, with coverage now reaching fishermen, farmers, small BTP firms, high-mileage workers and hauliers.
 
 ## Key numbers

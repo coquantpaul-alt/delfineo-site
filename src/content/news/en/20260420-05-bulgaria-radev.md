@@ -11,9 +11,6 @@ summary: |
 
   Radev has been reluctant to condemn Russia's full-scale invasion of Ukraine, criticised EU sanctions, tried to stop Bulgaria's Eurozone accession (which took effect this January) and said he wants to "restore relations with Russia". Valérie Hayer of Renew Europe called him "Putin's Trojan horse". Analysts note, however, that Bulgaria's strong reliance on EU funds, pro-European opposition in parliament and a split electorate make a full Orbán-style turn toward Moscow unlikely. Population: just under 6.7mn. Source: Financial Times, 19 April 2026, Marton Dunai.
 ---
-
-# Pro-Russia ex-president claims victory in Bulgaria's elections
-
 **The story in one line.** Russia-friendly former president Rumen Radev is on track to win an outright majority in Bulgaria's parliament, potentially ending five years of electoral chaos but pulling an EU and Nato member toward Moscow.
 
 ## Key numbers

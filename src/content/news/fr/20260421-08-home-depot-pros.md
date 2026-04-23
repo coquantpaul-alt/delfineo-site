@@ -11,9 +11,6 @@ summary: |
 
   Le coût d'un projet de rénovation standard a bondi de 45 % depuis 2019. Les dirigeants prévoient 2,5 à 4,5 % de croissance du chiffre d'affaires en 2026, bien en-deçà des moyennes pré-pandémie. Les concurrents consolident aussi : Lowe's a payé 8,8 Mds USD pour Foundation Building Materials l'an dernier ; QXO de Brad Jacobs vient d'acquérir TopBuild pour 17 Mds USD. Source : Financial Times, 21 avril 2026, Gregory Meyer.
 ---
-
-# Home Depot courtise les artisans alors que l'économie américaine pèse sur les bricoleurs
-
 **L'essentiel en une phrase.** Face à un marché immobilier américain atone et une demande DIY en berne, Home Depot investit des milliards dans la distribution grossiste pour capter une part plus importante du marché professionnel de 700 Mds USD.
 
 ## Chiffres clés

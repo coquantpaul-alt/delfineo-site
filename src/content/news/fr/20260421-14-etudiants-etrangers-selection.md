@@ -10,9 +10,6 @@ summary: |
 
   D'ici deux à trois ans, la mesure devrait rapporter environ 250 M€ par an aux universités, une manne jugée précieuse dans un contexte de forte contrainte budgétaire. Le gouvernement veut également prioriser les formations en sciences et en ingénierie pour accompagner la réindustrialisation. La réforme s'appliquera par décret aux nouveaux arrivants et aux changements de cycle, hors boursiers. Source : Les Echos, 21 avril 2026, Marie-Christine Corbier.
 ---
-
-# Le gouvernement veut sélectionner davantage les étudiants étrangers
-
 **L'histoire en une ligne.** Paris multiplie par 15 les droits d'inscription pour la plupart des étudiants extracommunautaires, au nom du financement universitaire et de la réindustrialisation — et prépare un terrain pré-présidentiel.
 
 ## Chiffres clés

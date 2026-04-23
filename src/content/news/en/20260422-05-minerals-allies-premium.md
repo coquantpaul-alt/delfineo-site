@@ -10,9 +10,6 @@ summary: |
 
   The proposal sits alongside a broader Trump administration effort to weaponise minimum-price mechanisms as industrial policy, similar to steel and aluminium floors in past cycles. Partners are watching for concrete dollar figures and coverage lists — which minerals, which countries, which tariff backstops. Source: Financial Times, 22 April 2026, Aime Williams.
 ---
-
-# Trump trade chief urges US allies to pay more for critical minerals
-
 **The story in one line.** Washington wants allies to pay above-market prices for critical minerals in exchange for supply security — a "national security premium" that China would be priced out of.
 
 ## Key numbers

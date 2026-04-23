@@ -11,9 +11,6 @@ summary: |
 
   La manœuvre est classique : en 2025, Bercy avait annulé ou gelé 8 milliards d'euros de crédits d'État entre avril et juin et freiné les dépenses d'assurance maladie de 1,7 milliard. Ces décisions impopulaires avaient permis d'atterrir à 5,1 % de déficit, mieux que prévu. Le gouvernement vise désormais 5 % du PIB cette année. Source : Les Echos, 18 avril 2026, Sébastien Dumoulin et Stéphane Loignon.
 ---
-
-# EXCLUSIF - Budget : Bercy devrait annoncer 4 milliards d'euros d'économies
-
 **L'essentiel en une phrase.** Pour respecter sa cible de déficit 2026 face au surcoût budgétaire de la guerre en Iran, le gouvernement français prépare 4 milliards d'euros d'économies portant sur l'État et la Sécurité sociale, avec une piste de rabot sur les exonérations de cotisations patronales.
 
 ## Chiffres-clés

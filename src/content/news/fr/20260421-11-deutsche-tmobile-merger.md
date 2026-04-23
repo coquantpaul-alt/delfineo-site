@@ -10,9 +10,6 @@ summary: |
 
   Les discussions sont préliminaires et les deux groupes se refusent à tout commentaire. Toute opération exigera un feu vert politique et réglementaire en Allemagne et aux Etats-Unis : l'Etat allemand détient environ 14 % de Deutsche Telekom, et la banque publique KfW contrôle une part similaire. Le directeur général Tim Höttges, également président de T-Mobile US, vante de longue date un marché américain plus consolidé et plus favorable aux opérateurs. Source : Financial Times, 21 avril 2026, Kieran Smith et Ivan Levingston.
 ---
-
-# Deutsche Telekom étudie une fusion totale avec T-Mobile US
-
 **L'histoire en une ligne.** Deutsche Telekom explore un rapprochement en titres avec T-Mobile US via une nouvelle holding, qui verrouillerait son moteur de croissance américain et rendrait toute OPA future plus difficile.
 
 ## Chiffres clés

@@ -11,9 +11,6 @@ summary: |
 
   The deal matters because Berkshire successor Greg Abel has warned that private-capital inflows into insurance markets are eroding returns, prompting Berkshire units to pull back from new policies. Berkshire priced a ¥272bn ($1.7bn) yen bond on Friday to fund the investment. The three big Japanese non-life insurers control about 90% of their home market. Source: Financial Times, 20 April 2026, David Keohane, Harry Dempsey and Eric Platt.
 ---
-
-# The M&A strategy behind Berkshire Hathaway's tie-up with Tokio Marine
-
 **The story in one line.** Berkshire's new partnership with Japan's largest insurer is explicitly designed to source billion-dollar P&C acquisitions, combining Buffett's balance sheet with Tokio Marine's operational integration muscle.
 
 ## Key numbers

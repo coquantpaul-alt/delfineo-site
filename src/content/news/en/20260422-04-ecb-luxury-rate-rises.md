@@ -10,9 +10,6 @@ summary: |
 
   Oil prices have retreated from their post-Iran-war peak and European gas prices are nowhere near 2022 levels. Kazāks warned that "many of the wounds are still very fresh" from the war and "every week brings something new", justifying patience over pre-emption. Source: Financial Times, 22 April 2026, Olaf Storbeck.
 ---
-
-# ECB has 'luxury' to wait on interest rate rises, says top policymaker
-
 **The story in one line.** The ECB's Kazāks pushes back against pressure to hike next week — oil is off its peak, inflation expectations are anchored, and the governing council wants more data before it moves.
 
 ## Key numbers

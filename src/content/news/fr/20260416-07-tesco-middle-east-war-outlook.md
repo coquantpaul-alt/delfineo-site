@@ -10,9 +10,6 @@ summary: |
 
   La société annonce également 500 M£ supplémentaires d'économies de coûts pour l'année à venir, afin de disposer de la puissance de feu nécessaire pour multiplier les promotions. Les actions ont progressé de 3 % jeudi matin et de 37 % sur les 12 derniers mois, portant la capitalisation boursière à 30 Mds£. Source : Financial Times, 16 avril 2026, Philip Stafford.
 ---
-
-# Tesco élargit sa guidance 2027 sous l'effet de la guerre au Moyen-Orient
-
 **L'information en une phrase :** Tesco a livré un exercice au résultat stable mais en haut de fourchette et a capté sa plus forte part de marché depuis plus d'une décennie au Royaume-Uni, mais a élargi sa guidance 2027 pour refléter l'incertitude liée à la guerre et ses effets sur les ménages britanniques.
 
 ## Chiffres clés

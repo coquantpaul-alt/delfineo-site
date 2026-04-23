@@ -7,9 +7,6 @@ summary: "An FT investigation based on leaked documents shows Iran's Revolutiona
 insight: "The key innovation isn't the satellite itself — it's the 'in-orbit delivery' export model. China launches the satellite, then hands control to the foreign buyer once it's already in space, with ground stations kept in China. This means Iran's surveillance capability cannot be knocked out by Israeli strikes on Iranian ground infrastructure. For investors, the read-across is that the civil/military line in Chinese commercial space is effectively fictional, and US export controls will tighten further across the entire Chinese satellite value chain."
 order: 5
 ---
-
-# Iran used a Chinese spy satellite to target US bases
-
 **The story in one line:** An FT investigation based on leaked documents shows Iran's Revolutionary Guard (IRGC) secretly bought a Chinese-built spy satellite called **TEE-01B** in late 2024 and used it in March 2026 to photograph US bases before and after attacking them.
 
 ## Key numbers

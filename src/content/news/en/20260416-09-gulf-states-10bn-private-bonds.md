@@ -10,9 +10,6 @@ summary: |
 
   Five-year default-protection costs (credit default swaps, or CDS) on Abu Dhabi debt spiked to about 55 basis points last month from below 30 before the war, easing to 40 since the ceasefire. Saudi Arabia, the Gulf's biggest sovereign borrower, has not yet tapped private markets; it raised $13.5 billion in January-February versus $53 billion across all of 2025. Pimco said it remains 'ready to deploy further capital' to Gulf sovereigns. Source: Financial Times, 16 April 2026, Joseph Cotterill.
 ---
-
-# Gulf states raise $10bn in private wartime bond placements
-
 **The story in one line:** Abu Dhabi, Qatar and Kuwait have discreetly raised nearly $10bn in private dollar-bond placements in April 2026 — their first post-Iran-war international borrowing, sidestepping unpredictable public markets to lock in funding as Hormuz disruptions hit oil and gas revenues.
 
 ## Key numbers

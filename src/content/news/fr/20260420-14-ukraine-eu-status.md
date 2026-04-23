@@ -11,9 +11,6 @@ summary: |
 
   Une concession importante : la clause de défense mutuelle de l'UE (article 42.7) « pourrait être rendue applicable de facto par une simple déclaration politique », selon le document allemand — un soutien sécuritaire réel alors que l'Otan reste hors de portée. La défaite électorale du Premier ministre hongrois Viktor Orbán, qui bloquait l'ouverture des négociations avec l'Ukraine, débloque une partie du processus sans changer la réticence franco-allemande. Source : Financial Times, 20 avril 2026, Paola Tamma, Henry Foy et Christopher Miller.
 ---
-
-# La France et l'Allemagne prévoient des avantages « symboliques » d'adhésion UE pour l'Ukraine
-
 **L'essentiel en une phrase.** Paris et Berlin ont rédigé des propositions parallèles offrant à l'Ukraine une forme visible mais limitée d'appartenance à l'UE — avec clause de défense, mais sans les subventions agricoles ni le droit de vote espérés par Kyiv.
 
 ## Chiffres clés

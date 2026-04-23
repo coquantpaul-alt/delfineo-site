@@ -11,9 +11,6 @@ summary: |
 
   Le calcul de la diversification compte. Les polymères composites ont généré 1,3 Md€ de chiffre d'affaires en 2025 (1,7 Md€ en intégrant les dernières acquisitions), une fraction des revenus du groupe, mais avec une marge de 15 %, l'activité la plus rentable de Michelin. Trois acquisitions américaines de composites l'an dernier, pour une valeur d'entreprise cumulée d'environ 1 Md€, avec l'objectif d'au moins autant chaque année à l'échelle mondiale. Menegaux met en garde contre les droits de douane européens qui s'annoncent sur les pneus chinois et contre le cadre « Buy European » : ils ne doivent pas devenir une « rente » qui démobilise les industriels européens sur l'innovation. Source : Financial Times, 18 avril 2026, Sarah White.
 ---
-
-# Michelin mise sur les pneus lunaires et les polymères pour défendre ses usines françaises
-
 **L'histoire en une phrase.** Michelin concède que l'exportation de pneus grand public depuis l'Europe est terminée et concentre la production française sur le très haut de gamme en bâtissant en parallèle une nouvelle activité composites à plus forte marge — au prix déjà de 1 200 suppressions d'emplois en France.
 
 ## Chiffres clés

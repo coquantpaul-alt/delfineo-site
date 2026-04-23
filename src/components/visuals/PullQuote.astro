@@ -1,0 +1,19 @@
+---
+// <PullQuote> — emphasized serif quote, usually a sentence or two pulled
+// from the body of the article.
+//
+// Props:
+//   attribution  — optional source ("— Warren Buffett, 2003 annual letter")
+//
+// Usage:
+//   <PullQuote attribution="— Company CFO, Q4 2025 call">
+//     The moat isn't the towers. It's the 20-year leases.
+//   </PullQuote>
+const { attribution } = Astro.props;
+---
+<blockquote class="pull-quote">
+  <div class="pull-quote-body">
+    <slot />
+  </div>
+  {attribution && <footer class="pull-quote-attr">{attribution}</footer>}
+</blockquote>

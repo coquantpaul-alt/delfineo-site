@@ -10,9 +10,6 @@ summary: |
 
   Les pourparlers antérieurs à Islamabad, impliquant Vance, Jared Kushner et Steve Witkoff, ont duré 21 heures sans percée. L'agence iranienne Tasnim a indiqué que les messages échangés cette semaine n'avaient produit « aucun progrès significatif », et l'ambassadeur iranien à l'ONU a accusé les Etats-Unis de piraterie après la saisie d'un navire iranien au large d'Oman. Source : Financial Times, 21 avril 2026, Abigail Hauslohner et Lauren Fedor.
 ---
-
-# Donald Trump prolonge le cessez-le-feu avec l'Iran alors que les pourparlers s'enlisent
-
 **L'histoire en une ligne.** Trump prolonge le cessez-le-feu avec l'Iran à la demande du Pakistan, alors que les pourparlers prévus s'effondrent et que le Pentagone continue de renforcer son dispositif dans le Golfe.
 
 ## Chiffres clés

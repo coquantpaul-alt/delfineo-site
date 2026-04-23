@@ -7,9 +7,6 @@ summary: "The biggest US banks used their Q1 earnings to quantify their exposure
 insight: "This Les Échos piece is the natural companion to our brief on the record $33bn in Q1 US bank buybacks. The same profit surge that funded those buybacks now has to absorb a stress test from private credit — the asset class where banks have been happily lending to BDCs. Dimon at $50bn alone is more than JPMorgan's entire quarterly buyback ($8.3bn). The key watch items for the banking names we track: (i) software-BDC refinancings in 2026-2028, (ii) the Treasury questionnaire response, (iii) whether BDC stress forces banks to rebuild the very capital cushions the Fed is cutting."
 order: 7
 ---
-
-# Wall Street lifts the veil on its $120bn+ exposure to private credit
-
 **The story in one line:** The biggest US banks used strong Q1 earnings to publish, for the first time, the size of their lending exposure to private-credit funds — more than $120bn combined — trying to reassure investors that the stress now visible in Business Development Companies is not a systemic threat.
 
 ## Key numbers

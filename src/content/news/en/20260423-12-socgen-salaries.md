@@ -10,9 +10,6 @@ summary: |
 
   Employee ownership has been central at Société Générale since its 1987 privatisation, and chief executive Slawomir Krupa accelerated it on arrival, launching one plan a year instead of every three: the employee share stood at 7.93% end-2022, 9.84% end-2023, 10.23% end-2024, before this year's profit-taking. The CFDT union disputes calling it remuneration, and internal engagement is reportedly at an all-time low. Source: Les Echos, 23 April 2026, Gabriel Nédélec.
 ---
-
-# Société Générale employee shareholders cash in €900mn on 153% rally
-
 **The story in one line.** Société Générale employees took their money off the table after a 153% rally in 2025 — roughly €900mn gross on 19 million shares sold.
 
 ## Key numbers

@@ -11,9 +11,6 @@ summary: |
 
   Final conclusions from the CNMC probes will take nine to 18 months. The regulator stressed that the indications of wrongdoing are not necessarily the causes of the blackout, which "had multiple causes". Source: Financial Times, 17 April 2026, Barney Jopson.
 ---
-
-# Spain probes grid operator Red Eléctrica over 'very serious' breaches linked to 2025 Iberian blackout
-
 **The story in one line.** Spain's competition regulator CNMC has opened formal probes into grid operator Red Eléctrica and the country's four largest power generators over alleged infringements linked to last April's catastrophic Iberian blackout — the first official allocation of possible wrongdoing since the event.
 
 ## Key numbers

@@ -10,9 +10,6 @@ summary: |
 
   Pour réduire la « Gucci dépendance » — Gucci a perdu un tiers de son chiffre d'affaires en deux ans et divisé par deux le résultat du groupe — un nouveau fonds House of Wonders prendra des participations dans de jeunes marques non européennes, y compris chinoises, et Kering s'est rapproché de l'union italienne H Moda. La discipline opérationnelle passe par moins de boutiques mais mieux situées, des assortiments simplifiés, une gestion de production plus resserrée et des achats médias centralisés. Source : Les Echos, 16 avril 2026, Philippe Bertrand.
 ---
-
-# Kering : Luca de Meo dévoile son plan « ReconKering » et vise le doublement de la marge
-
 **L'information en une phrase :** Sept mois après sa prise de fonction, l'ancien patron de Renault Luca de Meo a présenté aux investisseurs, à Florence, sa feuille de route pour Kering : une reconquête disciplinée autour du « True Luxury » (savoir-faire) et du « Next Luxury » (technologie et nouveaux marchés) — avec un engagement de doubler la marge d'exploitation récurrente à moyen terme.
 
 ## Chiffres clés

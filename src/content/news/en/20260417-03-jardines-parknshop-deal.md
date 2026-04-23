@@ -11,10 +11,6 @@ summary: |
   The deal reflects Jardines' pivot toward a private-equity-style model under new CEO Lincoln Pan, formerly co-head of private equity at PAG. It also continues CK Hutchison's asset rotation, which includes the sale of UK Power Networks, the planned sale of its non-Chinese ports, and the mooted IPOs of AS Watson and its global telecoms business. Source: Financial Times, 17 April 2026, Arjun Neil Alim and Zijing Wu.
 order: 3
 ---
-
-
-# Jardines and CK Hutchison pursue Hong Kong supermarket megadeal
-
 **The story in one line:** Jardines is in talks to buy ParknShop from CK Hutchison and merge it with Wellcome, combining Hong Kong's two biggest grocery chains.
 
 ## Key numbers

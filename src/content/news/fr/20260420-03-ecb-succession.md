@@ -11,9 +11,6 @@ summary: |
 
   Hernández de Cos est perçu comme un centriste à léger biais accommodant ; Nagel et Knot passent pour des faucons modérés. L'Espagne et l'Allemagne n'ont jamais occupé le sommet de la BCE en 27 ans d'histoire, mais la Commission européenne est déjà dirigée par une Allemande (Ursula von der Leyen), ce qui joue contre Nagel. Des candidats de compromis sont souvent apparus en fin de course — la nomination de Lagarde elle-même en 2019 avait surpris. Source : Financial Times, 20 avril 2026, Olaf Storbeck.
 ---
-
-# BCE : selon les économistes, Hernández de Cos est le candidat le plus qualifié pour succéder à Lagarde
-
 **L'histoire en une phrase.** Un sondage de 20 experts en politique monétaire réalisé par le think-tank OMFIF place Pablo Hernández de Cos — patron de la BIS et ancien gouverneur de la Banque d'Espagne — en tête, de justesse, devant trois rivaux banquiers centraux dans la course à la succession de Christine Lagarde à la BCE.
 
 ## Chiffres clés

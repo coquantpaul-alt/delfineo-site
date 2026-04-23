@@ -11,9 +11,6 @@ summary: |
   Jon Cox (Kepler Cheuvreux) parle « plutôt d'un reset sous le nouveau directeur général » et alerte sur des pressions structurelles sur la demande, dont les traitements anti-obésité GLP-1 (« Dans un monde GLP-1, à quel rythme les volumes de chocolat vont-ils encore progresser ? »). Les prix de détail du chocolat restent environ 10 % au-dessus d'un an plus tôt, ce qui pèse sur la consommation. Les volumes devraient repartir au second semestre ; la baisse annuelle est désormais guidée à 1–3 %. Le cacao a plus que divisé par deux ses prix ces derniers mois. L'action avait gagné plus de 55 % sur un an avant la chute de jeudi. Source : Financial Times, 16 avril 2026, Susannah Savage.
 order: 11
 ---
-
-# Barry Callebaut abaisse ses prévisions, le titre chute de plus de 15 % sur l'effondrement du cacao
-
 **L'information en une phrase :** La première révision de guidance du nouveau DG Hein Schumacher chez Barry Callebaut, premier transformateur mondial de chocolat, passe de « croissance » à « baisse de l'ordre de 15 % » de l'EBIT — effet combiné d'un coup de fouet sur les prix du cacao et d'une demande molle, que le marché lit comme un reset structurel.
 
 ## Chiffres clés

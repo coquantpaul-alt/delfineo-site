@@ -10,9 +10,6 @@ summary: |
 
   Le projet s'inscrit dans un effort plus large de l'administration Trump visant à transformer les prix planchers en outil de politique industrielle, sur le modèle de l'acier et de l'aluminium. Les partenaires attendent désormais les chiffres et les listes précises — quels minéraux, quels pays, quels filets tarifaires. Source : Financial Times, 22 avril 2026, Aime Williams.
 ---
-
-# Le représentant au Commerce de Trump demande aux alliés de payer plus cher les minéraux critiques
-
 **L'histoire en une ligne.** Washington veut que ses alliés acceptent de payer au-dessus du marché pour les minéraux critiques en échange d'une sécurité d'approvisionnement — une « prime de sécurité nationale » dont la Chine serait écartée.
 
 ## Chiffres clés

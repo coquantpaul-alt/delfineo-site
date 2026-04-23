@@ -10,9 +10,6 @@ summary: |
 
   Le déploiement est contraint par l'infrastructure de recharge : Tesla a cartographié une soixantaine de sites de « mégachargeurs » le long des grands corridors, capables chacun de 1,2 MW de puissance — de quoi recharger la batterie à 60 % en une demi-heure. La flambée des prix du diesel, liée à la guerre en Iran, renforce l'intérêt économique pour les transporteurs, même si le camion reste un investissement initial lourd. Un lancement européen est envisagé, sans calendrier. Les batteries sont produites à la gigafactory de Sparks avec une nouvelle architecture en cube compacte dérivée du Cybertruck. Source : Les Echos, 15 avril 2026, Bastien Bouchaud.
 ---
-
-# Les camions électriques Tesla Semi arrivent enfin sur les routes américaines
-
 **L'information en une phrase :** Près d'une décennie après sa présentation en 2017, le camion tout électrique Tesla Semi entre en phase de commercialisation à partir d'une usine dédiée dans le Nevada, avec de premières livraisons clients prévues pour l'été 2026.
 
 ## Chiffres clés

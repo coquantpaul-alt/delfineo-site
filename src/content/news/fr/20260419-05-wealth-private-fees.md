@@ -11,9 +11,6 @@ summary: |
 
   L'écart de rendement lié à ces frais est mesurable. La classe d'actions de Breit la moins chargée a rendu plus de 9,3 % par an depuis 2017 ; la plus chargée, seulement 8 %. Chez Bcred, depuis son lancement en 2021, les rendements ressortent à 9,5 % contre 7,8 %. Blackstone rétorque qu'une majorité de ses actifs « evergreen » se trouvent dans des classes sans commission ni frais de gestion, et que ses fonds ont surperformé les indices publics d'environ 60 % depuis leur création. Ted Pick, patron de Morgan Stanley, précise que les actifs alternatifs ne représentent que 5 % des avoirs gérés par les conseillers financiers, et que la banque a « harmonisé » les barèmes pour éviter que les conseillers ne soient incités à pousser un fonds plutôt qu'un autre. Source : Financial Times, 18 avril 2026, Antoine Gara, Amelia Pollard, Eric Platt et Harriet Clarfelt.
 ---
-
-# Les conseillers patrimoniaux ont gagné plus de 2 milliards de dollars en frais sur les fonds non cotés
-
 **L'histoire en une phrase.** Une analyse par le Financial Times des documents réglementaires montre que les conseillers patrimoniaux ont empoché plus de 2 milliards de dollars de simples commissions de gestion depuis 2017 en canalisant la clientèle particulière vers des fonds non cotés — juste avant que ces mêmes clients ne déposent plus de 20 milliards de dollars de demandes de rachat.
 
 ## Chiffres clés

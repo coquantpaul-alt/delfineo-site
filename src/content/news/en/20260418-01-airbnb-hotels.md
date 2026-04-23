@@ -11,9 +11,6 @@ summary: |
 
   Competition will be hard. Bernstein analyst Richard Clarke flagged the difficulty of breaking into the hotel reservations market dominated by Booking.com and Expedia. Hilton, Marriott and InterContinental Hotels Group are themselves running "soft" and "conversion-friendly" partnerships to add independent hotels to their networks without the cost of new builds. Source: Financial Times, 18 April 2026, Stephanie Stacey.
 ---
-
-# Airbnb adds independent hotels to its platform in pilot push to revive growth and target business travel
-
 **The story in one line.** Airbnb is opening its platform to independent and boutique hotels in a pilot across New York, Los Angeles, Paris and Madrid, undercutting Booking.com and Expedia on commission to revive a stalled growth story.
 
 ## Key numbers

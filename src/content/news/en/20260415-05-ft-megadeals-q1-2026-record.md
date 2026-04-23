@@ -10,9 +10,6 @@ summary: |
 
   The FT editorial board cautions that history is unforgiving: research over 40 years shows 70% to 75% of acquisitions fail. The 2015 cohort offers mixed lessons — Shell's takeover of BG Group largely delivered, but Charter/Time Warner Cable saddled shareholders with pain, AB InBev's SABMiller debt constrained it for years, and Kraft Heinz, 2015's signature deal, is now being split up and remains the decade's marquee failure. Boards, the FT warns, should 'think carefully, or risk making their investors pay'. Source: Financial Times, 15 April 2026, The editorial board.
 ---
-
-# M&A: 22 'megadeals' in Q1 2026 beat the 2015 record despite macro fears
-
 **The story in one line:** Q1 2026 produced more $10bn-plus M&A transactions than any quarter on record, as boards seize on a looser US antitrust regime and a weaker dollar — while the FT editorial board warns history is unkind to serial dealmakers.
 
 ## Key numbers

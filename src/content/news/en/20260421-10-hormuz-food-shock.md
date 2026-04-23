@@ -10,9 +10,6 @@ summary: |
 
   The risk, traders argue, is that the market has not priced a multi-quarter disruption. Vijay Chakravarthy, chief risk officer at Louis Dreyfus, said investors assumed a short war: "Nobody is prepared for it." Even another six months of disruption could damage the 2027 crop cycle via fertiliser supply and farmer cash-flow stress. Source: Financial Times, 21 April 2026.
 ---
-
-# Hormuz disruption raises risk of global food shock, traders warn
-
 **The story in one line.** Hormuz-driven rerouting through the Panama Canal is pricing grain ships out of transit slots, and the food-trade chiefs say markets are underestimating how long this lasts.
 
 ## Key numbers

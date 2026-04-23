@@ -10,9 +10,6 @@ summary: |
 
   Au total, les immatriculations du groupe reculent de 3,3 %, mais le chiffre d'affaires auto progresse de 6,5 % (+8 % à taux de change constants) grâce aux ventes à partenaires (Micra pour Nissan à Douai, Geely au Brésil). Mobilize Financial Services, la filiale de crédit auto du groupe, maintient son rythme avec +13 % de chiffre d'affaires à 1,72 milliard d'euros. Source : Les Echos, 23 avril 2026, Lionel Steinmann.
 ---
-
-# Automobile : Dacia freine Renault au premier trimestre
-
 **L'histoire en une ligne.** Dacia trébuche sur des problèmes logistiques marocains mais la marque Renault tient le cap grâce à l'électrique, et le chiffre d'affaires groupe progresse tout de même de 7,3 %.
 
 ## Chiffres clés

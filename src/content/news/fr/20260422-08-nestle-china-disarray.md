@@ -10,9 +10,6 @@ summary: |
 
   Le naufrage chinois s'inscrit dans une crise de gouvernance plus large. Le directeur général Mark Schneider a été écarté en 2024, remplacé par le vétéran maison Laurent Freixe, licencié un an plus tard pour une liaison avec une subordonnée. Le président Paul Bulcke a démissionné dans la foulée sous la critique actionnariale. Nestlé, fondée il y a 159 ans, a ouvert son premier bureau à Shanghai en 1908 et contribué à bâtir l'industrie laitière chinoise moderne dans les années 1980. Source : Financial Times, 22 avril 2026, Madeleine Speed, Nian Liu et Thomas Hale.
 ---
-
-# Comment la filiale chinoise pionnière de Nestlé a basculé dans le chaos
-
 **L'histoire en une ligne.** Channel stuffing, scandales de gouvernance et concurrence locale féroce : le pari chinois de Nestlé, vieux de 117 ans, est devenu son pire grand marché, avec des ventes en baisse six fois sur sept années.
 
 ## Chiffres clés

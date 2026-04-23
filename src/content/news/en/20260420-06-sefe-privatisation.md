@@ -11,9 +11,6 @@ summary: |
 
   Sefe intends to keep its regulated infrastructure arm and trading arm together, rebuffing speculation it might be broken up. A possible merger with Uniper (the gas importer Berlin nationalised in 2022 after Russia cut supplies) has been studied but Laege is working on the assumption of a standalone process. Source: Financial Times, 20 April 2026, Verity Ratcliffe.
 ---
-
-# Germany to begin privatisation of seized Gazprom division
-
 **The story in one line.** Sefe, the former Gazprom Germania nationalised by Berlin in 2022, will launch a €1.5bn–€2bn capital increase as the first step toward at least 75 per cent privatisation by end-2028, its CEO Egbert Laege told the FT.
 
 ## Key numbers

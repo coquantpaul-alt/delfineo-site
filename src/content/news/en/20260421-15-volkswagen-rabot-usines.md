@@ -10,9 +10,6 @@ summary: |
 
   Volkswagen is not alone: according to Inovev, 13.7 million vehicles were built in Europe (UK included) last year, down from 17.5 million in 2019. Stellantis announced last week the end of car production at Poissy. Source: Les Echos, 21 April 2026, Lionel Steinmann.
 ---
-
-# Automotive: Volkswagen ready to slash plant capacity again
-
 **The story in one line.** Volkswagen is preparing a third round of capacity cuts — up to 1 million additional units — in a European industry that has lost nearly 4 million vehicles of output since 2019.
 
 ## Key numbers

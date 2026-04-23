@@ -11,10 +11,6 @@ summary: |
   For the current year, management now guides around +5% organic growth, roughly 6.5% adjusted operating margin and positive free cash flow. An "operational transformation plan" will be unveiled at the audited results on 13 May. "Let's be clear, this is not how I had planned to start my mandate", Sion acknowledged. Source: Les Echos, 16 April 2026, Denis Fainsilber.
 order: 8
 ---
-
-
-# Alstom issues severe profit warning; shares plunge almost 30%
-
 **The story in one line:** Alstom's new CEO Martin Sion inherits a profit warning: adjusted margin cut to 6% from a promised 7%, three-year cumulative free-cash-flow target scrapped, shares down almost 30%.
 
 ## Key numbers

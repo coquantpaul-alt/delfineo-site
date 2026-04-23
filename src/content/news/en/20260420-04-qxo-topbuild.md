@@ -11,9 +11,6 @@ summary: |
 
   Jacobs' activity is accelerating consolidation in US building products. Home Depot bought GMS for $5.5bn last summer and SRS Distribution for $18.25bn in 2024. Source: Financial Times, 19 April 2026, Oliver Barnes and Julia Rock.
 ---
-
-# QXO to buy insulation company TopBuild in $17bn deal
-
 **The story in one line.** Billionaire Brad Jacobs' QXO has agreed to buy US insulation distributor TopBuild for $17bn, continuing his roll-up drive to create a $50bn giant in North American building products.
 
 ## Key numbers

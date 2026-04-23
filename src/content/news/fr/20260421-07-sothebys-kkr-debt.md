@@ -11,9 +11,6 @@ summary: |
 
   La semaine dernière, Sotheby's a également placé un emprunt obligataire de 825 M USD à environ 8,5 % de rendement, dans le haut des discussions de prix. Séparément, la maison propose un intérêt de 7 % aux vendeurs prêts à différer le versement du produit de leurs ventes — autre signe de tensions sur la trésorerie. Source : Financial Times, 21 avril 2026, Euan Healy, Josh Spero et Antoine Gara.
 ---
-
-# Sotheby's signe un accord de dette de 100 M USD avec KKR, adossé aux frais d'enchères
-
 **L'essentiel en une phrase.** Sotheby's emprunte jusqu'à 100 M USD auprès de KKR à plus de 8 %, adossés à ses créances de frais d'enchères — dernier palliatif face à une trésorerie tendue sept ans après le LBO de Patrick Drahi.
 
 ## Chiffres clés

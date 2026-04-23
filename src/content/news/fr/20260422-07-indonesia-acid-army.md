@@ -10,9 +10,6 @@ summary: |
 
   Le choc est fort parce que l'Indonésie a passé un quart de siècle à bâtir un contrôle civil de l'armée après trois décennies de dictature sous Suharto. Sous Prabowo, ancien général de l'ère Suharto, les pare-feux de la reformasi sont mis à l'épreuve et des officiers militaires reviennent à des fonctions civiles. Source : Financial Times, 22 avril 2026, A. Anantha Lakshmi et Diana Mariska.
 ---
-
-# Une attaque à l'acide secoue l'Indonésie au moment où l'armée reprend du poids
-
 **L'histoire en une ligne.** Une attaque à l'acide commise par des militaires en service actif contre un activiste indonésien devient le test le plus visible de la place que le gouvernement Prabowo veut redonner à l'armée dans la vie civile.
 
 ## Chiffres clés

@@ -1,0 +1,19 @@
+---
+// <Callout> — a boxed takeaway for key insights, risks, or notes.
+//
+// Props:
+//   type   — "insight" (navy, default) | "risk" (wine) | "note" (muted)
+//   title  — optional title line (e.g. "Key insight", "Risk")
+//
+// Usage:
+//   <Callout type="insight" title="Key insight">
+//     The next three years of capex are already covered by existing cash flow.
+//   </Callout>
+const { type = 'insight', title } = Astro.props;
+---
+<aside class={`callout callout-${type}`}>
+  {title && <p class="callout-title">{title}</p>}
+  <div class="callout-body">
+    <slot />
+  </div>
+</aside>

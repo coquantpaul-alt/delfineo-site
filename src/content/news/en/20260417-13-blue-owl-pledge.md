@@ -11,9 +11,6 @@ summary: |
 
   The disclosure comes as Blue Owl grapples with redemption requests from several flagship private credit funds and is in the process of winding down an older vehicle. Source: Financial Times, 17 April 2026, Eric Platt.
 ---
-
-# Blue Owl co-founders stop pledging their shares as collateral, removing overhang on the stock
-
 **The story in one line.** Blue Owl's two founders have paid down or re-collateralised the personal loans that were secured by their company shares, eliminating a forced-sale risk that had weighed on the stock for months.
 
 ## Key numbers

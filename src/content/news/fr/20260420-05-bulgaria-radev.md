@@ -11,9 +11,6 @@ summary: |
 
   Radev a refusé de condamner l'invasion à grande échelle de l'Ukraine par la Russie, critiqué les sanctions européennes, tenté de bloquer l'adhésion de la Bulgarie à la zone euro (effective depuis janvier) et affirmé vouloir « rétablir les relations avec la Russie ». Valérie Hayer, du groupe Renew Europe, l'a qualifié de « cheval de Troie de Poutine ». Les analystes notent toutefois qu'une forte dépendance aux fonds européens, une opposition pro-européenne robuste au parlement et un électorat divisé rendent improbable un basculement complet à la Orbán. Population : un peu moins de 6,7 millions d'habitants. Source : Financial Times, 19 avril 2026, Marton Dunai.
 ---
-
-# Bulgarie : l'ex-président pro-russe Radev revendique la victoire aux législatives
-
 **L'histoire en une phrase.** L'ex-président Rumen Radev, favorable à Moscou, est en voie d'obtenir la majorité absolue au parlement bulgare, ce qui pourrait mettre fin à cinq ans de chaos électoral tout en tirant un membre de l'UE et de l'Otan vers la Russie.
 
 ## Chiffres clés

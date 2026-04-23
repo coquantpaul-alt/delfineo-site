@@ -11,9 +11,6 @@ summary: |
 
   The politics are starting to show. In November, China's Ministry of Agriculture and Rural Affairs held a work conference that explicitly flagged workers' "large-scale returning and staying in the countryside". Beijing has issued guidelines to boost jobs for migrants, including transport subsidies for inter-provincial travel. A local recruiter frames the risk bluntly: "Practically every village now has a number of stranded workers. In terms of social order, it's not great." Beijing does not publish annual data on returnees, but analysts believe the trend has accelerated since 2023. Source: Financial Times, 18 April 2026, William Langley (with additional reporting by Tina Hu).
 ---
-
-# Chinese migrant workers stop leaving home as urban jobs disappear
-
 **The story in one line.** China's 300mn migrant workforce — the single largest labour flow in modern history — is slowing down: an ageing cohort is being priced out of AI-driven urban hiring, older industrial hubs are shrinking, and Beijing has begun flagging the risk to "social order" in internal meetings.
 
 ## Key numbers

@@ -10,9 +10,6 @@ summary: |
 
   L'équipe éditoriale du FT rappelle que l'histoire est sévère : 40 ans de recherche montrent que 70 à 75 % des acquisitions échouent. Le millésime 2015 offre des leçons contrastées — le rachat de BG Group par Shell a largement tenu ses promesses, mais Charter/Time Warner Cable a infligé des pertes aux actionnaires, la dette contractée par AB InBev pour absorber SABMiller a pesé des années, et Kraft Heinz, deal emblématique de 2015, est aujourd'hui en cours de démantèlement et reste l'échec marquant de la décennie. Les conseils d'administration, prévient le FT, doivent « réfléchir soigneusement, faute de quoi les investisseurs en paieront le prix ». Source : Financial Times, 15 avril 2026, The editorial board.
 ---
-
-# M&A : 22 « mégadeals » au T1 2026, record battu malgré les craintes macro
-
 **L'information en une phrase :** Le T1 2026 a produit plus d'opérations M&A supérieures à 10 Mds$ que tout autre trimestre de l'histoire, les conseils d'administration profitant d'un antitrust américain assoupli et d'un dollar plus faible — tandis que l'équipe éditoriale du FT rappelle que l'histoire est impitoyable pour les acheteurs en série.
 
 ## Chiffres clés

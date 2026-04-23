@@ -11,10 +11,6 @@ summary: |
   Germany's energy-intensive chemicals industry is hit hardest: production is back to late-2004 levels (Bundesbank data), and companies are closing sites amid low capacity utilisation. Q1 insolvencies reached their highest level in more than 20 years, exceeding the 2009 financial-crisis peak, and unemployment is now 30% above pre-pandemic levels. Ifo head Clemens Fuest warns "stagnation is the new normal". Source: Financial Times, 17 April 2026, Olaf Storbeck and Anne-Sylvaine Chassany.
 order: 1
 ---
-
-
-# Iran war pushes Germany towards a fourth year of stagnation
-
 **The story in one line:** Energy-price shock from the US-Iran war forces Berlin to halve its 2026 growth forecast, leaving Germany at the edge of a fourth consecutive stagnation year.
 
 ## Key numbers

@@ -11,9 +11,6 @@ summary: |
 
   Founded in 2013 during the eurozone crisis, the AfD has radicalised rather than moderated as it has grown — landing a record second place (21%) in last year's federal elections. Some western MPs still back Chancellor Friedrich Merz's rearmament and defence minister Boris Pistorius, but the line from several eastern members of the Bundestag is that military sovereignty should not be "top priority" while spending needs to be cut, and that Russia is not really an opponent. Source: Financial Times, 18 April 2026, Laura Pitel (with additional reporting by Max Seddon).
 ---
-
-# Germany's far right at odds over conscription
-
 **The story in one line.** The AfD's pro-American, pro-rearmament wing has lost ground to its pro-Moscow eastern faction, as long-serving defence spokesperson Rüdiger Lucassen resigns and is replaced by Jan Nolte — setting the party's direction on the Bundeswehr ahead of two high-stakes eastern elections in September.
 
 ## Key numbers

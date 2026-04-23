@@ -11,9 +11,6 @@ summary: |
 
   Le tableau n'est pas uniformément sombre. La R5 et la R4 électriques de Renault rencontrent la demande européenne, et la France reste le siège de la R&D et du design des deux groupes. Mais la tendance de fond est claire : la France est devenue un marché de distribution plus qu'un pays producteur. Le rééquilibrage supposerait soit une baisse marquée des coûts de production, soit un avantage technologique durable (électrique, hydrogène, logiciel), soit une politique industrielle coordonnée avec l'Allemagne au sein de l'UE. Les trois manquent. Source : Les Echos, 20 avril 2026, Julien Dupont-Calbo et al.
 ---
-
-# Automobile : la France rétrograde au 5ème rang européen
-
 **L'histoire en une phrase.** La France a produit environ 986 000 voitures en 2025, plus de quatre fois moins qu'en 2002, et glisse au 5ème rang européen derrière l'Allemagne, l'Espagne, la République tchèque et la Slovaquie.
 
 ## Chiffres clés

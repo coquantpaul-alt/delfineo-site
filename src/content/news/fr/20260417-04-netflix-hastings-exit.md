@@ -11,10 +11,6 @@ summary: |
   Jason Bazinet (Citi) souligne que la direction n'a pas modifié sa politique d'allocation du capital pour 2026, décevant les attentes de rachats d'actions plus importants ou de marges revues à la hausse. Après l'échec WBD, l'engagement de l'audience redevient la métrique centrale des investisseurs selon Raymond James. Hastings, déjà en retrait depuis 2020, se concentrera sur la philanthropie via le Hastings Fund. Source : Financial Times, 16 avril 2026, Christopher Grimes.
 order: 4
 ---
-
-
-# Le fondateur de Netflix Reed Hastings quitte le conseil, les prévisions T2 déçoivent
-
 **L'histoire en une phrase :** Le président de Netflix Reed Hastings quittera le conseil en juin ; l'annonce et des prévisions T2 en retrait ont fait chuter l'action de 9,6 % en après-séance, malgré un T1 solide.
 
 ## Chiffres clés

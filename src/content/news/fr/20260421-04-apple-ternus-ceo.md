@@ -11,9 +11,6 @@ summary: |
 
   Ternus est surtout connu pour avoir piloté le passage d'Apple des puces Intel aux puces maison en 2020. Il supervise désormais aussi les équipes de design logiciel, alors que le groupe prépare la refonte de son assistant Siri, test le plus visible de sa capacité à rattraper son retard en IA générative. Source : Financial Times, 21 avril 2026, Michael Acton.
 ---
-
-# John Ternus, prochain patron d'Apple, face à un moment décisif pour l'IA
-
 **L'essentiel en une phrase.** Apple a choisi son directeur hardware John Ternus pour succéder à Tim Cook en septembre, pariant qu'un ingénieur-en-chef saura piloter le fabricant d'iPhone dans la transition IA et dans une chaîne d'approvisionnement fragile.
 
 ## Chiffres clés

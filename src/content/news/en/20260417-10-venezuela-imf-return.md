@@ -11,10 +11,6 @@ summary: |
   The scope of the reset is limited at first: technical-assistance missions, macroeconomic surveillance, dialogue on monetary stabilisation. Large-scale financial programmes would require prior restructuring of external debt, estimated above $150bn across all creditors (sovereign bonds, state oil company PDVSA, arrears). For bond markets and oil-industry creditors, the rapprochement is the first signal that Venezuela is being readmitted into the international financial architecture. Source: Les Echos, 17 April 2026, Claude Fouquet.
 order: 10
 ---
-
-
-# Venezuela resumes relations with the IMF and World Bank after seven-year freeze
-
 **The story in one line:** Caracas and the multilateral lenders restore institutional ties, potentially unlocking $5bn of SDRs frozen since 2021.
 
 ## Key numbers

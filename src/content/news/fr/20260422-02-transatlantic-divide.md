@@ -10,9 +10,6 @@ summary: |
 
   Schadlow pointe aussi la complaisance stratégique européenne : Nord Stream 2 et la dépendance aux fournisseurs extérieurs, autant d'alertes ignorées. Combler l'écart, conclut-elle, exige moins d'indignation et plus de clarté sur les désaccords de fond. Source : Financial Times, 22 avril 2026, Nadia Schadlow.
 ---
-
-# La vraie fracture transatlantique dépasse le cas Trump
-
 **L'histoire en une ligne.** Une ancienne stratège de la Maison-Blanche Trump soutient que la fracture américano-européenne sur l'Iran reflète des hypothèses fondamentalement différentes sur le risque et le multilatéralisme — et qu'elle survivra à Trump.
 
 ## Chiffres clés

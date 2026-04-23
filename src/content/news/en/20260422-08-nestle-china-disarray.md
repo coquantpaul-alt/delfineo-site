@@ -10,9 +10,6 @@ summary: |
 
   The China mess sits inside a wider governance crisis. CEO Mark Schneider was ousted in 2024, replaced by company veteran Laurent Freixe — who was fired a year later for an affair with a subordinate. Chair Paul Bulcke stepped down weeks later under shareholder criticism. Nestlé, founded 159 years ago, opened its first Shanghai office in 1908 and helped build China's modern dairy industry in the 1980s. Source: Financial Times, 22 April 2026, Madeleine Speed, Nian Liu and Thomas Hale.
 ---
-
-# How Nestlé's pioneering China business fell into disarray
-
 **The story in one line.** Channel stuffing, governance scandals and fierce local competition have turned Nestlé's 117-year bet on China into its worst-performing major market, with sales falling in six of the last seven years.
 
 ## Key numbers

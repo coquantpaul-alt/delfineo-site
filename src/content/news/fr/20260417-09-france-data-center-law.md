@@ -11,10 +11,6 @@ summary: |
   Un amendement de gauche visant à réserver le statut aux acteurs français a été rejeté — la majorité des grands projets sont portés par des américains. Le classement n'est pas automatique (décret du Premier ministre, critères de taille critique et de souveraineté) et la pression va monter sur RTE pour les raccordements électriques. Des associations écologistes dénoncent un « fourre-tout » et interrogent l'impact environnemental. Source : Les Echos, 15 avril 2026, Joséphine Boone.
 order: 9
 ---
-
-
-# Loi de simplification : ce qui change pour l'implantation des data centers en France
-
 **L'histoire en une phrase :** La loi française de simplification crée un statut de « projet d'intérêt national majeur » qui doit ramener le délai de sortie d'un grand data center de 5-7 ans à environ 10 mois.
 
 ## Chiffres clés

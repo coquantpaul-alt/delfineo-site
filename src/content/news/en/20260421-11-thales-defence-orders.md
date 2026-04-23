@@ -11,9 +11,6 @@ summary: |
 
   The one weak spot: cyber and digital orders fell 7%, the fourth consecutive quarterly decline. Aerospace order intake also slipped 1%. Despite the strong Q1, Thales confirmed rather than raised its 2026 targets (6-7% revenue growth to €23.3-23.6bn). Shares fell more than 3% at Tuesday's open as markets judged the cyber weakness more important than the defence surge. Source: Les Echos, 21 April 2026, Anne Drif.
 ---
-
-# Thales defence order intake surges on air-defence demand
-
 **The story in one line.** Thales's Q1 2026 showed air-defence orders up 71% on Middle East and European demand for its SAMP/T system, but a persistent cyber-and-digital slowdown means management held 2026 guidance steady.
 
 ## Key numbers

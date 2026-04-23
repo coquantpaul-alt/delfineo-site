@@ -11,9 +11,6 @@ summary: |
 
   L'accord confirme le schéma d'investissements circulaires entre laboratoires IA et fournisseurs de cloud : le partenaire investit dans le laboratoire, puis le laboratoire achète ses puces. Amazon construit Project Rainier, un campus de 2,4 GW à New Carlisle (Indiana), et veut ancrer Anthropic sur sa famille de puces Trainium face aux GPU de Nvidia. Source : Financial Times, 20 avril 2026, George Hammond et Rafe Rosner-Uddin.
 ---
-
-# Anthropic et Amazon signent un accord d'infrastructure IA à 100 Mds USD
-
 **L'essentiel en une phrase.** Anthropic dépensera plus de 100 Mds USD auprès d'Amazon en puces et capacité de centres de données pour suivre la demande explosive pour Claude, pendant qu'Amazon injecte 5 à 25 Mds USD supplémentaires dans le laboratoire valorisé 380 Mds USD.
 
 ## Chiffres clés

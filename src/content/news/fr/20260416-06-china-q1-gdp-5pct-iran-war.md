@@ -10,9 +10,6 @@ summary: |
 
   La guerre en Iran devrait peser : Mao Shengyong, commissaire adjoint du Bureau national des statistiques, a reconnu que la Chine « sera certainement affectée dans une certaine mesure » par le choc énergétique, qui comprime les marges d'un secteur industriel déjà hyper-compétitif tout en atténuant la pression déflationniste. Xi Jinping doit rencontrer Donald Trump à Pékin mi-mai, les marchés espérant la prolongation de la trêve commerciale d'un an. Coface et le Conference Board citent l'essoufflement du soutien budgétaire et la prudence des acheteurs immobiliers comme les principaux vents contraires domestiques. Source : Financial Times, 16 avril 2026, Joe Leahy, Wenjie Ding, Haohsiang Ko et Thomas Hale.
 ---
-
-# Chine : le PIB au T1 progresse de 5 %, porté par la haute technologie
-
 **L'information en une phrase :** La Chine affiche une croissance du PIB de 5 % au T1 2026 — au-dessus du consensus — portée par la haute technologie manufacturière et les exportations, alors même que la consommation domestique et l'immobilier restent faibles et que la guerre en Iran menace la demande externe.
 
 ## Chiffres clés

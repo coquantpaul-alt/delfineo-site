@@ -11,9 +11,6 @@ summary: |
   On employment, management is counting on natural attrition. The industrial headcount will fall from 1,800 workers today (1,500 of them genuinely operational) to 1,200 by 2030, without a social plan. Part of the €100mn budget will fund retraining. The majority union CFE-CGC welcomed "an important first step". The decision — echoing Renault's conversion of Flins — only partly addresses Stellantis's European overcapacity problem: most of its plants are running well below capacity, and Bloomberg has reported discussions with Chinese carmakers to use some lines. The May strategic plan will be closely watched. Source: Les Echos, 16 April 2026, Yann Duvert.
 order: 14
 ---
-
-# Stellantis to end car assembly at Poissy by late 2028, pivots historic site to aftermarket and parts
-
 **The story in one line:** Stellantis confirms the end of car assembly at Poissy by end-2028 and commits around €100mn to convert the historic French auto site into a hub for spare parts, aftermarket and circular economy — no social plan, but an ~600-worker reduction in factory headcount by 2030.
 
 ## Key numbers

@@ -7,9 +7,6 @@ summary: "The six biggest US banks spent a record $33bn on share buybacks in Q1 
 insight: "Two forces are converging: deregulation is freeing up capital, and Iran-war-driven market volatility is boosting trading profits. The result is the biggest shareholder payout since the 2008 crisis. But Goldman's equity-to-risk-weighted-assets ratio just dropped to its lowest since 2020 — the cushion protecting depositors is being deliberately thinned. Dimon's reluctance to buy back more ('I'd rather buy back stock when we think it's a real discount') is the dissenting voice worth listening to."
 order: 3
 ---
-
-# Largest US banks spend a record $33 bn on share buybacks
-
 **The story in one line:** The six biggest US banks spent a record **$33 bn** in Q1 2026 buying back their own shares — a direct result of higher profits plus Trump-era rule loosening that lets them hold less "safety cash" and return more to shareholders.
 
 ## Key numbers

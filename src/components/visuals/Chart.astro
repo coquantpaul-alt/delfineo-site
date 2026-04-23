@@ -1,0 +1,24 @@
+---
+// <Chart> — a static chart image. Same as <Figure> but with a subtle
+// "CHART" eyebrow label and a tinted background, so it reads as a
+// data-viz artefact rather than a photo.
+//
+// Props:
+//   src       — image path (PNG or SVG)
+//   alt       — alt text (required)
+//   caption   — chart title / subtitle ("Cellnex revenue by segment, 2019–2024")
+//   source    — data source credit ("Source: Company filings")
+//   width     — "inset" | "normal" | "wide" | "full"
+//   label     — the eyebrow text, default "Chart"
+const { src, alt = '', caption, source, width = 'normal', label = 'Chart' } = Astro.props;
+---
+<figure class={`figure figure-chart figure-${width}`}>
+  <span class="figure-eyebrow">{label}</span>
+  <img src={src} alt={alt} loading="lazy" />
+  {(caption || source) && (
+    <figcaption>
+      {caption && <span class="caption-text">{caption}</span>}
+      {source && <span class="caption-source">{source}</span>}
+    </figcaption>
+  )}
+</figure>

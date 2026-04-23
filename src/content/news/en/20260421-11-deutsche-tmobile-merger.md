@@ -10,9 +10,6 @@ summary: |
 
   Talks are at a preliminary stage and both companies declined to comment on speculation. Any transaction would require German and US political and regulatory approval: the German government owns roughly 14% of Deutsche Telekom, and state development bank KfW controls a similar stake. CEO Tim Höttges, who also chairs T-Mobile US, has long highlighted the more consolidated US market as more favourable to operators. Source: Financial Times, 21 April 2026, Kieran Smith and Ivan Levingston.
 ---
-
-# Deutsche Telekom examines merger with T-Mobile US
-
 **The story in one line.** Deutsche Telekom is exploring an all-stock combination with T-Mobile US, via a new HoldCo, that would effectively lock in its American growth engine and complicate any future break-up bid.
 
 ## Key numbers

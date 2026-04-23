@@ -11,9 +11,6 @@ summary: |
 
   Les deux investisseurs ont essuyé d'autres revers : EQT a cédé son groupe de maisons de retraite Colisée à ses prêteurs l'an dernier (1,8 Md € de dette), et Omers a passé en perte ses 31 % dans Thames Water en 2024. Source : Financial Times, 21 avril 2026, Kieran Smith, Daniel Thomas et Ivan Levingston.
 ---
-
-# EQT et Omers proposent de porter le financement de Deutsche Glasfaser à 5 Mds €
-
 **L'essentiel en une phrase.** Plutôt que de laisser le n° 2 allemand de la fibre tomber aux mains de ses créanciers, EQT et Omers injectent environ 850 M € de capitaux supplémentaires en plus des 4 Mds € déjà apportés, dans le cadre d'un nouvel accord de refinancement.
 
 ## Chiffres clés

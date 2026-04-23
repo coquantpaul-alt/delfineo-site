@@ -10,9 +10,6 @@ summary: |
 
   The political message is direct: SpaceX's ultra-low prices rely on US institutional contracts, and Europe must impose a "European preference" for its own institutional launches or see prices "surge" once the competition is gone. Ariane 6, Bruneau argues, is the "independent route" for research, telecoms and military payloads. Source: Les Echos, 23 April 2026, Anne Drif.
 ---
-
-# ArianeGroup CEO warns Europe of dependence on Musk's SpaceX
-
 **The story in one line.** ArianeGroup's new boss tells Europe that if SpaceX "shuts off the tap" tomorrow, there is no sovereign access to space — and asks Brussels to reserve institutional launches for European rockets.
 
 ## Key numbers

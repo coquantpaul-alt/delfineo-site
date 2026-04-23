@@ -10,9 +10,6 @@ summary: |
 
   Venezuela holds the world's largest oil reserves but produces just 1 million barrels per day, down from a peak of 3.5 million. Donald Trump is pushing western oil firms to invest $100 billion in Venezuela, though ExxonMobil's Darren Woods called the country 'uninvestable' in January. The US Treasury on Tuesday authorised financial institutions to deal with Venezuela's central bank, and Caracas has passed hydrocarbons and mining reforms lowering taxes and weakening state control. Source: Financial Times, 16 April 2026, Jamie Smyth and Joe Daniels.
 ---
-
-# Repsol regains operational control of Venezuelan oil, targets triple output
-
 **The story in one line:** Repsol is signing a new deal with Caracas to reassume operational control of its Venezuelan oil assets and triple production in three years, as Washington-backed market reforms reopen the country to western majors post-Maduro.
 
 ## Key numbers

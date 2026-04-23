@@ -11,9 +11,6 @@ summary: |
 
   Trump claimed on Friday that Iran had agreed to suspend its nuclear programme indefinitely and hand over its stockpile of highly enriched uranium — a claim Iranian officials, including top negotiator Mohammad Bagher Ghalibaf, flatly denied. Oil and gas prices had fallen on Friday on optimism about a full reopening; Saturday's reversal reinstates the risk premium. Source: Financial Times, 18 April 2026, Najmeh Bozorgmehr, Andrew England, Alice Hancock and James Politi.
 ---
-
-# Iran claims 'strict control' of Strait of Hormuz and says it will not be fully reopened
-
 **The story in one line.** Iran has walked back Friday's signal that the Strait of Hormuz would reopen, declaring on Saturday that the waterway stays under its "strict control" after two ships were fired on and Donald Trump extended the US blockade of Iranian ports.
 
 ## Key numbers

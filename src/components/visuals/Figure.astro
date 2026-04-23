@@ -1,0 +1,26 @@
+---
+// <Figure> — an image with optional caption and source credit.
+//
+// Props:
+//   src       — image path (e.g. "/images/research/cellnex/revenue.png")
+//   alt       — alt text (required for accessibility)
+//   caption   — short caption shown under the image
+//   source    — credit line (e.g. "Company filings, Delfineo")
+//   width     — "inset" (narrower than body), "normal" (default, matches body),
+//               "wide" (extends slightly beyond body), "full" (viewport-wide)
+//
+// Usage in .mdx:
+//   <Figure src="/images/research/cellnex/revenue.png" alt="..."
+//           caption="Cellnex revenue by segment, 2019–2024"
+//           source="Company filings" width="wide" />
+const { src, alt = '', caption, source, width = 'normal' } = Astro.props;
+---
+<figure class={`figure figure-${width}`}>
+  <img src={src} alt={alt} loading="lazy" />
+  {(caption || source) && (
+    <figcaption>
+      {caption && <span class="caption-text">{caption}</span>}
+      {source && <span class="caption-source">{source}</span>}
+    </figcaption>
+  )}
+</figure>

@@ -10,9 +10,6 @@ summary: |
 
   Investors still cheer falling inflation, relaxed currency controls and rebuilt FX reserves, but StoneX strategist Ramiro Blazquez Giomi warns the government will need to "give some air" to struggling industries before Milei's 2027 re-election bid. Milei wants to tilt the economy from manufacturing toward mining, energy, agriculture and tech — today only 12% of employment. Source: Financial Times, 22 April 2026, Ciara Nugent.
 ---
-
-# Argentina posts sharpest monthly contraction under Milei
-
 **The story in one line.** A 2.6% month-on-month drop is the biggest since Milei took office, showing his inflation cure is still biting industries that employ most Argentines.
 
 ## Key numbers

@@ -10,9 +10,6 @@ summary: |
 
   Les négociants pointent un marché qui n'a pas intégré l'hypothèse d'une dislocation sur plusieurs trimestres. Vijay Chakravarthy, chief risk officer de Louis Dreyfus : « Personne n'est prêt à cela. » Six mois supplémentaires de blocage suffiraient à fragiliser la campagne agricole 2027, via l'approvisionnement en engrais et la trésorerie des exploitants. Source : Financial Times, 21 avril 2026.
 ---
-
-# La fermeture d'Ormuz fait planer le risque d'un choc alimentaire mondial
-
 **L'histoire en une ligne.** Le détournement du trafic via Panama expulse les céréaliers des créneaux de transit, et les dirigeants de négoce alimentaire estiment que les marchés sous-estiment la durée du choc.
 
 ## Chiffres clés

@@ -11,10 +11,6 @@ summary: |
   Operating profits rose 10% to €1.26bn in 2025. The listing would revive a sluggish European IPO market that has lagged the US, where mega-tech listings dominate this year. No banks have been appointed, and timing could slip into 2027. In 2024 Belron carried out one of the largest debt-funded dividend recaps in private-equity history. Source: Financial Times, 16 April 2026, Ivan Levingston, Ashley Armstrong and Arash Massoudi.
 order: 5
 ---
-
-
-# Autoglass owner Belron targets €30bn Amsterdam IPO
-
 **The story in one line:** Belron, the world's biggest windscreen-repair group, is heading to Amsterdam for a potential €30–40bn IPO — one of Europe's largest listings in years.
 
 ## Key numbers

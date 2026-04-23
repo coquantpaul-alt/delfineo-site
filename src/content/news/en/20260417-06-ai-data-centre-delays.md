@@ -11,10 +11,6 @@ summary: |
   Bottlenecks: shortages of specialist workers (electricians, pipefitters), strained grid capacity, missing gas turbines and transformers, slow permits and rising local opposition. Remote sites are pushing labour costs up as much as 30%. SynMax estimates more than 60% of 2027 projects have not yet begun construction. Capstone's Josh Price describes a "regulatory lag" against the pace of developers. Source: Financial Times, 17 April 2026, Rafe Rosner-Uddin, Martha Muir, Nassos Stylianou and Aditi Bhandari.
 order: 6
 ---
-
-
-# US data-centre delays threaten to choke AI expansion
-
 **The story in one line:** Almost 40% of US data-centre projects due in 2026 are now at risk of missing completion dates by more than three months, constraining the AI rollout for Microsoft, OpenAI and peers.
 
 ## Key numbers

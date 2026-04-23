@@ -10,9 +10,6 @@ summary: |
 
   On Friday, leaders tackle for the first time the toxic 2028–2034 EU budget file: funding new priorities (defence, competitiveness, research) and repaying the post-Covid recovery bond without bloating national contributions. The incoming Irish presidency aims to land a deal by end-2026 for first disbursements in January 2028 — a timetable most diplomats call unrealistic. Source: Les Echos, 23 April 2026, Karl De Meyer.
 ---
-
-# EU leaders meet in Cyprus on Iran war, mutual defence and 2028–2034 budget
-
 **The story in one line.** An informal EU summit in Nicosia tries to operationalise the mutual-defence clause and absorb the Iran-driven energy shock, before opening the rigged 2028–2034 budget file.
 
 ## Key numbers

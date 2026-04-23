@@ -11,9 +11,6 @@ summary: |
 
   The cost of a typical remodelling project has risen 45% since 2019. Executives forecast total sales growth of 2.5% to 4.5% in 2026, well below pre-pandemic averages. Rivals are also consolidating: Lowe's paid $8.8bn for Foundation Building Materials last year; Brad Jacobs's QXO just bought insulation group TopBuild for $17bn. Source: Financial Times, 21 April 2026, Gregory Meyer.
 ---
-
-# Home Depot courts contractors as US economy weighs on the DIY set
-
 **The story in one line.** With US housing turnover flat and DIY demand soft, Home Depot is spending billions on wholesale distributors to capture a bigger slice of the $700bn professional contractor market.
 
 ## Key numbers

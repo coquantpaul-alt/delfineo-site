@@ -11,9 +11,6 @@ summary: |
 
   Last week Sotheby's also priced an $825mn bond offering at a yield of roughly 8.5%, toward the higher end of price discussions. Separately, the house has been offering 7% interest to sellers willing to delay being paid out - another sign of how tight the cash-flow situation remains. Source: Financial Times, 21 April 2026, Euan Healy, Josh Spero and Antoine Gara.
 ---
-
-# Sotheby's strikes $100mn debt deal with KKR backed by auction fees
-
 **The story in one line.** Sotheby's has borrowed against its auction-fee receivables from KKR at 8%+, its latest workaround to ease a cash squeeze seven years after Patrick Drahi's leveraged buyout.
 
 ## Key numbers

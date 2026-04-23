@@ -11,9 +11,6 @@ summary: |
 
   The return gap from those fees is visible. Breit's lowest-fee share class has earned over 9.3% a year since 2017; the highest-fee class only 8%. Bcred returns since its 2021 launch are 9.5% vs 7.8%. Blackstone counters that a majority of its evergreen assets sit in share classes with no commissions or servicing fees, and that its funds have outperformed public benchmarks by roughly 60% since inception. Morgan Stanley CEO Ted Pick said alternatives make up just 5% of financial-adviser assets, and that the bank has "harmonised" fees so advisers are not incentivised to push one fund over another. Source: Financial Times, 18 April 2026, Antoine Gara, Amelia Pollard, Eric Platt and Harriet Clarfelt.
 ---
-
-# Wealth advisers made more than $2bn from private capital fees
-
 **The story in one line.** An FT review of regulatory filings shows wealth advisers have pocketed more than $2bn in servicing fees alone since 2017 for funnelling retail clients into private funds — right before those same clients started filing more than $20bn of withdrawal requests.
 
 ## Key numbers

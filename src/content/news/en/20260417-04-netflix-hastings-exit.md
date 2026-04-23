@@ -11,10 +11,6 @@ summary: |
   Citi analyst Jason Bazinet flagged that management kept its 2026 capital-allocation plan unchanged, disappointing hopes for larger buybacks or higher margin guidance. Investors are now focused on audience engagement as the core metric after the failed Warner Bros bid; Raymond James analysts note engagement is "now investors' most focused-on metric". Hastings, who began paring back responsibilities in 2020, will focus on philanthropy via the Hastings Fund. Source: Financial Times, 16 April 2026, Christopher Grimes.
 order: 4
 ---
-
-
-# Netflix founder Reed Hastings steps down from board as Q2 forecast disappoints
-
 **The story in one line:** Netflix chair Reed Hastings will leave the board in June; the announcement plus a soft Q2 forecast pushed the stock down 9.6% after-hours despite a strong Q1.
 
 ## Key numbers

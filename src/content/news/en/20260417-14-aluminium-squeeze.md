@@ -11,9 +11,6 @@ summary: |
 
   Copper is also contributing to the LMEX's rise — up 11 per cent over four weeks — but for different reasons: the return of Chinese buyers and expectations around possible US tariff decisions. It was trading around $13,270 per tonne on Friday, close to its closing record of January; Mercuria and BMO Capital Markets expect it could break that level in the coming weeks. Source: Les Echos, 17 April 2026, Samir Touzani.
 ---
-
-# London metals hit record as Iran war pushes aluminium into a supply 'black hole'
-
 **The story in one line.** The LMEX index of the London Metal Exchange hit an all-time high, driven by aluminium's surge following Iranian strikes on Gulf smelters and by copper's rebound on electrification demand and China.
 
 ## Key numbers

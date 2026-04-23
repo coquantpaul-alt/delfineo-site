@@ -10,9 +10,6 @@ summary: |
 
   Les aides aux transporteurs, mises en place le mois dernier à hauteur de 20 centimes d'euro par litre, seront prolongées en mai. Le ministre des Transports Philippe Tabarot a ouvert des discussions avec les représentants des taxis et des VTC, qui pourraient bénéficier de nouvelles mesures. Les aides d'avril devraient être payées en mai. Source : Les Echos, 21 avril 2026, Hortense Goulard.
 ---
-
-# Carburants : le gouvernement Lecornu étend les aides aux gros rouleurs et au BTP
-
 **L'histoire en une ligne.** Lecornu sort le carnet de chèques : 170 M€ par mois d'aides carburant, contre 70 M€ auparavant, pour couvrir pêcheurs, agriculteurs, BTP, gros rouleurs modestes et transporteurs.
 
 ## Chiffres clés

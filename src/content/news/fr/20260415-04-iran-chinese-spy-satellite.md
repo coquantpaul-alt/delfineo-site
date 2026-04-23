@@ -7,9 +7,6 @@ summary: "Une enquête du FT fondée sur des documents divulgués montre que les
 insight: "L'innovation clé n'est pas le satellite en lui-même — c'est le modèle d'exportation « in-orbit delivery ». La Chine lance le satellite, puis en transfère le contrôle à l'acheteur étranger une fois qu'il est déjà en orbite, les stations de contrôle au sol restant en Chine. Ce qui signifie que la capacité de surveillance iranienne ne peut pas être neutralisée par des frappes israéliennes sur l'infrastructure au sol en Iran. Pour les investisseurs, le signal est que la frontière civil/militaire dans le spatial commercial chinois est de fait fictive, et que les contrôles à l'exportation américains vont se durcir sur l'ensemble de la chaîne de valeur satellite chinoise."
 order: 5
 ---
-
-# L'Iran a utilisé un satellite espion chinois pour cibler des bases américaines
-
 **L'histoire en une phrase :** Une enquête du FT fondée sur des documents divulgués montre que les Gardiens de la révolution iraniens (IRGC) ont secrètement acquis un satellite espion chinois baptisé **TEE-01B** fin 2024 et l'ont utilisé en mars 2026 pour photographier des bases américaines avant et après les avoir attaquées.
 
 ## Chiffres clés

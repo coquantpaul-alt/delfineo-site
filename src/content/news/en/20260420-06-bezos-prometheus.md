@@ -11,9 +11,6 @@ summary: |
 
   Prometheus is based in San Francisco with offices in London and Zurich, led by Bezos and co-CEO Vikram Bajaj. It has hired hundreds of staff, including AI scientists, industrial experts, and infrastructure engineers. Earlier this month the FT reported that Prometheus poached Kyle Kosic, a former OpenAI employee and xAI co-founder who led Musk's Colossus supercomputer project, to work on compute infrastructure. Source: Financial Times, 20 April 2026, Cristina Criddle and George Hammond.
 ---
-
-# Jeff Bezos's AI lab Prometheus nears $38bn valuation
-
 **The story in one line.** Bezos's stealth AI venture, focused on AI that understands the laws of physics, is closing a $10bn round at a $38bn valuation - plus a separate multi-billion holding company to buy its customers.
 
 ## Key numbers

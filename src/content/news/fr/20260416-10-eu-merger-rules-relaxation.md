@@ -11,9 +11,6 @@ summary: |
   La présidente de la Commission, Ursula von der Leyen, défend cette « nouvelle approche » plus favorable aux entreprises qui « montent en taille sur les marchés mondiaux ». La résistance vient de certains États membres libéraux et d'une partie de la Commission craignant qu'un assouplissement nuise à l'innovation, freine l'investissement et force les consommateurs à payer plus cher. Les acteurs du M&A et les investisseurs attendent cette réforme depuis longtemps ; elle pourrait débloquer une vague de consolidation dans plusieurs secteurs. La Commission n'a pas souhaité commenter. Source : Financial Times, 16 avril 2026, Barbara Moens.
 order: 10
 ---
-
-# Bruxelles prépare le plus grand assouplissement des règles de fusion depuis des décennies pour bâtir des « champions européens »
-
 **L'information en une phrase :** Le projet de lignes directrices européennes sur les fusions consulté par le FT donnerait, pour la première fois en plus de vingt ans, un poids explicite à la taille, l'innovation et la résilience — ouvrant la voie aux consolidations nécessaires pour faire émerger des champions européens face aux rivaux américains et chinois.
 
 ## Chiffres clés

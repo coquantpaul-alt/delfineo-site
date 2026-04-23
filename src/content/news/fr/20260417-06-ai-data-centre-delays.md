@@ -11,10 +11,6 @@ summary: |
   Goulets d'étranglement : pénuries d'électriciens et tuyauteurs, réseau électrique saturé, turbines à gaz et transformateurs manquants, permis lents et opposition locale montante. Les sites reculés font bondir les coûts salariaux jusqu'à +30 %. SynMax note que plus de 60 % des projets 2027 n'ont même pas démarré. Josh Price (Capstone) parle d'un « retard réglementaire » face au rythme des développeurs. Source : Financial Times, 17 avril 2026, Rafe Rosner-Uddin, Martha Muir, Nassos Stylianou et Aditi Bhandari.
 order: 6
 ---
-
-
-# Les retards des data centers américains menacent l'expansion de l'IA
-
 **L'histoire en une phrase :** Près de 40 % des data centers américains prévus pour 2026 sont exposés à un retard de plus de trois mois, contraignant le déploiement de Microsoft, OpenAI et consorts.
 
 ## Chiffres clés

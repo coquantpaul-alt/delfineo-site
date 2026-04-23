@@ -11,9 +11,6 @@ summary: |
 
   La divulgation intervient alors que Blue Owl gère un afflux de demandes de remboursement sur plusieurs de ses fonds phares de crédit privé et liquide un véhicule plus ancien. Source : Financial Times, 17 avril 2026, Eric Platt.
 ---
-
-# Les co-fondateurs de Blue Owl cessent de nantir leurs actions, levant un risque qui pesait sur le titre
-
 **L'essentiel en une phrase.** Les deux fondateurs de Blue Owl ont remboursé ou re-garanti les prêts personnels qui étaient adossés à leurs actions, supprimant un risque de vente forcée qui pesait sur le titre depuis des mois.
 
 ## Chiffres-clés

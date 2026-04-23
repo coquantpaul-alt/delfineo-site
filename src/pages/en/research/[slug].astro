@@ -2,10 +2,12 @@
 import Base from '../../../layouts/Base.astro';
 import AuthScript from '../../../components/AuthScript.astro';
 import ShareStrip from '../../../components/ShareStrip.astro';
+import { Figure, Chart, DataTable, Callout, PullQuote, InteractiveChart } from '../../../components/visuals';
 import { t } from '../../../i18n.js';
 import { getCollection } from 'astro:content';
 
 const lang = 'en';
+const visualComponents = { Figure, Chart, DataTable, Callout, PullQuote, InteractiveChart };
 const i = (key) => t(lang, key);
 
 export async function getStaticPaths() {
@@ -55,7 +57,7 @@ const { Content } = await article.render();
       <p class="subtitle">{article.data.subtitle}</p>
 
       <div class="article-body">
-        <Content />
+        <Content components={visualComponents} />
       </div>
     </div>
     <ShareStrip lang={lang} />

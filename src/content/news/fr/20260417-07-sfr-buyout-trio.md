@@ -11,10 +11,6 @@ summary: |
   Le consortium met en avant une opération « socialement responsable », avec vigilance sur l'emploi, et promet davantage d'investissements dans les réseaux très haut débit, la cybersécurité et l'IA. L'opération devra passer par la consultation des instances représentatives du personnel, puis par les autorisations réglementaires, notamment au titre du contrôle des concentrations (antitrust) — historiquement un obstacle majeur pour la consolidation des télécoms françaises. Source : Les Echos, 17 avril 2026, Thomas Pontiroli.
 order: 7
 ---
-
-
-# Rachat de SFR : Bouygues, Iliad et Orange en négociations exclusives avec Altice
-
 **L'histoire en une phrase :** Bouygues Telecom, Iliad et Orange entrent en exclusivité avec Altice France pour racheter SFR à 20,35 Mds€ de valeur d'entreprise, un tournant historique pour les télécoms françaises.
 
 ## Chiffres clés

@@ -11,9 +11,6 @@ summary: |
 
   Les conclusions définitives prendront de 9 à 18 mois. La CNMC souligne que les indices examinés ne désignent pas nécessairement la cause de la panne, qui « a eu de multiples causes ». Source : Financial Times, 17 avril 2026, Barney Jopson.
 ---
-
-# L'Espagne enquête sur le gestionnaire de réseau Red Eléctrica pour des manquements « très graves » liés au blackout ibérique de 2025
-
 **L'essentiel en une phrase.** Le régulateur espagnol CNMC a ouvert des enquêtes formelles contre Red Eléctrica et les quatre plus grands producteurs d'électricité du pays pour des infractions présumées liées au blackout ibérique d'avril dernier — la première attribution officielle de responsabilités potentielles depuis l'événement.
 
 ## Chiffres-clés

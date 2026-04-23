@@ -10,9 +10,6 @@ summary: |
 
   Group registrations fell 3.3% overall, but automotive revenue rose 6.5% (+8% at constant FX) thanks to partner deliveries (Micra built for Nissan in Douai, Geely distribution in Brazil). Mobilize Financial Services — Renault's captive auto-finance arm — kept its pace, with revenue up 13% to €1.72bn. Source: Les Echos, 23 April 2026, Lionel Steinmann.
 ---
-
-# Dacia weak start drags on Renault in Q1
-
 **The story in one line.** Dacia stumbles on Moroccan logistics but the Renault brand holds up thanks to electrics, and group revenue still rises 7.3%.
 
 ## Key numbers

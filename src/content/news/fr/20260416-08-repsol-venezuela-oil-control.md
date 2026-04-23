@@ -10,9 +10,6 @@ summary: |
 
   Le Venezuela détient les plus importantes réserves pétrolières au monde mais produit seulement 1 million de barils par jour, contre un pic historique d'environ 3,5 millions. Donald Trump pousse les majors occidentales à investir 100 Mds$ au Venezuela, même si Darren Woods, directeur général d'ExxonMobil, a qualifié en janvier le pays de « non investissable ». Le Trésor américain a autorisé mardi les institutions financières à traiter avec la banque centrale du Venezuela, et Caracas a adopté des réformes hydrocarbures et minières abaissant la fiscalité et réduisant le contrôle de l'État. Source : Financial Times, 16 avril 2026, Jamie Smyth et Joe Daniels.
 ---
-
-# Repsol reprend le contrôle opérationnel du pétrole vénézuélien, production visée x3
-
 **L'information en une phrase :** Repsol signe un nouvel accord avec Caracas pour reprendre le contrôle opérationnel de ses actifs pétroliers vénézuéliens et tripler la production en trois ans, alors que les réformes soutenues par Washington rouvrent le pays aux majors occidentales après la chute de Maduro.
 
 ## Chiffres clés

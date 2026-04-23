@@ -11,10 +11,6 @@ summary: |
   L'opération traduit le virage de Jardines vers un modèle de capital-investissement sous la direction du nouveau DG Lincoln Pan, ex-co-directeur du private equity chez PAG. Elle s'inscrit aussi dans la rotation d'actifs de CK Hutchison : cession d'UK Power Networks, cession prévue des ports hors Chine, IPO envisagées d'AS Watson et de l'activité télécoms mondiale. Source : Financial Times, 17 avril 2026, Arjun Neil Alim et Zijing Wu.
 order: 3
 ---
-
-
-# Jardines et CK Hutchison négocient un méga-rapprochement dans la distribution à Hong Kong
-
 **L'histoire en une phrase :** Jardines négocie le rachat de ParknShop à CK Hutchison pour la fusionner avec Wellcome, combinant les deux premières chaînes de supermarchés de Hong Kong.
 
 ## Chiffres clés

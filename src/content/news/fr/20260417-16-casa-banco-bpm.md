@@ -11,9 +11,6 @@ summary: |
 
   Une fusion entre la filiale italienne de Crédit Agricole et Banco BPM « aurait un fondement industriel solide », selon les analystes de Fitch Ratings, mais reste peu probable à court terme : Fitch n'attend pas « de développement sur ce deal potentiel en 2026 ». Les implications politiques liées à l'importance systémique de Banco BPM dans la péninsule la compliquent, et le groupe français applique des « critères très stricts », notamment la volonté de « ne pas perdre le contrôle de ce qu'il possède en Italie ». Source : Les Echos, 17 avril 2026, Olivier Tosseri.
 ---
-
-# Crédit Agricole accroît son influence au conseil de la banque italienne Banco BPM
-
 **L'essentiel en une phrase.** Crédit Agricole consolide sa position de premier actionnaire de Banco BPM, porte sa participation à 22,8 %, obtient quatre sièges au conseil d'administration de la banque milanaise, tandis qu'une fusion avec l'italienne reste peu probable en 2026.
 
 ## Chiffres-clés

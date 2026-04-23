@@ -11,10 +11,6 @@ summary: |
   A left-wing amendment aimed at reserving the status to French players was rejected — most major projects are led by US firms. Classification is not automatic (decree from the Prime Minister, criteria on critical size and sovereignty), and pressure will mount on grid operator RTE for connections. Environmental NGOs call the law a "catch-all" and question the environmental impact. Source: Les Echos, 15 April 2026, Joséphine Boone.
 order: 9
 ---
-
-
-# French simplification law: what changes for data-centre siting in France
-
 **The story in one line:** France's simplification law creates a "project of major national interest" status, targeting a cut in the delivery time of a major data centre from 5-7 years to about 10 months.
 
 ## Key numbers

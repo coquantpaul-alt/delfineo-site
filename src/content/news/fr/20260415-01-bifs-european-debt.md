@@ -7,9 +7,6 @@ summary: "Depuis le début de la guerre en Iran le 28 février, le Royaume-Uni, 
 insight: "Le vrai signal n'est pas le mouvement absolu des taux — c'est que les Gilts britanniques et les BTP italiens affichent désormais leur plus forte corrélation depuis des décennies. Les investisseurs obligataires traitent ces deux pays comme un trade unique de vulnérabilité budgétaire, dans l'écho du groupe « Piigs » des années 2010. La France, autrefois clairement dans le « cœur », est tirée dans le même panier. Pour les valorisations actions européennes, cela signifie un taux d'actualisation plus élevé plus longtemps, indépendamment de ce que fera la BCE."
 order: 2
 ---
-
-# Les « Bifs » remplacent les « Piigs » comme souffre-douleur du marché obligataire européen
-
 **L'histoire en une phrase :** Depuis le début de la guerre en Iran le 28 février, le Royaume-Uni, l'Italie et la France (« les Bifs ») ont vu leurs coûts d'emprunt d'État grimper plus que tout autre grand pays européen, car les investisseurs estiment qu'ils sont les moins bien placés pour financer davantage de dépenses en défense et en énergie.
 
 ## Chiffres clés

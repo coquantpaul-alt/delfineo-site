@@ -11,9 +11,6 @@ summary: |
 
   Le dossier nucléaire reste le principal point de blocage. Trump exige que l'Iran remette ses 440 kg d'uranium enrichi, tandis que Téhéran défend son droit à enrichir et veut reconstruire ses sites de Natanz et Fordow, bombardés lors de la guerre de 12 jours menée par Israël en juin dernier. Le Pakistan joue les médiateurs ; le cessez-le-feu de deux semaines expire mardi soir. Source : Financial Times, 17 avril 2026, Andrew England, Malcolm Moore, Humza Jilani et Steff Chávez.
 ---
-
-# Le pétrole chute après l'annonce de la réouverture du détroit d'Ormuz par Washington et Téhéran, mais le trafic reste perturbé
-
 **L'essentiel en une phrase.** Une réouverture verbale du détroit d'Ormuz par Téhéran et Washington a fait chuter le pétrole, mais le trafic réel reste fragmenté : la guerre — et le bras de fer nucléaire qui la structure — n'est pas encore résolue.
 
 ## Chiffres-clés

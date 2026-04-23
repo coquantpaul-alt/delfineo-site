@@ -11,9 +11,6 @@ summary: |
 
   The picture is not uniformly bleak. Renault's electric R5 and R4 are meeting European demand, and France remains both groups' R&D and design headquarters. But the underlying trend is clear: France has become a distribution market more than a production country. Rebalancing would require either a marked cut in production costs, a durable technological edge (electric, hydrogen, software), or a coordinated EU industrial policy with Germany. All three are missing. Source: Les Echos, 20 April 2026, Julien Dupont-Calbo et al.
 ---
-
-# Autos: France drops to 5th place in European car production
-
 **The story in one line.** France produced about 986,000 cars in 2025, more than four times fewer than in 2002, slipping to 5th place in Europe behind Germany, Spain, the Czech Republic and Slovakia.
 
 ## Key numbers

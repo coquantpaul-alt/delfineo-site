@@ -10,9 +10,6 @@ summary: |
 
   Concurrents et analystes critiquent le projet : Savanthi Syth (Raymond James) dit que le sauvetage maintiendrait des « capacités inefficaces » sur le marché ; Scott Kirby (United) estime que les transporteurs low-cost rivaux devraient être « furieux ». Spirit emploie plus de 11 000 personnes en Floride, Etat d'adoption de Donald Trump. Source : Financial Times, 22 avril 2026, Sujeet Indap et Christian Davies.
 ---
-
-# Les Etats-Unis envisagent un sauvetage à 500 M$ de Spirit Airlines
-
 **L'histoire en une ligne.** Washington s'apprête à devenir actionnaire majoritaire de Spirit Airlines pour la garder en vol — intervention directe dans une compagnie low-cost dont les rivaux jugent l'aide distorsive.
 
 ## Chiffres clés

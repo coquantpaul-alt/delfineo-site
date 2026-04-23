@@ -10,9 +10,6 @@ summary: |
 
   Deployment is constrained by charging infrastructure: Tesla has mapped around 60 'megacharger' sites along major corridors, each capable of 1.2 MW of output — enough to bring the battery to 60% in half an hour. Diesel prices, driven higher by the Iran war, strengthen the economic case for fleets, though the truck remains a heavy upfront investment. A European launch is envisaged but has no timeline. Batteries are produced at the Sparks gigafactory in a new compact cube architecture derived from the Cybertruck. Source: Les Echos, 15 April 2026, Bastien Bouchaud.
 ---
-
-# Tesla Semi electric trucks finally hit US roads after a decade of delays
-
 **The story in one line:** Nearly a decade after its 2017 unveil, Tesla's all-electric Semi truck enters commercial rollout from a dedicated Nevada factory, with first customer deliveries slated for summer 2026.
 
 ## Key numbers

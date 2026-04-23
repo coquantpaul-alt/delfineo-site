@@ -11,9 +11,6 @@ summary: |
 
   La politique commence à bouger. En novembre, le ministère chinois de l'Agriculture et des Affaires rurales a tenu une conférence de travail qui signale explicitement le « retour massif et le maintien à la campagne » des travailleurs. Pékin a publié des directives pour améliorer l'offre d'emplois aux migrants, y compris des subventions de transport pour la mobilité interprovinciale. Le recruteur de Longhui résume le risque sans fard : « Pratiquement chaque village a maintenant un nombre de travailleurs échoués. En termes d'ordre social, ce n'est pas génial. » Pékin ne publie pas de chiffres annuels sur les retours, mais les analystes jugent que la tendance s'accélère depuis 2023. Source : Financial Times, 18 avril 2026, William Langley (avec la contribution de Tina Hu).
 ---
-
-# Les travailleurs migrants chinois cessent de partir, faute d'emplois urbains
-
 **L'histoire en une phrase.** Les 300 millions de migrants chinois — le plus grand flux de main-d'œuvre de l'histoire moderne — freinent : une génération plus âgée est évincée des embauches urbaines tirées par l'IA, les vieux bassins industriels se réduisent, et Pékin commence à discuter du risque d'« ordre social » en interne.
 
 ## Chiffres clés

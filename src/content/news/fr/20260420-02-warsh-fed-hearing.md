@@ -11,9 +11,6 @@ summary: |
 
   La confirmation de Warsh est bloquée par le sénateur républicain Thom Tillis tant que l'enquête criminelle visant Powell, menée par la procureure Jeanine Pirro, n'est pas classée. Le mandat de Powell s'achève le 15 mai ; il dit vouloir rester président par intérim jusqu'à ce que Warsh obtienne les 51 voix républicaines nécessaires. Trump a menacé de limoger Powell s'il ne part pas « à l'heure ». Source : Financial Times, 20 avril 2026, Claire Jones et Amelia Pollard.
 ---
-
-# Kevin Warsh : le prochain bouc émissaire de Trump à la Fed ?
-
 **L'histoire en une phrase.** Kevin Warsh, choisi par Donald Trump pour présider la Réserve fédérale, affronte mardi ses auditions de confirmation au Sénat, fort d'un passé de faucon, d'un agenda de réforme de la banque centrale et face à un président qui exige des baisses de taux massives en plein choc inflationniste pétrolier.
 
 ## Chiffres clés

@@ -10,9 +10,6 @@ summary: |
 
   Fuel price rises after the US-Israeli strikes on Iran in late February have added a new tailwind to EV demand, according to local dealers. Analysts including HSBC's Yuqian Ding expect lower-tier consumers to follow tier-one and tier-two trends but gravitate toward affordable local brands. Source: Financial Times, 22 April 2026.
 ---
-
-# Can EVs kill off petrol cars in China?
-
 **The story in one line.** China's EVs (including plug-in hybrids) caught petrol cars in annual sales last year — and the state's three-year charging build-out plus a post-Iran fuel shock are pulling the crossover forward.
 
 ## Key numbers

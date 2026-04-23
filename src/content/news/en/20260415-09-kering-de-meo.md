@@ -7,9 +7,6 @@ summary: "Seven months after being appointed CEO of Kering (owner of Gucci, Yves
 insight: "Read together with our Hermès Q1 brief, this article completes the picture of European luxury bifurcating. Hermès still prints €4.07bn of quarterly revenue despite tourist headwinds; Kering is stabilising only because Gucci has been cut, restructured, and leveraged down. The De Meo playbook — management from automotive, ruthless footprint rationalisation, integrated industrial logic, store-by-store sales-per-square-metre scrutiny — is closer to a Renault-style turnaround than a traditional luxury reset. The tell on 16 April will be whether he commits to medium-term margin targets for Gucci (two-thirds of profit, currently broken) or gives himself a multi-year runway. A credible plan could reset the bear case; a soft one would confirm the structural damage."
 order: 9
 ---
-
-# Luca de Meo's Kering playbook: restructure, divest, refocus — before the Florence showdown
-
 **The story in one line:** Seven months in at the helm of Kering, the former Renault CEO unveils his strategic plan Thursday in Florence — with a management reshuffle, a portfolio reorganisation and €2.5bn of debt reduction already behind him.
 
 ## Key numbers

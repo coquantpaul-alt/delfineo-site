@@ -6,9 +6,6 @@ dateDisplay: "April 15, 2026"
 summary: "Amazon has confirmed it will acquire satellite operator Globalstar in a $11.57bn (€9.81bn) deal, paying up to $90 per share in cash or Amazon stock. The acquisition plugs Globalstar's 25 low-Earth-orbit satellites and — crucially — its prized MSS spectrum licences into Amazon's own Amazon Leo constellation, which is meant to reach 7,700 satellites but currently has only about 200 in orbit. Globalstar is also Apple's exclusive partner for satellite emergency messaging on the iPhone; Apple owns 20% of Globalstar, so the deal brings Amazon into Apple's ecosystem. For reference, SpaceX paid close to $20bn in 2025 for EchoStar and its spectrum, which has four times the bandwidth of Globalstar's — so Amazon will be limited to voice and messaging initially (not 4G/5G from space like Starlink's ambition). Amazon has separately promised a next-generation direct-to-device (D2D) system 'from 2028', without detail. Amazon is behind on its FCC commitment of 1,600 satellites by July 2026, has asked for an extension, and is lobbying the FCC to block Musk's plan to launch up to one million satellites. The company's share price has risen from $200 to nearly $250 since the first rumours in early April, with +4% on the deal announcement and +10% for Globalstar. The satellite-internet market is projected to reach $200bn. Source: Les Échos, 15 April 2026 — Thomas Pontiroli."
 order: 10
 ---
-
-# Amazon buys Globalstar for $11.6bn, escalating the space-telecom war with SpaceX
-
 **The story in one line:** Amazon has committed **$11.57bn** to acquire Globalstar, a move designed to close the spectrum gap with SpaceX/Starlink and get closer to Apple in satellite-to-phone connectivity.
 
 ## Key numbers

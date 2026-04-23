@@ -11,10 +11,6 @@ summary: |
   Le cadre retenu reste limité dans un premier temps : missions d'assistance technique, surveillance macroéconomique, dialogue sur la stabilisation monétaire. Les programmes financiers de grande ampleur, eux, supposeraient une restructuration préalable de la dette extérieure, estimée à plus de 150 Mds$ tous créanciers confondus (bons souverains, PDVSA, arriérés). Pour les marchés obligataires et les créanciers pétroliers, ce rapprochement constitue un premier signal de réintégration du Venezuela dans l'architecture financière internationale. Source : Les Echos, 17 avril 2026, Claude Fouquet.
 order: 10
 ---
-
-
-# Le Venezuela renoue avec le FMI et la Banque mondiale après sept ans de rupture
-
 **L'histoire en une phrase :** Caracas et Washington rétablissent des relations institutionnelles avec le FMI et la Banque mondiale, ouvrant potentiellement l'accès à 5 Mds$ de DTS gelés depuis 2021.
 
 ## Chiffres clés

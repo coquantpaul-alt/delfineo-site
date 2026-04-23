@@ -10,9 +10,6 @@ summary: |
 
   Vendredi, les dirigeants ouvrent pour la première fois le dossier toxique du budget européen 2028-2034 : il faut financer les nouvelles priorités (défense, compétitivité, recherche) et rembourser le grand emprunt post-Covid sans creuser les contributions nationales. La présidence irlandaise du second semestre vise un accord fin 2026 pour des premiers décaissements en janvier 2028, calendrier jugé irréaliste par la plupart des diplomates. Source : Les Echos, 23 avril 2026, Karl De Meyer.
 ---
-
-# Les Vingt-Sept à Chypre : Moyen-Orient, défense et budget 2028-2034
-
 **L'histoire en une ligne.** Un sommet européen informel à Nicosie tente d'opérationnaliser une clause d'assistance mutuelle et d'absorber le choc énergétique iranien, avant d'ouvrir le dossier piégé du budget 2028-2034.
 
 ## Chiffres clés

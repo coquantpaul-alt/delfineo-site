@@ -10,9 +10,6 @@ summary: |
 
   Earlier negotiations in Islamabad, involving Vance, Jared Kushner and Steve Witkoff, ran 21 hours without a breakthrough. Iran's Tasnim news agency said messages exchanged this week had produced "no meaningful progress", and Iran's ambassador to the UN accused the US of piracy after it seized an Iranian vessel off Oman. Source: Financial Times, 21 April 2026, Abigail Hauslohner and Lauren Fedor.
 ---
-
-# Donald Trump extends Iran ceasefire as peace talks hit impasse
-
 **The story in one line.** Trump prolonged the US-Iran ceasefire at Pakistan's request, even as planned talks collapsed and the US kept reinforcing its Gulf military footprint.
 
 ## Key numbers

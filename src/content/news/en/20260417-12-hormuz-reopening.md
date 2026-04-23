@@ -11,9 +11,6 @@ summary: |
 
   A nuclear deal remains the main sticking point. Trump demands Iran hand over its 440kg stockpile of enriched uranium, while Tehran insists on its right to enrich and wants to rebuild its Natanz and Fordow enrichment sites, both bombed during Israel's 12-day war last June. Pakistan is mediating; the current two-week ceasefire expires Tuesday night. Source: Financial Times, 17 April 2026, Andrew England, Malcolm Moore, Humza Jilani and Steff Chávez.
 ---
-
-# Oil falls as US and Iran declare Strait of Hormuz open to shipping, but tanker traffic stays disrupted
-
 **The story in one line.** A verbal reopening of the Strait of Hormuz by Tehran and Washington sent oil down sharply, but real tanker traffic stayed patchy, underscoring that the war — and the nuclear standoff at its core — is not yet settled.
 
 ## Key numbers

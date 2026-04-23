@@ -11,10 +11,6 @@ summary: |
   La chimie allemande, très consommatrice d'énergie, est la plus touchée : la production est revenue aux niveaux de fin 2004 (données Bundesbank), et les usines ferment faute de taux d'utilisation. Les faillites du T1 atteignent leur plus haut niveau en plus de 20 ans, au-dessus du pic de 2009, et le chômage dépasse de 30 % les niveaux d'avant pandémie. Pour Clemens Fuest (Ifo), « la stagnation est la nouvelle norme » outre-Rhin. Source : Financial Times, 17 avril 2026, Olaf Storbeck et Anne-Sylvaine Chassany.
 order: 1
 ---
-
-
-# La guerre en Iran pousse l'Allemagne vers une quatrième année de stagnation
-
 **L'histoire en une phrase :** Le choc énergétique lié à la guerre américano-iranienne contraint Berlin à diviser par deux sa prévision de croissance 2026, l'Allemagne glissant vers une quatrième année consécutive de stagnation.
 
 ## Chiffres clés

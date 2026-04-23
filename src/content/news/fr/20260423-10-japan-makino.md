@@ -10,9 +10,6 @@ summary: |
 
   La décision pourrait refroidir le private equity étranger au Japon, où MBK — fondé en 2005 par l'ancien dirigeant de Carlyle Michael Byung Ju Kim, aujourd'hui 33 Mds$ d'actifs sous gestion — est l'un des acheteurs les plus actifs. MBK discutait avec Tokyo depuis dix mois après avoir remporté le deal ; il s'était positionné suite au retrait de Nidec, confronté à une « pilule empoisonnée » de Makino. Le fonds américain Carlyle et plusieurs acteurs japonais sont en embuscade. Source : Financial Times, 23 avril 2026, Harry Dempsey, David Keohane et Daniel Tudor.
 ---
-
-# Le Japon bloque le rachat de Makino par MBK pour 1,7 Md$
-
 **L'histoire en une ligne.** Tokyo intervient formellement pour bloquer le rachat étranger d'un fabricant de machines-outils proche de la défense — premier blocage dur d'un deal FDI au Japon depuis 18 ans.
 
 ## Chiffres clés

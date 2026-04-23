@@ -7,9 +7,6 @@ summary: "Sept mois après sa nomination à la tête de Kering (propriétaire de
 insight: "Lu avec notre brief sur le T1 d'Hermès, cet article complète le tableau de la bifurcation du luxe européen. Hermès imprime toujours 4,07 Mds€ de revenus trimestriels malgré le choc touristique ; Kering ne se stabilise que parce que Gucci a été taillée, restructurée, et le bilan allégé. Le playbook De Meo — management venu de l'automobile, rationalisation implacable du réseau, logique industrielle intégrée, examen des ventes au m² boutique par boutique — tient davantage du redressement à la Renault que du reset traditionnel dans le luxe. Le signal à surveiller le 16 avril : De Meo s'engage-t-il sur des objectifs de marge à moyen terme pour Gucci (deux tiers du profit, aujourd'hui cassé), ou se laisse-t-il un horizon pluriannuel ? Un plan crédible peut invalider le scénario baissier ; un plan mou le confirmera."
 order: 9
 ---
-
-# Le plan Luca de Meo pour Kering : restructurer, céder, recentrer — avant le « grand oral » de Florence
-
 **L'histoire en une phrase :** Sept mois à la tête de Kering, l'ex-patron de Renault dévoile jeudi son plan stratégique à Florence — après avoir déjà mené une réorganisation managériale, une refonte du portefeuille et 2,5 Mds€ de réduction de dette.
 
 ## Chiffres clés

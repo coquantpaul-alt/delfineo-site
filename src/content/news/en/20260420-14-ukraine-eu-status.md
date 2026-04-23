@@ -11,9 +11,6 @@ summary: |
 
   One important concession: the EU's mutual defence clause (Article 42.7) "could be made de facto applicable through a mere political declaration", per the German paper - a meaningful security boost with NATO membership off the table. Hungary's Viktor Orbán, who had vetoed opening membership talks with Ukraine, was recently defeated in elections, unblocking some process but not changing the fundamental reluctance of France and Germany. Source: Financial Times, 20 April 2026, Paola Tamma, Henry Foy and Christopher Miller.
 ---
-
-# France and Germany plan 'symbolic' EU membership benefits for Ukraine
-
 **The story in one line.** Paris and Berlin have drafted parallel proposals to give Ukraine a visible but watered-down form of EU membership - with a defence clause but without the farm subsidies or voting rights that Kyiv had hoped for.
 
 ## Key numbers

@@ -10,9 +10,6 @@ summary: |
 
   La politique d'actionnariat salarié, historique depuis la privatisation de 1987, a été relancée par Slawomir Krupa à son arrivée avec un rythme annuel (contre un plan tous les trois ans auparavant) : la part des salariés était de 7,93 % fin 2022, 9,84 % fin 2023, 10,23 % fin 2024 avant le retrait récent. La CFDT conteste l'assimilation à de la rémunération et l'engagement interne est à un plus bas historique. Source : Les Echos, 23 avril 2026, Gabriel Nédélec.
 ---
-
-# Société Générale : 900 millions d'euros encaissés par les salariés actionnaires
-
 **L'histoire en une ligne.** Les salariés-actionnaires de Société Générale ont pris leurs bénéfices après une hausse de 153 % du cours en 2025 — environ 900 M€ bruts encaissés sur 19 millions d'actions.
 
 ## Chiffres clés

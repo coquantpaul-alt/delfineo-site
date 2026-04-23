@@ -10,9 +10,6 @@ summary: |
 
   La Commission européenne, saisie par le VDMA allemand, a ouvert une enquête anti-subventions sur les grues mobiles, et de nouveaux droits de douane s'appliquent déjà aux plateformes élévatrices. Les ventes françaises de matériels ont reculé de 1 % en 2025, avec -13 % sur les gros engins de terrassement — la deuxième plus mauvaise année depuis 2014. Evolis prévient que la menace chinoise est « un tsunami », surtout dans l'électrique. Source : Les Echos, 16 avril 2026, Christophe Palierse.
 ---
-
-# Engins de chantier : les marques chinoises déferlent sur la France, « un tsunami »
-
 **L'information en une phrase :** Après les panneaux solaires, les pompes à chaleur et la voiture électrique, les engins de chantier et de logistique sont le prochain marché industriel européen à être bousculé par une vague d'acteurs chinois agressifs — et la France est la cible prioritaire.
 
 ## Chiffres clés

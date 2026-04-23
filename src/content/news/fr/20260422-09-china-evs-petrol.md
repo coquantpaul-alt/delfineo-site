@@ -10,9 +10,6 @@ summary: |
 
   La hausse du prix des carburants depuis les frappes américano-israéliennes contre l'Iran fin février donne un coup de pouce supplémentaire à la demande d'électriques, selon les concessionnaires. Des analystes comme Yuqian Ding (HSBC) s'attendent à ce que les consommateurs des villes moyennes suivent les tendances de niveau 1 et 2, mais se tournent vers des marques locales plus abordables. Source : Financial Times, 22 avril 2026.
 ---
-
-# Les voitures électriques peuvent-elles tuer l'essence en Chine ?
-
 **L'histoire en une ligne.** Les électriques chinoises (hybrides rechargeables compris) ont rattrapé les thermiques en ventes annuelles l'an dernier — et le déploiement de bornes plus le choc pétrolier post-Iran accélèrent le basculement.
 
 ## Chiffres clés

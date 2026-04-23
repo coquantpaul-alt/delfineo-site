@@ -10,9 +10,6 @@ summary: |
 
   Within two to three years the reform is expected to generate about €250m per year for universities, seen as badly needed in a tight budget context. The government also wants to prioritise science and engineering to support reindustrialisation. The reform will apply by decree to new arrivals and to students changing cycle, excluding scholarship holders. Source: Les Echos, 21 April 2026, Marie-Christine Corbier.
 ---
-
-# French government tightens selection of foreign students
-
 **The story in one line.** Paris is multiplying non-EU tuition fees by roughly 15 to fund universities and steer foreign students toward science and engineering — while teeing up a pre-presidential wedge issue.
 
 ## Key numbers

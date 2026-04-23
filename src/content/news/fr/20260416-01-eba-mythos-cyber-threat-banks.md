@@ -10,9 +10,6 @@ summary: |
 
   Le gouverneur de la Banque d'Angleterre, Andrew Bailey, a qualifié le risque cyber de menace « qui ne disparaît jamais » depuis la crise de 2008. Les systèmes informatiques « legacy » des banques (logiciels de base vieux de plusieurs décennies) sont jugés particulièrement exposés, du fait d'un empilement d'outils modernes et d'un secteur très interconnecté utilisant un ensemble restreint de prestataires pour l'onboarding, le KYC (« Know Your Customer », contrôle anti-blanchiment) et le traitement des transactions. Michaud cite l'AI Act européen et DORA (le règlement sur la résilience opérationnelle numérique encadrant le risque IT des banques) comme défenses. Source : Les Echos, 16 avril 2026, Ingrid Feuerstein.
 ---
-
-# L'EBA place Mythos, la nouvelle IA d'Anthropic, en tête de ses priorités cyber
-
 **L'information en une phrase :** Les régulateurs bancaires mondiaux — désormais rejoints par l'EBA sous la direction de son nouveau président François-Louis Michaud — ont fait de Mythos, le modèle non diffusé d'Anthropic, une menace cyber de premier plan pour le système financier.
 
 ## Chiffres clés

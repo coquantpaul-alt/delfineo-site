@@ -11,10 +11,6 @@ summary: |
   Dans le cadre de l'opération, OnlyFans développera avec Architect des services financiers pour ses créateurs, souvent exclus du système bancaire traditionnel. Radvinsky, entrepreneur ukraino-américain ayant racheté la maison mère Fenix International en 2018, est décédé à 43 ans d'un cancer. La cession ouvre la voie à d'autres sorties, tout en maintenant la fiducie familiale aux commandes. Source : Financial Times, 17 avril 2026, Daniel Thomas, Kieran Smith et Oliver Barnes.
 order: 2
 ---
-
-
-# OnlyFans valorisé plus de 3 Mds$ lors d'une cession minoritaire après la mort du propriétaire
-
 **L'histoire en une phrase :** Architect Capital s'apprête à entrer au capital d'OnlyFans à moins de 20 % sur une valorisation supérieure à 3 Mds$, premier investissement externe depuis le décès du fondateur Leonid Radvinsky.
 
 ## Chiffres clés

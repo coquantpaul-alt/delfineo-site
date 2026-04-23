@@ -11,9 +11,6 @@ summary: |
   Jon Cox at Kepler Cheuvreux called it "more of a reset under the new chief executive" and pointed to structural pressures on demand, including GLP-1 weight-loss drugs ("In a GLP-1 world, how much will chocolate volumes still grow?"). Retail chocolate prices are still up about 10% year-on-year, weighing on consumption. Volumes should recover in H2; full-year decline is now forecast at 1–3%. Cocoa prices have more than halved in recent months. The stock had gained over 55% in the past year before Thursday's fall. Source: Financial Times, 16 April 2026, Susannah Savage.
 order: 11
 ---
-
-# Barry Callebaut cuts profit forecast, shares fall over 15% as cocoa prices tumble
-
 **The story in one line:** New CEO Hein Schumacher's first guidance update at Barry Callebaut, the world's biggest chocolate processor, swings from "growth" to "mid-teens decline" in EBIT — a cocoa-price whiplash combined with weak demand that the market read as a structural reset.
 
 ## Key numbers

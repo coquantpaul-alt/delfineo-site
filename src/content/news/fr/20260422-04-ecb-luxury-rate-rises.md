@@ -10,9 +10,6 @@ summary: |
 
   Les cours du pétrole ont reflué depuis leur pic post-guerre et les prix du gaz européen restent très en deçà de 2022. Kazāks prévient toutefois que « beaucoup de blessures sont encore fraîches » et que « chaque semaine apporte du nouveau », justifiant la patience plutôt que le préemptif. Source : Financial Times, 22 avril 2026, Olaf Storbeck.
 ---
-
-# La BCE a le « luxe » d'attendre avant de remonter les taux, selon un gouverneur
-
 **L'histoire en une ligne.** Kazāks, à la BCE, renvoie les marchés à leur copie avant la réunion du 30 avril — pétrole redescendu, anticipations d'inflation ancrées, et un conseil qui veut plus de données avant d'agir.
 
 ## Chiffres clés

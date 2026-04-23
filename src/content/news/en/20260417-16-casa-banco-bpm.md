@@ -11,9 +11,6 @@ summary: |
 
   A merger between Crédit Agricole's Italian subsidiary and Banco BPM "would have a solid industrial rationale", Fitch Ratings' analysts say, but remains unlikely in the near term: Fitch does not expect "developments on this potential deal in 2026". The political implications tied to Banco BPM's systemic importance in Italy complicate it, and the French group applies "very strict criteria", notably the wish "not to lose control over what it owns in Italy". Source: Les Echos, 17 April 2026, Olivier Tosseri.
 ---
-
-# Crédit Agricole tightens its grip on the board of Italian bank Banco BPM
-
 **The story in one line.** Crédit Agricole cements its position as Banco BPM's top shareholder with a 22.8 per cent stake and four board seats at the Milan bank, while a merger with the Italian lender remains unlikely in 2026.
 
 ## Key numbers

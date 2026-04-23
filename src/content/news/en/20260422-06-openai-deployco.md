@@ -10,9 +10,6 @@ summary: |
 
   The backers have been guaranteed a 17.5% annual return over five years, a floor OpenAI expects to beat, according to a person briefed on the plans. That is roughly the minimum a PE fund might target, and the guarantee reduces investor risk. In return, OpenAI secures "patient capital" tied to its distribution channel. Source: Financial Times, 22 April 2026, George Hammond.
 ---
-
-# OpenAI in talks to commit up to $1.5bn to private-equity joint venture
-
 **The story in one line.** OpenAI is locking up $4bn of private-equity capital and a 17.5% return guarantee to bolt its own deployment arm onto their portfolio companies — a direct strike at Anthropic in the enterprise market.
 
 ## Key numbers

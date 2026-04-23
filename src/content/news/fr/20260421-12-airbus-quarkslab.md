@@ -11,9 +11,6 @@ summary: |
 
   L'acquisition d'Ultra, racheté au britannique Cobham, apporte le chiffrement de très haut niveau et la gestion des clés pour les Five Eyes (États-Unis, Royaume-Uni, Canada, Australie, Nouvelle-Zélande) et l'Otan, dont la cryptographie des communications avion-sol. Infodas (250 experts) sécurise les passerelles entre niveaux d'habilitation (« restreint » vs « secret », armées nationales vs Otan), en vue de programmes pan-européens comme le SCAF. Airbus sécurise aussi les systèmes RIFAN et Syracuse de la Marine et contribue à la constellation Iris2. Source : Les Echos, 21 avril 2026, Anne Drif.
 ---
-
-# Airbus met la main sur Quarkslab, spécialiste français de la cyberdéfense
-
 **L'essentiel en une phrase.** Troisième acquisition cyber-défense d'Airbus en deux ans, le rachat de Quarkslab porte ses effectifs cyber défense à 1 600 experts et positionne le groupe comme « bouclier digital de l'Europe » pour les armées.
 
 ## Chiffres clés

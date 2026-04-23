@@ -11,9 +11,6 @@ summary: |
 
   Hernández de Cos is seen as a centrist with a slight dovish tilt; Nagel and Knot are moderate hawks. Spain and Germany have never held the top job in the ECB's 27-year history, but the European Commission is already run by a German (Ursula von der Leyen), which works against Nagel. Late compromise candidates have often emerged in past races — Lagarde's own 2019 nomination surprised observers. Source: Financial Times, 20 April 2026, Olaf Storbeck.
 ---
-
-# ECB frontrunner Hernández de Cos is most qualified candidate for top job, economists say
-
 **The story in one line.** A poll of 20 monetary policy experts by think-tank OMFIF puts Pablo Hernández de Cos — BIS chief and former Bank of Spain governor — narrowly ahead of three central-bank rivals in the race to succeed Christine Lagarde at the ECB.
 
 ## Key numbers

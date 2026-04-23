@@ -11,9 +11,6 @@ summary: |
 
   Prometheus est basé à San Francisco avec des bureaux à Londres et Zurich, sous la direction de Bezos et du co-DG Vikram Bajaj. Le groupe a recruté des centaines de personnes : chercheurs en IA, experts sectoriels, ingénieurs d'infrastructure. Début avril, le FT a révélé le recrutement de Kyle Kosic, ancien d'OpenAI et co-fondateur de xAI, qui dirigeait le supercalculateur Colossus de Musk. Source : Financial Times, 20 avril 2026, Cristina Criddle et George Hammond.
 ---
-
-# Le laboratoire d'IA de Jeff Bezos, Prometheus, proche d'une valorisation de 38 Mds USD
-
 **L'essentiel en une phrase.** Le projet d'IA discret de Bezos, dédié à une IA qui comprend les lois de la physique, boucle un tour de 10 Mds USD à 38 Mds USD de valorisation — complété par une holding d'investissement distincte de plusieurs dizaines de milliards pour racheter ses futurs clients.
 
 ## Chiffres clés

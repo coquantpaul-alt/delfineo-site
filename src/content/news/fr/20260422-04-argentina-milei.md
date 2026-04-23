@@ -10,9 +10,6 @@ summary: |
 
   Les investisseurs saluent toujours la désinflation, l'assouplissement du contrôle des changes et la reconstitution des réserves de change, mais le stratège Ramiro Blazquez Giomi (StoneX) avertit que le gouvernement devra « donner de l'air » aux secteurs fragilisés avant la réélection visée en 2027. Milei veut basculer l'économie de l'industrie vers la mine, l'énergie, l'agriculture et la tech — qui ne représentent aujourd'hui que 12 % de l'emploi. Source : Financial Times, 22 avril 2026, Ciara Nugent.
 ---
-
-# Argentine : la plus forte contraction mensuelle depuis l'arrivée de Milei
-
 **L'histoire en une ligne.** Une baisse de 2,6 % sur un mois est la plus forte depuis l'entrée en fonction de Milei, signe que sa désinflation continue de frapper les secteurs qui emploient le plus d'Argentins.
 
 ## Chiffres clés

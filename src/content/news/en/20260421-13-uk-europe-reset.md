@@ -11,9 +11,6 @@ summary: |
 
   Brussels has little incentive to move faster: "We have a list of 10 priorities that are far higher," said one EU diplomat. Nigel Farage's Reform UK, topping the polls, has vowed to tear up any reset. The first 18 months of talks have "sapped confidence on both sides", with Labour's hoped-for quick wins - like restoring access for touring musicians - rebuffed as "cherry-picking". Source: Financial Times, 21 April 2026, Peter Foster, George Parker and Andy Bounds.
 ---
-
-# Too late for Starmer to turn the UK back to Europe?
-
 **The story in one line.** Starmer has finally made closer EU ties his defining political pitch, but the July summit package will deliver only a small fraction of the economic hit Brexit caused - and Brussels has other priorities.
 
 ## Key numbers

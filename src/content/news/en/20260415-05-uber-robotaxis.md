@@ -7,9 +7,6 @@ summary: "Uber is abandoning its 'asset-light' gig-economy model and committing 
 insight: "The real bet is on 'financialisation': Uber plans to have fleet managers, institutional investors and private credit ultimately own and finance the robotaxis — turning self-driving fleets into a tradable asset class, like data centres. If that works, Uber stays the consumer gateway without bearing the full capital cost. If it doesn't, Uber becomes a structurally capital-intensive business competing against three trillion-dollar balance sheets (Alphabet, Tesla, Amazon). Watch the take rate — already down from 30% to under 20% net of insurance in the US."
 order: 6
 ---
-
-# Uber commits $10 bn to robotaxis in a strategy U-turn
-
 **The story in one line:** Uber is abandoning its famous "asset-light" model and committing over **$10 bn** to buy self-driving cars and take stakes in their makers, trying to stay relevant as Waymo, Tesla and Amazon's Zoox threaten to bypass it entirely.
 
 ## Key numbers

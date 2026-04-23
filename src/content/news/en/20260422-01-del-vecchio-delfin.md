@@ -10,9 +10,6 @@ summary: |
 
   The stakes go beyond the succession: EssilorLuxottica is Giorgio Armani's designated candidate to take over his luxury group, and the optics giant's board will be renewed in spring 2027. Separately, EssilorLuxottica reported Q1 revenue of €7.13bn, up 10.8% at constant currencies. Source: Les Echos, 22 April 2026, Olivier Tosseri.
 ---
-
-# Leonardo-Maria Del Vecchio to take €10bn control of EssilorLuxottica's holding
-
 **The story in one line.** One heir is about to lock down the family holding that controls EssilorLuxottica, Generali and BMPS — and, through it, the fate of Armani.
 
 ## Key numbers

@@ -11,9 +11,6 @@ summary: |
 
   In Germany, the aerospace industry and the IG Metall union are pushing for two separate aircraft, keeping common pillars for drones and a "combat cloud". Conservative MP Volker Mayer-Lay is calling for an immediate switch to the two-aircraft solution. Dassault CEO Eric Trappier had himself flagged the date at the early-April "Guerres et paix" forum: "We will meet again on 18 April". Source: Les Echos, 18 April 2026, Emmanuel Grasland and Anne Drif.
 ---
-
-# SCAF: both mediators have delivered their reports — Paris and Berlin now have to decide
-
 **The story in one line.** Collet-Billon and Haun have wrapped up their "rapprochement mission" between Dassault and Airbus Defence & Space on SCAF; with no visible industrial accord, the political decision now sits with Paris and Berlin — with a German deadline floated for Tuesday.
 
 ## Key numbers

@@ -11,9 +11,6 @@ summary: |
 
   Warsh's confirmation is blocked by Republican senator Thom Tillis until the criminal probe of Powell by US attorney Jeanine Pirro is dropped. Powell's term ends 15 May; he says he will stay on as pro tem chair until Warsh gets the 51 Republican votes needed to win. Trump has threatened to fire Powell if he does not leave "on time". Source: Financial Times, 20 April 2026, Claire Jones and Amelia Pollard.
 ---
-
-# Kevin Warsh: Trump's next fall guy at the Fed?
-
 **The story in one line.** Kevin Warsh, Donald Trump's pick to chair the US Federal Reserve, faces his Senate confirmation hearings on Tuesday with a hawkish record, a reform agenda for the central bank and a president demanding deep rate cuts into an oil-driven inflation shock.
 
 ## Key numbers

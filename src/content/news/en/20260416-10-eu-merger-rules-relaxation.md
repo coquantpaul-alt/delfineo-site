@@ -11,9 +11,6 @@ summary: |
   Commission President Ursula von der Leyen has championed this "new approach" supporting companies "scaling up in global markets". Resistance is coming from some liberal member states and parts of the Commission worried that looser rules would hurt innovation, dampen investment, and force consumers to pay more. Dealmakers and investors have long anticipated the reforms, which could unlock consolidation across European industries. The Commission declined to comment. Source: Financial Times, 16 April 2026, Barbara Moens.
 order: 10
 ---
-
-# Brussels plans biggest EU merger-rules relaxation in decades to build 'European champions'
-
 **The story in one line:** Draft EU merger guidelines seen by the FT would, for the first time in over two decades, give explicit weight to scale, innovation and resilience — tilting Brussels towards approving the kind of consolidation needed to build European champions against US and Chinese rivals.
 
 ## Key numbers

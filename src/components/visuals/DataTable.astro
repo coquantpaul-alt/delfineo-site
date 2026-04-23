@@ -1,0 +1,23 @@
+---
+// <DataTable> — wrapper that styles an inner Markdown table with a
+// financial-research register (tight rows, numeric alignment, thin rules).
+//
+// Usage in .mdx:
+//   <DataTable caption="Cellnex, FY results" source="Company filings, Bloomberg">
+//     | €m          | 2022 | 2023 | 2024 |
+//     | ----------- | ---: | ---: | ---: |
+//     | Revenue     | 3,503| 3,925| 4,110|
+//     | EBITDA adj. | 2,621| 2,935| 3,097|
+//   </DataTable>
+//
+// Right-align numeric columns in the Markdown (with `---:`) so the
+// styled output keeps tabular alignment.
+const { caption, source, compact = false } = Astro.props;
+---
+<div class={`data-table ${compact ? 'data-table-compact' : ''}`}>
+  {caption && <div class="data-table-caption">{caption}</div>}
+  <div class="data-table-inner">
+    <slot />
+  </div>
+  {source && <div class="data-table-source">{source}</div>}
+</div>

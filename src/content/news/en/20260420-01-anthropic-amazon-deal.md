@@ -11,9 +11,6 @@ summary: |
 
   The agreement cements a pattern of circular investments between AI labs and cloud suppliers: the partner invests in the lab, the lab buys its chips. Amazon is building Project Rainier, a 2.4 GW campus in New Carlisle, Indiana, and wants to anchor Anthropic on its Trainium chip family as a rival to Nvidia's GPUs. Source: Financial Times, 20 April 2026, George Hammond and Rafe Rosner-Uddin.
 ---
-
-# Anthropic and Amazon agree $100bn AI infrastructure deal
-
 **The story in one line.** Anthropic will spend more than $100bn with Amazon on chips and data-centre capacity to keep up with ballooning demand for Claude, while Amazon pumps another $5bn to $25bn into the $380bn lab.
 
 ## Key numbers

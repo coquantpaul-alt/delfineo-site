@@ -10,9 +10,6 @@ summary: |
 
   Cursor's revenue has come under pressure as OpenAI, Anthropic and Google release their own coding models; its latest Composer model is built on top of an open-source model from China's Moonshot AI. Cursor would gain access to SpaceX's compute, including the Colossus supercomputer built in 122 days. Source: Financial Times, 21 April 2026, George Hammond and Stephen Morris.
 ---
-
-# SpaceX obtains right to buy AI start-up Cursor for $60bn
-
 **The story in one line.** Musk has bought himself an option on Cursor at $60bn, with a $10bn break fee — a pre-IPO manoeuvre to bolt AI coding capability onto SpaceX-xAI before public investors get to vote.
 
 ## Key numbers

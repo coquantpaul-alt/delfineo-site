@@ -11,9 +11,6 @@ summary: |
 
   The playbook is familiar: in 2025, Bercy froze or cancelled €8bn of central-government appropriations between April and June and curbed health-insurance spending by €1.7bn. Those unpopular calls allowed France to land at 5.1 per cent deficit, better than expected. The government's target is now 5 per cent of GDP this year. Source: Les Echos, 18 April 2026, Sébastien Dumoulin and Stéphane Loignon.
 ---
-
-# EXCLUSIVE - Budget: France's Bercy to announce €4bn of spending cuts to absorb Iran-war fallout
-
 **The story in one line.** To hold its 2026 deficit target despite the Iran war's bill, the French government is preparing roughly €4bn of savings hitting both the State and social security budgets, with employer payroll-tax exemptions on the chopping block.
 
 ## Key numbers

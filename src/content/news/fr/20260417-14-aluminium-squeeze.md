@@ -11,9 +11,6 @@ summary: |
 
   Le cuivre contribue également à la hausse du LMEX — +11 % sur quatre semaines — mais pour d'autres raisons : retour des acheteurs chinois et anticipations autour de décisions tarifaires américaines. Il évoluait vendredi autour de 13.270 dollars la tonne, proche de son record de clôture atteint en janvier ; Mercuria et BMO Capital Markets estiment qu'il pourrait dépasser ce seuil dans les prochaines semaines. Source : Les Echos, 17 avril 2026, Samir Touzani.
 ---
-
-# Record des métaux à Londres : la guerre en Iran précipite l'aluminium dans un « trou noir » de l'offre
-
 **L'essentiel en une phrase.** L'indice LMEX du London Metal Exchange a atteint un sommet historique, porté par l'envolée de l'aluminium sous l'effet des frappes iraniennes sur des fonderies du Golfe et par le rebond du cuivre tiré par l'électrification et la Chine.
 
 ## Chiffres-clés

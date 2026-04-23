@@ -11,9 +11,6 @@ summary: |
 
   L'accord arrive alors que Greg Abel, successeur de Buffett, alerte sur l'érosion des rendements de l'assurance due à l'arrivée du capital privé. Berkshire a placé vendredi une obligation en yens de 272 Mds ¥ (1,7 Md USD) pour financer l'opération. Les trois grands non-vie japonais contrôlent environ 90 % de leur marché domestique. Source : Financial Times, 20 avril 2026, David Keohane, Harry Dempsey et Eric Platt.
 ---
-
-# La stratégie M&A derrière le rapprochement Berkshire Hathaway – Tokio Marine
-
 **L'essentiel en une phrase.** Le nouveau partenariat de Berkshire avec le premier assureur japonais est explicitement conçu pour alimenter des acquisitions milliardaires en dommages-biens, combinant le bilan de Buffett avec l'expertise d'intégration opérationnelle de Tokio Marine.
 
 ## Chiffres clés

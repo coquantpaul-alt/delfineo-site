@@ -1,0 +1,162 @@
+---
+// <InteractiveChart> — Chart.js-powered line / bar / scatter / doughnut.
+//
+// Chart.js is loaded from the CDN only on pages that actually contain
+// an <InteractiveChart>, so articles without one pay no bundle cost.
+//
+// Props:
+//   type       — "line" | "bar" | "scatter" | "doughnut" (default: "line")
+//   data       — Chart.js data object (labels + datasets)
+//   options    — optional Chart.js options object (will be merged with defaults)
+//   caption    — shown below the chart
+//   source     — data source credit
+//   width      — "inset" | "normal" | "wide" | "full"
+//   label      — eyebrow text (default "Chart")
+//
+// Usage in .mdx:
+//   <InteractiveChart
+//     type="line"
+//     caption="Cellnex revenue, 2019–2024 (€m)"
+//     source="Company filings"
+//     data={{
+//       labels: ['2019','2020','2021','2022','2023','2024'],
+//       datasets: [{ label: 'Revenue', data: [1035, 1607, 2536, 3503, 3925, 4110] }]
+//     }}
+//   />
+import { randomBytes } from 'node:crypto';
+
+const {
+  type = 'line',
+  data,
+  options = {},
+  caption,
+  source,
+  width = 'normal',
+  label = 'Chart',
+} = Astro.props;
+
+// Unique ID per chart so multiple charts on one page don't collide
+const id = 'chart_' + randomBytes(4).toString('hex');
+---
+<figure class={`figure figure-chart figure-interactive figure-${width}`}>
+  <span class="figure-eyebrow">{label}</span>
+  <div class="chart-canvas-wrap">
+    <canvas
+      id={id}
+      data-chart-type={type}
+      data-chart-data={JSON.stringify(data)}
+      data-chart-options={JSON.stringify(options)}
+    ></canvas>
+  </div>
+  {(caption || source) && (
+    <figcaption>
+      {caption && <span class="caption-text">{caption}</span>}
+      {source && <span class="caption-source">{source}</span>}
+    </figcaption>
+  )}
+</figure>
+
+<script is:inline>
+  // Idempotent loader — runs once per page regardless of how many charts.
+  (function () {
+    if (window.__delfineoChartInit) return;
+    window.__delfineoChartInit = true;
+
+    const NAVY = '#051c2c';
+    const TEXT_DIM = '#7a8f9e';
+    const BORDER = 'rgba(5,28,44,0.08)';
+    const PALETTE = ['#1a5276', '#b7935d', '#2d5b4f', '#7a2e3b', '#a85432', '#3b4a6b'];
+
+    function renderAll() {
+      const canvases = document.querySelectorAll('canvas[data-chart-type]');
+      if (canvases.length === 0) return;
+
+      canvases.forEach((canvas, idx) => {
+        if (canvas.__rendered) return;
+        canvas.__rendered = true;
+
+        const type = canvas.dataset.chartType;
+        const data = JSON.parse(canvas.dataset.chartData || '{}');
+        const userOptions = JSON.parse(canvas.dataset.chartOptions || '{}');
+
+        // Paint datasets with the Delfineo palette if no colour specified
+        if (data.datasets) {
+          data.datasets.forEach((ds, i) => {
+            const colour = ds.borderColor || ds.backgroundColor || PALETTE[i % PALETTE.length];
+            if (!ds.borderColor) ds.borderColor = colour;
+            if (!ds.backgroundColor) {
+              if (type === 'line') ds.backgroundColor = colour + '22';
+              else ds.backgroundColor = colour;
+            }
+            if (type === 'line') {
+              if (ds.tension === undefined) ds.tension = 0.2;
+              if (ds.borderWidth === undefined) ds.borderWidth = 2;
+              if (ds.pointRadius === undefined) ds.pointRadius = 3;
+            }
+          });
+        }
+
+        const defaults = {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: (data.datasets && data.datasets.length > 1),
+              position: 'bottom',
+              labels: { color: NAVY, font: { family: 'DM Sans', size: 12 } },
+            },
+            tooltip: {
+              backgroundColor: NAVY,
+              titleFont: { family: 'DM Sans', size: 12 },
+              bodyFont: { family: 'DM Sans', size: 12 },
+              padding: 10,
+              cornerRadius: 2,
+            },
+          },
+          scales: (type === 'doughnut' || type === 'pie') ? {} : {
+            x: {
+              grid: { color: BORDER, drawBorder: false },
+              ticks: { color: TEXT_DIM, font: { family: 'DM Sans', size: 11 } },
+            },
+            y: {
+              grid: { color: BORDER, drawBorder: false },
+              ticks: { color: TEXT_DIM, font: { family: 'DM Sans', size: 11 } },
+            },
+          },
+        };
+
+        // Deep merge: options win over defaults
+        const options = deepMerge(defaults, userOptions);
+
+        new window.Chart(canvas, { type, data, options });
+      });
+    }
+
+    function deepMerge(a, b) {
+      const out = Array.isArray(a) ? [...a] : { ...a };
+      for (const k in b) {
+        if (b[k] && typeof b[k] === 'object' && !Array.isArray(b[k])) {
+          out[k] = deepMerge(a[k] || {}, b[k]);
+        } else {
+          out[k] = b[k];
+        }
+      }
+      return out;
+    }
+
+    function loadChartJs() {
+      return new Promise((resolve, reject) => {
+        if (window.Chart) return resolve();
+        const s = document.createElement('script');
+        s.src = 'https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js';
+        s.onload = resolve;
+        s.onerror = reject;
+        document.head.appendChild(s);
+      });
+    }
+
+    if (document.querySelector('canvas[data-chart-type]')) {
+      loadChartJs().then(renderAll).catch(console.error);
+    }
+  })();
+</script>

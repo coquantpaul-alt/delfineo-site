@@ -10,9 +10,6 @@ summary: |
 
   To reduce dependence on Gucci — which lost a third of its revenue in two years and halved group profits — a new House of Wonders fund will back young non-European brands, including Chinese labels, and Kering has teamed with the Italian manufacturing union H Moda. Operational discipline includes fewer but better-located stores, simplified assortments, tighter production and centralised media buying. Source: Les Echos, 16 April 2026, Philippe Bertrand.
 ---
-
-# Kering: Luca de Meo unveils 'ReconKering' plan, targets doubled margin
-
 **The story in one line:** Seven months into the job, ex-Renault boss Luca de Meo gave investors in Florence his strategic blueprint for Kering: a disciplined reconquest around 'True Luxury' (craftsmanship) and 'Next Luxury' (technology and new markets) — with a medium-term pledge to double recurring operating margin.
 
 ## Key numbers

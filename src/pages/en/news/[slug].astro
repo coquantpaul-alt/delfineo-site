@@ -2,6 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import AuthScript from '../../../components/AuthScript.astro';
 import ShareStrip from '../../../components/ShareStrip.astro';
+import { Figure, Chart, DataTable, Callout, PullQuote, InteractiveChart } from '../../../components/visuals';
 import { t } from '../../../i18n.js';
 import { getCollection } from 'astro:content';
 const lang = 'en';
@@ -14,6 +15,8 @@ export async function getStaticPaths() {
   }));
 }
 const { item } = Astro.props;
+const { Content } = await item.render();
+const visualComponents = { Figure, Chart, DataTable, Callout, PullQuote, InteractiveChart };
 ---
 <Base title={`${item.data.title} — Delfineo`} description={item.data.summary.replace(/\s+/g, ' ').slice(0, 160)} lang={lang}>
   <header class="site-header">
@@ -51,6 +54,10 @@ const { item } = Astro.props;
             <p style="margin:0 0 1em 0">{para.trim()}</p>
           ))}
         </div>
+      </div>
+      <!-- Article body (key numbers, why it matters, takeaway, visuals) -->
+      <div class="article-body">
+        <Content components={visualComponents} />
       </div>
       <!-- Delfineo's Take -->
       {item.data.insight && (

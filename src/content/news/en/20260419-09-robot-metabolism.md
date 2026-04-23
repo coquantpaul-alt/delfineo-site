@@ -11,9 +11,6 @@ summary: |
 
   The reality is less tidy. At Penn, Mark Yim — a pioneer of modular robotics — concedes that the 2000 promises of "versatility, affordability and reliability" remain unmet: "they can't do anything, they're super expensive and they break all the time." At MIT, CSAIL director Daniela Rus calls the reproducing-robot demonstrations "very simple as compared to the promise". Even so, the Columbia lab shipped a small victory at a weekly meeting witnessed by the FT: eight of Zhang's triangles wriggled millimetre by millimetre across a linoleum corridor, snapped into a snake, then split into two tetrahedra that folded themselves up — a primitive act of robotic reproduction. Source: Financial Times, 18 April 2026, Oliver Roeder.
 ---
-
-# The Columbia lab trying to build robots that eat, heal and reproduce
-
 **The story in one line.** Hod Lipson's Creative Machines Lab at Columbia is assembling the conceptual scaffolding for a future in which robots are not monolithic appliances but self-replicating living-like systems — a long bet on "robot metabolism" at the exact moment AI capital has moved elsewhere.
 
 ## Key numbers

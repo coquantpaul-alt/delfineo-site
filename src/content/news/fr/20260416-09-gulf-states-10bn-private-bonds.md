@@ -10,9 +10,6 @@ summary: |
 
   Le coût de la protection contre le défaut à cinq ans (credit default swaps, ou CDS) sur la dette d'Abou Dhabi a grimpé à environ 55 points de base le mois dernier, contre moins de 30 avant la guerre, pour revenir à 40 depuis le cessez-le-feu. L'Arabie saoudite, premier emprunteur souverain du Golfe, n'a pas encore sollicité les marchés privés ; elle avait levé 13,5 Mds$ en janvier-février contre 53 Mds$ sur l'ensemble de 2025. Pimco indique rester « prêt à déployer davantage de capital » auprès des souverains du Golfe. Source : Financial Times, 16 avril 2026, Joseph Cotterill.
 ---
-
-# Les États du Golfe lèvent 10 Mds$ en placements privés après la guerre en Iran
-
 **L'information en une phrase :** Abou Dhabi, le Qatar et le Koweït ont discrètement levé près de 10 Mds$ en placements privés d'obligations en dollars en avril 2026 — leur première émission internationale post-guerre en Iran, contournant les marchés publics imprévisibles pour sécuriser du financement alors que les perturbations à Ormuz pèsent sur les recettes pétrolières et gazières.
 
 ## Chiffres clés

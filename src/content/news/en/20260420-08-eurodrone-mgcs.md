@@ -11,9 +11,6 @@ summary: |
 
   Several causes explain this swing. US delivery times — 18 to 36 months for an F-35 vs 5 to 7 years for a Rafale in wartime — remain decisive. NATO interoperability, the maturity of already-serial-produced systems, and faster integration into allied command chains also matter. European joint programmes, by contrast, suffer from fragmented governance: each state demands its industrial share, which stretches schedules and lifts costs. France has been pushing since 2017 for a European defence industrial and technology base (EDITB); the facts show that battle is, for now, largely lost. Source: Les Echos, 20 April 2026, Anne Drif.
 ---
-
-# European defence: joint programmes abandoned in favour of US suppliers
-
 **The story in one line.** Europe's flagship joint armament programmes — SCAF, MGCS, Eurodrone — are collapsing one after another, while more than 60 per cent of EU-27 armament orders between February 2022 and June 2023 went abroad, 63 per cent of them to US manufacturers.
 
 ## Key numbers

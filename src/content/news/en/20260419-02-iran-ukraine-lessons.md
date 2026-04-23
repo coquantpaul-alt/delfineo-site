@@ -11,9 +11,6 @@ summary: |
 
   Analysts — Nicole Grajewski at Sciences Po, Afshon Ostovar, Farzin Nadimi at the Washington Institute for Near East Policy, and Michael Connell at the Center for Naval Analyses — say the journals matter less for their conclusions than for what Iran is paying attention to: drones, cyber, AI, air defences, and internal weaknesses such as discrimination by poverty and ethnic background, suicidal thoughts among soldiers, and military hospitals over-reliant on private-sector suppliers. Source: Financial Times, 18 April 2026, Jacob Judah.
 ---
-
-# How Iran has been studying lessons from the war in Ukraine
-
 **The story in one line.** An FT review of more than 300 Iranian defence-journal articles shows that, in the lead-up to the war with Israel and the US, Tehran's military was systematically drawing tactical and procurement lessons from the Ukraine conflict — especially on drones, AI-enabled targeting, and cyberwarfare.
 
 ## Key numbers

@@ -7,9 +7,6 @@ summary: "Les plus grandes banques américaines ont profité de la publication d
 insight: "Cet article des Échos complète naturellement notre brief sur les 33 Mds$ de rachats d'actions record des grandes banques américaines au T1. La même dynamique de profits qui a financé ces rachats doit maintenant encaisser un stress test venu du crédit privé — la classe d'actifs où les banques ont prêté avec enthousiasme aux BDC. L'exposition de 50 Mds$ de JPMorgan dépasse à elle seule le rachat d'actions trimestriel de la banque (8,3 Mds$). Les points à surveiller sur les noms bancaires que nous suivons : (i) les refinancements des BDC logicielles en 2026-2028, (ii) la réponse au questionnaire du Trésor, (iii) si le stress sur les BDC contraint les banques à reconstituer les coussins de capital que la Fed s'apprête à alléger."
 order: 7
 ---
-
-# Wall Street lève le voile sur plus de 120 Mds$ d'exposition au crédit privé
-
 **L'histoire en une phrase :** Portées par d'excellents résultats du T1, les plus grandes banques américaines ont publié pour la première fois le montant de leur exposition aux fonds de crédit privé — plus de 120 Mds$ au total — pour convaincre les investisseurs que le stress désormais visible sur les Business Development Companies n'est pas un risque systémique.
 
 ## Chiffres clés

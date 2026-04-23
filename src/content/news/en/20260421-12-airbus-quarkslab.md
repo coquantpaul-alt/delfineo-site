@@ -11,9 +11,6 @@ summary: |
 
   Airbus's earlier acquisition of Ultra, from UK aeronautics group Cobham, brings high-level encryption and key management used across the Five Eyes alliance (US, UK, Canada, Australia, New Zealand) and NATO, including air-ground communications encryption. Infodas, bought in 2024 with its 250 experts, secures communication gateways between security levels in armed forces (e.g. restricted vs secret). It was intended to support pan-European programmes like SCAF (the Franco-German-Spanish fighter). Airbus also secures France's RIFAN and Syracuse defence satellite communications systems, and contributes to Europe's Iris2 constellation. Source: Les Echos, 21 April 2026, Anne Drif.
 ---
-
-# Airbus acquires French cyber-defence specialist Quarkslab
-
 **The story in one line.** Airbus's third cyber-defence acquisition in two years brings its defence cybersecurity workforce to 1,600 experts, positioning the group as the "digital shield of Europe" for armed forces.
 
 ## Key numbers

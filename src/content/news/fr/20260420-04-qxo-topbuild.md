@@ -11,9 +11,6 @@ summary: |
 
   L'activisme de Jacobs accélère la consolidation des produits de construction aux États-Unis. Home Depot a racheté GMS pour 5,5 Mds$ l'été dernier et SRS Distribution pour 18,25 Mds$ en 2024. Source : Financial Times, 19 avril 2026, Oliver Barnes et Julia Rock.
 ---
-
-# QXO rachète le spécialiste de l'isolation TopBuild dans un deal de 17 Mds$
-
 **L'histoire en une phrase.** QXO, la société du milliardaire Brad Jacobs, a accepté de racheter le distributeur américain d'isolation TopBuild pour 17 Mds$, poursuivant son build-up pour constituer un géant de 50 Mds$ des produits de construction en Amérique du Nord.
 
 ## Chiffres clés

@@ -11,9 +11,6 @@ summary: |
 
   Outre-Rhin, l'industrie aéronautique et le syndicat IG Metall poussent pour la conception de deux avions séparés, tout en conservant des piliers communs pour les drones et un « cloud de combat ». Le député conservateur Volker Mayer-Lay appelle à basculer « sans délai » vers la solution à deux appareils. Le PDG de Dassault, Eric Trappier, avait lui-même annoncé lors du forum « Guerres et paix » début avril : « On se reverra le 18 avril ». Source : Les Echos, 18 avril 2026, Emmanuel Grasland et Anne Drif.
 ---
-
-# SCAF : les deux médiateurs ont remis leurs rapports, à Paris et Berlin de trancher
-
 **L'histoire en une phrase.** Collet-Billon et Haun ont bouclé leur « mission de rapprochement » entre Dassault et Airbus Defence & Space sur le SCAF ; sans accord industriel visible, la décision politique revient désormais à Paris et Berlin, avec une échéance allemande pressentie dès mardi.
 
 ## Chiffres clés

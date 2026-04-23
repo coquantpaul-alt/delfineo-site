@@ -10,9 +10,6 @@ summary: |
 
   Rivals and analysts are unhappy: Raymond James's Savanthi Syth says the bailout would keep "inefficient capacity" in the market, and United's Scott Kirby says commoditised-travel carriers should be "irate". Spirit employs more than 11,000 people in Trump's adopted home state of Florida. Source: Financial Times, 22 April 2026, Sujeet Indap and Christian Davies.
 ---
-
-# US weighs $500mn rescue of Spirit Airlines
-
 **The story in one line.** Washington may take a majority stake in Spirit Airlines to keep it flying — a direct government intervention in a low-cost airline whose rivals say the bailout distorts the market.
 
 ## Key numbers

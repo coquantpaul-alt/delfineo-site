@@ -914,3 +914,269 @@ img { max-width: 100%; height: auto; }
     align-self: center;
   }
 }
+
+/* ─── Article visuals: Figure / Chart ────────────────────────── */
+.figure {
+  margin: 36px 0;
+  padding: 0;
+}
+.figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border-mid);
+  border-radius: 2px;
+  background: var(--bg-soft);
+}
+.figure figcaption {
+  margin-top: 10px;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.figure .caption-text { color: var(--navy); font-weight: 500; }
+.figure .caption-source {
+  color: var(--text-dim);
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+}
+
+/* Width variants (article column is ~700px). "wide" and "full"
+   break out of the column via negative margins; on mobile they
+   fall back to full-width of the column. */
+.figure-inset  { max-width: 520px; margin-left: auto; margin-right: auto; }
+.figure-normal { max-width: 100%; }
+.figure-wide   { margin-left: -60px; margin-right: -60px; }
+.figure-full   { margin-left: calc(50% - 49vw); margin-right: calc(50% - 49vw); max-width: 98vw; }
+.figure-full img, .figure-wide img { border-radius: 0; }
+
+/* Chart variant — subtle eyebrow, off-white background on the image */
+.figure-chart {
+  position: relative;
+}
+.figure-chart .figure-eyebrow {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+.figure-chart img {
+  background: #fafbfc;
+  padding: 18px 22px;
+}
+.figure-chart.figure-interactive .chart-canvas-wrap {
+  position: relative;
+  border: 1px solid var(--border-mid);
+  border-radius: 2px;
+  background: #fafbfc;
+  padding: 20px 20px 14px;
+  height: 340px;
+}
+.figure-chart.figure-interactive.figure-wide .chart-canvas-wrap,
+.figure-chart.figure-interactive.figure-full .chart-canvas-wrap {
+  height: 400px;
+}
+
+/* ─── Article visuals: DataTable ─────────────────────────────── */
+.data-table {
+  margin: 36px 0;
+  font-family: var(--font-sans);
+}
+.data-table-caption {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+.data-table-inner table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+.data-table-inner thead tr {
+  border-bottom: 2px solid var(--navy);
+}
+.data-table-inner th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--navy);
+  padding: 10px 14px 10px 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.data-table-inner tbody tr {
+  border-bottom: 1px solid var(--border);
+}
+.data-table-inner tbody tr:last-child { border-bottom: none; }
+.data-table-inner td {
+  padding: 10px 14px 10px 0;
+  color: var(--text-mid);
+}
+.data-table-inner td:last-child,
+.data-table-inner th:last-child { padding-right: 0; }
+/* Right-align numeric columns — Markdown `---:` alignment survives */
+.data-table-inner th[align="right"],
+.data-table-inner td[align="right"] {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.data-table-compact .data-table-inner td,
+.data-table-compact .data-table-inner th {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 0.84rem;
+}
+.data-table-source {
+  margin-top: 10px;
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  letter-spacing: 0.02em;
+}
+
+/* ─── Article visuals: Callout ───────────────────────────────── */
+.callout {
+  margin: 36px 0;
+  padding: 20px 24px;
+  border-left: 3px solid var(--navy);
+  background: var(--bg-soft);
+  font-family: var(--font-serif);
+}
+.callout-title {
+  font-family: var(--font-sans);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--navy);
+  margin: 0 0 8px;
+}
+.callout-body { color: var(--text-mid); line-height: 1.6; }
+.callout-body p { margin: 0 0 0.6em; }
+.callout-body p:last-child { margin-bottom: 0; }
+
+.callout-insight { border-left-color: var(--navy); }
+.callout-insight .callout-title { color: var(--navy); }
+.callout-risk { border-left-color: #7a2e3b; background: rgba(122, 46, 59, 0.04); }
+.callout-risk .callout-title { color: #7a2e3b; }
+.callout-note { border-left-color: var(--text-dim); background: transparent; }
+.callout-note .callout-title { color: var(--text-muted); }
+
+/* ─── Article visuals: PullQuote ─────────────────────────────── */
+.pull-quote {
+  margin: 40px 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+.pull-quote-body {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.45rem;
+  line-height: 1.35;
+  color: var(--navy);
+  max-width: 560px;
+  margin: 0 auto;
+  position: relative;
+}
+.pull-quote-body::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: var(--navy);
+  margin: 0 auto 18px;
+}
+.pull-quote-body::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: var(--navy);
+  margin: 18px auto 0;
+}
+.pull-quote-attr {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+  margin-top: 14px;
+  font-style: normal;
+}
+
+/* ─── Responsive: collapse wide/full variants on narrow viewports ── */
+@media (max-width: 900px) {
+  .figure-wide { margin-left: 0; margin-right: 0; }
+  .figure-full { margin-left: 0; margin-right: 0; max-width: 100%; }
+  .pull-quote-body { font-size: 1.2rem; }
+  .figure-chart.figure-interactive .chart-canvas-wrap { height: 280px; }
+}
+
+/* ─── Article body prose (headings / lists / inline) ─────────── */
+.article-body h2 {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: var(--navy);
+  line-height: 1.3;
+  margin: 40px 0 14px;
+  letter-spacing: -0.005em;
+}
+.article-body h3 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--navy);
+  line-height: 1.35;
+  margin: 28px 0 10px;
+}
+.article-body ul, .article-body ol {
+  margin: 0 0 24px;
+  padding-left: 22px;
+  font-family: var(--font-serif);
+  font-size: 1.04rem;
+  color: var(--text-mid);
+  line-height: 1.72;
+}
+.article-body li { margin-bottom: 8px; }
+.article-body li::marker { color: var(--text-dim); }
+.article-body strong { color: var(--navy); font-weight: 600; }
+.article-body em { color: var(--text-muted); }
+.article-body a {
+  color: var(--accent);
+  border-bottom: 1px solid var(--border-mid);
+  transition: border-color 0.15s, color 0.15s;
+}
+.article-body a:hover { color: var(--navy); border-bottom-color: var(--navy); }
+.article-body blockquote {
+  margin: 28px 0;
+  padding: 0 0 0 22px;
+  border-left: 3px solid var(--border-mid);
+  font-style: italic;
+  color: var(--text-muted);
+}
+.article-body hr {
+  border: 0;
+  border-top: 1px solid var(--border-mid);
+  margin: 40px 0;
+}
+.article-body code {
+  font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+  font-size: 0.88em;
+  background: var(--bg-soft);
+  padding: 1px 6px;
+  border-radius: 2px;
+  color: var(--navy);
+}

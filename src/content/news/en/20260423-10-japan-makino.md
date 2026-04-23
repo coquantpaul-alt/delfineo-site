@@ -10,9 +10,6 @@ summary: |
 
   The decision could chill foreign private equity in Japan, where MBK — founded in 2005 by ex-Carlyle executive Michael Byung Ju Kim, now with $33bn of assets under management — has been one of the most active buyers. MBK had been negotiating with Tokyo for ten months after winning the bid; it stepped in after Nidec dropped out following Makino's poison-pill defence. US-based Carlyle and several Japanese bidders are reportedly circling. Source: Financial Times, 23 April 2026, Harry Dempsey, David Keohane and Daniel Tudor.
 ---
-
-# Japan blocks South Korean MBK's $1.7bn Makino takeover
-
 **The story in one line.** Tokyo formally intervenes to stop a foreign buyout of a defence-adjacent machine-tool maker — the first hard block of an FDI deal in Japan in 18 years.
 
 ## Key numbers

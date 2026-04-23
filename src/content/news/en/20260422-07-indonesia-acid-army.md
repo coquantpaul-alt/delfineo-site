@@ -10,9 +10,6 @@ summary: |
 
   The shock reverberates because Indonesia has spent a quarter-century building civilian oversight of the military after Suharto's three-decade dictatorship. Under Prabowo — a former Suharto-era general — reformasi-era firewalls are being tested, and military officers are returning to civilian roles. Source: Financial Times, 22 April 2026, A. Anantha Lakshmi and Diana Mariska.
 ---
-
-# Acid attack shakes Indonesia as army returns to fore
-
 **The story in one line.** An acid attack by active-duty soldiers on an Indonesian activist has become the most visible test yet of how far Prabowo's government will let the army re-enter civilian life.
 
 ## Key numbers
