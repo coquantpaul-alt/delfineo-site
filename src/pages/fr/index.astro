@@ -2,11 +2,13 @@
 import Base from '../../layouts/Base.astro';
 import AuthScript from '../../components/AuthScript.astro';
 import { t } from '../../i18n.js';
+import { metaFor, META_KEYS, META_LABELS } from '../../lib/meta-sections.js';
 import { getCollection } from 'astro:content';
 
 const lang = 'fr';
 const altLang = 'en';
 const i = (key) => t(lang, key);
+const L = META_LABELS[lang];
 
 const allResearch = await getCollection('research', ({ id }) => id.startsWith(`${lang}/`));
 const allNews = await getCollection('news', ({ id }) => id.startsWith(`${lang}/`));
@@ -31,6 +33,10 @@ for (const item of news) {
   newsByDate[d].items.push(item);
 }
 const newsGroups = Object.values(newsByDate);
+
+// Meta-section counts (for chip labels)
+const metaCounts = { markets:0, corp:0, tech:0, energy:0, geo:0, macro:0 };
+for (const item of news) metaCounts[metaFor(item.data.category)]++;
 ---
 
 <Base title="Delfineo — Recherche & Actualités en Investissement Value" lang={lang}>
@@ -65,14 +71,24 @@ const newsGroups = Object.values(newsByDate);
         <h2>{i('newsTitle')}</h2>
         <p>{i('newsSub')}</p>
       </div>
-      {newsGroups.map((group, gi) => (
-        <div style="margin-bottom:44px">
+
+      <!-- Filtre par rubrique -->
+      <div class="chip-bar" id="chip-bar" role="tablist" aria-label="Filtrer par rubrique">
+        <button class="chip active" data-meta="all" role="tab" aria-selected="true">{L.all} <span class="chip-count">{news.length}</span></button>
+        {META_KEYS.map((k) => (
+          <button class="chip" data-meta={k} role="tab" aria-selected="false">{L[k]} <span class="chip-count">{metaCounts[k]}</span></button>
+        ))}
+      </div>
+      <p class="result-bar" id="result-bar" aria-live="polite"></p>
+
+      {newsGroups.map((group) => (
+        <div class="day-block" data-day={group.date} style="margin-bottom:44px">
           <div class="news-day-header">
             <span class="day-label">{group.date === today ? "Aujourd'hui" : group.dateDisplay}</span>
             <span class="day-date">{group.dateDisplay}</span>
           </div>
           {group.items.map((item) => (
-            <a href={`/${lang}/news/${item.slug.replace(`${lang}/`, '')}/`} class="news-item" data-gated>
+            <a href={`/${lang}/news/${item.slug.replace(`${lang}/`, '')}/`} class="news-item" data-gated data-meta={metaFor(item.data.category)}>
               <div class="meta">
                 <span class="category">{item.data.category}</span>
                 <span class="lock-badge lock-badge-sm">✉</span>
@@ -81,6 +97,7 @@ const newsGroups = Object.values(newsByDate);
               <p>{item.data.summary}</p>
             </a>
           ))}
+          <p class="empty-state hidden">Aucun article dans cette rubrique le {group.dateDisplay}.</p>
         </div>
       ))}
     </div>
@@ -141,22 +158,78 @@ const newsGroups = Object.values(newsByDate);
     </div>
   </div>
 
-  <script is:inline>
+  <script is:inline define:vars={{ labels: L }}>
     function showTab(tab) {
       document.getElementById('panel-news').style.display = tab === 'news' ? 'block' : 'none';
       document.getElementById('panel-research').style.display = tab === 'research' ? 'block' : 'none';
       document.getElementById('tab-news').classList.toggle('active', tab === 'news');
       document.getElementById('tab-research').classList.toggle('active', tab === 'research');
-      // Keep URL in sync so a refresh lands on the right tab
       const url = new URL(window.location);
       url.searchParams.set('tab', tab);
       history.replaceState(null, '', url);
     }
-    // On load: read ?tab param (default to news)
     (function() {
-      const t = new URLSearchParams(window.location.search).get('tab');
+      const params = new URLSearchParams(window.location.search);
+      const t = params.get('tab');
       if (t === 'research' || t === 'news') showTab(t);
+      const s = params.get('section');
+      if (s) applyFilter(s, false);
     })();
+
+    // ── Filtre par rubrique ──
+    function applyFilter(meta, updateUrl) {
+      const chipBar = document.getElementById('chip-bar');
+      const resultBar = document.getElementById('result-bar');
+      if (!chipBar) return;
+
+      const chips = chipBar.querySelectorAll('.chip');
+      chips.forEach(c => {
+        const on = c.dataset.meta === meta;
+        c.classList.toggle('active', on);
+        c.setAttribute('aria-selected', on ? 'true' : 'false');
+      });
+
+      const items = document.querySelectorAll('#panel-news .news-item');
+      let shown = 0;
+      items.forEach(it => {
+        const match = meta === 'all' || it.dataset.meta === meta;
+        it.classList.toggle('hidden', !match);
+        if (match) shown++;
+      });
+
+      document.querySelectorAll('#panel-news .day-block').forEach(block => {
+        const visible = block.querySelectorAll('.news-item:not(.hidden)').length;
+        const empty = block.querySelector('.empty-state');
+        if (empty) empty.classList.toggle('hidden', visible > 0);
+      });
+
+      if (resultBar) {
+        if (meta === 'all') {
+          resultBar.textContent = '';
+          resultBar.classList.remove('on');
+        } else {
+          const name = labels[meta] || meta;
+          resultBar.textContent = shown === 1
+            ? `1 article dans ${name}`
+            : `${shown} articles dans ${name}`;
+          resultBar.classList.add('on');
+        }
+      }
+
+      if (updateUrl !== false) {
+        const url = new URL(window.location);
+        if (meta === 'all') url.searchParams.delete('section');
+        else url.searchParams.set('section', meta);
+        history.replaceState(null, '', url);
+      }
+    }
+
+    document.addEventListener('click', function(e) {
+      const chip = e.target.closest('#chip-bar .chip');
+      if (!chip) return;
+      e.preventDefault();
+      applyFilter(chip.dataset.meta, true);
+    });
   </script>
   <AuthScript />
 </Base>

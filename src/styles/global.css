@@ -738,3 +738,87 @@ img { max-width: 100%; height: auto; }
     min-width: 0;
   }
 }
+
+/* ─── Meta-section filter chips ──────────────────────────────── */
+/* Sticky chip bar above the news stream. Keeps the narrow         */
+/* 800px column; chips wrap on mobile. Uses the site's existing    */
+/* tokens (--navy, --border-*, fonts) — nothing new here except    */
+/* a subtle backdrop blur for the sticky state.                    */
+
+.chip-bar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  margin: 4px -48px 22px;
+  padding: 14px 48px 16px;
+  border-bottom: 1px solid var(--border-mid);
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.chip {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding: 8px 15px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  color: var(--text-mid);
+  cursor: pointer;
+  background: #fff;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.chip:hover { border-color: var(--navy); color: var(--navy); }
+.chip.active {
+  background: var(--navy);
+  color: #fff;
+  border-color: var(--navy);
+}
+.chip-count {
+  font-size: 0.7rem;
+  margin-left: 6px;
+  opacity: 0.65;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Result-count bar, shown only when a section filter is active */
+.result-bar {
+  display: none;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin: -8px 0 20px;
+  letter-spacing: 0.02em;
+}
+.result-bar.on { display: block; }
+
+/* Hidden state used by the filter to collapse items */
+.news-item.hidden,
+.day-block.hidden,
+.empty-state.hidden { display: none !important; }
+
+/* Per-day empty state when a filter matches nothing that day */
+.empty-state {
+  padding: 20px 0 8px;
+  color: var(--text-dim);
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .chip-bar {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .chip { padding: 7px 13px; font-size: 0.74rem; }
+}
