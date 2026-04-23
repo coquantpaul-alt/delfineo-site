@@ -101,10 +101,8 @@ for (const item of news) metaCounts[metaFor(item.data.category)]++;
     </div>
 
     <div id="panel-research" class="fade-in" style="display:none">
-      <div class="section-header" style="margin-bottom:8px">
-        <p class="label">{i('researchLabel')}</p>
+      <div class="section-header" style="margin-bottom:16px">
         <h2>{i('researchTitle')}</h2>
-        <p>{i('researchSub')}</p>
       </div>
       {research.map((article) => (
         <a href={`/${lang}/research/${article.slug.replace(`${lang}/`, '')}/`} class="research-card" data-gated>
