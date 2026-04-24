@@ -11,26 +11,3 @@ summary: |
 
   Separately, Microsoft is overhauling executive compensation: bonuses and stock grants will be decoupled, giving more flexibility to reward performance, and the rating grid will compress from nine tiers to five. The move comes the same week Meta confirmed about 8,000 lay-offs. In France, Microsoft plans to cut 180 positions — with the real net impact estimated at 75 to 100 jobs after vacancies and internal mobility. Source: Les Echos, 24 April 2026, Claude Fouquet.
 ---
-
-# A first in 51 years: Microsoft launches a voluntary departure plan for roughly 7% of its US workforce
-
-**The story in one line:** Microsoft, never before a voluntary-departure user, will offer buyouts to around 8,700 US employees as Big Tech keeps trimming to fund AI spending.
-
-## Key numbers
-
-- **~8,700 US employees** eligible, equivalent to **~7%** of the US workforce
-- **125,000** total US staff; **228,000** global headcount
-- **70**: combined age-plus-tenure threshold for eligibility (e.g. age 50 + 20 years of tenure)
-- **7 May**: detailed terms announced to employees
-- **9 to 5**: compensation rating grid compressed from nine tiers to five
-- **~180 roles** to be cut at Microsoft France, with net impact estimated at **75 to 100** after vacancies and internal mobility
-
-## Why it matters
-
-This is a policy inflection, not just another layoff round. For 51 years Microsoft imposed cuts top-down; shifting to a voluntary scheme with age-plus-tenure eligibility signals the company wants long-tenured employees to self-select out, reduces litigation exposure, and keeps a more flexible severance narrative. The parallel change on compensation — decoupling bonuses from stock and compressing the rating grid — gives managers more room to concentrate rewards on top performers. That is the same structural push behind what Big Four firms are doing with "departnering" (see the KPMG/EY brief).
-
-## Takeaway
-
-Microsoft joins Meta (roughly 8,000 cuts this week) in trimming to fund record AI capex. The voluntary format is a gentler optics approach, but the end state is similar: fewer long-tenured employees, more capital for data centres.
-
-*Source: Les Echos, 24 April 2026, Claude Fouquet.*
