@@ -1900,3 +1900,104 @@ body.is-signed-in .paywall-cta { display: none; }
   .paywall-cta button { margin-top: 8px; }
   .article-gated { max-height: 500px; }
 }
+
+/* ─── Mobile masthead — Les Echos compact pattern (≤640px) ──────── */
+/* Single-row header: [search icon] [DELFINEO] [EN/FR]. Hide chrome. */
+
+@media (max-width: 640px) {
+  /* Date + tagline + monogram are hidden on mobile to save vertical space */
+  .masthead .date-label,
+  .nameplate .center .monogram,
+  .nameplate .center svg,
+  .nameplate .tagline { display: none !important; }
+
+  /* Nameplate = single 3-column row: left rail | wordmark | right rail */
+  .nameplate.nameplate-slim {
+    grid-template-columns: 44px 1fr 88px;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 8px;
+    justify-items: stretch;
+  }
+  .nameplate-slim .left {
+    justify-content: flex-start;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  /* The center anchor only needs to show the wordmark (monogram hidden) */
+  .nameplate-slim .center {
+    justify-self: center;
+    gap: 0;
+  }
+  .nameplate-slim .center > span:not(.wordmark) { display: none !important; }
+  .nameplate-slim .wordmark {
+    display: inline-block !important;
+    font-size: 22px;
+    letter-spacing: 0.18em;
+    line-height: 1;
+  }
+
+  /* Right rail: lang toggle only, compact */
+  .nameplate-slim .right {
+    flex-direction: row !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    margin-top: 0 !important;
+    gap: 8px;
+  }
+  .nameplate-slim .right .lang-toggle {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    color: var(--muted);
+  }
+  .nameplate-slim .right .lang-toggle a {
+    padding: 6px 4px;
+  }
+
+  /* Search becomes a single 36x36 magnifier button on the LEFT */
+  .nameplate-slim .right .search-pill { display: none !important; }
+  .nameplate-slim .left::before {
+    content: '';
+    display: none; /* removed below — we mount the icon via JS-free CSS using a real button */
+  }
+  /* New: use an SVG search button injected at masthead-left.
+     We do it via duplicating the existing search pill in DOM; if not present,
+     keep the lang toggle alone. (See companion HTML change.) */
+  .nameplate-slim .left .search-icon-btn {
+    width: 36px; height: 36px;
+    display: inline-flex; align-items: center; justify-content: center;
+    border: 1px solid var(--rule);
+    background: transparent;
+    color: var(--muted-2);
+    cursor: pointer;
+    padding: 0;
+  }
+  .nameplate-slim .left .search-icon-btn svg { width: 14px; height: 14px; }
+
+  /* Nav row tighter */
+  .masthead-nav {
+    gap: 22px;
+    font-size: 14px;
+    padding: 8px 0 10px;
+    border-top: 1px solid var(--rule);
+  }
+  .masthead-nav .tab-btn {
+    padding: 4px 4px 6px;
+    font-size: 14px;
+  }
+}
+
+/* iPhone SE (≤360px) extra tightening */
+@media (max-width: 360px) {
+  .nameplate.nameplate-slim {
+    grid-template-columns: 36px 1fr 72px;
+    padding: 8px 12px;
+  }
+  .nameplate-slim .wordmark { font-size: 19px; letter-spacing: 0.16em; }
+  .nameplate-slim .right .lang-toggle { font-size: 10px; }
+}
+
+/* Hide the mobile-only search icon on desktop */
+@media (min-width: 641px) {
+  .nameplate-slim .left .search-icon-btn { display: none; }
+}

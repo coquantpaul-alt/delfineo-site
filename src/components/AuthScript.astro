@@ -144,13 +144,27 @@
         btn.textContent = originalLabel;
         return;
       }
-      // Replace inner with success message
+      // Replace inner with success message — bilingual
       cta.classList.add('success');
+      var pageLang = (document.documentElement.lang || 'en').toLowerCase();
+      var copy = pageLang === 'fr'
+        ? {
+            label: j.alreadyMember ? 'Content de vous revoir' : 'Verifiez votre boite mail',
+            h3:    'Nous venons d\u2019envoyer un lien de connexion a ' + escapeHtml(email),
+            body:  'Cliquez sur le lien dans votre boite mail sous 15 minutes pour debloquer cet article et tous les suivants.',
+            hint:  'Gratuit \u00b7 Pas de spam \u00b7 Lien magique',
+          }
+        : {
+            label: j.alreadyMember ? 'Welcome back' : 'Check your inbox',
+            h3:    'We just sent a sign-in link to ' + escapeHtml(email),
+            body:  'Click the link in your inbox within 15 minutes to unlock this article and every future one.',
+            hint:  'Free \u00b7 No spam \u00b7 Magic-link sign-in',
+          };
       cta.innerHTML =
-        '<p class="label">— ' + (j.alreadyMember ? 'Welcome back' : 'Check your inbox') + '</p>' +
-        '<h3>We just sent a sign-in link to ' + escapeHtml(email) + '</h3>' +
-        '<p>Click the link in your inbox within 15 minutes to unlock this article and every future one.</p>' +
-        '<p class="hint">Free · No spam · Magic-link sign-in</p>';
+        '<p class="label">\u2014 ' + copy.label + '</p>' +
+        '<h3>' + copy.h3 + '</h3>' +
+        '<p>' + copy.body + '</p>' +
+        '<p class="hint">' + copy.hint + '</p>';
     } catch (_) {
       if (errEl) errEl.textContent = 'Connection error. Please try again.';
       btn.disabled = false;

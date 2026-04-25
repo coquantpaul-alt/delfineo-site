@@ -3,7 +3,7 @@ main = "workers/auth-worker.js"
 compatibility_date = "2024-12-01"
 
 # Route the worker to delfineo.com/api/auth/*
-# routes = [{ pattern = "delfineo.com/api/auth/*", zone_name = "delfineo.com" }]
+routes = [{ pattern = "delfineo.com/api/auth/*", zone_name = "delfineo.com" }]
 
 # D1 database binding
 [[d1_databases]]
