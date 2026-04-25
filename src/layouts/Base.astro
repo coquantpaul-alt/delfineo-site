@@ -3,6 +3,7 @@ import '../styles/global.css';
 import Masthead from '../components/editorial/Masthead.astro';
 import SiteFooter from '../components/editorial/SiteFooter.astro';
 import SearchOverlay from '../components/editorial/SearchOverlay.astro';
+import MobileTabBar from '../components/editorial/MobileTabBar.astro';
 import { t } from '../i18n.js';
 
 interface Props {
@@ -89,5 +90,6 @@ const i = (k: string) => t(lang, k);
     </div>
   </div>
   <SearchOverlay lang={lang} />
+  <MobileTabBar lang={lang} active={active} />
 </body>
 </html>

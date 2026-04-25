@@ -1,0 +1,81 @@
+---
+import { t } from '../../i18n.js';
+interface Props {
+  lang: 'en' | 'fr';
+  active?: 'news' | 'research' | 'saved' | 'search' | null;
+}
+const { lang, active = null } = Astro.props;
+const i = (k: string) => t(lang, k);
+
+const labels = lang === 'fr'
+  ? { news: 'Actu', research: 'Recherche', saved: 'Sauve', search: 'Rechercher' }
+  : { news: 'News', research: 'Research', saved: 'Saved', search: 'Search' };
+---
+<nav class="mobile-tabs" aria-label="Sections">
+  <a
+    href={`/${lang}/?tab=news`}
+    class={`mobile-tab ${active === 'news' ? 'active' : ''}`}
+    onclick="if(typeof showTab==='function'){var n=document.getElementById('panel-news');if(n){event.preventDefault();showTab('news');}}"
+  >
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+      <path d="M4 5h12v14H4zM16 9h4v10h-4z M7 8h6 M7 11h6 M7 14h6"/>
+    </svg>
+    <span>{labels.news}</span>
+  </a>
+
+  <a
+    href={`/${lang}/?tab=research`}
+    class={`mobile-tab ${active === 'research' ? 'active' : ''}`}
+    onclick="if(typeof showTab==='function'){var n=document.getElementById('panel-news');if(n){event.preventDefault();showTab('research');}}"
+  >
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+      <circle cx="11" cy="11" r="6"/>
+      <path d="M16 16 L20 20"/>
+      <path d="M9 11 L13 11"/>
+    </svg>
+    <span>{labels.research}</span>
+  </a>
+
+  <button
+    type="button"
+    class={`mobile-tab ${active === 'saved' ? 'active' : ''}`}
+    data-saved-toast
+    aria-label={labels.saved}
+  >
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+      <path d="M6 4h12v17l-6-4-6 4z"/>
+    </svg>
+    <span>{labels.saved}</span>
+  </button>
+
+  <button
+    type="button"
+    class="mobile-tab"
+    data-open-search
+    aria-label={labels.search}
+  >
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+      <circle cx="11" cy="11" r="6"/>
+      <path d="M16 16 L20 20"/>
+    </svg>
+    <span>{labels.search}</span>
+  </button>
+</nav>
+
+<div id="saved-toast" class="saved-toast" role="status" aria-live="polite"></div>
+
+<script is:inline>
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-saved-toast]');
+    if (!b) return;
+    e.preventDefault();
+    const t = document.getElementById('saved-toast');
+    if (!t) return;
+    t.textContent = (document.documentElement.lang === 'fr')
+      ? 'Articles sauvegardes — bientot disponible'
+      : 'Saved articles — coming soon';
+    t.classList.add('show');
+    clearTimeout(window.__savedToastTimer);
+    window.__savedToastTimer = setTimeout(() => t.classList.remove('show'), 2400);
+  });
+</script>

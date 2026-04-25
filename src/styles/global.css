@@ -2001,3 +2001,105 @@ body.is-signed-in .paywall-cta { display: none; }
 @media (min-width: 641px) {
   .nameplate-slim .left .search-icon-btn { display: none; }
 }
+
+/* ─── Mobile bottom tab bar (≤640px) ────────────────────────────── */
+
+.mobile-tabs { display: none; }
+.saved-toast { display: none; }
+
+@media (max-width: 640px) {
+  /* Hide the top News/Research nav and the small search icon — handled by the bottom bar now */
+  .masthead-nav,
+  .nameplate-slim .left .search-icon-btn { display: none !important; }
+
+  /* Tighten masthead even more — only wordmark + lang toggle */
+  .nameplate.nameplate-slim {
+    grid-template-columns: 1fr auto 1fr;
+    padding: 14px 16px 10px;
+    gap: 6px;
+    align-items: center;
+    border-bottom: 1px solid var(--rule);
+  }
+  .nameplate-slim .left,
+  .nameplate-slim .right .search-pill { display: none !important; }
+  .nameplate-slim .center { justify-self: center; }
+  .nameplate-slim .wordmark {
+    font-size: 22px;
+    letter-spacing: 0.18em;
+  }
+  .nameplate-slim .right {
+    flex-direction: row;
+    justify-self: end;
+    margin-top: 0;
+  }
+  .nameplate-slim .right .lang-toggle {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+  }
+
+  /* Make room at the bottom of the page so the tab bar doesn't overlap content */
+  body { padding-bottom: calc(64px + env(safe-area-inset-bottom)); }
+
+  /* The tab bar itself */
+  .mobile-tabs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    z-index: 80;
+    background: var(--paper);
+    border-top: 1px solid var(--rule);
+    padding-bottom: env(safe-area-inset-bottom);
+    box-shadow: 0 -4px 16px rgba(14, 23, 38, 0.04);
+  }
+  .mobile-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 8px 0 6px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--muted);
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    transition: color 0.12s;
+  }
+  .mobile-tab svg { width: 20px; height: 20px; }
+  .mobile-tab:active,
+  .mobile-tab:hover,
+  .mobile-tab.active { color: var(--navy); }
+  .mobile-tab.active svg { stroke-width: 1.9; }
+
+  /* Saved-coming-soon toast */
+  .saved-toast {
+    display: block;
+    position: fixed;
+    left: 50%;
+    bottom: calc(80px + env(safe-area-inset-bottom));
+    transform: translateX(-50%) translateY(20px);
+    z-index: 90;
+    background: var(--navy);
+    color: var(--cream);
+    padding: 10px 18px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    border-radius: 999px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s, transform 0.2s;
+    white-space: nowrap;
+    max-width: calc(100vw - 40px);
+  }
+  .saved-toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
