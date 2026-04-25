@@ -169,3 +169,29 @@ const altHref = altPath || ('/' + altLang + '/');
     .date-label { font-size: 9px; letter-spacing: 0.14em; }
   }
 </style>
+
+<script is:inline>
+  // Make the News/Research nav buttons work on every page.
+  // On the home page (where #panel-news and #panel-research exist), toggle them.
+  // On any other page (article pages), navigate to /lang/?tab=...
+  window.showTab = function(tab) {
+    var news = document.getElementById('panel-news');
+    var research = document.getElementById('panel-research');
+    if (news && research) {
+      news.style.display = tab === 'news' ? 'block' : 'none';
+      research.style.display = tab === 'research' ? 'block' : 'none';
+      var bn = document.getElementById('tab-news');
+      var br = document.getElementById('tab-research');
+      if (bn) bn.classList.toggle('active', tab === 'news');
+      if (br) br.classList.toggle('active', tab === 'research');
+      try {
+        var u = new URL(window.location);
+        u.searchParams.set('tab', tab);
+        history.replaceState(null, '', u);
+      } catch (_) {}
+    } else {
+      var lang = document.documentElement.lang || 'en';
+      window.location.href = '/' + lang + '/?tab=' + tab;
+    }
+  };
+</script>
