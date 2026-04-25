@@ -1,32 +1,29 @@
 ---
-// Client-side auth glue. Reads session via /api/auth/me.
-// Gated links ([data-gated]) open the modal when anonymous.
-// Subscribe buttons ([data-subscribe]) open the modal.
-//
-// Endpoints (served by the auth Worker, same origin under /api/auth/*):
-//   GET  /api/auth/me       → { status: 'ok', email, tier } | 401
-//   POST /api/auth/request  { email, redirectTo } → { ok:true, alreadyMember }
-//   POST /api/auth/logout   → 204
+// Client-side auth glue.
+// - Calls /api/auth/me on load.
+// - If signed in: adds body.is-signed-in (CSS removes paywall + mask).
+// - Sign-up button [data-subscribe] still opens the modal.
+// - Inline paywall forms ([data-paywall-form]) post to /api/auth/request
+//   and flip the surrounding card to a "check your inbox" state.
+// - The old click-block on [data-gated] is gone — articles always navigate.
 ---
 <script>
   const AUTH_BASE = '/api/auth';
 
-  const overlay       = document.getElementById('auth-overlay');
-  const emailInput    = document.getElementById('auth-email');
-  const authBtn       = document.getElementById('auth-btn');
-  const authClose     = document.getElementById('auth-close');
-  const authError     = document.getElementById('auth-error');
-  const authForm      = document.getElementById('auth-form-state');
-  const authSuccess   = document.getElementById('auth-success-state');
-  const successTitle  = document.getElementById('success-title');
-  const successMsg    = document.getElementById('success-msg');
+  const overlay      = document.getElementById('auth-overlay');
+  const emailInput   = document.getElementById('auth-email');
+  const authBtn      = document.getElementById('auth-btn');
+  const authClose    = document.getElementById('auth-close');
+  const authError    = document.getElementById('auth-error');
+  const authForm     = document.getElementById('auth-form-state');
+  const authSuccess  = document.getElementById('auth-success-state');
+  const successTitle = document.getElementById('success-title');
+  const successMsg   = document.getElementById('success-msg');
 
-  const gatedLinks    = document.querySelectorAll('[data-gated]');
-  const subBtns       = document.querySelectorAll('[data-subscribe]');
-  const userArea      = document.getElementById('user-area');
+  const subBtns      = document.querySelectorAll('[data-subscribe]');
+  const userArea     = document.getElementById('user-area');
 
-  let me = null;          // { email, tier } when signed in
-  let pendingHref = null; // path user was trying to reach
+  let me = null;
 
   async function fetchMe() {
     try {
@@ -37,16 +34,12 @@
     } catch (_) { return null; }
   }
 
-  function unlockAll() {
-    document.querySelectorAll('.lock-badge').forEach((el) => el.style.display = 'none');
-  }
-
   function showUserBadge() {
     if (!userArea || !me) return;
     const name = me.email.split('@')[0];
-    userArea.innerHTML = ''
-      + '<span class="name"><span class="dot"></span>' + escapeHtml(name) + '</span>'
-      + '<button class="sign-out" id="sign-out-btn">' + (userArea.dataset.signout || 'Sign out') + '</button>';
+    userArea.innerHTML =
+      '<span class="name"><span class="dot"></span>' + escapeHtml(name) + '</span>' +
+      '<button class="sign-out" id="sign-out-btn">' + (userArea.dataset.signout || 'Sign out') + '</button>';
     userArea.style.display = '';
     subBtns.forEach((b) => b.style.display = 'none');
     const out = document.getElementById('sign-out-btn');
@@ -63,26 +56,24 @@
     return String(s).replace(/[&<>"']/g, (c) => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
   }
 
-  function openModal(href) {
+  /* ── modal (Subscribe button only) ───────────────────────────── */
+  function openModal() {
     if (!overlay) return;
-    pendingHref = href || null;
     overlay.style.display = 'flex';
-    authForm.style.display = 'block';
-    authSuccess.style.display = 'none';
+    if (authForm) authForm.style.display = 'block';
+    if (authSuccess) authSuccess.style.display = 'none';
     if (authError) authError.textContent = '';
     if (emailInput) {
       emailInput.value = '';
       setTimeout(() => emailInput.focus(), 10);
     }
   }
-
   function closeModal() {
     if (!overlay) return;
     overlay.style.display = 'none';
-    pendingHref = null;
   }
 
-  async function requestLink() {
+  async function requestModalLink() {
     const email = (emailInput?.value || '').trim().toLowerCase();
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       if (authError) authError.textContent = authError.dataset.emailError || 'Please enter a valid email.';
@@ -91,33 +82,28 @@
     authBtn.disabled = true;
     authBtn.textContent = authBtn.dataset.checking || 'Sending…';
     if (authError) authError.textContent = '';
-
     try {
       const r = await fetch(AUTH_BASE + '/request', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         credentials: 'include',
-        body: JSON.stringify({ email, redirectTo: pendingHref || location.pathname + location.search }),
+        body: JSON.stringify({ email, redirectTo: location.pathname + location.search }),
       });
       const j = await r.json().catch(() => ({}));
       if (!r.ok) {
         if (authError) authError.textContent = j.message || 'Something went wrong. Please try again.';
         return;
       }
-      // Flip to "check your inbox" state
-      authForm.style.display = 'none';
-      authSuccess.style.display = 'block';
-      const isExisting = !!j.alreadyMember;
-      if (successTitle) {
-        successTitle.textContent = isExisting
-          ? (successTitle.dataset.existing || 'Welcome back')
-          : (successTitle.dataset.new || 'Check your inbox');
-      }
+      if (authForm) authForm.style.display = 'none';
+      if (authSuccess) authSuccess.style.display = 'block';
+      if (successTitle) successTitle.textContent = j.alreadyMember
+        ? (successTitle.dataset.existing || 'Welcome back')
+        : (successTitle.dataset.new || 'Check your inbox');
       if (successMsg) {
-        const baseMsg = isExisting
+        const tpl = j.alreadyMember
           ? (successMsg.dataset.existing || 'We just sent a sign-in link to %EMAIL%.')
           : (successMsg.dataset.new || 'We just sent a sign-in link to %EMAIL%.');
-        successMsg.textContent = baseMsg.replace('%EMAIL%', email);
+        successMsg.textContent = tpl.replace('%EMAIL%', email);
       }
     } catch (_) {
       if (authError) authError.textContent = 'Connection error. Please try again.';
@@ -127,28 +113,72 @@
     }
   }
 
-  // Wire up UI
-  gatedLinks.forEach((el) => {
-    el.addEventListener('click', (e) => {
-      if (me) return;  // signed in — let the click through
-      e.preventDefault();
-      openModal(el.getAttribute('href'));
-    });
-  });
-  subBtns.forEach((b) => b.addEventListener('click', () => openModal(null)));
+  /* ── inline paywall (article body) ───────────────────────────── */
+  async function handlePaywallSubmit(form) {
+    const cta = form.closest('.paywall-cta');
+    const input = form.querySelector('input[name="email"]');
+    const btn = form.querySelector('button');
+    const errEl = cta.querySelector('.err');
+    const email = (input.value || '').trim().toLowerCase();
+
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      if (errEl) errEl.textContent = 'Please enter a valid email.';
+      return;
+    }
+    if (errEl) errEl.textContent = '';
+    btn.disabled = true;
+    const originalLabel = btn.textContent;
+    btn.textContent = 'Sending…';
+
+    try {
+      const r = await fetch(AUTH_BASE + '/request', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
+        body: JSON.stringify({ email, redirectTo: location.pathname + location.search }),
+      });
+      const j = await r.json().catch(() => ({}));
+      if (!r.ok) {
+        if (errEl) errEl.textContent = j.message || 'Something went wrong. Please try again.';
+        btn.disabled = false;
+        btn.textContent = originalLabel;
+        return;
+      }
+      // Replace inner with success message
+      cta.classList.add('success');
+      cta.innerHTML =
+        '<p class="label">— ' + (j.alreadyMember ? 'Welcome back' : 'Check your inbox') + '</p>' +
+        '<h3>We just sent a sign-in link to ' + escapeHtml(email) + '</h3>' +
+        '<p>Click the link in your inbox within 15 minutes to unlock this article and every future one.</p>' +
+        '<p class="hint">Free · No spam · Magic-link sign-in</p>';
+    } catch (_) {
+      if (errEl) errEl.textContent = 'Connection error. Please try again.';
+      btn.disabled = false;
+      btn.textContent = originalLabel;
+    }
+  }
+
+  /* ── wire up ─────────────────────────────────────────────────── */
+  subBtns.forEach((b) => b.addEventListener('click', (e) => { e.preventDefault(); openModal(); }));
   authClose?.addEventListener('click', closeModal);
   overlay?.addEventListener('click', (e) => { if (e.target === overlay) closeModal(); });
-  authBtn?.addEventListener('click', requestLink);
-  emailInput?.addEventListener('keydown', (e) => { if (e.key === 'Enter') requestLink(); });
+  authBtn?.addEventListener('click', requestModalLink);
+  emailInput?.addEventListener('keydown', (e) => { if (e.key === 'Enter') requestModalLink(); });
+
+  document.addEventListener('submit', (e) => {
+    const form = e.target.closest('[data-paywall-form]');
+    if (form) { e.preventDefault(); handlePaywallSubmit(form); }
+  });
+
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && overlay && overlay.style.display !== 'none') closeModal();
   });
 
-  // Init: check session
+  /* ── init ────────────────────────────────────────────────────── */
   (async () => {
     me = await fetchMe();
     if (me) {
-      unlockAll();
+      document.body.classList.add('is-signed-in');
       showUserBadge();
     }
   })();
