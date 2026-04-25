@@ -27,18 +27,19 @@ const dek = story.data.summary
   .replace(/\s+/g, ' ')
   .trim();
 
-const minLabel = lang === 'fr' ? `${readMinutes} min` : `${readMinutes} min`;
+const minLabel = (readMinutes || 4) + ' min';
 const slugNoLang = story.slug.replace(lang + '/', '');
-const href = `/${lang}/news/${slugNoLang}/`;
+const href = '/' + lang + '/news/' + slugNoLang + '/';
 ---
 <a href={href} class="story-row news-item" data-gated data-meta={metaFor(story.data.category)}>
   <div class="num">{String(num).padStart(2, '0')}.</div>
   <div class="side">
     <Tag>{story.data.category.toUpperCase()}</Tag>
-    {sourceLabel && <div class="source">{sourceLabel} · {story.data.dateDisplay}</div>}
+    {sourceLabel && <div class="source">{sourceLabel} &middot; {story.data.dateDisplay}</div>}
   </div>
   <div>
     <h3>{story.data.title}</h3>
     <p>{dek}</p>
   </div>
-  <div clas
+  <div class="read">{minLabel}</div>
+</a>
