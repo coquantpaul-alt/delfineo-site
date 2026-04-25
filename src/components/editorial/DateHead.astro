@@ -1,0 +1,13 @@
+---
+interface Props {
+  label: string;     // "Today", "Yesterday", "Recent"…
+  date?: string;     // "April 24, 2026"
+  day?: string;      // ISO date, used as data-day for the filter
+}
+const { label, date, day } = Astro.props;
+---
+<div class="date-head day-block" data-day={day}>
+  <span class="label">{label}</span>
+  {date && <span class="date">{date}</span>}
+  <span class="fill"></span>
+</div>

@@ -1,0 +1,51 @@
+---
+import Tag from './Tag.astro';
+
+interface Piece {
+  slug: string;
+  data: {
+    title: string;
+    subtitle: string;
+    category: string;
+    date: string;
+    readTime: string;
+    rating?: string;
+    rationale?: string;
+  };
+}
+interface Props { piece: Piece; num: number; lang: 'en' | 'fr'; }
+const { piece, num, lang } = Astro.props;
+
+const rating = piece.data.rating;
+const ratingClass = rating === 'We Own' ? 'own'
+                  : rating === "We Don't Own" ? 'not-own'
+                  : '';
+const ratingLabel = lang === 'fr'
+  ? (rating === 'We Own' ? 'Detenu'
+     : rating === "We Don't Own" ? 'Non detenu'
+     : rating)
+  : rating;
+const callEyebrow = lang === 'fr' ? 'Recommandation Delfineo' : 'Delfineo Call';
+const slugNoLang  = piece.slug.replace(lang + '/', '');
+const href        = '/' + lang + '/research/' + slugNoLang + '/';
+---
+<a href={href} class="research-row research-card" data-gated>
+  <div class="num">N<sup>o</sup> {String(num).padStart(2, '0')}</div>
+  <div>
+    <div class="meta-line">
+      <Tag>{piece.data.category.toUpperCase()}</Tag>
+      <span class="date">{piece.data.date} &middot; {piece.data.readTime}</span>
+    </div>
+    <h3>{piece.data.title}</h3>
+    <p>{piece.data.subtitle}</p>
+  </div>
+  {rating ? (
+    <div class="call">
+      <span class="eyebrow">{callEyebrow}</span>
+      <span class={'rating ' + ratingClass}>{ratingLabel}</span>
+      {piece.data.rationale && <span class="rationale">{piece.data.rationale}</span>}
+    </div>
+  ) : (
+    <div class="call"></div>
+  )}
+</a>

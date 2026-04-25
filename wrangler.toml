@@ -1,10 +1,23 @@
 name = "delfineo-auth"
 main = "workers/auth-worker.js"
-compatibility_date = "2024-01-01"
+compatibility_date = "2024-12-01"
 
-[vars]
-# Set BUTTONDOWN_API_KEY as a secret:
-#   npx wrangler secret put BUTTONDOWN_API_KEY
+# Route the worker to delfineo.com/api/auth/*
+# routes = [{ pattern = "delfineo.com/api/auth/*", zone_name = "delfineo.com" }]
 
-# Route this worker to your domain:
-# routes = [{ pattern = "delfineo.com/api/auth", zone_name = "delfineo.com" }]
+# D1 database binding
+[[d1_databases]]
+binding       = "DB"
+database_name = "delfineo-auth"
+database_id   = "022d5f1a-d420-499b-bfa5-198d8d79e6c8"
+
+# ── Secrets (set with: npx wrangler secret put NAME) ───────────
+# AUTH_SECRET          32+ random chars, used to sign session cookies
+# RESEND_API_KEY       from https://resend.com/api-keys
+# BUTTONDOWN_API_KEY   (optional) syncs new users to newsletter list
+# AUTH_FROM_EMAIL      "Delfineo <auth@delfineo.com>"
+# AUTH_SITE_URL        "https://delfineo.com" (no trailing slash)
+
+# ── Optional: observability ────────────────────────────────────
+[observability]
+enabled = true

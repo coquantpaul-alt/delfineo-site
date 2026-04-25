@@ -1,0 +1,5 @@
+---
+interface Props { color?: string; }
+const { color = 'var(--navy)' } = Astro.props;
+---
+<span class="tag" style={`color:${color};`}>— <slot /></span>

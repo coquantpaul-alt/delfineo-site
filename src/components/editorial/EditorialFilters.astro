@@ -1,0 +1,25 @@
+---
+// Sticky editorial section filter. Preserves existing filter JS (chip-bar data-meta).
+import { META_KEYS, META_LABELS } from '../../lib/meta-sections.js';
+interface Props {
+  lang: 'en' | 'fr';
+  totalCount: number;
+  counts: Record<string, number>;
+}
+const { lang, totalCount, counts } = Astro.props;
+const L = META_LABELS[lang];
+const sectionsLabel = lang === 'fr' ? 'Rubriques' : 'Sections';
+---
+<nav class="editorial-filters" id="chip-bar" role="tablist" aria-label="Filter news by section">
+  <span class="label">{sectionsLabel}</span>
+  <span class="vdivider" aria-hidden="true"></span>
+
+  <button class="chip active" data-meta="all" role="tab" aria-selected="true">
+    {L.all}<sup class="chip-count">{totalCount}</sup>
+  </button>
+  {META_KEYS.map((k) => (
+    <button class="chip" data-meta={k} role="tab" aria-selected="false">
+      {L[k]}<sup class="chip-count">{counts[k] ?? 0}</sup>
+    </button>
+  ))}
+</nav>

@@ -1,28 +1,93 @@
 ---
 import '../styles/global.css';
+import Masthead from '../components/editorial/Masthead.astro';
+import SiteFooter from '../components/editorial/SiteFooter.astro';
+import SearchOverlay from '../components/editorial/SearchOverlay.astro';
+import { t } from '../i18n.js';
 
 interface Props {
   title?: string;
   description?: string;
-  lang?: string;
+  lang?: 'en' | 'fr';
+  active?: 'news' | 'research' | null;
+  newsCount?: number | null;
+  researchCount?: number | null;
+  altPath?: string;
+  showMasthead?: boolean;
+  showFooter?: boolean;
+  showSubscribe?: boolean;
 }
 
-const { title = 'Delfineo', description = 'Independent equity research and market intelligence', lang = 'en' } = Astro.props;
+const {
+  title = 'Delfineo',
+  description = 'Independent equity research and market intelligence',
+  lang = 'en',
+  active = 'news',
+  newsCount = null,
+  researchCount = null,
+  altPath,
+  showMasthead = true,
+  showFooter = true,
+  showSubscribe = true,
+} = Astro.props;
+
+const i = (k: string) => t(lang, k);
 ---
 <!DOCTYPE html>
 <html lang={lang}>
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="theme-color" content="#f6f3ea" />
   <meta name="description" content={description} />
   <title>{title}</title>
   <link rel="canonical" href={Astro.url.href} />
-  <!-- Alternate language links for SEO -->
-  <link rel="alternate" hreflang="en" href={Astro.url.href.replace(`/${lang}/`, '/en/')} />
-  <link rel="alternate" hreflang="fr" href={Astro.url.href.replace(`/${lang}/`, '/fr/')} />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 </head>
 <body>
-  <slot />
+  <div class="shell">
+    {showMasthead && (
+      <Masthead
+        lang={lang}
+        active={active}
+        newsCount={newsCount}
+        researchCount={researchCount}
+        altPath={altPath}
+        showSubscribe={showSubscribe}
+      />
+    )}
+
+    <slot />
+
+    {showFooter && <SiteFooter lang={lang} />}
+  </div>
+
+  <div id="auth-overlay" class="auth-overlay" style="display:none">
+    <div class="auth-modal">
+      <button id="auth-close" class="close" aria-label="Close">x</button>
+      <div class="bar"></div>
+
+      <div id="auth-form-state">
+        <h2>{i('authTitle')}</h2>
+        <p class="desc">{i('authDesc')}</p>
+        <p class="hint">{i('authHint')}</p>
+        <div class="auth-form">
+          <input id="auth-email" type="email" placeholder="your@email.com" />
+          <button id="auth-btn" data-label={i('authBtn')} data-checking={i('authChecking')}>{i('authBtn')}</button>
+        </div>
+        <p id="auth-error" class="auth-error" data-email-error={i('authErrorEmail')}></p>
+        <p class="auth-footer">{i('authFree')}</p>
+      </div>
+
+      <div id="auth-success-state" class="auth-success" style="display:none">
+        <div class="check">OK</div>
+        <h2 id="success-title" data-existing={i('authWelcomeBack')} data-new={i('authWelcomeNew')}></h2>
+        <p id="success-msg" data-existing={i('authMsgExisting')} data-new={i('authMsgNew')}></p>
+      </div>
+    </div>
+  </div>
+  <SearchOverlay lang={lang} />
 </body>
 </html>

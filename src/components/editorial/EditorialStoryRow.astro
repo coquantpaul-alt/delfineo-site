@@ -1,0 +1,44 @@
+---
+import Tag from './Tag.astro';
+import { metaFor } from '../../lib/meta-sections.js';
+
+interface Story {
+  slug: string;
+  data: {
+    title: string;
+    category: string;
+    summary: string;
+    dateDisplay: string;
+  };
+}
+interface Props {
+  story: Story;
+  num: number;
+  lang: 'en' | 'fr';
+  sourceLabel?: string;
+  readMinutes?: number;
+}
+const { story, num, lang, sourceLabel, readMinutes = 4 } = Astro.props;
+
+const dek = story.data.summary
+  .replace(/\*\*(.+?)\*\*/g, '$1')
+  .replace(/\*(.+?)\*/g, '$1')
+  .replace(/_([^_]+)_/g, '$1')
+  .replace(/\s+/g, ' ')
+  .trim();
+
+const minLabel = lang === 'fr' ? `${readMinutes} min` : `${readMinutes} min`;
+const slugNoLang = story.slug.replace(lang + '/', '');
+const href = `/${lang}/news/${slugNoLang}/`;
+---
+<a href={href} class="story-row news-item" data-gated data-meta={metaFor(story.data.category)}>
+  <div class="num">{String(num).padStart(2, '0')}.</div>
+  <div class="side">
+    <Tag>{story.data.category.toUpperCase()}</Tag>
+    {sourceLabel && <div class="source">{sourceLabel} · {story.data.dateDisplay}</div>}
+  </div>
+  <div>
+    <h3>{story.data.title}</h3>
+    <p>{dek}</p>
+  </div>
+  <div clas

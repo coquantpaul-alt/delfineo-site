@@ -1,0 +1,42 @@
+---
+// Editorial monogram. Default variant is the "seal" (circle with D).
+// Swap via prop: <Monogram variant="serif" | "seal" | "modern" size={36} />
+interface Props {
+  variant?: 'serif' | 'seal' | 'modern';
+  size?: number;
+  color?: string;
+}
+const { variant = 'seal', size = 34, color = 'var(--navy)' } = Astro.props;
+---
+{variant === 'serif' && (
+  <span
+    class="monogram monogram-serif"
+    style={`width:${size}px;height:${size}px;border:1px solid ${color};color:${color};font-size:${Math.round(size * 0.58)}px;`}
+    aria-hidden="true"
+  >D</span>
+)}
+{variant === 'seal' && (
+  <svg width={size} height={size} viewBox="0 0 40 40" aria-hidden="true" style="display:block">
+    <circle cx="20" cy="20" r="19" fill="none" stroke={color} stroke-width="1" />
+    <text x="20" y="26" text-anchor="middle"
+          font-family="&quot;GT Sectra&quot;, &quot;Playfair Display&quot;, Georgia, serif"
+          font-size="18" fill={color} letter-spacing="0.02em">D</text>
+  </svg>
+)}
+{variant === 'modern' && (
+  <svg width={size} height={size} viewBox="0 0 40 40" aria-hidden="true" style="display:block">
+    <rect x="0.5" y="0.5" width="39" height="39" fill="none" stroke={color} />
+    <path d="M10 10 L10 30 L22 30 C28 30 30 26 30 20 C30 14 28 10 22 10 Z" fill={color} />
+  </svg>
+)}
+
+<style>
+  .monogram {
+    display: grid;
+    place-items: center;
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    background: transparent;
+  }
+</style>

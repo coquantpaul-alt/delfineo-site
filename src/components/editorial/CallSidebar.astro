@@ -1,0 +1,63 @@
+---
+// Sticky "Delfineo Call" sidebar on research detail pages.
+// Renders only when `rating` is provided.
+interface Props {
+  rating?: string;          // "We Own" | "We Don't Own"
+  rationale?: string;
+  fairValue?: string;       // e.g. "$12" or "€45"
+  sector?: string;
+  date?: string;
+  lang?: 'en' | 'fr';
+}
+const { rating, rationale, fairValue, sector, date, lang = 'en' } = Astro.props;
+if (!rating) return null;
+
+const ratingClass = rating === 'We Own' ? 'own'
+                  : rating === "We Don't Own" ? 'not-own'
+                  : '';
+const ratingDisplay = lang === 'fr'
+  ? (rating === 'We Own' ? 'Détenu'
+     : rating === "We Don't Own" ? 'Non détenu'
+     : rating)
+  : rating;
+
+const callLabel  = lang === 'fr' ? 'La Recommandation Delfineo' : 'Delfineo Call';
+const fvLabel    = lang === 'fr' ? 'Valeur estimée' : 'Fair value';
+const whyLabel   = lang === 'fr' ? 'Raisonnement' : 'Rationale';
+const sectorLabel= lang === 'fr' ? 'Secteur' : 'Sector';
+const dateLabel  = lang === 'fr' ? 'Date' : 'Date';
+---
+<aside class="call-sidebar" aria-label={callLabel}>
+  <div class="eyebrow">— {callLabel}</div>
+  <div class={`rating ${ratingClass}`}>{ratingDisplay}</div>
+
+  {fairValue && (
+    <div class="fair">{fvLabel} · {fairValue}</div>
+  )}
+
+  {rationale && (
+    <>
+      <div class="sep"></div>
+      <div class="mini">{whyLabel}</div>
+      <div class="rationale">{rationale}</div>
+    </>
+  )}
+
+  {(sector || date) && (
+    <>
+      <div class="sep"></div>
+      {sector && (
+        <div>
+          <div class="mini">{sectorLabel}</div>
+          <div class="rationale" style="font-style:normal;margin-top:4px;">{sector}</div>
+        </div>
+      )}
+      {date && (
+        <div>
+          <div class="mini" style="margin-top:12px;">{dateLabel}</div>
+          <div class="rationale" style="font-style:normal;margin-top:4px;">{date}</div>
+        </div>
+      )}
+    </>
+  )}
+</aside>

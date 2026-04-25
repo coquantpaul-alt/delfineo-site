@@ -1,0 +1,74 @@
+---
+// Research featured-report hero with navy "Delfineo Call" sidecar.
+import Tag from './Tag.astro';
+
+interface Piece {
+  slug: string;
+  data: {
+    title: string;
+    subtitle: string;
+    category: string;
+    date: string;
+    readTime: string;
+    rating?: string;
+    rationale?: string;
+    fairValue?: string;
+  };
+}
+interface Props {
+  piece: Piece;
+  lang: 'en' | 'fr';
+  bullets?: string[];
+}
+const { piece, lang, bullets } = Astro.props;
+
+const featuredLabel = lang === 'fr' ? 'Analyse du mois' : 'Featured Report';
+const callLabel     = lang === 'fr' ? 'La Recommandation Delfineo' : 'Delfineo Call';
+const ctaLabel      = lang === 'fr' ? "Lire l'analyse complete ->" : 'Read the full report ->';
+const deskLabel     = lang === 'fr' ? 'Bureau Delfineo' : 'Delfineo Desk';
+const slugNoLang    = piece.slug.replace(lang + '/', '');
+const href          = '/' + lang + '/research/' + slugNoLang + '/';
+const rating        = piece.data.rating;
+---
+<section class="editorial-hero">
+  <div>
+    <Tag>{featuredLabel} &middot; {piece.data.category}</Tag>
+    <h1 style="margin-top:18px"><a href={href}>{piece.data.title}</a></h1>
+    <p class="dek">{piece.data.subtitle}</p>
+    <div class="meta-row">
+      <span>{piece.data.date}</span>
+      <span class="sep">&middot;</span>
+      <span>{piece.data.readTime}</span>
+      <span class="sep">&middot;</span>
+      <span>{deskLabel}</span>
+      <a class="cta" href={href}>{ctaLabel}</a>
+    </div>
+  </div>
+
+  {rating && (
+    <aside class="takeaway-card" aria-label={callLabel}>
+      <div class="label-row">
+        <div class="label">&mdash; {callLabel}</div>
+        <div class="rating-pill">
+          {rating}{piece.data.fairValue ? ' - ' + piece.data.fairValue : ''}
+        </div>
+      </div>
+      {piece.data.rationale && (
+        <p class="headline call">{piece.data.rationale}</p>
+      )}
+      {bullets && bullets.length > 0 && (
+        <div class="bullets-wrap">
+          <div class="sep"></div>
+          <ul>
+            {bullets.map((b, i) => (
+              <li>
+                <span class="num">{String(i + 1).padStart(2, '0')}</span>
+                <span>{b}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </aside>
+  )}
+</section>

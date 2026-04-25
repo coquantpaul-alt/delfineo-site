@@ -1,0 +1,77 @@
+---
+// News lead-story hero with navy "Key Takeaway" sidecar.
+import Tag from './Tag.astro';
+
+interface Story {
+  slug: string;
+  data: {
+    title: string;
+    category: string;
+    date: string;
+    dateDisplay: string;
+    summary: string;
+    insight?: string;
+  };
+}
+interface Props {
+  story: Story;
+  lang?: 'en' | 'fr';
+  sourceLabel?: string;
+  readMinutes?: number;
+  takeawayBullets?: string[];
+}
+const { story, lang = 'en', sourceLabel, readMinutes, takeawayBullets } = Astro.props;
+
+const leadLabel = lang === 'fr' ? 'A la une' : 'Lead Story';
+const mins = readMinutes || 4;
+const readLabel = lang === 'fr' ? (mins + ' min de lecture') : (mins + ' min read');
+const ctaLabel  = lang === 'fr' ? "Lire l'article ->" : 'Read the brief ->';
+const takeLabel = lang === 'fr' ? "Ce qu'il faut retenir" : 'Key Takeaway';
+
+const dek = story.data.summary
+  .replace(/\*\*(.+?)\*\*/g, '$1')
+  .replace(/\*(.+?)\*/g, '$1')
+  .replace(/_([^_]+)_/g, '$1')
+  .replace(/\s+/g, ' ')
+  .trim()
+  .slice(0, 400);
+
+const slugNoLang = story.slug.replace(lang + '/', '');
+const href = '/' + lang + '/news/' + slugNoLang + '/';
+---
+<section class="editorial-hero">
+  <div>
+    <Tag>{leadLabel} &middot; {story.data.category.toUpperCase()}</Tag>
+    <h1><a href={href}>{story.data.title}</a></h1>
+    <p class="dek">{dek}</p>
+    <div class="meta-row">
+      {sourceLabel && (
+        <span class="source-meta">
+          <span>{sourceLabel}</span>
+          <span class="sep">&middot;</span>
+        </span>
+      )}
+      <span>{story.data.dateDisplay}</span>
+      <span class="sep">&middot;</span>
+      <span>{readLabel}</span>
+      <a class="cta" href={href}>{ctaLabel}</a>
+    </div>
+  </div>
+
+  {story.data.insight && (
+    <aside class="takeaway-card" aria-label={takeLabel}>
+      <div class="label">&mdash; {takeLabel}</div>
+      <p class="headline">{story.data.insight.replace(/\s+/g, ' ').trim()}</p>
+      {takeawayBullets && takeawayBullets.length > 0 && (
+        <div class="bullets-wrap">
+          <div class="sep"></div>
+          <ul>
+            {takeawayBullets.map((b) => (
+              <li><span class="bullet">&mdash;</span><span>{b}</span></li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </aside>
+  )}
+</section>

@@ -1,0 +1,21 @@
+---
+import { t } from '../../i18n.js';
+interface Props { lang?: 'en' | 'fr'; }
+const { lang = 'en' } = Astro.props;
+const i = (k: string) => t(lang, k);
+
+// Year in Roman numerals (simple 2020–2099 only — good enough for "© MMXXVI")
+const roman = (n: number) => {
+  const map: [number, string][] = [[1000,'M'],[900,'CM'],[500,'D'],[400,'CD'],[100,'C'],[90,'XC'],[50,'L'],[40,'XL'],[10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I']];
+  let r = '';
+  for (const [v, s] of map) { while (n >= v) { r += s; n -= v; } }
+  return r;
+};
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <span>© {roman(year)} Delfineo · Paris</span>
+  <span class="footer-right">
+    <span>{i('disclaimer')}</span>
+  </span>
+</footer>

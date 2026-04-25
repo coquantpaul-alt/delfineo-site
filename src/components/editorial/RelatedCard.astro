@@ -1,0 +1,25 @@
+---
+import Tag from './Tag.astro';
+interface Story {
+  slug: string;
+  data: {
+    title: string;
+    category: string;
+    dateDisplay: string;
+  };
+}
+interface Props {
+  story: Story;
+  lang: 'en' | 'fr';
+  readMinutes?: number;
+  kind?: 'news' | 'research';
+}
+const { story, lang, readMinutes = 4, kind = 'news' } = Astro.props;
+const slugNoLang = story.slug.replace(lang + '/', '');
+const href = `/${lang}/${kind}/${slugNoLang}/`;
+const min = lang === 'fr' ? `${readMinutes} min` : `${readMinutes} min read`;
+---
+<a href={href} class="related-card">
+  <Tag>{story.data.category.toUpperCase()}</Tag>
+  <h4>{story.data.title}</h4>
+  <span class="when">{story.data.dat
