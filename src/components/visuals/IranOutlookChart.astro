@@ -226,6 +226,42 @@ const eyebrow = isFr ? 'Graphique' : 'Chart';
   .iran-outlook-hero .iran-outlook-charts { gap: 12px; }
   .iran-outlook-hero .iran-outlook-source { font-size: 9.5px; margin-top: 10px; }
 
+
+  /* ─── Article variant: FT-style "naked" presentation ─────────── */
+  /* Drops the grey panel + yellow eyebrow, adds a thin top rule and
+     generous vertical margin so the chart breathes inside the prose. */
+  .iran-outlook-article {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid var(--ink, #051c2c);
+    padding: 0;
+    margin: 36px 0 32px;
+  }
+  .iran-outlook-article .iran-outlook-eyebrow { display: none; }
+  .iran-outlook-article .iran-outlook-title {
+    font-size: 22px;
+    margin: 18px 0 6px;
+    font-weight: 600;
+  }
+  .iran-outlook-article .iran-outlook-sub {
+    font-size: 14px;
+    margin: 0 0 18px;
+    font-style: normal;
+    color: var(--muted-2);
+  }
+  .iran-outlook-article .iran-outlook-legend {
+    margin-bottom: 18px;
+    font-size: 11.5px;
+  }
+  .iran-outlook-article .iran-outlook-charts { gap: 28px; }
+  .iran-outlook-article .iran-outlook-source {
+    margin-top: 14px;
+    border-top: 1px solid rgba(5, 28, 44, 0.12);
+    padding-top: 10px;
+    font-size: 11px;
+  }
+
   @media (max-width: 600px) {
     .iran-outlook-charts { grid-template-columns: 1fr; }
   }
