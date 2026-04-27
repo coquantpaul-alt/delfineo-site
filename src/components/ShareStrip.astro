@@ -1,13 +1,15 @@
 ---
 // Vertical share strip for article pages.
 //
-// Renders four buttons (X · LinkedIn · Email · Copy link). Share URLs are
-// built client-side from window.location.href so they always reflect the
+// Renders four share buttons (X · LinkedIn · Email · Copy link) on the
+// left, plus a Save (bookmark) button on the right. Share URLs are built
+// client-side from window.location.href so they always reflect the
 // current page without us having to plumb a URL through props or rely on
-// Astro.site being set.
+// Astro.site being set. The Save button persists to localStorage under
+// the key `delfineo:saved` (array of { slug, savedAt }).
 //
-// Usage: <ShareStrip lang="en" /> (or "fr")
-const { lang = 'en' } = Astro.props;
+// Usage: <ShareStrip lang="en" slug="20260427-01-central-banks-hold" />
+const { lang = 'en', slug = '' } = Astro.props;
 
 const L = {
   en: {
@@ -17,6 +19,8 @@ const L = {
     email: 'Share via email',
     copy: 'Copy link',
     copied: 'Copied',
+    save: 'Save for later',
+    saved: 'Saved',
   },
   fr: {
     share: 'Partager',
@@ -25,6 +29,8 @@ const L = {
     email: 'Partager par email',
     copy: 'Copier le lien',
     copied: 'Copié',
+    save: 'Sauvegarder',
+    saved: 'Sauvegardé',
   },
 }[lang] || null;
 ---
@@ -58,6 +64,25 @@ const L = {
     </svg>
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="icon-check">
       <polyline points="20 6 9 17 4 12"/>
+    </svg>
+  </button>
+
+  <!-- Save button — pushed to the right edge of the strip via margin-left:auto -->
+  <button
+    type="button"
+    class="share-btn share-save"
+    data-save-btn
+    data-slug={slug}
+    data-label-save={L.save}
+    data-label-saved={L.saved}
+    aria-label={L.save}
+    title={L.save}
+  >
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="icon-bookmark">
+      <path d="M6 4h12v17l-6-4-6 4z"/>
+    </svg>
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="icon-bookmark-filled">
+      <path d="M6 4h12v17l-6-4-6 4z"/>
     </svg>
   </button>
 </aside>
@@ -112,6 +137,43 @@ const L = {
           document.body.removeChild(temp);
         }
       });
+    }
+
+    // Save / unsave — persisted in localStorage under `delfineo:saved`
+    // as an array of { slug, savedAt } objects. Slug is language-agnostic
+    // (no en/ or fr/ prefix) so the saved page can render in either
+    // language regardless of where the article was saved.
+    const saveBtn = strip.querySelector('[data-save-btn]');
+    const SLUG = saveBtn && saveBtn.dataset.slug;
+    if (saveBtn && SLUG) {
+      const KEY = 'delfineo:saved';
+      const readList = () => {
+        try { return JSON.parse(localStorage.getItem(KEY) || '[]') || []; }
+        catch (_) { return []; }
+      };
+      const writeList = (list) => {
+        try { localStorage.setItem(KEY, JSON.stringify(list)); } catch (_) {}
+      };
+      const isSaved = () => readList().some((it) => it && it.slug === SLUG);
+      const paint = () => {
+        const on = isSaved();
+        saveBtn.classList.toggle('saved', on);
+        saveBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        const label = on
+          ? (saveBtn.dataset.labelSaved || 'Saved')
+          : (saveBtn.dataset.labelSave  || 'Save for later');
+        saveBtn.setAttribute('aria-label', label);
+        saveBtn.title = label;
+      };
+      saveBtn.addEventListener('click', () => {
+        const list = readList();
+        const idx  = list.findIndex((it) => it && it.slug === SLUG);
+        if (idx >= 0) list.splice(idx, 1);
+        else list.push({ slug: SLUG, savedAt: Date.now() });
+        writeList(list);
+        paint();
+      });
+      paint();
     }
   })();
 </script>

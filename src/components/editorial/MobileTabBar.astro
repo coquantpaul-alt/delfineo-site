@@ -36,17 +36,16 @@ const labels = lang === 'fr'
     <span>{labels.research}</span>
   </a>
 
-  <button
-    type="button"
+  <a
+    href={`/${lang}/saved/`}
     class={`mobile-tab ${active === 'saved' ? 'active' : ''}`}
-    data-saved-toast
     aria-label={labels.saved}
   >
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
       <path d="M6 4h12v17l-6-4-6 4z"/>
     </svg>
     <span>{labels.saved}</span>
-  </button>
+  </a>
 
   <button
     type="button"
@@ -62,20 +61,6 @@ const labels = lang === 'fr'
   </button>
 </nav>
 
+<!-- Saved-articles toast retained for any future "saved" confirmations,
+     but the SAVED tab now navigates directly to /{lang}/saved/. -->
 <div id="saved-toast" class="saved-toast" role="status" aria-live="polite"></div>
-
-<script is:inline>
-  document.addEventListener('click', (e) => {
-    const b = e.target.closest('[data-saved-toast]');
-    if (!b) return;
-    e.preventDefault();
-    const t = document.getElementById('saved-toast');
-    if (!t) return;
-    t.textContent = (document.documentElement.lang === 'fr')
-      ? 'Articles sauvegardes — bientot disponible'
-      : 'Saved articles — coming soon';
-    t.classList.add('show');
-    clearTimeout(window.__savedToastTimer);
-    window.__savedToastTimer = setTimeout(() => t.classList.remove('show'), 2400);
-  });
-</script>
