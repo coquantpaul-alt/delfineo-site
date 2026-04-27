@@ -8,8 +8,9 @@
 // Astro.site being set. The Save button persists to localStorage under
 // the key `delfineo:saved` (array of { slug, savedAt }).
 //
-// Usage: <ShareStrip lang="en" slug="20260427-01-central-banks-hold" />
-const { lang = 'en', slug = '' } = Astro.props;
+// Usage: <ShareStrip lang="en" slug="20260427-01-central-banks-hold" kind="news" />
+//        <ShareStrip lang="fr" slug="nubank-roe-compounder"          kind="research" />
+const { lang = 'en', slug = '', kind = 'news' } = Astro.props;
 
 const L = {
   en: {
@@ -73,6 +74,7 @@ const L = {
     class="share-btn share-save"
     data-save-btn
     data-slug={slug}
+    data-kind={kind}
     data-label-save={L.save}
     data-label-saved={L.saved}
     aria-label={L.save}
@@ -140,11 +142,14 @@ const L = {
     }
 
     // Save / unsave — persisted in localStorage under `delfineo:saved`
-    // as an array of { slug, savedAt } objects. Slug is language-agnostic
-    // (no en/ or fr/ prefix) so the saved page can render in either
-    // language regardless of where the article was saved.
+    // as an array of { slug, kind, savedAt } objects. Slug is
+    // language-agnostic (no en/ or fr/ prefix) so the saved page can
+    // render in either language regardless of where the article was
+    // saved. `kind` is "news" or "research" so the saved page knows
+    // which collection (and which URL prefix) to render.
     const saveBtn = strip.querySelector('[data-save-btn]');
     const SLUG = saveBtn && saveBtn.dataset.slug;
+    const KIND = (saveBtn && saveBtn.dataset.kind) || 'news';
     if (saveBtn && SLUG) {
       const KEY = 'delfineo:saved';
       const readList = () => {
@@ -154,7 +159,11 @@ const L = {
       const writeList = (list) => {
         try { localStorage.setItem(KEY, JSON.stringify(list)); } catch (_) {}
       };
-      const isSaved = () => readList().some((it) => it && it.slug === SLUG);
+      // Match by (slug, kind). Legacy entries without `kind` default
+      // to "news" so existing news bookmarks keep working.
+      const matches = (it, slug, kind) =>
+        it && it.slug === slug && (it.kind || 'news') === kind;
+      const isSaved = () => readList().some((it) => matches(it, SLUG, KIND));
       const paint = () => {
         const on = isSaved();
         saveBtn.classList.toggle('saved', on);
@@ -167,11 +176,11 @@ const L = {
       };
       saveBtn.addEventListener('click', () => {
         const list = readList();
-        const idx  = list.findIndex((it) => it && it.slug === SLUG);
+        const idx  = list.findIndex((it) => matches(it, SLUG, KIND));
         const wasSaved = idx >= 0;
         const now = Date.now();
         if (wasSaved) list.splice(idx, 1);
-        else list.push({ slug: SLUG, savedAt: now });
+        else list.push({ slug: SLUG, kind: KIND, savedAt: now });
         writeList(list);
         paint();
 
@@ -185,7 +194,11 @@ const L = {
             method: wasSaved ? 'DELETE' : 'POST',
             headers: { 'Content-Type': 'application/json' },
             credentials: 'include',
-            body: JSON.stringify(wasSaved ? { slug: SLUG } : { slug: SLUG, savedAt: now }),
+            body: JSON.stringify(
+              wasSaved
+                ? { slug: SLUG, kind: KIND }
+                : { slug: SLUG, kind: KIND, savedAt: now }
+            ),
           }).catch(() => {});
         }
       });

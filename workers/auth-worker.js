@@ -259,16 +259,19 @@ async function handleMe(request, env) {
 
 // ─── saved articles ────────────────────────────────────────────
 function isSlug(s) {
-  // Slug shape: 8-digit date prefix, then "-NN-" then kebab body.
-  // Allow lowercase alphanumeric + hyphens, max 128 chars.
+  // Slug shape: lowercase alphanumeric + hyphens, max 128 chars.
   return typeof s === 'string' && /^[a-z0-9][a-z0-9-]{0,127}$/.test(s);
+}
+function normKind(k) {
+  // Defensive — only allow the two known kinds.
+  return k === 'research' ? 'research' : 'news';
 }
 
 async function handleSavedList(request, env) {
   const sess = await readSession(request, env);
   if (!sess) return json({ status: 'anon' }, 401);
   const rows = await env.DB.prepare(
-    'SELECT slug, saved_at AS savedAt FROM saved_articles WHERE user_id = ? ORDER BY saved_at DESC'
+    'SELECT slug, kind, saved_at AS savedAt FROM saved_articles WHERE user_id = ? ORDER BY saved_at DESC'
   ).bind(sess.uid).all();
   return json({ status: 'ok', items: rows.results || [] });
 }
@@ -278,6 +281,7 @@ async function handleSavedAdd(request, env) {
   if (!sess) return json({ status: 'anon' }, 401);
   const body = await request.json().catch(() => ({}));
   const slug = body && body.slug;
+  const kind = normKind(body && body.kind);
   if (!isSlug(slug)) return json({ status: 'error', message: 'Invalid slug' }, 400);
   const incoming = Number(body && body.savedAt);
   // Trust the client's savedAt if it's a sane recent timestamp,
@@ -288,10 +292,10 @@ async function handleSavedAdd(request, env) {
       ? Math.floor(incoming)
       : serverNow;
   await env.DB.prepare(
-    'INSERT INTO saved_articles (user_id, slug, saved_at) VALUES (?,?,?) ' +
-    'ON CONFLICT (user_id, slug) DO UPDATE SET saved_at = excluded.saved_at'
-  ).bind(sess.uid, slug, savedAt).run();
-  return json({ status: 'ok', savedAt });
+    'INSERT INTO saved_articles (user_id, kind, slug, saved_at) VALUES (?,?,?,?) ' +
+    'ON CONFLICT (user_id, kind, slug) DO UPDATE SET saved_at = excluded.saved_at'
+  ).bind(sess.uid, kind, slug, savedAt).run();
+  return json({ status: 'ok', savedAt, kind });
 }
 
 async function handleSavedRemove(request, env) {
@@ -299,10 +303,11 @@ async function handleSavedRemove(request, env) {
   if (!sess) return json({ status: 'anon' }, 401);
   const body = await request.json().catch(() => ({}));
   const slug = body && body.slug;
+  const kind = normKind(body && body.kind);
   if (!isSlug(slug)) return json({ status: 'error', message: 'Invalid slug' }, 400);
   await env.DB.prepare(
-    'DELETE FROM saved_articles WHERE user_id = ? AND slug = ?'
-  ).bind(sess.uid, slug).run();
+    'DELETE FROM saved_articles WHERE user_id = ? AND kind = ? AND slug = ?'
+  ).bind(sess.uid, kind, slug).run();
   return json({ status: 'ok' });
 }
 

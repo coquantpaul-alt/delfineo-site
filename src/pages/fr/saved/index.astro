@@ -5,14 +5,29 @@ import { getCollection } from 'astro:content';
 
 const lang = 'fr';
 
-const items = await getCollection('news', ({ id }) => id.startsWith('fr/'));
-const data = items.map((it) => ({
-  slug: it.slug.replace('fr/', ''),
-  title: it.data.title,
-  category: it.data.category,
-  date: it.data.date,
-  dateDisplay: it.data.dateDisplay,
-}));
+// Fetch every news AND research item so the client-side script can
+// render any saved item without an extra fetch. `kind` lets the
+// renderer pick the right URL prefix and category styling.
+const newsItems = await getCollection('news',     ({ id }) => id.startsWith('fr/'));
+const resItems  = await getCollection('research', ({ id }) => id.startsWith('fr/'));
+const data = [
+  ...newsItems.map((it) => ({
+    kind: 'news',
+    slug: it.slug.replace('fr/', ''),
+    title: it.data.title,
+    category: it.data.category,
+    date: it.data.date,
+    dateDisplay: it.data.dateDisplay,
+  })),
+  ...resItems.map((it) => ({
+    kind: 'research',
+    slug: it.slug.replace('fr/', ''),
+    title: it.data.title,
+    category: it.data.category,
+    date: it.data.date,
+    dateDisplay: it.data.date,
+  })),
+];
 ---
 
 <Base
@@ -56,12 +71,13 @@ const data = items.map((it) => ({
     const KEY  = 'delfineo:saved';
     const LANG = document.documentElement.lang || 'fr';
 
-    const NEWS = (() => {
+    const ALL = (() => {
       try { return JSON.parse(root.dataset.news || '[]'); }
       catch (_) { return []; }
     })();
-    const newsBySlug = Object.create(null);
-    NEWS.forEach((n) => { newsBySlug[n.slug] = n; });
+    const itemsByKey = Object.create(null);
+    const keyOf = (kind, slug) => (kind || 'news') + '/' + slug;
+    ALL.forEach((n) => { itemsByKey[keyOf(n.kind, n.slug)] = n; });
 
     const labels = {
       today:     root.dataset.labelToday     || "Aujourd'hui",
@@ -102,7 +118,7 @@ const data = items.map((it) => ({
 
     function render() {
       const list = readList()
-        .filter((it) => it && it.slug && newsBySlug[it.slug])
+        .filter((it) => it && it.slug && itemsByKey[keyOf(it.kind, it.slug)])
         .sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0));
 
       if (list.length === 0) {
@@ -127,14 +143,21 @@ const data = items.map((it) => ({
         html += '<div class="saved-group">';
         html += '<h2 class="saved-group-head">' + escapeHtml(labels[k]) + '</h2>';
         groups[k].forEach((it) => {
-          const n = newsBySlug[it.slug];
-          const href = '/' + LANG + '/news/' + n.slug + '/';
+          const n = itemsByKey[keyOf(it.kind, it.slug)];
+          const itemKind = n.kind || 'news';
+          const href = '/' + LANG + '/' + itemKind + '/' + n.slug + '/';
+          const eyebrow = itemKind === 'research'
+            ? 'ANALYSE · ' + escapeHtml(n.category)
+            : escapeHtml(n.category);
           html +=
-            '<a class="saved-item" href="' + href + '">' +
-              '<span class="saved-item-cat">' + escapeHtml(n.category) + '</span>' +
+            '<a class="saved-item" href="' + href + '" data-kind="' + itemKind + '">' +
+              '<span class="saved-item-cat">' + eyebrow + '</span>' +
               '<h3 class="saved-item-title">' + escapeHtml(n.title) + '</h3>' +
               '<span class="saved-item-date">' + escapeHtml(n.dateDisplay || '') + '</span>' +
-              '<button type="button" class="saved-item-remove" data-remove="' + escapeHtml(n.slug) + '" aria-label="' + escapeHtml(labels.remove) + '">' +
+              '<button type="button" class="saved-item-remove" ' +
+                'data-remove-slug="' + escapeHtml(n.slug) + '" ' +
+                'data-remove-kind="' + itemKind + '" ' +
+                'aria-label="' + escapeHtml(labels.remove) + '">' +
                 '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">' +
                   '<path d="M6 4h12v17l-6-4-6 4z"/>' +
                 '</svg>' +
@@ -148,12 +171,15 @@ const data = items.map((it) => ({
     }
 
     root.addEventListener('click', (e) => {
-      const btn = e.target.closest('[data-remove]');
+      const btn = e.target.closest('[data-remove-slug]');
       if (!btn) return;
       e.preventDefault();
       e.stopPropagation();
-      const slug = btn.dataset.remove;
-      const list = readList().filter((it) => it && it.slug !== slug);
+      const slug = btn.dataset.removeSlug;
+      const kind = btn.dataset.removeKind || 'news';
+      const list = readList().filter((it) =>
+        !(it && it.slug === slug && (it.kind || 'news') === kind)
+      );
       writeList(list);
       render();
       if (document.body.classList.contains('is-signed-in')) {
@@ -161,7 +187,7 @@ const data = items.map((it) => ({
           method: 'DELETE',
           headers: { 'Content-Type': 'application/json' },
           credentials: 'include',
-          body: JSON.stringify({ slug }),
+          body: JSON.stringify({ slug, kind }),
         }).catch(() => {});
       }
     });

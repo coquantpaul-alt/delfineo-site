@@ -231,21 +231,30 @@
       cloud = Array.isArray(j.items) ? j.items : [];
     } catch (_) { return; }
 
+    // Merge by composite key (kind, slug). Legacy entries without
+    // `kind` default to "news" so older bookmarks keep working.
+    const keyOf = (it) => ((it && it.kind) || 'news') + '/' + (it && it.slug);
     const local = readLocalSaved();
     const map = Object.create(null);
     cloud.forEach((it) => {
-      if (it && it.slug) map[it.slug] = { slug: it.slug, savedAt: Number(it.savedAt) || 0 };
+      if (!it || !it.slug) return;
+      const kind = it.kind || 'news';
+      map[keyOf({ kind, slug: it.slug })] = {
+        slug: it.slug, kind, savedAt: Number(it.savedAt) || 0,
+      };
     });
     const localOnly = [];
     local.forEach((it) => {
       if (!it || !it.slug) return;
-      const existing = map[it.slug];
+      const kind = it.kind || 'news';
+      const k = keyOf({ kind, slug: it.slug });
+      const existing = map[k];
       const ts = Number(it.savedAt) || 0;
       if (!existing) {
-        map[it.slug] = { slug: it.slug, savedAt: ts };
-        localOnly.push(map[it.slug]);
+        map[k] = { slug: it.slug, kind, savedAt: ts };
+        localOnly.push(map[k]);
       } else if (ts > existing.savedAt) {
-        map[it.slug] = { slug: it.slug, savedAt: ts };
+        map[k] = { slug: it.slug, kind, savedAt: ts };
       }
     });
 
@@ -259,7 +268,7 @@
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           credentials: 'include',
-          body: JSON.stringify({ slug: it.slug, savedAt: it.savedAt }),
+          body: JSON.stringify({ slug: it.slug, kind: it.kind, savedAt: it.savedAt }),
         }).catch(() => {})
       ));
     }
