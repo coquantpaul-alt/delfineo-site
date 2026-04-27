@@ -193,15 +193,18 @@ const eyebrow = isFr ? 'Graphique' : 'Chart';
   .iran-outlook :global(.figure-interactive .figure-eyebrow) { display: none; }
   .iran-outlook :global(.figure-interactive figcaption) { display: none; }
 
-  .iran-outlook-article :global(.chart-canvas-wrap) {
-    height: 130px;
+  /* Override the global .figure-chart.figure-interactive.figure-full
+     .chart-canvas-wrap rule (height:400px) by matching the same
+     selector chain plus our scoping class. */
+  .iran-outlook-article :global(.figure-chart.figure-interactive .chart-canvas-wrap) {
+    height: 130px !important;
     position: relative;
   }
   .iran-outlook-hero {
     padding: 12px 14px 10px;
   }
-  .iran-outlook-hero :global(.chart-canvas-wrap) {
-    height: 70px;
+  .iran-outlook-hero :global(.figure-chart.figure-interactive .chart-canvas-wrap) {
+    height: 70px !important;
     position: relative;
   }
   .iran-outlook-hero .iran-outlook-title { font-size: 16px; line-height: 1.2; }
