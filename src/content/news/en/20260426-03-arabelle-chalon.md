@@ -1,8 +1,8 @@
 ---
 title: "Arabelle gears up for the nuclear restart with a new plant in Chalon-sur-Saône"
-category: Energy
-date: 2026-04-26
-dateDisplay: April 26, 2026
+category: "Energy"
+date: "2026-04-26"
+dateDisplay: "April 26, 2026"
 summary: |
   Arabelle Solutions, the EDF subsidiary specialised in turbines and circuits for nuclear reactors, will invest €100M in Chalon-sur-Saône to take in-house the production of heat exchangers for the six planned French EPR2 reactors. The project, unveiled on Monday by industry minister Sébastien Martin and energy minister Maud Bregeon, will create 160 jobs. Construction starts in early 2027 on the former Nordeon/Philips industrial site, and production of the giant heaters and steam superheaters — cylinders 25 metres long weighing between 220 and 270 tonnes — will begin in 2030.
 

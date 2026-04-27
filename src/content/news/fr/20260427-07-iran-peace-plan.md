@@ -1,8 +1,8 @@
 ---
 title: "Guerre au Moyen-Orient : l'Iran soumet à Washington un nouveau plan de paix"
-category: Géopolitique
-date: 2026-04-27
-dateDisplay: 27 avril 2026
+category: "Géopolitique"
+date: "2026-04-27"
+dateDisplay: "27 avril 2026"
 summary: |
   Selon le média américain Axios, l'Iran a soumis à Washington une proposition pour mettre fin à la guerre commencée le 28 février : la réouverture du détroit d'Ormuz contre une mise entre parenthèses des discussions sur le nucléaire, traitées dans un second temps. Ce nouveau plan doit être examiné lundi à Washington lors d'une réunion entre Donald Trump et ses principaux conseillers de sécurité. Le détroit d'Ormuz reste paralysé par un double blocus iranien et américain, alors qu'y transitent en temps normal environ 20 % du brut mondial.
 

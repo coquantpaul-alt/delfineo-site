@@ -1,8 +1,8 @@
 ---
 title: "Fed: Washington prosecutor drops investigation against Jerome Powell"
-category: Monetary Policy
-date: 2026-04-24
-dateDisplay: April 24, 2026
+category: "Monetary Policy"
+date: "2026-04-24"
+dateDisplay: "April 24, 2026"
 summary: |
   Federal prosecutor for Washington Jeanine Pirro has dropped the investigation into Jerome Powell, chair of the US Federal Reserve, over construction-cost overruns at the Fed's headquarters renovation, which rose from $1.9bn to $2.5bn. Going forward, the Fed's inspector general will examine the overruns, described as costing "several billion dollars" to taxpayers. The probe, opened in November by a prosecutor appointed by Donald Trump, accused Powell of "incompetence" and of having "pocketed money" on the construction work.
 

@@ -1,8 +1,8 @@
 ---
 title: "Gaz : la guerre au Moyen-Orient prolonge les tensions de marché d'au moins deux ans"
-category: Énergie
-date: 2026-04-24
-dateDisplay: 24 avril 2026
+category: "Énergie"
+date: "2026-04-24"
+dateDisplay: "24 avril 2026"
 summary: |
   L'Agence internationale de l'énergie (AIE), dans son premier rapport trimestriel intégrant la guerre en Iran, estime que la production mondiale de gaz naturel liquéfié (GNL) — gaz refroidi à environ -160 °C pour être transporté par méthanier — a chuté de 8 % en mars. La fermeture du détroit d'Ormuz a privé les marchés mondiaux d'environ 20 % des volumes de GNL. Les chargements au Qatar et aux Émirats arabes unis ont reculé de 9,5 milliards de mètres cubes en mars sur un an, soit la quasi-totalité de leur production.
 

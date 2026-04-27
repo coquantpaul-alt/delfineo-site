@@ -1,8 +1,8 @@
 ---
 title: "Énergie solaire : GreenYellow et Reden Solar bouclent près de 2 milliards d'euros de refinancements"
-category: Énergie
-date: 2026-04-27
-dateDisplay: 27 avril 2026
+category: "Énergie"
+date: "2026-04-27"
+dateDisplay: "27 avril 2026"
 summary: |
   Les deux développeurs solaires français GreenYellow et Reden Solar ont levé près de 2 milliards d'euros de dette en cumulé, dans un marché photovoltaïque par ailleurs en plein doute après les menaces de moratoire de l'an dernier et la nouvelle Programmation pluriannuelle de l'énergie (PPE) jugée moins ambitieuse. Les deux entreprises veulent financer de nouvelles centrales et installations de stockage par batterie, surtout en France, mais aussi des acquisitions ciblées et, pour Reden, le refinancement de projets existants.
 

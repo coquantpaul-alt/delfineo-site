@@ -1,8 +1,8 @@
 ---
 title: "Les grandes banques centrales jouent la montre face aux taux"
-category: Politique Monétaire
-date: 2026-04-27
-dateDisplay: 27 avril 2026
+category: "Politique Monétaire"
+date: "2026-04-27"
+dateDisplay: "27 avril 2026"
 summary: |
   La Réserve fédérale américaine, la Banque centrale européenne, la Banque du Japon, la Banque d'Angleterre et la Banque du Canada devraient toutes maintenir leurs taux cette semaine, faute de visibilité sur l'inflation en pleine guerre en Iran et avec un pétrole devenu hautement volatil. C'est le deuxième grand choc énergétique en cinq ans, et les banquiers centraux redoutent de revivre l'erreur de 2021-2022, où ils avaient réagi trop tard.
 

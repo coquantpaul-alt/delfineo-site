@@ -1,8 +1,8 @@
 ---
 title: "Israël : Naftali Bennett et Yaïr Lapid s'allient pour battre Benyamin Nétanyahou"
-category: Politique
-date: 2026-04-26
-dateDisplay: 26 avril 2026
+category: "Politique"
+date: "2026-04-26"
+dateDisplay: "26 avril 2026"
 summary: |
   L'ancien Premier ministre israélien Naftali Bennett et le chef de l'opposition Yaïr Lapid, lui-même brièvement chef du gouvernement en 2022, se présenteront sur une liste commune lors des prochaines élections législatives prévues en octobre, ont-ils annoncé dimanche. Le nouveau parti, baptisé « Beyahad » (« ensemble »), sera dirigé par Bennett, classé à droite, et soutenu par Lapid, qui appartient au camp centriste. Selon les sondages, Bennett apparaît comme le candidat le mieux placé pour battre Benyamin Nétanyahou.
 

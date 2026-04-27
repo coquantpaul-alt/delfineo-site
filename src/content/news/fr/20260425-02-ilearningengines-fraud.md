@@ -1,8 +1,8 @@
 ---
 title: "iLearningEngines : une fraude boursière dans les « paradis artificiels » de l'IA"
-category: Marchés Financiers
-date: 2026-04-25
-dateDisplay: 25 avril 2026
+category: "Marchés Financiers"
+date: "2026-04-25"
+dateDisplay: "25 avril 2026"
 summary: |
   La justice américaine a arrêté Puthugramam Chidambaran, fondateur et ancien dirigeant d'iLearningEngines, ainsi que son directeur financier Sayyed Farhan Ali Naqvi, pour dix chefs d'accusation pouvant leur valoir la prison à vie. Présentée comme une « solution révolutionnaire » d'éducation et de formation par intelligence artificielle, la société aurait, selon les procureurs, exploité l'enthousiasme des investisseurs autour de l'IA en s'appuyant sur des perspectives financières « idylliques fondées sur des mensonges » : 90 % de son chiffre d'affaires serait, en réalité, fictif.
 

@@ -1,8 +1,8 @@
 ---
 title: "Gas: the Middle East war is set to keep markets tight for at least two more years"
-category: Energy
-date: 2026-04-24
-dateDisplay: April 24, 2026
+category: "Energy"
+date: "2026-04-24"
+dateDisplay: "April 24, 2026"
 summary: |
   The International Energy Agency (IEA), in its first quarterly report covering the Iran war, estimates that global liquefied natural gas (LNG) production — gas cooled to about -160°C so it can be shipped by tanker — fell 8 per cent in March. The closure of the Strait of Hormuz removed roughly 20 per cent of LNG volumes from world markets. Loadings from Qatar and the UAE collapsed by 9.5 billion cubic metres year-on-year in March, almost their entire production.
 

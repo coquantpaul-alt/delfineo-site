@@ -1,8 +1,8 @@
 ---
 title: "Ingenico, struggling under its debt, opens talks with creditors"
-category: Banking
-date: 2026-04-24
-dateDisplay: April 24, 2026
+category: "Banking"
+date: "2026-04-24"
+dateDisplay: "April 24, 2026"
 summary: |
   Ingenico, the historic leader in payment terminals owned by US fund Apollo since 2022, has opened discussions with its creditors over a €1.1bn debt due by 2030, according to Bloomberg. The French company has hired Rothschild as financial adviser; on the other side, asset manager Pimco leads the creditor group, advised by investment bank Houlihan Lokey and law firm Gibson Dunn. Ingenico's debt structure also includes a revolving credit facility of up to €278M maturing in March 2028, only partly drawn. Apollo and Ingenico declined to comment.
 

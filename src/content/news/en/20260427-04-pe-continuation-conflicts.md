@@ -1,8 +1,8 @@
 ---
 title: "Private equity backers raise new conflict concerns over continuation-vehicle deals"
-category: Private Equity
-date: 2026-04-27
-dateDisplay: April 27, 2026
+category: "Private Equity"
+date: "2026-04-27"
+dateDisplay: "April 27, 2026"
 summary: |
   Big private equity investors — including a sovereign wealth fund and one of the largest US public pension plans — are warning that some of their peers may be rubber-stamping deals where buyout firms sell companies to themselves through "continuation vehicles". A continuation vehicle is a fund the private equity manager creates to buy an asset out of one of its own older funds, letting the manager hold on to the asset rather than sell to an outside buyer.
 

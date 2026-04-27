@@ -1,8 +1,8 @@
 ---
 title: "iLearningEngines: securities fraud in AI's 'artificial paradises'"
-category: Markets
-date: 2026-04-25
-dateDisplay: April 25, 2026
+category: "Markets"
+date: "2026-04-25"
+dateDisplay: "April 25, 2026"
 summary: |
   US prosecutors have arrested Puthugramam Chidambaran, founder and former CEO of iLearningEngines, and CFO Sayyed Farhan Ali Naqvi, on ten charges that could carry life sentences. Pitched as a "revolutionary" AI-driven solution for corporate and school training, the company is alleged by prosecutors to have exploited investor enthusiasm for AI by presenting "idyllic financial projections built on lies" — with 90 per cent of reported revenue allegedly fictional.
 

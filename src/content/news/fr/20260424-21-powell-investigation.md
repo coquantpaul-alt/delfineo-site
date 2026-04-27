@@ -1,8 +1,8 @@
 ---
 title: "Fed : la procureure de Washington abandonne les poursuites contre Jerome Powell"
-category: Politique Monétaire
-date: 2026-04-24
-dateDisplay: 24 avril 2026
+category: "Politique Monétaire"
+date: "2026-04-24"
+dateDisplay: "24 avril 2026"
 summary: |
   La procureure fédérale de Washington Jeanine Pirro a annoncé l'abandon des poursuites contre Jerome Powell, président de la Réserve fédérale américaine (Fed), liées aux dépassements de coût de la rénovation du siège de la banque centrale, passés de 1,9 à 2,5 milliards de dollars. C'est désormais l'inspecteur général de la Fed qui examinera ces dépassements, qualifiés de « plusieurs milliards » à la charge des contribuables. L'enquête contre Powell, ouverte en novembre par une procureure nommée par Donald Trump, accusait le président de la Fed d'« incompétence » et même d'avoir « empoché de l'argent » sur les travaux.
 

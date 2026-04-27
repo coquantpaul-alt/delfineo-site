@@ -1,8 +1,8 @@
 ---
 title: "Solar power: GreenYellow and Reden Solar close close to €2bn of refinancing"
-category: Energy
-date: 2026-04-27
-dateDisplay: April 27, 2026
+category: "Energy"
+date: "2026-04-27"
+dateDisplay: "April 27, 2026"
 summary: |
   French solar developers GreenYellow and Reden Solar have raised close to €2bn of debt between them, even as the broader photovoltaic market is reeling from last year's moratorium threats and a new French multi-year energy plan (Programmation pluriannuelle de l'énergie, or PPE) seen as less ambitious than expected. Both want to fund new solar plants and battery storage, mainly in France, plus selective acquisitions, with Reden also refinancing existing projects.
 

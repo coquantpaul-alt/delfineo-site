@@ -1,8 +1,8 @@
 ---
 title: "Israel: Naftali Bennett and Yair Lapid join forces to defeat Benjamin Netanyahu"
-category: Politics
-date: 2026-04-26
-dateDisplay: April 26, 2026
+category: "Politics"
+date: "2026-04-26"
+dateDisplay: "April 26, 2026"
 summary: |
   Former Israeli Prime Minister Naftali Bennett and opposition leader Yair Lapid, who himself briefly led the government in 2022, will run on a joint slate at the next legislative elections in October, the two announced on Sunday. The new party — named "Beyahad" ("together") — will be led by Bennett, who comes from the right, and supported by Lapid from the centre. According to polls, Bennett is the candidate best placed to defeat Benjamin Netanyahu.
 

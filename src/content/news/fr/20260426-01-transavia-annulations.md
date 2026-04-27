@@ -1,8 +1,8 @@
 ---
 title: "Transavia annule des vols en mai et juin à cause du prix du kérosène"
-category: Aviation
-date: 2026-04-26
-dateDisplay: 26 avril 2026
+category: "Aviation"
+date: "2026-04-26"
+dateDisplay: "26 avril 2026"
 summary: |
   Transavia, la filiale à bas coûts du groupe Air France-KLM, va annuler une partie de ses vols prévus en mai et juin afin de contenir ses coûts face à la flambée du kérosène liée à la guerre au Moyen-Orient, a indiqué dimanche un porte-parole à l'AFP. Les annulations concernent « moins de 2 % du programme de vols » sur la période. Les clients touchés sont prévenus individuellement par SMS et e-mail, et bénéficient au choix d'un report sans frais, d'un avoir ou d'un remboursement intégral. Pour la majorité des vols supprimés, une solution de réacheminement est proposée dans les 24 heures.
 

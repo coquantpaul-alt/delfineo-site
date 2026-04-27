@@ -1,8 +1,8 @@
 ---
 title: "Middle East war: Iran tables a new peace plan with Washington"
-category: Geopolitics
-date: 2026-04-27
-dateDisplay: April 27, 2026
+category: "Geopolitics"
+date: "2026-04-27"
+dateDisplay: "April 27, 2026"
 summary: |
   Iran has submitted a new peace proposal to Washington, according to US news site Axios: reopen the Strait of Hormuz to end the war that started on 28 February, and treat nuclear talks as a separate, later track. The plan is to be examined in Washington on Monday at a meeting between Donald Trump and his closest national-security advisers. The Strait of Hormuz remains paralysed by a dual Iranian-American blockade — under normal conditions, roughly 20 per cent of world oil moves through it.
 

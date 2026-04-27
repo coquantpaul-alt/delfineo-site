@@ -1,8 +1,8 @@
 ---
 title: "Capital-investissement : les LP s'inquiètent des conflits sur les fonds de continuation"
-category: Capital-Investissement
-date: 2026-04-27
-dateDisplay: 27 avril 2026
+category: "Capital-Investissement"
+date: "2026-04-27"
+dateDisplay: "27 avril 2026"
 summary: |
   De grands investisseurs en capital-investissement — dont un fonds souverain et l'un des plus grands fonds de pension publics américains — alertent : certains de leurs pairs valident un peu vite les opérations où les fonds de buyout se vendent des actifs à eux-mêmes via des « fonds de continuation ». Un fonds de continuation est un véhicule créé par le gérant de private equity pour racheter un actif à l'un de ses anciens fonds, ce qui lui permet de conserver l'actif plutôt que de le vendre à un tiers.
 

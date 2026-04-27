@@ -1,8 +1,8 @@
 ---
 title: "Leading central banks play for time on interest rate rises"
-category: Monetary Policy
-date: 2026-04-27
-dateDisplay: April 27, 2026
+category: "Monetary Policy"
+date: "2026-04-27"
+dateDisplay: "April 27, 2026"
 summary: |
   The Federal Reserve, European Central Bank, Bank of Japan, Bank of England and Bank of Canada are widely expected to keep interest rates on hold this week as the Iran war and wild swings in oil prices make inflation forecasts unusually difficult. It is the second large energy shock in five years, and rate-setters fear repeating the 2021-22 mistake of acting too slowly.
 

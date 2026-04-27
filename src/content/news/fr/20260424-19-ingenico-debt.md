@@ -1,8 +1,8 @@
 ---
 title: "Ingenico, aux prises avec sa dette, négocie avec ses créanciers"
-category: Banque
-date: 2026-04-24
-dateDisplay: 24 avril 2026
+category: "Banque"
+date: "2026-04-24"
+dateDisplay: "24 avril 2026"
 summary: |
   Ingenico, ex-leader historique des terminaux de paiement et propriété du fonds américain Apollo depuis 2022, a entamé des discussions avec ses créanciers sur sa dette de 1,1 milliard d'euros à rembourser d'ici 2030, selon Bloomberg. La société française a pris Rothschild comme conseiller financier ; côté créanciers, le gestionnaire d'actifs Pimco mène le groupe, conseillé par la banque d'investissement Houlihan Lokey et le cabinet d'avocats Gibson Dunn. La structure de dette inclut aussi une facilité de crédit renouvelable allant jusqu'à 278 millions d'euros à échéance mars 2028, partiellement utilisée. Apollo et Ingenico ont refusé de commenter.
 

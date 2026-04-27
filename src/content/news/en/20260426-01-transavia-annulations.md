@@ -1,8 +1,8 @@
 ---
 title: "Transavia cancels May and June flights as jet fuel prices spike"
-category: Aviation
-date: 2026-04-26
-dateDisplay: April 26, 2026
+category: "Aviation"
+date: "2026-04-26"
+dateDisplay: "April 26, 2026"
 summary: |
   Transavia, the low-cost subsidiary of Air France-KLM, will cancel some of its May and June flights to contain costs as jet fuel prices spike on the back of the Middle East war, a spokesperson told AFP on Sunday. The cancellations cover "less than 2 per cent" of the flight programme over the period. Affected customers are being notified individually by SMS and email and offered a choice between a free rebooking, a credit voucher or a full refund. For most of the cancelled flights, a re-routing within 24 hours is being offered.
 

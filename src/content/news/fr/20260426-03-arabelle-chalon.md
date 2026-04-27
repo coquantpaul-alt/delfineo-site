@@ -1,8 +1,8 @@
 ---
 title: "Arabelle s'arme pour la relance nucléaire avec une nouvelle usine à Chalon-sur-Saône"
-category: Énergie
-date: 2026-04-26
-dateDisplay: 26 avril 2026
+category: "Énergie"
+date: "2026-04-26"
+dateDisplay: "26 avril 2026"
 summary: |
   Arabelle Solutions, filiale d'EDF spécialisée dans les turbines et circuits pour réacteurs nucléaires, va investir 100 millions d'euros à Chalon-sur-Saône (Saône-et-Loire) pour internaliser la production des échangeurs thermiques destinés aux six futurs réacteurs EPR2 français. Le projet, dévoilé lundi par le ministre de l'Industrie Sébastien Martin et la ministre de l'Énergie Maud Bregeon, doit créer 160 emplois. Les travaux démarreront début 2027 sur l'ancienne friche de l'usine Nordeon/Philips, et la production des grands réchauffeurs et sécheurs surchauffeurs — cylindres de 25 mètres pesant entre 220 et 270 tonnes — débutera en 2030.
 
