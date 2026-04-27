@@ -1,102 +1,214 @@
 ---
-// <IranOutlookChart> — bilingual bar chart of IMF GDP & inflation
-// scenarios around the Iran war. Wraps <InteractiveChart> so it
-// inherits the global Chart.js loader. Used inline in news briefs
-// and in the homepage hero's right column.
+// <IranOutlookChart> — bilingual two-panel bar chart of IMF GDP &
+// inflation scenarios around the Iran war. Layout follows the
+// Financial Times original: two side-by-side panels (GDP | Inflation),
+// one bar per scenario, each scenario in its own colour, with title
+// and shared legend at the top.
+//
+// Wraps two <InteractiveChart> instances so it inherits the global
+// Chart.js loader. Used inline in news briefs and in the homepage
+// hero's right column.
 //
 // Props:
 //   lang     — "en" | "fr"  (default "en")
-//   width    — passed to InteractiveChart (default "wide")
-//   variant  — "article" | "hero"  (hero strips the figure label)
+//   variant  — "article" | "hero"  (hero variant uses a tighter layout)
 import InteractiveChart from './InteractiveChart.astro';
 
 interface Props {
   lang?: 'en' | 'fr';
-  width?: 'inset' | 'normal' | 'wide' | 'full';
   variant?: 'article' | 'hero';
 }
-const { lang = 'en', width = 'wide', variant = 'article' } = Astro.props;
+const { lang = 'en', variant = 'article' } = Astro.props;
 const isFr = lang === 'fr';
 
-const labels = isFr
+const scenarios = isFr
   ? ['Avant-conflit', 'Référence', 'Adverse', 'Sévère']
   : ['Pre-conflict', 'Reference', 'Adverse', 'Severe'];
 
-const data = {
-  labels,
+// One colour per scenario (same hue across both panels), tracking the
+// FT's palette: teal -> peach -> salmon -> brick.
+const COLORS = ['#3d8a96', '#e8c5a8', '#d18a6a', '#b1442b'];
+
+const gdpData = {
+  labels: scenarios,
   datasets: [
     {
-      label: isFr ? 'Croissance du PIB' : 'GDP growth',
+      label: isFr ? 'Croissance du PIB (%)' : 'GDP growth (%)',
       data: [3.4, 3.1, 2.6, 2.0],
-      backgroundColor: '#1a5276',
-      borderColor: '#1a5276',
-    },
-    {
-      label: 'Inflation',
-      data: [3.9, 4.4, 5.4, 5.8],
-      backgroundColor: '#b7935d',
-      borderColor: '#b7935d',
+      backgroundColor: COLORS,
+      borderColor: COLORS,
+      borderWidth: 0,
     },
   ],
 };
 
-const options = {
-  scales: {
-    y: {
-      beginAtZero: true,
+const inflData = {
+  labels: scenarios,
+  datasets: [
+    {
+      label: 'Inflation (%)',
+      data: [3.9, 4.4, 5.4, 5.8],
+      backgroundColor: COLORS,
+      borderColor: COLORS,
+      borderWidth: 0,
     },
-  },
-  plugins: {
-    legend: {
-      position: 'bottom',
-    },
-  },
+  ],
 };
 
-const caption = isFr
-  ? 'Croissance du PIB et inflation : prévisions mondiales 2026 (%)'
+const opts = {
+  plugins: { legend: { display: false } },
+  scales: { y: { beginAtZero: true } },
+};
+
+const title = isFr
+  ? "La guerre en Iran assombrit les perspectives économiques mondiales"
+  : 'The Iran war has damped the global economic outlook';
+const subtitle = isFr
+  ? "Prévisions de croissance et d'inflation pour 2026 (%)"
   : 'GDP growth and inflation forecasts for 2026 (%)';
 const source = isFr
-  ? 'Source : FMI – scénarios construits avant et après le déclenchement du conflit au Moyen-Orient'
-  : 'Source: IMF – scenarios constructed before and after the outbreak of the Middle East conflict';
-const label = isFr ? 'Graphique' : 'Chart';
+  ? 'Source : FMI — scénarios construits avant et après le déclenchement du conflit au Moyen-Orient'
+  : 'Source: IMF — scenarios constructed before and after the outbreak of the Middle East conflict';
+const gdpPanelLabel = isFr ? 'PIB' : 'GDP';
+const inflPanelLabel = 'Inflation';
+const eyebrow = isFr ? 'Graphique' : 'Chart';
 ---
 
-<div class={`iran-outlook iran-outlook-${variant}`}>
-  <InteractiveChart
-    type="bar"
-    data={data}
-    options={options}
-    caption={caption}
-    source={source}
-    width={width}
-    label={label}
-  />
-</div>
+<figure class={`iran-outlook iran-outlook-${variant}`}>
+  <span class="iran-outlook-eyebrow">{eyebrow}</span>
+  <h3 class="iran-outlook-title">{title}</h3>
+  <p class="iran-outlook-sub">{subtitle}</p>
+
+  <ul class="iran-outlook-legend">
+    {scenarios.map((s, i) => (
+      <li><span class="swatch" style={`background:${COLORS[i]}`}></span>{s}</li>
+    ))}
+  </ul>
+
+  <div class="iran-outlook-charts">
+    <div class="iran-outlook-panel">
+      <p class="panel-label">{gdpPanelLabel}</p>
+      <InteractiveChart type="bar" data={gdpData} options={opts} width="full" />
+    </div>
+    <div class="iran-outlook-panel">
+      <p class="panel-label">{inflPanelLabel}</p>
+      <InteractiveChart type="bar" data={inflData} options={opts} width="full" />
+    </div>
+  </div>
+
+  <p class="iran-outlook-source">{source}</p>
+</figure>
 
 <style>
-  /* Hero variant: tighter padding so the chart sits comfortably in the
-     1fr right column of .editorial-hero on the homepage. */
-  .iran-outlook-hero :global(.figure) {
+  .iran-outlook {
     margin: 0;
-    padding: 18px 16px 14px;
+    padding: 22px 22px 18px;
     background: rgba(5, 28, 44, 0.04);
     border: 1px solid rgba(5, 28, 44, 0.08);
     border-radius: 4px;
-    max-width: 100%;
   }
-  .iran-outlook-hero :global(.chart-canvas-wrap) {
+  .iran-outlook-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    background: #f6e07c;
+    padding: 3px 8px;
+    color: #051c2c;
+    margin-bottom: 12px;
+    display: inline-block;
+  }
+  .iran-outlook-title {
+    font-family: var(--font-display);
+    font-size: 19px;
+    line-height: 1.2;
+    color: var(--ink);
+    margin: 4px 0 4px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+  .iran-outlook-sub {
+    font-family: var(--font-serif);
+    font-size: 12px;
+    color: var(--muted-2);
+    margin: 0 0 14px;
+    font-style: italic;
+  }
+  .iran-outlook-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px;
+    font-family: var(--font-mono);
+    font-size: 10.5px;
+    letter-spacing: 0.04em;
+    color: var(--ink);
+  }
+  .iran-outlook-legend li {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .iran-outlook-legend .swatch {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 2px;
+  }
+  .iran-outlook-charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+  .iran-outlook-panel { min-width: 0; }
+  .iran-outlook-panel .panel-label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted-2);
+    margin: 0 0 6px;
+  }
+  .iran-outlook-source {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    color: var(--muted-2);
+    margin: 14px 0 0;
+    line-height: 1.4;
+  }
+  /* Strip the inner <InteractiveChart> figure decoration so we only
+     keep the canvas inside our own grid layout. */
+  .iran-outlook :global(.figure-interactive) {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+  }
+  .iran-outlook :global(.figure-interactive .figure-eyebrow) { display: none; }
+  .iran-outlook :global(.figure-interactive figcaption) { display: none; }
+
+  .iran-outlook-article :global(.chart-canvas-wrap) {
     height: 240px;
     position: relative;
   }
-  .iran-outlook-hero :global(figcaption) {
-    font-size: 12px;
-    line-height: 1.35;
-    margin-top: 10px;
+  .iran-outlook-hero {
+    padding: 16px 14px 12px;
   }
-
-  .iran-outlook-article :global(.chart-canvas-wrap) {
-    height: 320px;
+  .iran-outlook-hero :global(.chart-canvas-wrap) {
+    height: 150px;
     position: relative;
+  }
+  .iran-outlook-hero .iran-outlook-title { font-size: 16px; line-height: 1.2; }
+  .iran-outlook-hero .iran-outlook-sub { font-size: 11px; margin-bottom: 10px; }
+  .iran-outlook-hero .iran-outlook-legend { gap: 10px; font-size: 9.5px; margin-bottom: 12px; }
+  .iran-outlook-hero .iran-outlook-legend .swatch { width: 11px; height: 11px; }
+  .iran-outlook-hero .iran-outlook-charts { gap: 12px; }
+  .iran-outlook-hero .iran-outlook-source { font-size: 9.5px; margin-top: 10px; }
+
+  @media (max-width: 600px) {
+    .iran-outlook-charts { grid-template-columns: 1fr; }
   }
 </style>
