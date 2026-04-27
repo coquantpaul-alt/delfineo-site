@@ -18,11 +18,16 @@
  *   AUTH_FROM_EMAIL      — e.g. "Delfineo <auth@delfineo.com>"
  *   AUTH_SITE_URL        — e.g. "https://delfineo.com" (no trailing slash)
  *
- * Cookie: __Host-delf_sess  (HttpOnly, Secure, SameSite=Lax, Path=/)
+ * Cookie: __Secure-delf_sess  (HttpOnly, Secure, SameSite=Lax, Path=/, Domain=delfineo.com)
  *   Format: <sessionId>.<hmac-sha256(sessionId, AUTH_SECRET)>
+ *   Domain=delfineo.com so the cookie covers BOTH delfineo.com AND
+ *   www.delfineo.com — without it, the apex and www hosts get
+ *   independent sessions and the user appears signed out when their
+ *   browser jumps between the two.
  */
 
-const COOKIE_NAME   = '__Host-delf_sess';
+const COOKIE_NAME   = '__Secure-delf_sess';
+const COOKIE_DOMAIN = 'delfineo.com';
 const MAGIC_TTL_MIN = 15;
 const SESSION_TTL_D = 30;
 const RATE_LIMIT_S  = 60;
@@ -218,7 +223,7 @@ async function handleVerify(request, env, url) {
     status: 302,
     headers: {
       'Location': next,
-      'Set-Cookie': `${COOKIE_NAME}=${cookie}; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=${SESSION_TTL_D * 86400}`,
+      'Set-Cookie': `${COOKIE_NAME}=${cookie}; HttpOnly; Secure; SameSite=Lax; Path=/; Domain=${COOKIE_DOMAIN}; Max-Age=${SESSION_TTL_D * 86400}`,
     },
   });
 }
@@ -256,7 +261,7 @@ async function handleLogout(request, env) {
   return new Response(null, {
     status: 204,
     headers: {
-      'Set-Cookie': `${COOKIE_NAME}=; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=0`,
+      'Set-Cookie': `${COOKIE_NAME}=; HttpOnly; Secure; SameSite=Lax; Path=/; Domain=${COOKIE_DOMAIN}; Max-Age=0`,
     },
   });
 }
