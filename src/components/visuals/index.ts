@@ -6,3 +6,4 @@ export { default as DataTable } from './DataTable.astro';
 export { default as Callout } from './Callout.astro';
 export { default as PullQuote } from './PullQuote.astro';
 export { default as InteractiveChart } from './InteractiveChart.astro';
+export { default as IranOutlookChart } from './IranOutlookChart.astro';

@@ -1,0 +1,102 @@
+---
+// <IranOutlookChart> — bilingual bar chart of IMF GDP & inflation
+// scenarios around the Iran war. Wraps <InteractiveChart> so it
+// inherits the global Chart.js loader. Used inline in news briefs
+// and in the homepage hero's right column.
+//
+// Props:
+//   lang     — "en" | "fr"  (default "en")
+//   width    — passed to InteractiveChart (default "wide")
+//   variant  — "article" | "hero"  (hero strips the figure label)
+import InteractiveChart from './InteractiveChart.astro';
+
+interface Props {
+  lang?: 'en' | 'fr';
+  width?: 'inset' | 'normal' | 'wide' | 'full';
+  variant?: 'article' | 'hero';
+}
+const { lang = 'en', width = 'wide', variant = 'article' } = Astro.props;
+const isFr = lang === 'fr';
+
+const labels = isFr
+  ? ['Avant-conflit', 'Référence', 'Adverse', 'Sévère']
+  : ['Pre-conflict', 'Reference', 'Adverse', 'Severe'];
+
+const data = {
+  labels,
+  datasets: [
+    {
+      label: isFr ? 'Croissance du PIB' : 'GDP growth',
+      data: [3.4, 3.1, 2.6, 2.0],
+      backgroundColor: '#1a5276',
+      borderColor: '#1a5276',
+    },
+    {
+      label: 'Inflation',
+      data: [3.9, 4.4, 5.4, 5.8],
+      backgroundColor: '#b7935d',
+      borderColor: '#b7935d',
+    },
+  ],
+};
+
+const options = {
+  scales: {
+    y: {
+      beginAtZero: true,
+    },
+  },
+  plugins: {
+    legend: {
+      position: 'bottom',
+    },
+  },
+};
+
+const caption = isFr
+  ? 'Croissance du PIB et inflation : prévisions mondiales 2026 (%)'
+  : 'GDP growth and inflation forecasts for 2026 (%)';
+const source = isFr
+  ? 'Source : FMI – scénarios construits avant et après le déclenchement du conflit au Moyen-Orient'
+  : 'Source: IMF – scenarios constructed before and after the outbreak of the Middle East conflict';
+const label = isFr ? 'Graphique' : 'Chart';
+---
+
+<div class={`iran-outlook iran-outlook-${variant}`}>
+  <InteractiveChart
+    type="bar"
+    data={data}
+    options={options}
+    caption={caption}
+    source={source}
+    width={width}
+    label={label}
+  />
+</div>
+
+<style>
+  /* Hero variant: tighter padding so the chart sits comfortably in the
+     1fr right column of .editorial-hero on the homepage. */
+  .iran-outlook-hero :global(.figure) {
+    margin: 0;
+    padding: 18px 16px 14px;
+    background: rgba(5, 28, 44, 0.04);
+    border: 1px solid rgba(5, 28, 44, 0.08);
+    border-radius: 4px;
+    max-width: 100%;
+  }
+  .iran-outlook-hero :global(.chart-canvas-wrap) {
+    height: 240px;
+    position: relative;
+  }
+  .iran-outlook-hero :global(figcaption) {
+    font-size: 12px;
+    line-height: 1.35;
+    margin-top: 10px;
+  }
+
+  .iran-outlook-article :global(.chart-canvas-wrap) {
+    height: 320px;
+    position: relative;
+  }
+</style>

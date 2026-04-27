@@ -58,20 +58,22 @@ const href = '/' + lang + '/news/' + slugNoLang + '/';
     </div>
   </div>
 
-  {story.data.insight && (
-    <aside class="takeaway-card" aria-label={takeLabel}>
-      <div class="label">&mdash; {takeLabel}</div>
-      <p class="headline">{story.data.insight.replace(/\s+/g, ' ').trim()}</p>
-      {takeawayBullets && takeawayBullets.length > 0 && (
-        <div class="bullets-wrap">
-          <div class="sep"></div>
-          <ul>
-            {takeawayBullets.map((b) => (
-              <li><span class="bullet">&mdash;</span><span>{b}</span></li>
-            ))}
-          </ul>
-        </div>
-      )}
-    </aside>
-  )}
+  <slot name="aside">
+    {story.data.insight && (
+      <aside class="takeaway-card" aria-label={takeLabel}>
+        <div class="label">&mdash; {takeLabel}</div>
+        <p class="headline">{story.data.insight.replace(/\s+/g, ' ').trim()}</p>
+        {takeawayBullets && takeawayBullets.length > 0 && (
+          <div class="bullets-wrap">
+            <div class="sep"></div>
+            <ul>
+              {takeawayBullets.map((b) => (
+                <li><span class="bullet">&mdash;</span><span>{b}</span></li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </aside>
+    )}
+  </slot>
 </section>

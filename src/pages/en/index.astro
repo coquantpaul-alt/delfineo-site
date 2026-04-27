@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import AuthScript from '../../components/AuthScript.astro';
 import EditorialHero from '../../components/editorial/EditorialHero.astro';
+import IranOutlookChart from '../../components/visuals/IranOutlookChart.astro';
 import EditorialFilters from '../../components/editorial/EditorialFilters.astro';
 import EditorialStoryRow from '../../components/editorial/EditorialStoryRow.astro';
 import ResearchHero from '../../components/editorial/ResearchHero.astro';
@@ -67,7 +68,11 @@ let rowNum = 1;  // hero is No 01
   <!-- NEWS TAB ───────────────────────────────────────────────── -->
   <div id="panel-news" class="fade-in">
     {heroNews && (
-      <EditorialHero story={heroNews} lang={lang} readMinutes={4} />
+      <EditorialHero story={heroNews} lang={lang} readMinutes={4}>
+        {heroNews.slug.endsWith('central-banks-hold') && (
+          <IranOutlookChart slot="aside" lang={lang} variant="hero" />
+        )}
+      </EditorialHero>
     )}
 
     <EditorialFilters lang={lang} totalCount={news.length} counts={metaCounts} />
