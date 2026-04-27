@@ -2,8 +2,13 @@ name = "delfineo-auth"
 main = "workers/auth-worker.js"
 compatibility_date = "2024-12-01"
 
-# Route the worker to delfineo.com/api/auth/*
-routes = [{ pattern = "delfineo.com/api/auth/*", zone_name = "delfineo.com" }]
+# Route the worker to BOTH the apex and the www subdomain. Without the
+# www route, requests to www.delfineo.com/api/auth/* fall through to
+# Cloudflare Pages, which returns 405 Method Not Allowed.
+routes = [
+  { pattern = "delfineo.com/api/auth/*",     zone_name = "delfineo.com" },
+  { pattern = "www.delfineo.com/api/auth/*", zone_name = "delfineo.com" },
+]
 
 # D1 database binding
 [[d1_databases]]
