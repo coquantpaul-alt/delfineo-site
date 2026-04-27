@@ -203,12 +203,79 @@
     if (e.key === 'Escape' && overlay && overlay.style.display !== 'none') closeModal();
   });
 
+  /* ── saved-articles cross-device sync ────────────────────────── */
+  // Strategy: localStorage stays the local source of truth, so the
+  // /saved/ page renders instantly without waiting on a network call.
+  // On every page load (when signed in) we fetch the cloud list,
+  // merge with localStorage by slug (newer savedAt wins), write the
+  // result back to localStorage, then push any local-only items to
+  // the cloud so a user's pre-sign-in saves aren't lost. After the
+  // merge we dispatch `delfineo:saved-synced` so the saved-page
+  // script re-renders with the freshest data.
+  const SAVED_KEY = 'delfineo:saved';
+
+  function readLocalSaved() {
+    try { return JSON.parse(localStorage.getItem(SAVED_KEY) || '[]') || []; }
+    catch (_) { return []; }
+  }
+  function writeLocalSaved(list) {
+    try { localStorage.setItem(SAVED_KEY, JSON.stringify(list)); } catch (_) {}
+  }
+
+  async function syncSaved() {
+    let cloud = [];
+    try {
+      const r = await fetch(AUTH_BASE + '/saved', { credentials: 'include' });
+      if (!r.ok) return;
+      const j = await r.json().catch(() => ({}));
+      cloud = Array.isArray(j.items) ? j.items : [];
+    } catch (_) { return; }
+
+    const local = readLocalSaved();
+    const map = Object.create(null);
+    cloud.forEach((it) => {
+      if (it && it.slug) map[it.slug] = { slug: it.slug, savedAt: Number(it.savedAt) || 0 };
+    });
+    const localOnly = [];
+    local.forEach((it) => {
+      if (!it || !it.slug) return;
+      const existing = map[it.slug];
+      const ts = Number(it.savedAt) || 0;
+      if (!existing) {
+        map[it.slug] = { slug: it.slug, savedAt: ts };
+        localOnly.push(map[it.slug]);
+      } else if (ts > existing.savedAt) {
+        map[it.slug] = { slug: it.slug, savedAt: ts };
+      }
+    });
+
+    const merged = Object.values(map).sort((a, b) => b.savedAt - a.savedAt);
+    writeLocalSaved(merged);
+
+    // Push local-only saves up to the cloud (best-effort, fire-and-forget)
+    if (localOnly.length) {
+      await Promise.all(localOnly.map((it) =>
+        fetch(AUTH_BASE + '/saved', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          credentials: 'include',
+          body: JSON.stringify({ slug: it.slug, savedAt: it.savedAt }),
+        }).catch(() => {})
+      ));
+    }
+
+    document.dispatchEvent(new CustomEvent('delfineo:saved-synced', {
+      detail: { items: merged }
+    }));
+  }
+
   /* ── init ────────────────────────────────────────────────────── */
   (async () => {
     me = await fetchMe();
     if (me) {
       document.body.classList.add('is-signed-in');
       showUserBadge();
+      syncSaved(); // fire-and-forget; saved page listens for the event
     }
   })();
 </script>

@@ -156,7 +156,17 @@ const data = items.map((it) => ({
       const list = readList().filter((it) => it && it.slug !== slug);
       writeList(list);
       render();
+      if (document.body.classList.contains('is-signed-in')) {
+        fetch('/api/auth/saved', {
+          method: 'DELETE',
+          headers: { 'Content-Type': 'application/json' },
+          credentials: 'include',
+          body: JSON.stringify({ slug }),
+        }).catch(() => {});
+      }
     });
+
+    document.addEventListener('delfineo:saved-synced', render);
 
     render();
   })();

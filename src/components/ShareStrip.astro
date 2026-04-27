@@ -168,12 +168,33 @@ const L = {
       saveBtn.addEventListener('click', () => {
         const list = readList();
         const idx  = list.findIndex((it) => it && it.slug === SLUG);
-        if (idx >= 0) list.splice(idx, 1);
-        else list.push({ slug: SLUG, savedAt: Date.now() });
+        const wasSaved = idx >= 0;
+        const now = Date.now();
+        if (wasSaved) list.splice(idx, 1);
+        else list.push({ slug: SLUG, savedAt: now });
         writeList(list);
         paint();
+
+        // Mirror to the backend if the user is signed in. AuthScript
+        // adds `is-signed-in` to <body> after /api/auth/me succeeds,
+        // so this branch is taken on subsequent page interactions.
+        // We don't await — localStorage is the local source of truth
+        // and the cloud sync is best-effort.
+        if (document.body.classList.contains('is-signed-in')) {
+          fetch('/api/auth/saved', {
+            method: wasSaved ? 'DELETE' : 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            credentials: 'include',
+            body: JSON.stringify(wasSaved ? { slug: SLUG } : { slug: SLUG, savedAt: now }),
+          }).catch(() => {});
+        }
       });
       paint();
+
+      // After AuthScript syncs the cloud list into localStorage,
+      // re-paint this button so the bookmark icon reflects the
+      // cross-device state (e.g. saved on another device).
+      document.addEventListener('delfineo:saved-synced', paint);
     }
   })();
 </script>

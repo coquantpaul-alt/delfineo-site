@@ -2,10 +2,14 @@
  * Delfineo Auth Worker — magic-link login
  * ────────────────────────────────────────
  * Endpoints (all under /api/auth/*):
- *   POST /api/auth/request   { email, redirectTo? }  → 202 { ok:true, alreadyMember }
- *   GET  /api/auth/verify?token=...&next=...         → 302 to next URL + session cookie
- *   GET  /api/auth/me                                → { email, tier, isSubscriber } or 401
- *   POST /api/auth/logout                            → 204 + clears cookie
+ *   POST   /api/auth/request   { email, redirectTo? }  → 202 { ok:true, alreadyMember }
+ *   GET    /api/auth/verify?token=...&next=...         → 302 to next URL + session cookie
+ *   GET    /api/auth/me                                → { email, tier, isSubscriber } or 401
+ *   POST   /api/auth/logout                            → 204 + clears cookie
+ *
+ *   GET    /api/auth/saved                             → { items: [{ slug, savedAt }] } | 401
+ *   POST   /api/auth/saved   { slug, savedAt? }        → { ok: true, savedAt } | 401
+ *   DELETE /api/auth/saved   { slug }                  → { ok: true } | 401
  *
  * Required bindings (wrangler.toml):
  *   [[d1_databases]]
@@ -75,7 +79,7 @@ async function verifyCookie(value, secret) {
 function cors(origin) {
   return {
     'Access-Control-Allow-Origin': origin || '*',
-    'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+    'Access-Control-Allow-Methods': 'GET, POST, DELETE, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type',
     'Access-Control-Allow-Credentials': 'true',
     'Vary': 'Origin',
@@ -253,6 +257,55 @@ async function handleMe(request, env) {
   });
 }
 
+// ─── saved articles ────────────────────────────────────────────
+function isSlug(s) {
+  // Slug shape: 8-digit date prefix, then "-NN-" then kebab body.
+  // Allow lowercase alphanumeric + hyphens, max 128 chars.
+  return typeof s === 'string' && /^[a-z0-9][a-z0-9-]{0,127}$/.test(s);
+}
+
+async function handleSavedList(request, env) {
+  const sess = await readSession(request, env);
+  if (!sess) return json({ status: 'anon' }, 401);
+  const rows = await env.DB.prepare(
+    'SELECT slug, saved_at AS savedAt FROM saved_articles WHERE user_id = ? ORDER BY saved_at DESC'
+  ).bind(sess.uid).all();
+  return json({ status: 'ok', items: rows.results || [] });
+}
+
+async function handleSavedAdd(request, env) {
+  const sess = await readSession(request, env);
+  if (!sess) return json({ status: 'anon' }, 401);
+  const body = await request.json().catch(() => ({}));
+  const slug = body && body.slug;
+  if (!isSlug(slug)) return json({ status: 'error', message: 'Invalid slug' }, 400);
+  const incoming = Number(body && body.savedAt);
+  // Trust the client's savedAt if it's a sane recent timestamp,
+  // otherwise stamp server-side. Reject far-future timestamps.
+  const serverNow = Date.now();
+  const savedAt =
+    Number.isFinite(incoming) && incoming > 0 && incoming <= serverNow + 60_000
+      ? Math.floor(incoming)
+      : serverNow;
+  await env.DB.prepare(
+    'INSERT INTO saved_articles (user_id, slug, saved_at) VALUES (?,?,?) ' +
+    'ON CONFLICT (user_id, slug) DO UPDATE SET saved_at = excluded.saved_at'
+  ).bind(sess.uid, slug, savedAt).run();
+  return json({ status: 'ok', savedAt });
+}
+
+async function handleSavedRemove(request, env) {
+  const sess = await readSession(request, env);
+  if (!sess) return json({ status: 'anon' }, 401);
+  const body = await request.json().catch(() => ({}));
+  const slug = body && body.slug;
+  if (!isSlug(slug)) return json({ status: 'error', message: 'Invalid slug' }, 400);
+  await env.DB.prepare(
+    'DELETE FROM saved_articles WHERE user_id = ? AND slug = ?'
+  ).bind(sess.uid, slug).run();
+  return json({ status: 'ok' });
+}
+
 async function handleLogout(request, env) {
   const sess = await readSession(request, env);
   if (sess) {
@@ -292,6 +345,21 @@ export default {
       }
       if (url.pathname === '/api/auth/logout' && request.method === 'POST') {
         const r = await handleLogout(request, env);
+        Object.entries(corsH).forEach(([k, v]) => r.headers.set(k, v));
+        return r;
+      }
+      if (url.pathname === '/api/auth/saved' && request.method === 'GET') {
+        const r = await handleSavedList(request, env);
+        Object.entries(corsH).forEach(([k, v]) => r.headers.set(k, v));
+        return r;
+      }
+      if (url.pathname === '/api/auth/saved' && request.method === 'POST') {
+        const r = await handleSavedAdd(request, env);
+        Object.entries(corsH).forEach(([k, v]) => r.headers.set(k, v));
+        return r;
+      }
+      if (url.pathname === '/api/auth/saved' && request.method === 'DELETE') {
+        const r = await handleSavedRemove(request, env);
         Object.entries(corsH).forEach(([k, v]) => r.headers.set(k, v));
         return r;
       }

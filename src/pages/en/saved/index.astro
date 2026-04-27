@@ -151,7 +151,8 @@ const data = items.map((it) => ({
     }
 
     // Delegate clicks on the unsave button — stop the link from
-    // navigating, mutate localStorage, re-render.
+    // navigating, mutate localStorage, mirror to backend if signed
+    // in, then re-render.
     root.addEventListener('click', (e) => {
       const btn = e.target.closest('[data-remove]');
       if (!btn) return;
@@ -161,7 +162,20 @@ const data = items.map((it) => ({
       const list = readList().filter((it) => it && it.slug !== slug);
       writeList(list);
       render();
+      if (document.body.classList.contains('is-signed-in')) {
+        fetch('/api/auth/saved', {
+          method: 'DELETE',
+          headers: { 'Content-Type': 'application/json' },
+          credentials: 'include',
+          body: JSON.stringify({ slug }),
+        }).catch(() => {});
+      }
     });
+
+    // AuthScript dispatches this after merging cloud saves into
+    // localStorage on page load, so the list reflects bookmarks
+    // made on another device.
+    document.addEventListener('delfineo:saved-synced', render);
 
     render();
   })();
