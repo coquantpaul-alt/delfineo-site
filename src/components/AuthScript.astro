@@ -22,6 +22,7 @@
 
   const subBtns      = document.querySelectorAll('[data-subscribe]');
   const userArea     = document.getElementById('user-area');
+  const userAreaMob  = document.getElementById('user-area-mobile');
 
   let me = null;
 
@@ -35,15 +36,29 @@
   }
 
   function showUserBadge() {
-    if (!userArea || !me) return;
+    if (!me) return;
     const name = me.email.split('@')[0];
-    userArea.innerHTML =
-      '<span class="name"><span class="dot"></span>' + escapeHtml(name) + '</span>' +
-      '<button class="sign-out" id="sign-out-btn">' + (userArea.dataset.signout || 'Sign out') + '</button>';
-    userArea.style.display = '';
+    const safeName = escapeHtml(name);
+
+    // Desktop badge — name + sign-out button
+    if (userArea) {
+      userArea.innerHTML =
+        '<span class="name"><span class="dot"></span>' + safeName + '</span>' +
+        '<button class="sign-out" id="sign-out-btn">' + (userArea.dataset.signout || 'Sign out') + '</button>';
+      userArea.style.display = '';
+      const out = document.getElementById('sign-out-btn');
+      if (out) out.addEventListener('click', signOut);
+    }
+
+    // Mobile badge — name + green dot only (no sign-out chip)
+    if (userAreaMob) {
+      userAreaMob.innerHTML =
+        '<span class="name"><span class="dot"></span>' + safeName + '</span>';
+      userAreaMob.style.display = '';
+    }
+
+    // Hide all "subscribe / sign in" CTAs (desktop + mobile)
     subBtns.forEach((b) => b.style.display = 'none');
-    const out = document.getElementById('sign-out-btn');
-    if (out) out.addEventListener('click', signOut);
   }
 
   async function signOut() {

@@ -56,6 +56,17 @@ const altHref = altPath || ('/' + altLang + '/');
           <path d="M11 11 L14 14" stroke="currentColor" stroke-width="1.4" />
         </svg>
       </button>
+
+      <!-- Mobile-only sign-in / user badge (hidden on desktop) -->
+      <span
+        class="user-badge user-badge-mobile"
+        id="user-area-mobile"
+        data-signout={i('signOut')}
+        style="display:none"
+      ></span>
+      <button class="btn-signin-mobile" data-subscribe>
+        {lang === 'fr' ? 'CONNEXION' : 'SIGN IN'}
+      </button>
     </div>
 
     <a href={`/${lang}/`} class="center" aria-label="Delfineo home">

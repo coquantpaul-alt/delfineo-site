@@ -1905,9 +1905,13 @@ body.is-signed-in .paywall-cta { display: none; }
 /* Single-row header: [search icon] [DELFINEO] [EN/FR]. Hide chrome. */
 
 @media (max-width: 640px) {
-  /* Only the date label is hidden on mobile to save vertical space —
-     the monogram + wordmark + tagline render as a small logo. */
-  .masthead .date-label { display: none !important; }
+  /* Mobile masthead: wordmark only — monogram, tagline, and date label
+     are hidden to keep the row compact. Left rail hosts the SIGN IN /
+     user badge; right rail hosts the EN/FR toggle. */
+  .masthead .date-label,
+  .nameplate .center .monogram,
+  .nameplate .center svg,
+  .nameplate .tagline { display: none !important; }
 
   /* Nameplate = single 3-column row: left rail | wordmark | right rail */
   .nameplate.nameplate-slim {
@@ -1922,29 +1926,15 @@ body.is-signed-in .paywall-cta { display: none; }
     padding-bottom: 0;
     margin-bottom: 0;
   }
-  /* Center anchor: small D-monogram + DELFINEO wordmark + tagline (mobile logo) */
+  /* Center anchor: wordmark only on mobile (monogram + tagline hidden above) */
   .nameplate-slim .center {
     justify-self: center;
-    gap: 8px;
-    align-items: center;
-  }
-  .nameplate-slim .center .monogram,
-  .nameplate-slim .center svg {
-    display: inline-flex !important;
-    width: 22px !important;
-    height: 22px !important;
+    gap: 0;
   }
   .nameplate-slim .wordmark {
     display: inline-block !important;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 0.18em;
-    line-height: 1;
-  }
-  .nameplate-slim .tagline {
-    display: block !important;
-    margin-top: 3px;
-    font-size: 7px;
-    letter-spacing: 0.22em;
     line-height: 1;
   }
 
@@ -2001,16 +1991,20 @@ body.is-signed-in .paywall-cta { display: none; }
 /* iPhone SE (≤360px) extra tightening */
 @media (max-width: 360px) {
   .nameplate.nameplate-slim {
-    grid-template-columns: 36px 1fr 72px;
+    grid-template-columns: auto 1fr auto;
     padding: 8px 12px;
   }
   .nameplate-slim .wordmark { font-size: 19px; letter-spacing: 0.16em; }
   .nameplate-slim .right .lang-toggle { font-size: 10px; }
+  .btn-signin-mobile { font-size: 9px; padding: 5px 8px; }
+  .user-badge-mobile { font-size: 9px; }
 }
 
-/* Hide the mobile-only search icon on desktop */
+/* Hide mobile-only masthead elements on desktop */
 @media (min-width: 641px) {
-  .nameplate-slim .left .search-icon-btn { display: none; }
+  .nameplate-slim .left .search-icon-btn,
+  .btn-signin-mobile,
+  .user-badge-mobile { display: none !important; }
 }
 
 /* ─── Mobile bottom tab bar (≤640px) ────────────────────────────── */
@@ -2031,29 +2025,64 @@ body.is-signed-in .paywall-cta { display: none; }
     align-items: center;
     border-bottom: 1px solid var(--rule);
   }
-  .nameplate-slim .left,
   .nameplate-slim .right .search-pill { display: none !important; }
-  .nameplate-slim .center {
-    justify-self: center;
-    gap: 8px;
+
+  /* Mobile left rail hosts the SIGN IN button + user badge.
+     Date label and search icon inside .left are hidden in the upper
+     mobile block; this just keeps the rail itself visible. */
+  .nameplate-slim .left {
+    display: flex !important;
     align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
   }
-  .nameplate-slim .center .monogram,
-  .nameplate-slim .center svg {
-    display: inline-flex !important;
-    width: 22px !important;
-    height: 22px !important;
-  }
+  .nameplate-slim .center { justify-self: center; }
   .nameplate-slim .wordmark {
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 0.18em;
   }
-  .nameplate-slim .tagline {
-    display: block !important;
-    margin-top: 3px;
-    font-size: 7px;
-    letter-spacing: 0.22em;
-    line-height: 1;
+
+  /* SIGN IN button — small navy pill on the top-left of the masthead.
+     Hidden by default on desktop via the min-width: 641px rule below. */
+  .btn-signin-mobile {
+    display: inline-flex;
+    align-items: center;
+    background: var(--navy, #051c2c);
+    color: var(--cream, #f6f3ea);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  /* Mobile user badge: green dot + uppercase username, no sign-out chip */
+  .user-badge-mobile {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    color: var(--ink, #051c2c);
+    text-transform: uppercase;
+  }
+  .user-badge-mobile .dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #4a9d6e;
+  }
+  .user-badge-mobile .name {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
   }
   .nameplate-slim .right {
     flex-direction: row;
