@@ -128,7 +128,34 @@ const id = 'chart_' + randomBytes(4).toString('hex');
         // Deep merge: options win over defaults
         const options = deepMerge(defaults, userOptions);
 
-        new window.Chart(canvas, { type, data, options });
+        // Plugin: draw the numeric value just above each bar (FT-style).
+        // Opt-in via options.plugins.barValueLabels = { display: true }.
+        const barValueLabels = {
+          id: 'barValueLabels',
+          afterDatasetsDraw(chart) {
+            const opt = chart.options.plugins && chart.options.plugins.barValueLabels;
+            if (!opt || !opt.display) return;
+            if (chart.config.type !== 'bar') return;
+            const ctx = chart.ctx;
+            const fmt = opt.format || ((v) => String(v));
+            ctx.save();
+            ctx.font = (opt.font || '600 11px DM Sans, sans-serif');
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'bottom';
+            ctx.fillStyle = (opt.color || NAVY);
+            chart.data.datasets.forEach((ds, dsi) => {
+              const meta = chart.getDatasetMeta(dsi);
+              meta.data.forEach((bar, i) => {
+                const v = ds.data[i];
+                if (v === null || v === undefined) return;
+                ctx.fillText(fmt(v), bar.x, bar.y - 4);
+              });
+            });
+            ctx.restore();
+          },
+        };
+
+        new window.Chart(canvas, { type, data, options, plugins: [barValueLabels] });
       });
     }
 

@@ -56,7 +56,13 @@ const inflData = {
 };
 
 const opts = {
-  plugins: { legend: { display: false } },
+  plugins: {
+    legend: { display: false },
+    // Show numeric value just above each bar (FT-style). The plugin
+    // is registered globally inside InteractiveChart.astro and is
+    // off by default — opt-in by setting display: true.
+    barValueLabels: { display: true },
+  },
   scales: {
     // Hide x-axis tick labels — the colour-coded legend at the top
     // of the chart already names each scenario, so labelling each
@@ -203,14 +209,14 @@ const eyebrow = isFr ? 'Graphique' : 'Chart';
      .chart-canvas-wrap rule (height:400px) by matching the same
      selector chain plus our scoping class. */
   .iran-outlook-article :global(.figure-chart.figure-interactive .chart-canvas-wrap) {
-    height: 170px !important;
+    height: 220px !important;
     position: relative;
   }
   .iran-outlook-hero {
     padding: 12px 14px 10px;
   }
   .iran-outlook-hero :global(.figure-chart.figure-interactive .chart-canvas-wrap) {
-    height: 120px !important;
+    height: 200px !important;
     position: relative;
   }
   .iran-outlook-hero .iran-outlook-title { font-size: 16px; line-height: 1.2; }
