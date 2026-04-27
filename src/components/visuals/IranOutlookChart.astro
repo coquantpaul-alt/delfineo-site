@@ -265,4 +265,12 @@ const eyebrow = isFr ? 'Graphique' : 'Chart';
   @media (max-width: 600px) {
     .iran-outlook-charts { grid-template-columns: 1fr; }
   }
+
+  /* On phones the hero variant (homepage right-column box) is hidden —
+     it crowds the lead headline and forces a long scroll before the
+     news list. The article variant remains visible inline within the
+     brief itself. */
+  @media (max-width: 640px) {
+    .iran-outlook-hero { display: none !important; }
+  }
 </style>

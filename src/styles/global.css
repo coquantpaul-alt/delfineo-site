@@ -1905,11 +1905,9 @@ body.is-signed-in .paywall-cta { display: none; }
 /* Single-row header: [search icon] [DELFINEO] [EN/FR]. Hide chrome. */
 
 @media (max-width: 640px) {
-  /* Date + tagline + monogram are hidden on mobile to save vertical space */
-  .masthead .date-label,
-  .nameplate .center .monogram,
-  .nameplate .center svg,
-  .nameplate .tagline { display: none !important; }
+  /* Only the date label is hidden on mobile to save vertical space —
+     the monogram + wordmark + tagline render as a small logo. */
+  .masthead .date-label { display: none !important; }
 
   /* Nameplate = single 3-column row: left rail | wordmark | right rail */
   .nameplate.nameplate-slim {
@@ -1924,16 +1922,29 @@ body.is-signed-in .paywall-cta { display: none; }
     padding-bottom: 0;
     margin-bottom: 0;
   }
-  /* The center anchor only needs to show the wordmark (monogram hidden) */
+  /* Center anchor: small D-monogram + DELFINEO wordmark + tagline (mobile logo) */
   .nameplate-slim .center {
     justify-self: center;
-    gap: 0;
+    gap: 8px;
+    align-items: center;
   }
-  .nameplate-slim .center > span:not(.wordmark) { display: none !important; }
+  .nameplate-slim .center .monogram,
+  .nameplate-slim .center svg {
+    display: inline-flex !important;
+    width: 22px !important;
+    height: 22px !important;
+  }
   .nameplate-slim .wordmark {
     display: inline-block !important;
-    font-size: 22px;
+    font-size: 18px;
     letter-spacing: 0.18em;
+    line-height: 1;
+  }
+  .nameplate-slim .tagline {
+    display: block !important;
+    margin-top: 3px;
+    font-size: 7px;
+    letter-spacing: 0.22em;
     line-height: 1;
   }
 
@@ -2022,10 +2033,27 @@ body.is-signed-in .paywall-cta { display: none; }
   }
   .nameplate-slim .left,
   .nameplate-slim .right .search-pill { display: none !important; }
-  .nameplate-slim .center { justify-self: center; }
+  .nameplate-slim .center {
+    justify-self: center;
+    gap: 8px;
+    align-items: center;
+  }
+  .nameplate-slim .center .monogram,
+  .nameplate-slim .center svg {
+    display: inline-flex !important;
+    width: 22px !important;
+    height: 22px !important;
+  }
   .nameplate-slim .wordmark {
-    font-size: 22px;
+    font-size: 18px;
     letter-spacing: 0.18em;
+  }
+  .nameplate-slim .tagline {
+    display: block !important;
+    margin-top: 3px;
+    font-size: 7px;
+    letter-spacing: 0.22em;
+    line-height: 1;
   }
   .nameplate-slim .right {
     flex-direction: row;
