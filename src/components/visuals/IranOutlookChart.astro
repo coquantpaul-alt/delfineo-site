@@ -58,6 +58,9 @@ const inflData = {
 const opts = {
   plugins: { legend: { display: false } },
   scales: { y: { beginAtZero: true } },
+  // Force a higher devicePixelRatio so bars stay crisp when the
+  // canvas is small (e.g. inside the homepage hero aside).
+  devicePixelRatio: 2,
 };
 
 const title = isFr
@@ -191,14 +194,14 @@ const eyebrow = isFr ? 'Graphique' : 'Chart';
   .iran-outlook :global(.figure-interactive figcaption) { display: none; }
 
   .iran-outlook-article :global(.chart-canvas-wrap) {
-    height: 180px;
+    height: 130px;
     position: relative;
   }
   .iran-outlook-hero {
     padding: 12px 14px 10px;
   }
   .iran-outlook-hero :global(.chart-canvas-wrap) {
-    height: 110px;
+    height: 70px;
     position: relative;
   }
   .iran-outlook-hero .iran-outlook-title { font-size: 16px; line-height: 1.2; }
