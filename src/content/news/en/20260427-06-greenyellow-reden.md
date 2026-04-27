@@ -12,26 +12,12 @@ summary: |
 order: 6
 ---
 
-# Solar power: GreenYellow and Reden Solar close close to €2bn of refinancing
-
-**The story in one line:** GreenYellow and Reden Solar have raised close to €2bn between them, proving that large fund-backed solar players can still tap credit when smaller ones are forced to rotate assets.
-
 ## Key numbers
 
 - **~€2bn**: total debt raised across the two groups.
 - **€824M**: GreenYellow revolving facility from 9 banks, a debt fund and Bpifrance.
-- **>€800M five-year revolver** at GreenYellow, vs €600M before, on improved terms.
+- **>€800M five-year revolver** at GreenYellow, vs €600M before.
 - **€400M 20-year senior loan** signed by GreenYellow for its legacy portfolio.
-- **€1.055bn**: Reden Solar refinancing led by Natixis and Crédit Agricole CIB — including **€700M over 15 years** to refinance assets and a **€250M** revolver.
+- **€1.055bn**: Reden Solar refinancing led by Natixis and Crédit Agricole CIB — including €700M over 15 years and a €250M revolver.
 - **~€500M/year**: GreenYellow's planned annual investments.
-- **~90%**: share of Reden's French contracts tied to public auctions that are now declining; **20 hires frozen**.
-
-## Why it matters
-
-Three implications. First, the French solar market is polarising: large fund-backed players (Ardian, Macquarie) keep credit access; smaller operators are recycling assets because they can no longer raise debt. Second, the new PPE — the French state's official electricity-generation plan — is less ambitious than expected, pushing Reden to redeploy in Italy, Spain and Germany. Third, the way out of pure subsidy dependence runs through long-term self-consumption contracts between developers and industrial customers, a model GreenYellow already uses outside France.
-
-## Takeaway
-
-French solar isn't dying — it's changing its financing model and its geography. Watch the next round of public tenders before the 2027 presidential election, and the speed at which both groups can export their model southwards.
-
-*Source: Les Echos, 27 April 2026, Amélie Laurin.*
+- **~90%**: share of Reden's French contracts tied to public auctions, now declining; **20 hires frozen**.

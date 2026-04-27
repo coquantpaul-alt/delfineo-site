@@ -12,10 +12,6 @@ summary: |
 order: 7
 ---
 
-# Middle East war: Iran tables a new peace plan with Washington
-
-**The story in one line:** Tehran proposes reopening the Strait of Hormuz in exchange for separating the nuclear file, but Washington is still playing hardball and oil prices are rising again.
-
 ## Key numbers
 
 - **20%**: share of world oil that normally moves through the Strait of Hormuz, currently shut by a dual Iranian-American blockade.
@@ -24,13 +20,3 @@ order: 7
 - **Gold -0.2% to $4,700/oz**.
 - **-33.3**: Germany's GfK consumer climate indicator for May, down 5.2 points, lowest since February 2023.
 - **40 days** of fighting before the ceasefire obtained roughly three weeks ago; war began on 28 February.
-
-## Why it matters
-
-The Iranian plan is a test: Tehran is offering to decouple maritime traffic from the nuclear question, which would give Trump a visible victory — the reopening of Hormuz — while preserving Iran's nuclear programme. Trump's response so far is one of pressure ("we have all the cards") and cancelling the Kushner-Witkoff trip to Pakistan, suggesting he prefers phone diplomacy backed by force to shuttle negotiation. From the Iranian side, Araghchi's visit to Saint Petersburg seeks tangible Russian support — even as the economic fallout reaches German consumer sentiment.
-
-## Takeaway
-
-As long as Hormuz stays closed, oil and gas carry a structural risk premium. The next markers to watch: Trump's response to the Iranian offer, and any concrete Russian commitment beyond statements.
-
-*Source: Les Echos, 27 April 2026, Claude Fouquet.*

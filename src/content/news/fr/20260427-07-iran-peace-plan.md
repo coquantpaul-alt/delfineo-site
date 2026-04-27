@@ -12,10 +12,6 @@ summary: |
 order: 7
 ---
 
-# Guerre au Moyen-Orient : l'Iran soumet à Washington un nouveau plan de paix
-
-**L'histoire en une phrase :** Téhéran propose de rouvrir le détroit d'Ormuz contre un report des discussions nucléaires, mais Washington reste sur sa fermeté tactique et le marché du pétrole repart à la hausse.
-
 ## Chiffres clés
 
 - **20 %** : part du brut mondial qui transite normalement par le détroit d'Ormuz, aujourd'hui paralysé par un double blocus iranien et américain.
@@ -24,13 +20,3 @@ order: 7
 - **Or –0,2 % à 4 700 $/once**.
 - **-33,3** : indice du climat de consommation allemand pour mai, en baisse de 5,2 points, plus bas depuis février 2023.
 - **40 jours** de combats avant le cessez-le-feu obtenu il y a environ trois semaines ; conflit ouvert le 28 février.
-
-## Pourquoi c'est important
-
-Le plan iranien est un test : Téhéran propose de séparer la question nucléaire de celle de la circulation maritime, ce qui donnerait à Trump une victoire visible — la réouverture d'Ormuz — tout en préservant le programme nucléaire iranien. Trump répond par une posture de force (« nous avons toutes les cartes ») et l'annulation du déplacement de Kushner et Witkoff au Pakistan, signalant qu'il préfère le téléphone et la pression à la diplomatie navette. Côté Téhéran, la visite d'Araghchi à Saint-Pétersbourg cherche à matérialiser un soutien russe, alors que l'effet économique du blocus se diffuse jusqu'au moral des ménages allemands.
-
-## Conclusion
-
-Tant qu'Ormuz reste fermé, le pétrole et le gaz portent une prime de risque structurelle. Le prochain marqueur à surveiller : la décision de Trump sur la proposition iranienne, et tout signe d'engagement russe au-delà des déclarations.
-
-*Source : Les Echos, 27 avril 2026, Claude Fouquet.*

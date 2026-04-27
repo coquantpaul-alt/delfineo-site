@@ -12,26 +12,12 @@ summary: |
 order: 6
 ---
 
-# Énergie solaire : GreenYellow et Reden Solar bouclent près de 2 milliards d'euros de refinancements
-
-**L'histoire en une phrase :** GreenYellow et Reden Solar lèvent en cumulé près de 2 milliards d'euros, prouvant que les grands acteurs adossés à des fonds peuvent encore financer leur développement quand les plus petits doivent vendre des actifs.
-
 ## Chiffres clés
 
 - **~2 Mds€** : dette levée cumulée par les deux groupes.
 - **824 M€** : crédit renouvelable de GreenYellow auprès de 9 banques, d'un fonds de dette et de Bpifrance.
-- **>800 M€ à 5 ans** : nouveau revolver de GreenYellow, contre 600 M€ avant, à meilleures conditions.
+- **>800 M€ à 5 ans** : nouveau revolver de GreenYellow, contre 600 M€ avant.
 - **400 M€ à 20 ans** : dette senior signée par GreenYellow sur son portefeuille historique.
-- **1,055 Md€** : refinancement de Reden Solar mené par Natixis et Crédit Agricole CIB, dont **700 M€ à 15 ans** pour refinancer les actifs et **250 M€** de revolver.
+- **1,055 Md€** : refinancement de Reden Solar mené par Natixis et Crédit Agricole CIB, dont 700 M€ à 15 ans et 250 M€ de revolver.
 - **~500 M€/an** : investissements annuels prévus par GreenYellow.
 - **~90 %** : part des contrats français de Reden dépendant d'appels d'offres publics, désormais en repli ; **20 recrutements gelés**.
-
-## Pourquoi c'est important
-
-Trois lectures. D'abord, le marché du solaire français se polarise : les grands acteurs adossés à des fonds (Ardian, Macquarie) accèdent au crédit, les plus petits font tourner leurs actifs faute de pouvoir lever. Ensuite, la nouvelle PPE — la trajectoire officielle de l'État sur la production d'électricité — est moins ambitieuse que prévu, ce qui pousse Reden à se redéployer en Italie, Espagne et Allemagne. Enfin, la sortie du tout-public passe par des contrats long terme d'autoconsommation entre développeurs et industriels, modèle déjà déployé par GreenYellow hors de France.
-
-## Conclusion
-
-Le solaire français n'est pas en arrêt, mais il change de modèle de financement et d'horizon. À surveiller : la prochaine vague d'appels d'offres avant la présidentielle 2027, et la capacité des deux groupes à exporter leur savoir-faire au sud de l'Europe.
-
-*Source : Les Echos, 27 avril 2026, Amélie Laurin.*
