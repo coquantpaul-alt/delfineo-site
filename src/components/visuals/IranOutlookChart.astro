@@ -57,7 +57,13 @@ const inflData = {
 
 const opts = {
   plugins: { legend: { display: false } },
-  scales: { y: { beginAtZero: true } },
+  scales: {
+    // Hide x-axis tick labels — the colour-coded legend at the top
+    // of the chart already names each scenario, so labelling each
+    // bar would be redundant and steal vertical space from the bars.
+    x: { ticks: { display: false }, grid: { display: false } },
+    y: { beginAtZero: true, ticks: { font: { size: 10 } } },
+  },
   // Force a higher devicePixelRatio so bars stay crisp when the
   // canvas is small (e.g. inside the homepage hero aside).
   devicePixelRatio: 2,
@@ -197,14 +203,14 @@ const eyebrow = isFr ? 'Graphique' : 'Chart';
      .chart-canvas-wrap rule (height:400px) by matching the same
      selector chain plus our scoping class. */
   .iran-outlook-article :global(.figure-chart.figure-interactive .chart-canvas-wrap) {
-    height: 130px !important;
+    height: 170px !important;
     position: relative;
   }
   .iran-outlook-hero {
     padding: 12px 14px 10px;
   }
   .iran-outlook-hero :global(.figure-chart.figure-interactive .chart-canvas-wrap) {
-    height: 70px !important;
+    height: 120px !important;
     position: relative;
   }
   .iran-outlook-hero .iran-outlook-title { font-size: 16px; line-height: 1.2; }
