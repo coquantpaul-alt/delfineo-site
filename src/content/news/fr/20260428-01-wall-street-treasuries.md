@@ -9,5 +9,5 @@ summary: |
   Le déclencheur est l'allègement de l'enhanced supplementary leverage ratio (eSLR), la règle qui oblige les plus grandes banques américaines à détenir un coussin de capital sur chaque actif de leur bilan, indépendamment de son risque. Les régulateurs ont finalisé cette détente fin 2025 sous l'impulsion de la gouverneure de la Fed Michelle Bowman, qui jugeait que les règles post-2008 avaient chassé les banques du marché de la dette publique et l'avaient rendu plus fragile. Morgan Stanley a indiqué ce mois-ci avoir mobilisé davantage de capital sur le trading de Treasuries grâce à la réforme.
 
   Les caveats demeurent. Les banques ne sont pas tenues d'animer le marché, et Jay Barry de JPMorgan rappelle qu'elles ne retrouveront pas leur place d'avant 2008 : les hedge funds et les traders à haute fréquence sont devenus des acteurs structurels. La détente s'inscrit dans une vague plus large de déréglementation aux États-Unis — celle qui a aussi nourri les rachats d'actions records du premier trimestre et la proposition, le mois dernier, de réduire encore les exigences en capital des plus grandes banques, compensant en partie la légère hausse de Bâle III Endgame. Source : Financial Times, 28 avril 2026, Kate Duguid.
-order: 1
+order: 8
 ---

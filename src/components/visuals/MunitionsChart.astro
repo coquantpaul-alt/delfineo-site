@@ -1,0 +1,193 @@
+---
+// <MunitionsChart> — bilingual single-panel horizontal bar chart of
+// the share of US munition stockpile consumed during the 39-day Iran
+// war. Mirrors the IranOutlookChart pattern: yellow "Chart" eyebrow
+// (hero), title, subtitle, source. Used inline in the news brief and
+// in the homepage hero's right column.
+//
+// Wraps an <InteractiveChart> instance so it inherits the global
+// Chart.js loader.
+//
+// Props:
+//   lang     — "en" | "fr"  (default "en")
+//   variant  — "article" | "hero"  (hero variant uses tighter layout)
+import InteractiveChart from './InteractiveChart.astro';
+
+interface Props {
+  lang?: 'en' | 'fr';
+  variant?: 'article' | 'hero';
+}
+const { lang = 'en', variant = 'article' } = Astro.props;
+const isFr = lang === 'fr';
+
+const labels = isFr
+  ? ['THAAD (sol)', 'SM-3 (mer)', 'Patriot PAC-3', 'Tomahawk', 'SM-6 (mer)', 'JASSM (air)']
+  : ['THAAD (ground)', 'SM-3 (sea)', 'Patriot PAC-3', 'Tomahawk', 'SM-6 (sea)', 'JASSM (air)'];
+
+// Reds for >50% depleted, oranges for 25–50%
+const COLORS = ['#7a2e3b', '#7a2e3b', '#7a2e3b', '#a85432', '#a85432', '#a85432'];
+
+const data = {
+  labels,
+  datasets: [
+    {
+      label: isFr ? '% consommé' : '% consumed',
+      data: [78, 55, 55, 33, 33, 25],
+      backgroundColor: COLORS,
+      borderColor: COLORS,
+      borderWidth: 0,
+    },
+  ],
+};
+
+const opts = {
+  indexAxis: 'y',
+  plugins: {
+    legend: { display: false },
+    barValueLabels: { display: false },
+    tooltip: {
+      callbacks: {
+        // The plugin loader stringifies options, so callbacks must
+        // stay simple — Chart.js falls back to default if missing.
+      }
+    },
+  },
+  scales: {
+    x: {
+      min: 0,
+      max: 100,
+      ticks: {
+        font: { size: 10 },
+        callback: (v) => v + '%',
+      },
+      grid: { color: 'rgba(5,28,44,0.08)' },
+    },
+    y: {
+      ticks: { font: { size: 10 } },
+      grid: { display: false },
+    },
+  },
+  devicePixelRatio: 2,
+};
+
+const title = isFr
+  ? "Trois quarts des intercepteurs THAAD américains ont été tirés en 39 jours"
+  : 'Three quarters of US THAAD interceptors fired in 39 days';
+const subtitle = isFr
+  ? "Part du stock américain consommée pendant la guerre en Iran (%)"
+  : 'Share of US stockpile consumed during the Iran war (%)';
+const source = isFr
+  ? 'Source : Les Echos, 28 avril 2026, citant le CSIS'
+  : 'Source: Les Echos, 28 April 2026, citing CSIS';
+const eyebrow = isFr ? 'Graphique' : 'Chart';
+---
+
+<figure class={`munitions-chart munitions-chart-${variant}`}>
+  <span class="munitions-chart-eyebrow">{eyebrow}</span>
+  <h3 class="munitions-chart-title">{title}</h3>
+  <p class="munitions-chart-sub">{subtitle}</p>
+
+  <div class="munitions-chart-panel">
+    <InteractiveChart type="bar" data={data} options={opts} width="full" />
+  </div>
+
+  <p class="munitions-chart-source">{source}</p>
+</figure>
+
+<style>
+  .munitions-chart {
+    margin: 0;
+    padding: 16px 22px 14px;
+    background: rgba(5, 28, 44, 0.04);
+    border: 1px solid rgba(5, 28, 44, 0.08);
+    border-radius: 4px;
+  }
+  .munitions-chart-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    background: #f6e07c;
+    padding: 3px 8px;
+    color: #051c2c;
+    margin-bottom: 12px;
+    display: inline-block;
+  }
+  .munitions-chart-title {
+    font-family: var(--font-display);
+    font-size: 19px;
+    line-height: 1.2;
+    color: var(--ink);
+    margin: 4px 0 4px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+  .munitions-chart-sub {
+    font-family: var(--font-serif);
+    font-size: 12px;
+    color: var(--muted-2);
+    margin: 0 0 10px;
+    font-style: italic;
+  }
+  .munitions-chart-panel { min-width: 0; }
+  .munitions-chart-source {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    color: var(--muted-2);
+    margin: 10px 0 0;
+    line-height: 1.4;
+  }
+  /* Strip the inner <InteractiveChart> figure decoration */
+  .munitions-chart :global(.figure-interactive) {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+  }
+  .munitions-chart :global(.figure-interactive .figure-eyebrow) { display: none; }
+  .munitions-chart :global(.figure-interactive figcaption) { display: none; }
+
+  /* Override the global .figure-chart canvas height */
+  .munitions-chart-article :global(.figure-chart.figure-interactive .chart-canvas-wrap) {
+    height: 280px !important;
+    position: relative;
+  }
+  .munitions-chart-hero {
+    padding: 12px 14px 10px;
+  }
+  .munitions-chart-hero :global(.figure-chart.figure-interactive .chart-canvas-wrap) {
+    height: 240px !important;
+    position: relative;
+  }
+  .munitions-chart-hero .munitions-chart-title { font-size: 16px; line-height: 1.2; }
+  .munitions-chart-hero .munitions-chart-sub { font-size: 11px; margin-bottom: 10px; }
+  .munitions-chart-hero .munitions-chart-source { font-size: 9.5px; margin-top: 10px; }
+
+  /* Article variant: naked, FT-style */
+  .munitions-chart-article {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid var(--ink, #051c2c);
+    padding: 0;
+    margin: 36px 0 32px;
+  }
+  .munitions-chart-article .munitions-chart-eyebrow { display: none; }
+  .munitions-chart-article .munitions-chart-title {
+    font-size: 22px;
+    margin: 18px 0 6px;
+    font-weight: 600;
+  }
+  .munitions-chart-article .munitions-chart-sub {
+    font-size: 14px;
+    margin: 0 0 18px;
+    font-style: normal;
+    color: var(--muted-2);
+  }
+  .munitions-chart-article .munitions-chart-source {
+    margin-top: 14px;
+    border-top: 1px solid rgba(5, 28, 44, 0.12);
+    padding-top: 10px;
+  }
+</style>

@@ -9,5 +9,5 @@ summary: |
   The trigger is the easing of the "enhanced supplementary leverage ratio" (eSLR), the rule that forces the largest US banks to hold a slice of capital against every asset on their balance sheet, regardless of risk. Watchdogs finalised the easing late last year, led by Federal Reserve governor Michelle Bowman, who argued post-2008 rules had pushed banks out of low-risk Treasury market-making and made the market more fragile. Morgan Stanley said this month it had deployed more capital into Treasury trading thanks to the change.
 
   Caveats remain. Banks are not obliged to make markets, and JPMorgan's Jay Barry warned dealers will not return to their pre-2008 dominance: hedge funds and high-frequency traders are now structural players. The shift is part of a broader US deregulatory push — the same wave that drove record Q1 buybacks and a proposal last month to cut capital requirements for the biggest US banks, partly offsetting the small increase from Basel III Endgame. Source: Financial Times, 28 April 2026, Kate Duguid.
-order: 1
+order: 8
 ---

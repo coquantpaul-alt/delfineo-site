@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import AuthScript from '../../components/AuthScript.astro';
 import EditorialHero from '../../components/editorial/EditorialHero.astro';
 import IranOutlookChart from '../../components/visuals/IranOutlookChart.astro';
+import MunitionsChart from '../../components/visuals/MunitionsChart.astro';
 import EditorialFilters from '../../components/editorial/EditorialFilters.astro';
 import EditorialStoryRow from '../../components/editorial/EditorialStoryRow.astro';
 import ResearchHero from '../../components/editorial/ResearchHero.astro';
@@ -29,7 +30,11 @@ const research = allResearch.sort((a, b) => {
   if (da !== db) return db - da;
   return a.data.title.localeCompare(b.data.title);
 });
-const news = allNews.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+const news = allNews.sort((a, b) => {
+  const dt = new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
+  if (dt !== 0) return dt;
+  return (a.data.order ?? 999) - (b.data.order ?? 999);
+});
 
 // ── Hero picks ─────────────────────────────────────────────────────
 const [heroNews, ...restNews] = news;
@@ -71,6 +76,9 @@ let rowNum = 1;  // hero is No 01
       <EditorialHero story={heroNews} lang={lang} readMinutes={4}>
         {heroNews.slug.endsWith('central-banks-hold') && (
           <IranOutlookChart slot="aside" lang={lang} variant="hero" />
+        )}
+        {heroNews.slug.endsWith('us-munitions-low') && (
+          <MunitionsChart slot="aside" lang={lang} variant="hero" />
         )}
       </EditorialHero>
     )}
@@ -205,4 +213,3 @@ let rowNum = 1;  // hero is No 01
 
   <AuthScript />
 </Base>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
