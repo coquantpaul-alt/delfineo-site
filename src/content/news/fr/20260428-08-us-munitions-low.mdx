@@ -1,0 +1,81 @@
+---
+title: "« Reconstituer ce que nous avons dépensé en Iran pourrait prendre des années » : le stock de munitions américaines dangereusement bas"
+category: "Défense"
+date: "2026-04-28"
+dateDisplay: "28 avril 2026"
+summary: |
+  Les États-Unis ont touché 13 000 cibles iraniennes en 39 jours de guerre avant le cessez-le-feu, en grande partie avec leurs munitions de précision les plus chères. Selon le Center for Strategic and International Studies (CSIS), le stock de sept munitions « critiques » est dangereusement bas, fragilisant aussi bien le réarmement de l'Ukraine que la défense de Taïwan ou des îles de mer de Chine méridionale.
+
+  Plus de 1 100 missiles Tomahawk ont été tirés (un tiers du stock, soit cinq fois la production prévue en 2026), retardant la livraison de 400 Tomahawk au Japon. Un quart des JASSM lancés depuis avion ont été consommés, deux fois la production annuelle. Les missiles antiaériens sont les plus exposés : un tiers des intercepteurs SM-6 et plus de la moitié des SM-3 ont été utilisés, plus de 75 % des THAAD au sol, et plus de la moitié des Patriot PAC-3 (4 millions de dollars pièce, achetés par 18 pays et expédiés à plus de 600 exemplaires en Ukraine). Lockheed Martin a annoncé une montée en cadence de 96 à 400 THAAD par an, et de 600 à 2 000 Patriot d'ici dix ans.
+
+  Le sénateur démocrate Jack Reed, président de la commission des forces armées, juge qu'« au rythme actuel de production, reconstituer ce que nous avons dépensé pourrait prendre des années ». Le Pentagone a obtenu un budget 2026-2027 de 1 500 milliards de dollars et un bond de 150 % des commandes de munitions hors nucléaire à 79 milliards. Mais le CSIS prévient qu'il faudra plus de quatre ans avant les premières livraisons. Le Pentagone se rabat sur des armes alternatives moins chères, comme le drone « Lucas » (10 000 à 55 000 dollars), copie du Shahed iranien. Source : Les Echos, 28 avril 2026, Solveig Godeluck.
+order: 8
+---
+
+import { InteractiveChart, DataTable } from '../../../components/visuals';
+
+## Niveau des stocks après 39 jours de guerre
+
+Les munitions antiaériennes sont le goulot d'étranglement : THAAD, SM-3 et Patriot PAC-3 sont tous épuisés à plus de 50 %, alors que les Tomahawk et JASSM ne sont consommés qu'à environ un tiers.
+
+<InteractiveChart
+  type="bar"
+  caption="Part du stock américain consommée pendant les 39 jours de guerre en Iran (% du stock pré-guerre)"
+  source="Source : Les Echos, 28 avril 2026, citant le CSIS"
+  data={{
+    labels: ['THAAD (sol)', 'SM-3 (mer)', 'Patriot PAC-3', 'Tomahawk (TLAM)', 'SM-6 (mer)', 'JASSM (air)'],
+    datasets: [{
+      label: '% consommé',
+      data: [78, 55, 55, 33, 33, 25],
+      backgroundColor: ['#7a2e3b', '#7a2e3b', '#7a2e3b', '#a85432', '#a85432', '#a85432']
+    }]
+  }}
+  options={{
+    indexAxis: 'y',
+    plugins: {
+      legend: { display: false },
+      barValueLabels: { display: false }
+    },
+    scales: {
+      x: { min: 0, max: 100, ticks: { callback: (v) => v + ' %' } }
+    }
+  }}
+/>
+
+## Production Lockheed Martin : actuelle vs cible
+
+<InteractiveChart
+  type="bar"
+  caption="Cadences annoncées par Lockheed Martin : actuelles vs cibles (unités par an)"
+  source="Source : Les Echos, 28 avril 2026, Solveig Godeluck"
+  data={{
+    labels: ['THAAD', 'Patriot PAC-3 (d\'ici 2036)'],
+    datasets: [
+      { label: 'Actuelle', data: [96, 600], backgroundColor: '#7a8f9e' },
+      { label: 'Cible annoncée', data: [400, 2000], backgroundColor: '#1a5276' }
+    ]
+  }}
+  options={{
+    plugins: {
+      barValueLabels: { display: true, format: (v) => v.toLocaleString('fr-FR') }
+    },
+    scales: { y: { beginAtZero: true } }
+  }}
+/>
+
+## En un coup d'œil
+
+<DataTable caption="Munitions américaines guerre d'Iran : chiffres-clés" source="Source : Les Echos, 28 avril 2026, citant le CSIS et la commission des forces armées du Sénat américain">
+
+| Donnée | Valeur |
+| ------ | -----: |
+| Cibles iraniennes touchées | 13 000 en 39 jours |
+| Missiles Tomahawk tirés | 1 100+ (33 % du stock) |
+| Coût unitaire Patriot PAC-3 | 4 M$ |
+| Patriot déjà livrés à l'Ukraine | 600+ |
+| Budget Pentagone 2026-2027 | 1 500 Mds$ |
+| Commandes de munitions hors nucléaire | 79 Mds$ (+150 %) |
+| Délai sur les commandes | 4+ ans (CSIS) |
+| Coût drone « Lucas » (copie du Shahed) | 10 000 – 55 000 $ |
+
+</DataTable>

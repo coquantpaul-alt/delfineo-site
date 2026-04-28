@@ -1,0 +1,58 @@
+---
+title: "OpenAI : à l'heure des comptes, une question à 600 milliards de dollars"
+category: "Technologie"
+date: "2026-04-27"
+dateDisplay: "27 avril 2026"
+summary: |
+  Onze ans après sa création, OpenAI affiche une valorisation record de 852 milliards de dollars (725 milliards d'euros) après une levée de 122 milliards début avril, mais sa préparation à l'introduction en Bourse vire au casse-tête. Le créateur de ChatGPT prévoit d'investir 600 milliards de dollars en quatre ans dans des centres de données, alors que la rentabilité n'est pas attendue avant 2030 et qu'Anthropic est en passe de le dépasser sur les revenus en entreprise.
+
+  Le chiffre d'affaires devrait plus que doubler en 2026 à 30 milliards de dollars (contre 13,5 milliards en 2025), porté par 900 millions d'utilisateurs hebdomadaires de ChatGPT. Mais en interne la directrice financière Sarah Friar, ex-Goldman Sachs et habituée des introductions en Bourse, est en froid avec Sam Altman sur la soutenabilité des dépenses et le calendrier d'IPO. La française Fidji Simo, nouvelle directrice des applications, a déjà débranché Sora, le réseau social de vidéo IA, et annulé le projet de centres de données au Royaume-Uni. Les grandes entreprises pèsent désormais 40 % du chiffre d'affaires, attendues à 50 % en fin d'année. Codex, le concurrent de Claude Code d'Anthropic, est passé de 3 à 5 millions d'utilisateurs en quelques semaines.
+
+  S'y ajoute le procès intenté par Elon Musk, qui s'est ouvert lundi 27 avril à Oakland en Californie devant la juge Yvonne Gonzalez Rogers : le patron de xAI réclame une révision des statuts d'OpenAI qui pourrait retarder l'IPO de plusieurs mois. L'ancien ingénieur Ilya Sutskever et l'ex-CTO Mira Murati doivent témoigner, alimentant une série de critiques contre Sam Altman. Source : Les Echos, 27 avril 2026, Florian Dèbes.
+order: 3
+---
+
+import { InteractiveChart, DataTable } from '../../../components/visuals';
+
+## Chiffre d'affaires vs engagement cumulé en capex
+
+Le graphique ci-dessous met en regard l'engagement de 600 milliards de dollars d'OpenAI avec le chiffre d'affaires actuel, le chiffre d'affaires attendu en 2026 et la dernière valorisation. La facture data centers représente environ **20 fois le chiffre d'affaires actuel** — et **7 fois celui attendu en 2026** — avant même que la rentabilité ne soit envisagée.
+
+<InteractiveChart
+  type="bar"
+  caption="OpenAI : chiffre d'affaires, valorisation et engagement cumulé en capex (Md$)"
+  source="Source : Les Echos, 27 avril 2026 ; communications investisseurs OpenAI"
+  data={{
+    labels: ['CA 2025', 'CA 2026E', 'Valorisation avr.-26', 'Engagement capex 2026–29'],
+    datasets: [{
+      label: 'Mds USD',
+      data: [13.5, 30, 852, 600],
+      backgroundColor: ['#7a8f9e', '#7a8f9e', '#1a5276', '#a85432']
+    }]
+  }}
+  options={{
+    plugins: {
+      legend: { display: false },
+      barValueLabels: { display: true, format: (v) => v + ' Mds$' }
+    },
+    scales: {
+      y: { beginAtZero: true, ticks: { callback: (v) => v + ' Mds$' } }
+    }
+  }}
+/>
+
+## Les signaux faibles derrière le chiffre
+
+<DataTable caption="OpenAI : signaux secondaires autour de la préparation de l'IPO" source="Source : Les Echos, 27 avril 2026, Florian Dèbes">
+
+| Signal | Valeur |
+| ------ | -----: |
+| Chiffre d'affaires 2025 | 13,5 Mds$ |
+| Chiffre d'affaires 2026 (guidance) | 30 Mds$ (+122 %) |
+| Part des grandes entreprises | 40 % → 50 % d'ici fin d'année |
+| Utilisateurs Codex (en quelques semaines) | 3 M → 5 M |
+| Projet data centers UK annulé | signal de réduction des coûts |
+| Sora (réseau social IA vidéo) | débranché par Fidji Simo |
+| Procès Musk vs Altman | 27 avril 2026, Oakland |
+
+</DataTable>

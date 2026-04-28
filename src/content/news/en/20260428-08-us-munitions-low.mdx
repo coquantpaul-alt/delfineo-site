@@ -1,0 +1,81 @@
+---
+title: "'Replenishing what we spent on Iran could take years': US munitions stockpile dangerously low"
+category: "Defence"
+date: "2026-04-28"
+dateDisplay: "April 28, 2026"
+summary: |
+  The United States struck 13,000 Iranian targets over the 39 days of war before the ceasefire, mostly with its most expensive precision-guided munitions. According to the Center for Strategic and International Studies (CSIS), the inventory of seven "critical" munitions is dangerously depleted, weakening both the rearming of Ukraine and the defence of Taiwan and the South China Sea islands.
+
+  More than 1,100 Tomahawk missiles were fired (one third of the stock, five times planned 2026 production), delaying delivery of 400 Tomahawks ordered by Japan. A quarter of air-launched JASSM missiles were used, twice annual production. Air-defence munitions are the most exposed: a third of SM-6 interceptors and more than half of SM-3, over 75% of ground-based THAAD, and more than half of the Patriot PAC-3 ($4mn each, sold to 18 countries and shipped in more than 600 units to Ukraine). Lockheed Martin has announced production ramp-ups from 96 to 400 THAAD per year, and from 600 to 2,000 Patriots within ten years.
+
+  Democratic senator Jack Reed, chair of the Armed Services Committee, said that "at the current rate of production, replenishing what we spent could take years". The Pentagon has secured a 2026-27 budget of $1.5tn and a 150% jump in non-nuclear munitions orders to $79bn. But CSIS warns it will take more than four years for orders placed this year to be delivered. The Pentagon is falling back on cheaper alternatives, such as the "Lucas" drone ($10,000 to $55,000) — a copy of the Iranian Shahed. Source: Les Echos, 28 April 2026, Solveig Godeluck.
+order: 8
+---
+
+import { InteractiveChart, DataTable } from '../../../components/visuals';
+
+## Stockpile depletion after 39 days of war
+
+Air-defence munitions are the bottleneck: THAAD, SM-3 and Patriot PAC-3 are all north of 50% depleted, while Tomahawks and JASSMs are merely down to roughly two-thirds.
+
+<InteractiveChart
+  type="bar"
+  caption="Share of US munition stockpile consumed during the 39-day Iran war (% of pre-war inventory)"
+  source="Source: Les Echos, 28 April 2026, citing CSIS"
+  data={{
+    labels: ['THAAD (ground)', 'SM-3 (sea)', 'Patriot PAC-3', 'Tomahawk (TLAM)', 'SM-6 (sea)', 'JASSM (air)'],
+    datasets: [{
+      label: '% consumed',
+      data: [78, 55, 55, 33, 33, 25],
+      backgroundColor: ['#7a2e3b', '#7a2e3b', '#7a2e3b', '#a85432', '#a85432', '#a85432']
+    }]
+  }}
+  options={{
+    indexAxis: 'y',
+    plugins: {
+      legend: { display: false },
+      barValueLabels: { display: false }
+    },
+    scales: {
+      x: { min: 0, max: 100, ticks: { callback: (v) => v + '%' } }
+    }
+  }}
+/>
+
+## Lockheed Martin production: current vs target
+
+<InteractiveChart
+  type="bar"
+  caption="Announced Lockheed Martin annual production rates: current vs target (units per year)"
+  source="Source: Les Echos, 28 April 2026, Solveig Godeluck"
+  data={{
+    labels: ['THAAD', 'Patriot PAC-3 (by 2036)'],
+    datasets: [
+      { label: 'Current', data: [96, 600], backgroundColor: '#7a8f9e' },
+      { label: 'Announced target', data: [400, 2000], backgroundColor: '#1a5276' }
+    ]
+  }}
+  options={{
+    plugins: {
+      barValueLabels: { display: true, format: (v) => v.toLocaleString() }
+    },
+    scales: { y: { beginAtZero: true } }
+  }}
+/>
+
+## At a glance
+
+<DataTable caption="US Iran-war munitions: key data points" source="Source: Les Echos, 28 April 2026, citing CSIS and US Senate Armed Services Committee">
+
+| Data point | Value |
+| ---------- | ----: |
+| Iranian targets struck | 13,000 in 39 days |
+| Tomahawk missiles fired | 1,100+ (33% of stock) |
+| Patriot PAC-3 unit cost | $4mn |
+| Patriots already shipped to Ukraine | 600+ |
+| Pentagon 2026-27 budget | $1.5tn |
+| Non-nuclear munitions orders | $79bn (+150%) |
+| Lead time on new orders | 4+ years (CSIS) |
+| "Lucas" drone (Shahed copy) unit cost | $10,000 – $55,000 |
+
+</DataTable>

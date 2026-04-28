@@ -1,0 +1,58 @@
+---
+title: "OpenAI faces a $600bn question as IPO countdown begins"
+category: "Technology"
+date: "2026-04-27"
+dateDisplay: "April 27, 2026"
+summary: |
+  Eleven years after its founding, OpenAI carries a record $852bn valuation (€725bn) after a $122bn fundraise in early April, but its run-up to an IPO is turning into a puzzle. The ChatGPT-maker plans to invest $600bn over four years in data centres, while profitability is not expected before 2030 and Anthropic is on track to overtake it in enterprise revenue.
+
+  Revenue is set to more than double in 2026 to $30bn (vs $13.5bn in 2025), powered by 900 million weekly ChatGPT users. Internally, however, CFO Sarah Friar — a former Goldman Sachs banker with deep IPO experience — is at odds with Sam Altman over how sustainable the spending plan is and how soon to list. France-born Fidji Simo, the new head of applications, has already pulled the plug on Sora, the AI video social network, and cancelled the planned UK data centres. Large enterprises now account for 40% of revenue and are expected to reach 50% by year-end. Codex, OpenAI's answer to Anthropic's Claude Code, has grown from 3 to 5 million users in a few weeks.
+
+  Adding to the noise, Elon Musk's lawsuit opened on Monday 27 April in Oakland, California before Judge Yvonne Gonzalez Rogers: the xAI founder is seeking a rewrite of OpenAI's statutes that could delay the IPO by months. Former OpenAI engineer Ilya Sutskever and ex-CTO Mira Murati are due to testify, feeding a steady drumbeat of criticism against Sam Altman. Source: Les Echos, 27 April 2026, Florian Dèbes.
+order: 3
+---
+
+import { InteractiveChart, DataTable } from '../../../components/visuals';
+
+## Revenue vs cumulative capex commitment
+
+The bar chart below puts OpenAI's $600bn data-centre commitment next to current revenue, expected 2026 revenue and the latest valuation. The data-centre bill is roughly **20× current revenue** — and **7× expected 2026 revenue** — before profitability is even on the table.
+
+<InteractiveChart
+  type="bar"
+  caption="OpenAI: revenue, valuation and cumulative capex commitment ($bn)"
+  source="Source: Les Echos, 27 April 2026; OpenAI investor disclosures"
+  data={{
+    labels: ['Revenue 2025', 'Revenue 2026E', 'Valuation Apr-26', 'Capex commitment 2026–29'],
+    datasets: [{
+      label: 'USD bn',
+      data: [13.5, 30, 852, 600],
+      backgroundColor: ['#7a8f9e', '#7a8f9e', '#1a5276', '#a85432']
+    }]
+  }}
+  options={{
+    plugins: {
+      legend: { display: false },
+      barValueLabels: { display: true, format: (v) => '$' + v + 'bn' }
+    },
+    scales: {
+      y: { beginAtZero: true, ticks: { callback: (v) => '$' + v + 'bn' } }
+    }
+  }}
+/>
+
+## The hairline cracks behind the headline
+
+<DataTable caption="OpenAI: secondary signals around the IPO push" source="Source: Les Echos, 27 April 2026, Florian Dèbes">
+
+| Signal | Value |
+| ------ | ----: |
+| 2025 revenue | $13.5bn |
+| 2026 revenue (guidance) | $30bn (+122%) |
+| Enterprise share of revenue | 40% → 50% by year-end |
+| Codex users (in weeks) | 3M → 5M |
+| Cancelled UK data-centre project | cost-cut signal |
+| Sora (AI video network) | shut by Fidji Simo |
+| Musk vs Altman trial opens | 27 April 2026, Oakland |
+
+</DataTable>
