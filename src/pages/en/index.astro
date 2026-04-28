@@ -95,7 +95,7 @@ let rowNum = 1;  // hero is No 01
           {group.items.map((item) => (
             <EditorialStoryRow story={item} num={++rowNum} lang={lang} />
           ))}
-          <p class="empty-state hidden" style="padding:18px var(--pad-x) 6px;color:var(--muted);font-family:var(--font-display);font-style:italic;font-size:14px;">No stories in this section on {group.dateDisplay}.</p>
+          <p class="empty-state" style="padding:18px var(--pad-x) 6px;color:var(--muted);font-family:var(--font-display);font-style:italic;font-size:14px;">No stories in this section on {group.dateDisplay}.</p>
         </div>
       );
     })}
@@ -171,7 +171,7 @@ let rowNum = 1;  // hero is No 01
       document.querySelectorAll('#panel-news .day-block').forEach((block) => {
         const visible = Array.from(block.querySelectorAll('.story-row')).filter((it) => it.style.display !== 'none').length;
         const empty = block.querySelector('.empty-state');
-        if (empty) empty.classList.toggle('hidden', visible > 0);
+        if (empty) empty.classList.toggle('show', visible === 0);
       });
 
       if (resultBar) {

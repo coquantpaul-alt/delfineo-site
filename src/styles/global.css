@@ -1308,6 +1308,13 @@ input::placeholder { color: var(--text-light); }
   opacity: 1; transform: translate(-50%, -50%) scale(1);
 }
 
+/* ─── Empty-state (per-day filter result) ────────────────────────
+   The "No stories in this section on <date>" line under each day
+   block. Hidden by default; the homepage filter JS adds `.show`
+   when a filter yields zero stories for that specific day. */
+.empty-state { display: none; }
+.empty-state.show { display: block; }
+
 /* ─── Lock badge (gated content) ─────────────────────────────────── */
 .lock-badge {
   font-family: var(--font-mono);
