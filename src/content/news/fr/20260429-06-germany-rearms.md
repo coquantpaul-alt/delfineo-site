@@ -24,15 +24,6 @@ order: 6
 | Part du plan sur les capacités existantes | **~80 %** |
 | Part pour les nouvelles technologies | **≤5 %** |
 
-### Repère budgétaire défense européen (illustratif)
-
-```
-                Mds € / an
-Allemagne 2030 ████████████████████████  ~190
-RU + France    ████████████████          ~150 (illustratif combiné)
-France seule   ████████                   ~55
-```
-
 ## Pourquoi c’est important
 
 Le tabou historique sur le réarmement allemand est levé. Le chancelier Friedrich Merz le présente comme une réponse à **la Russie, au désengagement américain sous Trump, et à la guerre menée par Poutine en Ukraine**, avec pour ambition de faire de la Bundeswehr « la plus grande armée conventionnelle d’Europe ».

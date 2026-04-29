@@ -24,15 +24,6 @@ order: 6
 | Share of German plan on legacy capabilities | **~80%** |
 | Share for new defence tech | **≤5%** |
 
-### European defence-budget snapshot (illustrative)
-
-```
-                €bn / year
-Germany 2030  ████████████████████████  ~190
-UK + France   ████████████████          ~150 (combined illustrative)
-France only   ████████                   ~55
-```
-
 ## Why it matters
 
 The historic taboo on German rearmament is gone. Chancellor Friedrich Merz frames it as a response to **Russia, US disengagement under Trump, and Putin’s war in Ukraine**, with the goal of making the Bundeswehr "Europe’s largest conventional army".
