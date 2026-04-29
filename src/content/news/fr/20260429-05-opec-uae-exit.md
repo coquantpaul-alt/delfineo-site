@@ -11,19 +11,6 @@ summary: |
   L’Indonésie, le Qatar, l’Équateur et l’Angola ont déjà quitté l’Opep ces dernières années. Le départ émirien n’est pas « fatal » selon les analystes, mais un effet domino impliquant le Venezuela, l’Irak ou l’Iran fragiliserait sérieusement l’alliance. UBS anticipe une pression baissière sur les cours à long terme, à mesure que les EAU produiront plus librement. Source : Financial Times, 29 avril 2026, Verity Ratcliffe et Malcolm Moore.
 order: 5
 ---
-
-## Les chiffres clés
-
-| Indicateur | Valeur |
-|---|---|
-| Part de l’Opep dans la production mondiale (2025, hors EAU) | **~25 %** (vs ~50 % au pic) |
-| Part Opep+ dans la production mondiale | **~40 %** |
-| Part Arabie saoudite + Irak + Koweït dans l’Opep | **>50 %** |
-| Cible de capacité EAU | **5 Mbj** (vs 3 Mbj ; échéance avancée de 2030 à **2027**) |
-| Part du détroit d’Ormuz dans le pétrole mondial | **~20 %** |
-| Brent (cette semaine) | **+7 séances consécutives** |
-| Sorties récentes de l’Opep | Indonésie, Qatar, Équateur, Angola |
-
 ## Pourquoi c’est important
 
 L’érosion de l’Opep est la vraie histoire. Avec la montée en puissance du shale américain et la discipline relâchée d’Opep+, les traders scrutent davantage **les posts de Trump sur les réseaux sociaux** que les communiqués du cartel. Comme l’Iran peut interrompre l’essentiel des flux de l’Opep via Ormuz, le pouvoir de fixation des prix du cartel devient otage d’un seul point d’étranglement.
@@ -31,7 +18,3 @@ L’érosion de l’Opep est la vraie histoire. Avec la montée en puissance du 
 La rupture EAU-Arabie remonte à dix ans : Abou Dhabi a relevé sa cible de capacité à 5 Mbj, a obtenu en 2021 un quota plus élevé en menaçant déjà de quitter le cartel, et est régulièrement accusé de pomper au-delà de ses limites. La guerre en Iran a aggravé les lignes de fracture géopolitiques (alignements au Yémen, rivalité comme hubs d’affaires).
 
 Le risque : **un effet domino**. Si le Venezuela, l’Irak ou l’Iran suivent, la capacité de l’Opep à fixer les prix s’effondre. UBS anticipe des prix pétroliers plus bas à long terme alors que les EAU produisent librement ; Bob McNally (Rapidan) pense que les EAU pourraient regretter la décision lors du prochain cycle de surproduction.
-
-## À retenir
-
-À court terme : le prix du pétrole reste ancré à Ormuz, pas à l’Opep. À long terme : prix structurellement plus bas probables avec une production émirienne sans bride — favorable aux consommateurs, défavorable au producteur marginal à coût élevé.

@@ -11,16 +11,6 @@ summary: |
   The crackdown reflects rising fear of “distillation” — Chinese actors training new models on intensive use of foreign ones. OpenAI accused DeepSeek of doing so last year, and the White House this month accused China of “industrial-scale” theft of US AI labs’ IP — claims Beijing called “pure slander”. The move comes as Anthropic’s new Mythos model raises concern over its potential to crack current cyber defences and threaten financial-system security. Source: Financial Times, 29 April 2026, Arjun Neil Alim, Zijing Wu and Tim Bradshaw.
 order: 10
 ---
-
-## Key facts
-
-- Affected staff: **all Goldman Hong Kong employees** (no Claude access via direct API or in-house platform)
-- Other Goldman regions: **unchanged**
-- Other vendors (e.g. OpenAI): **not affected**
-- Effective: **a few weeks ago**
-- Anthropic position: Claude **never officially supported in Hong Kong**
-- Comparable bans: Western AI models (ChatGPT, Claude) blocked in mainland China by the **"Great Firewall"**
-
 ## Why it matters
 
 Hong Kong’s value proposition has long been to operate **outside** the mainland’s digital perimeter — a place where global banks coordinate cross-border M&A, share sales and trading. If American AI companies and their large customers start treating Hong Kong like the mainland, that proposition erodes. Bankers who use Claude for **coding and financial modelling** would now lag teams in London or New York.

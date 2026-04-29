@@ -11,16 +11,6 @@ summary: |
   Cette décision reflète la peur croissante de la « distillation » — des acteurs chinois entraînant de nouveaux modèles à partir d’une utilisation intensive de modèles étrangers. OpenAI avait accusé DeepSeek de cette pratique l’an dernier, et la Maison Blanche a dénoncé ce mois-ci un vol « à échelle industrielle » de la propriété intellectuelle des laboratoires d’IA américains — accusations qualifiées de « pure calomnie » par Pékin. Le contexte est lourd : le nouveau modèle Mythos d’Anthropic suscite des inquiétudes sur sa capacité à percer les défenses cyber actuelles et à menacer la stabilité du système financier. Source : Financial Times, 29 avril 2026, Arjun Neil Alim, Zijing Wu et Tim Bradshaw.
 order: 10
 ---
-
-## Les faits clés
-
-- Personnes concernées : **tous les salariés Goldman à Hong Kong** (pas d’accès Claude via API directe ou plateforme interne)
-- Autres régions Goldman : **inchangées**
-- Autres fournisseurs (OpenAI…) : **non concernés**
-- Effective : **depuis quelques semaines**
-- Position d’Anthropic : Claude **n’a jamais été officiellement supporté à Hong Kong**
-- Bans comparables : modèles occidentaux (ChatGPT, Claude) bloqués en Chine continentale par la **« Grande Muraille numérique »**
-
 ## Pourquoi c’est important
 
 La valeur ajoutée de Hong Kong reste d’opérer **hors** du périmètre numérique chinois — un lieu où les banques mondiales coordonnent M&A, émissions et trading transfrontaliers. Si les éditeurs d’IA américains et leurs grands clients traitent désormais Hong Kong comme la Chine continentale, cette valeur s’érode. Les banquiers qui utilisent Claude pour du **code et de la modélisation financière** se retrouveront en retard sur leurs équipes de Londres ou New York.

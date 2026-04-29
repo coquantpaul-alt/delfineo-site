@@ -18,19 +18,8 @@ order: 2
 |---|---|
 | Pernod Ricard market cap | **>€15bn** ($17bn) |
 | Brown-Forman market cap | **~$12bn** |
-| Brown-Forman after-hours move | **−9.8%** (still +6.4% YTD) |
-| Pernod Ricard reaction | **−12%** in Paris |
-| Sazerac counter-offer for Brown-Forman | **~$15bn** (~$32/share) |
-| Combined Brown-Forman + Sazerac US whiskey share | **>30%** |
-| Brown-Forman + Sazerac brand portfolio | **>500 brands** |
-
-## Why it matters
-
-Brown-Forman wanted a partner with global reach; Pernod Ricard already owns Absolut vodka, Jameson Irish whiskey and the eponymous pastis. The group framed the talks as a **"merger of equals"** despite Pernod’s greater size. The deal’s collapse was attributed to disagreement on the **debt structure** and the **economic backdrop** — code, in M&A terms, for valuation gap.
-
-A US-only Brown-Forman + Sazerac tie-up would face material antitrust risk. Barclays analysts wrote on April 13 that the combination would likely require **"significant divestitures"**, while a Pernod-Brown-Forman tie-up "continues to appear more credible strategically."
-
-Pernod Ricard cut its annual guidance in mid-April, calling 2025-26 a **"transition year"** — a reminder that the global spirits cycle is sluggish.
+| Pernod Ricard reaction (Paris) | **−12%** |
+| Sazerac counter-offer | **~$15bn** (~$32/share) |
 
 ## Takeaway
 

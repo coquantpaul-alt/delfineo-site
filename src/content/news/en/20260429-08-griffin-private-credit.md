@@ -18,12 +18,10 @@ order: 8
 
 | Metric | Value |
 |---|---|
-| Citadel hedge-fund AUM | **$67bn** |
 | Global private-credit AUM (AIMA) | **>$3.5tn** |
-| Active private-credit firms (Dimon’s figure) | **>1,000** |
+| Active firms (Dimon’s figure) | **>1,000** |
 | Q1 2025 wealthy-investor redemption requests | **>$20bn** |
-| Share of Q1 2025 requests honoured | **just over half** |
-| Blue Owl flagship funds | **gating redemptions** |
+| Share honoured | **just over half** |
 
 ## Why it matters
 

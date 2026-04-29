@@ -16,15 +16,11 @@ order: 12
 
 | Metric (Q1 2026) | Value | Variation |
 |---|---|---|
-| Commercial deliveries | **114** | **−22 a/a**, −29 vs Boeing |
+| Commercial deliveries | **114** | **−22 a/a** |
 | Consolidated revenue | **€12.7bn** | **−7%** |
 | Net profit | **€300mn** | vs €624mn |
-| Analyst expectation (adj. operating profit) | **~€512mn** | missed |
-| Commercial-aircraft adj. operating profit | **€81mn** | **−84%** |
-| Defence & Space EBIT | **€130mn** | vs €77mn |
 | Defence & Space revenue | **€2.8bn** | +7% |
 | Commercial backlog (end-March) | **9,037 aircraft** | record |
-| 2026 delivery target | **870** | (vs 863 in 2019, pre-pandemic record) |
 
 ## Why it matters
 

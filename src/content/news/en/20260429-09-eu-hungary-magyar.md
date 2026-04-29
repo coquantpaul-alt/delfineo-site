@@ -11,22 +11,6 @@ summary: |
   EU money matters: Hungary’s economy grew just 0.4% in 2025, government bond yields are among the highest in the EU, and debt-financing costs run at 4-5% of GDP. Hungary plans to issue almost €10bn of foreign-currency government bonds in 2026, even as the Orbán-era deficit overshoot — two-thirds of the full-year 2026 plan was already used by end-March — forces deep fiscal adjustments. Source: Financial Times, 29 April 2026, Paola Tamma, Henry Foy and Marton Dunai.
 order: 9
 ---
-
-## Key numbers
-
-| Item | Amount |
-|---|---|
-| Frozen Covid-recovery funds in play | **€10bn** |
-| Total Hungarian access at stake | **>€30bn** |
-| Regular EU budget funds | **€7.6bn** |
-| Cheap EU defence loans | **€17bn** |
-| Hungary 2025 GDP growth | **0.4%** |
-| Hungary debt-financing cost | **4-5% of GDP** |
-| Foreign-currency bonds planned 2026 | **~€10bn** |
-| Anti-corruption "super-milestones" never met | **27** |
-| Deadline for recovery funds | **31 August 2026** |
-| Magyar takes office | **May 2026** |
-
 ## Why it matters
 
 Hungary’s economy is straining: **0.4%** growth in 2025, government bond yields among the highest in the EU, and debt service running at **4-5% of GDP**. The Orbán government overspent into the election (two-thirds of the 2026 deficit budget burned by end-March), forcing the next administration into deep fiscal adjustments.

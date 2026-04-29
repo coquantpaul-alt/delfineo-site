@@ -18,12 +18,10 @@ order: 8
 
 | Indicateur | Valeur |
 |---|---|
-| AUM hedge fund Citadel | **67 Mds $** |
 | AUM mondial private credit (AIMA) | **>3 500 Mds $** |
 | Fonds de private credit actifs (chiffre Dimon) | **>1 000** |
 | Demandes de rachat T1 2025 (particuliers fortunés) | **>20 Mds $** |
 | Part honorée | **un peu plus de la moitié** |
-| Fonds phares Blue Owl | **rachats limités** |
 
 ## Pourquoi c’est important
 

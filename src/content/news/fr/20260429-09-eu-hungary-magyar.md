@@ -11,22 +11,6 @@ summary: |
   L’enjeu est vital : l’économie hongroise n’a progressé que de 0,4 % en 2025, les rendements obligataires souverains figurent parmi les plus élevés de l’UE, et le coût de financement de la dette atteint 4-5 % du PIB. La Hongrie prévoit d’émettre près de 10 Mds € de dette souveraine en devises étrangères en 2026, alors même que le dérapage budgétaire de l’ère Orbán — déjà deux tiers du plan annuel 2026 consommés fin mars — impose des ajustements drastiques. Source : Financial Times, 29 avril 2026, Paola Tamma, Henry Foy et Marton Dunai.
 order: 9
 ---
-
-## Les chiffres clés
-
-| Indicateur | Montant |
-|---|---|
-| Fonds Covid-recovery gelés en jeu | **10 Mds €** |
-| Accès total hongrois en jeu | **>30 Mds €** |
-| Fonds budgétaires UE réguliers | **7,6 Mds €** |
-| Prêts UE défense bon marché | **17 Mds €** |
-| Croissance hongroise 2025 | **0,4 %** |
-| Coût du financement de la dette | **4-5 % du PIB** |
-| Émissions de dette en devises 2026 | **~10 Mds €** |
-| « Super-jalons » anti-corruption jamais atteints | **27** |
-| Échéance fonds de relance | **31 août 2026** |
-| Prise de fonctions de Magyar | **mai 2026** |
-
 ## Pourquoi c’est important
 
 L’économie hongroise est sous tension : **0,4 %** de croissance en 2025, des rendements obligataires souverains parmi les plus élevés de l’UE, et un service de la dette à **4-5 % du PIB**. Le gouvernement Orbán a creusé le déficit avant l’élection (deux tiers du budget 2026 brûlés fin mars), forçant la prochaine administration à des ajustements drastiques.

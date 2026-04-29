@@ -17,20 +17,9 @@ order: 14
 | Item | Value |
 |---|---|
 | Targeted valuation | **~£5bn** |
-| Original timing | **H1 2026** |
-| Revised timing | **late 2026** |
 | Members (end-2025) | **>15.5mn** |
 | 2025 revenue | **£840mn** |
-| 2025 adjusted earnings | **£329mn** |
-| YoY adjusted-earnings growth | **+12%** |
-| Banks on the IPO | **9** |
-| Adviser | **Lazard** |
-
-## Why it matters
-
-The London listing market is stuck. The Iran war, a software sell-off, and broad volatility have pushed back several deals: **Visma’s €19bn float** is delayed, **Loveholidays** has slipped its 2026 debut, and the RAC has joined them. AA — RAC’s closest UK rival — is going the other way and exploring a **~£5bn sale** rather than an IPO.
-
-A roadside-services business is a steady cash generator; **15.5 million members**, **£840mn of revenue** and **£329mn of adjusted earnings (+12%)** are real numbers, not promotional ones. RAC’s sponsors (CVC, GIC, Silver Lake) want a clean listing window. The names still pushing forward in London — **Waterstones** (Elliott-owned), possibly **Airtel Africa’s mobile-money unit**, and CK Hutchison’s **AS Watson** as a secondary venue — are smaller, more specialised, or geographically diversified.
+| 2025 adjusted earnings | **£329mn** (+12%) |
 
 ## Takeaway
 

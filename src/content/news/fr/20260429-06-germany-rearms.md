@@ -19,16 +19,10 @@ order: 6
 | Indicateur | Valeur |
 |---|---|
 | Dépenses défense Allemagne 2026-2030 | **779 Mds €** (plus du double des 5 années précédentes) |
-| Budget annuel défense allemand 2030 | **~190 Mds €** |
-| Dépense allemande 2030 vs cible Otan | **>3,5 % du PIB** (cible fixée à 2035) |
+| Budget annuel défense allemand 2030 | **~190 Mds €** (>3,5 % du PIB) |
 | Budget défense France | **55 Mds €** |
-| Part du plan allemand sur les capacités existantes | **~80 %** |
+| Part du plan sur les capacités existantes | **~80 %** |
 | Part pour les nouvelles technologies | **≤5 %** |
-| Seuil de validation parlementaire (Bundestag) | **25 M €** |
-| Budget satellites militaires allemands | **35 Mds €** |
-| Fonds européen SAFE (prêts défense bon marché) | **150 Mds €** |
-| Soutien public au doublement des dépenses | **~75 %** |
-| Opposition à un rôle militaire dominant en UE | **61 %** |
 
 ### Repère budgétaire défense européen (illustratif)
 

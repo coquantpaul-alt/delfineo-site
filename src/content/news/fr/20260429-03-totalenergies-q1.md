@@ -21,16 +21,8 @@ order: 3
 | Bénéfice net | **5,8 Mds $** | **+51 %** |
 | Cash-flow opérationnel | **8,6 Mds $** | +23 % |
 | Production (pétrole + gaz) | **2,6 Mbj** | stable |
-| Production de pétrole | — | −2 % |
-| Production de gaz | — | +2 % |
-| Production perdue Moyen-Orient (Ormuz) | ~100 000 b/j | n/a |
-| GNL résultat opérationnel net | **1,3 Md $** | n/a |
-| Production GNL | — | +12 % |
-| Raffinage et commercialisation | **1,9 Md $** | n/a |
-| Taux d’utilisation raffineries | **>90 %** | n/a |
-| Production électrique | **0,5 Md $** | n/a |
-| Opération EPH (clôturée) | **5 Mds €** (100 % en actions) | n/a |
-| Ajout de capacités renouvelables (12 mois) | **8 GW** | n/a |
+| GNL résultat opérationnel | **1,3 Md $** | production +12 % |
+| Opération EPH (clôturée) | **5 Mds €** (100 % en actions) | — |
 
 ## Pourquoi c’est important
 

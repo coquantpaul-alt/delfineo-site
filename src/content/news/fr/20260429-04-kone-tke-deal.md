@@ -23,15 +23,6 @@ order: 4
 | Actions Kone | **~15 Mds €** |
 | Reprise de dette TKE | **9,2 Mds €** |
 | Chiffre d’affaires combiné annuel | **~21 Mds €** |
-| CA TKE 2025 (sept 2024–sept 2025) | **~9,2 Mds €** |
-| VE/CA implicite | **~3,2x** |
-| Prix payé par Advent + Cinven (2020) | **17 Mds €** |
-| Performance Kone YTD | **−~6 %** |
-| Capitalisation Kone (jour du deal) | **~25 Mds €** |
-| Participation du saoudien Alat dans TKE | **15 %** (acquise en 2025) |
-| Parc mondial d’ascenseurs | **22 millions** |
-| Ascenseurs > 20 ans | **30 %** |
-| Clôture au plus tôt | **T2 2027** |
 
 ## Pourquoi c’est important
 

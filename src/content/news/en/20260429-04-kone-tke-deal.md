@@ -19,19 +19,10 @@ order: 4
 | Metric | Value |
 |---|---|
 | Total deal value | **€29bn** |
-| Cash component | **€5bn** |
-| Stock component | **~€15bn** of Kone shares |
+| Cash | **€5bn** |
+| Stock | **~€15bn** Kone shares |
 | Assumed TKE debt | **€9.2bn** |
 | Combined annual revenue | **~€21bn** |
-| TKE 2025 revenue (yr to end-Sept) | **~€9.2bn** |
-| Implied EV / sales | **~3.2x** |
-| Original Advent + Cinven price (2020) | **€17bn** |
-| Kone YTD share-price move | **−~6%** |
-| Kone market cap (deal day) | **~€25bn** |
-| Saudi group Alat stake in TKE | **15%** (acquired 2025) |
-| Global lift installed base | **22 million** |
-| Lifts >20 years old | **30%** |
-| Earliest deal close | **Q2 2027** |
 
 ## Why it matters
 

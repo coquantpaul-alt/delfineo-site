@@ -11,17 +11,6 @@ summary: |
   At Citi, Raghavan has delivered: the banking division reported record revenues in 2025, shares trade at 17-year highs, and he has lured a string of bankers from JPMorgan and Goldman. But Q1 2026 investment-banking gains were more muted than peers’, and former colleagues remain divided on whether he has truly mellowed. Citi called the FT’s account “frivolous, tabloid coverage built on anonymous smears”. Source: Financial Times, 29 April 2026, Joshua Franklin, Julie Steinberg, Ortenca Aliaj and Akila Quinio.
 order: 7
 ---
-
-## Key numbers / facts
-
-- Pay package for Raghavan at Citi: **$52mn**
-- Years at JPMorgan: **23**
-- Internal reviews of his leadership style: **2**
-- People who left JPMorgan over working with him: **3**
-- Time between JPMorgan telling him he was out and Citi’s announcement: **~3 days** (a single weekend)
-- Citi banking-division revenue in 2025: **record** (no number disclosed)
-- Citi share price: **17-year highs**
-
 ## Why it matters
 
 The story is about more than one banker’s reputation. It illustrates how Wall Street’s biggest names manage culture problems: silence, internal reviews that result in **"no significant action"**, and lateral exits at high pay rather than dismissal. The same pattern plays out across banks: Andy Sieg, head of wealth at Citi, was the subject of similar bullying allegations (which he denied; an internal investigation backed him).

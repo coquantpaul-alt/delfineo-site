@@ -16,15 +16,11 @@ order: 12
 
 | Indicateur (T1 2026) | Valeur | Variation |
 |---|---|---|
-| Livraisons commerciales | **114** | **−22 a/a**, −29 vs Boeing |
+| Livraisons commerciales | **114** | **−22 a/a** |
 | Chiffre d’affaires consolidé | **12,7 Mds €** | **−7 %** |
 | Bénéfice net | **300 M €** | vs 624 M € |
-| Attente analystes (résultat opérationnel ajusté) | **~512 M €** | manqué |
-| Résultat ajusté division commerciale | **81 M €** | **−84 %** |
-| EBIT Défense et Espace | **130 M €** | vs 77 M € |
 | CA Défense et Espace | **2,8 Mds €** | +7 % |
-| Carnet de commandes commercial (fin mars) | **9 037 avions** | record |
-| Objectif 2026 livraisons | **870** | (vs 863 en 2019, record prépandémie) |
+| Carnet de commandes (fin mars) | **9 037 avions** | record |
 
 ## Pourquoi c’est important
 

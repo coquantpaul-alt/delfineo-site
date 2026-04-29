@@ -18,19 +18,8 @@ order: 2
 |---|---|
 | Capitalisation Pernod Ricard | **>15 Mds €** (17 Mds $) |
 | Capitalisation Brown-Forman | **~12 Mds $** |
-| Brown-Forman après clôture | **−9,8 %** (+6,4 % YTD) |
 | Pernod Ricard à Paris | **−12 %** |
-| Contre-offre Sazerac sur Brown-Forman | **~15 Mds $** (~32 $/action) |
-| Part du marché US du whisky Brown-Forman + Sazerac combinés | **>30 %** |
-| Marques Brown-Forman + Sazerac | **>500 marques** |
-
-## Pourquoi c’est important
-
-Brown-Forman cherchait un partenaire à dimension mondiale ; Pernod Ricard détient déjà Absolut, Jameson et le pastis emblématique. Les deux groupes parlaient de **« fusion entre égaux »** malgré la taille supérieure du Français. L’échec est imputé à la **structure de la dette** et au **contexte économique** — euphémisme, dans le langage M&A, pour un désaccord de valorisation.
-
-Une union Brown-Forman + Sazerac, deux Américains, comporterait un risque antitrust important. Barclays écrivait le 13 avril que la combinaison « nécessiterait probablement des cessions importantes », tandis que la fusion Pernod-Brown-Forman « apparaît plus crédible sur le plan stratégique ».
-
-Pernod Ricard a abaissé ses objectifs annuels mi-avril, parlant d’**« année de transition »** — un rappel que le cycle mondial des spiritueux reste atone.
+| Contre-offre Sazerac | **~15 Mds $** (32 $/action) |
 
 ## À retenir
 

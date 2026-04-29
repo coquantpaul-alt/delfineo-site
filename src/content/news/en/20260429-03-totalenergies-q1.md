@@ -21,16 +21,8 @@ order: 3
 | Net profit | **$5.8bn** | **+51%** |
 | Operating cash flow | **$8.6bn** | +23% |
 | Production (oil + gas) | **2.6 mbd** | flat |
-| Oil production | — | −2% |
-| Gas production | — | +2% |
-| Lost ME production (Hormuz) | ~100,000 b/d | n/a |
-| LNG net operating income | **$1.3bn** | n/a |
-| LNG output | — | +12% |
-| Refining/marketing operating income | **$1.9bn** | n/a |
-| Refinery utilisation | **>90%** | n/a |
-| Power-generation operating income | **$0.5bn** | n/a |
-| EPH JV transaction (announced) | **€5bn** (all-stock) | n/a |
-| Renewables capacity addition (next 12m) | **8 GW** | n/a |
+| LNG net operating income | **$1.3bn** | output +12% |
+| EPH transaction (closed) | **€5bn** (all-stock) | — |
 
 ## Why it matters
 

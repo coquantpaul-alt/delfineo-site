@@ -17,20 +17,9 @@ order: 14
 | Indicateur | Valeur |
 |---|---|
 | Valorisation cible | **~5 Mds £** |
-| Timing initial | **S1 2026** |
-| Timing révisé | **fin 2026** |
 | Membres (fin 2025) | **>15,5 M** |
 | Chiffre d’affaires 2025 | **840 M £** |
-| Résultat ajusté 2025 | **329 M £** |
-| Croissance résultat ajusté a/a | **+12 %** |
-| Banques mandatées sur l’IPO | **9** |
-| Conseil | **Lazard** |
-
-## Pourquoi c’est important
-
-Le marché londonien des cotations est bloqué. La guerre en Iran, la correction du secteur logiciel et la volatilité large ont repoussé plusieurs opérations : la cotation **Visma à 19 Mds €** glisse, **Loveholidays** décale son début 2026, et le RAC les rejoint. AA — son rival britannique le plus proche — fait le chemin inverse et explore une **cession à ~5 Mds £** plutôt qu’une IPO.
-
-Un service de dépannage routier est un générateur de cash régulier ; **15,5 millions de membres**, **840 M £ de revenus** et **329 M £ de résultat ajusté (+12 %)**, ce sont de vrais chiffres, pas du discours commercial. Les sponsors du RAC (CVC, GIC, Silver Lake) attendent une fenêtre de cotation propre. Les acteurs qui poursuivent à Londres — **Waterstones** (détenu par Elliott), peut-être l’unité mobile money d’**Airtel Africa**, et **AS Watson** (CK Hutchison) en cotation secondaire — sont plus petits, plus spécialisés ou géographiquement diversifiés.
+| Résultat ajusté 2025 | **329 M £** (+12 %) |
 
 ## À retenir
 

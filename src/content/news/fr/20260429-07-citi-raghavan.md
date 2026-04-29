@@ -11,17 +11,6 @@ summary: |
   Chez Citi, Raghavan a livré : la division banque a publié des revenus record en 2025, l’action est à un plus haut depuis 17 ans et il a débauché plusieurs banquiers de JPMorgan et Goldman. Mais le premier trimestre 2026 a été plus modeste que celui des concurrents, et les anciens collègues restent partagés sur la réalité de son apaisement. Citi qualifie l’enquête du Financial Times de « couverture frivole et tabloïd, fondée sur des attaques anonymes ». Source : Financial Times, 29 avril 2026, Joshua Franklin, Julie Steinberg, Ortenca Aliaj et Akila Quinio.
 order: 7
 ---
-
-## Les chiffres clés
-
-- Package de rémunération de Raghavan chez Citi : **52 M$**
-- Années passées chez JPMorgan : **23**
-- Revues internes sur son style de management : **2**
-- Personnes ayant quitté JPMorgan à cause de lui : **3**
-- Délai entre l’annonce de JPMorgan et celle de Citi : **~3 jours** (un seul week-end)
-- Revenus de la banque d’investissement Citi 2025 : **record** (pas de chiffre publié)
-- Action Citi : **plus haut sur 17 ans**
-
 ## Pourquoi c’est important
 
 L’histoire dépasse la réputation d’un seul banquier. Elle illustre la manière dont Wall Street gère les problèmes de culture : le silence, des revues internes qui se concluent « sans action significative », et des sorties latérales à haut prix plutôt que des renvois. Le même schéma se répète : Andy Sieg, responsable de la gestion de fortune chez Citi, a fait l’objet d’accusations similaires de harcèlement (qu’il a niées ; une enquête interne l’a soutenu).

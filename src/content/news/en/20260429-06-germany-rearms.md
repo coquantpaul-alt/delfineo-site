@@ -19,16 +19,10 @@ order: 6
 | Metric | Value |
 |---|---|
 | Germany defence spend 2026-2030 | **€779bn** (more than 2× the prior 5y) |
-| Germany 2030 annual defence budget | **~€190bn** |
-| Germany 2030 spend vs Nato target | **>3.5% of GDP** (target was for 2035) |
+| Germany 2030 annual defence budget | **~€190bn** (>3.5% of GDP) |
 | France defence budget (current) | **€55bn** |
 | Share of German plan on legacy capabilities | **~80%** |
 | Share for new defence tech | **≤5%** |
-| Bundestag procurement-approval threshold | **€25mn** |
-| German military satellite budget | **€35bn** |
-| EU SAFE fund (cheap defence loans) | **€150bn** |
-| Public support for doubling defence spend | **~75%** |
-| Public opposition to leading EU military role | **61%** |
 
 ### European defence-budget snapshot (illustrative)
 
