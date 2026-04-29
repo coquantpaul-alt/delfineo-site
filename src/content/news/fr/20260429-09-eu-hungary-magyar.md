@@ -12,10 +12,6 @@ summary: |
 order: 9
 ---
 
-# L’UE négocie avec Péter Magyar un compromis sur les fonds gelés de la Hongrie
-
-**L’histoire en une phrase.** Bruxelles et le futur Premier ministre hongrois Péter Magyar travaillent dans l’urgence à un dispositif qui maintiendrait une partie des 10 Mds € de fonds de relance Covid encore gelés au-delà de la date limite du 31 août.
-
 ## Les chiffres clés
 
 | Indicateur | Montant |
@@ -40,6 +36,3 @@ L’enjeu politique est lourd aussi. Magyar — conservateur pro-européen qui a
 ## À retenir
 
 Les fondamentaux (rendements, croissance, déficit) rendent l’argent européen critique. La politique (mandat de Magyar, volonté de Bruxelles de remettre la relation à plat) rend un accord probable — mais la complexité juridique autour de l’échéance d’août maintient le risque d’exécution vivace.
-
-*Source : Financial Times, 29 avril 2026, Paola Tamma, Henry Foy et Marton Dunai.*
-

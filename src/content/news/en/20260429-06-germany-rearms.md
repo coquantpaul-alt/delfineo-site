@@ -14,10 +14,6 @@ insight: |
 order: 6
 ---
 
-# Germany re-arms: what does it mean for Europe?
-
-**The story in one line.** Germany’s €779bn five-year defence plan will, by 2030, give Berlin a military budget bigger than the UK and France combined — the most consequential shift in European security since the Cold War.
-
 ## Key numbers
 
 | Metric | Value |
@@ -58,6 +54,3 @@ Public opinion is split: ~75% back doubling defence spending, but **61%** oppose
 ## Takeaway
 
 For European defence equities, the read is clear: **incumbents win the next 3-5 years**. The bigger question is whether the procurement spend strengthens European strategic autonomy — or simply locks in US dependence with a German label.
-
-*Source: Financial Times, 29 April 2026, Anne-Sylvaine Chassany and Leila Abboud.*
-

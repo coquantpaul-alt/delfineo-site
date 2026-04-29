@@ -12,10 +12,6 @@ summary: |
 order: 10
 ---
 
-# Goldman Sachs stops bankers using Anthropic’s Claude in Hong Kong
-
-**The story in one line.** Goldman has cut its Hong Kong bankers off from Claude AI models — the latest collision between Western AI and US-China tensions.
-
 ## Key facts
 
 - Affected staff: **all Goldman Hong Kong employees** (no Claude access via direct API or in-house platform)
@@ -34,6 +30,3 @@ Distillation fear is the driver: Western firms worry Chinese actors could train 
 ## Takeaway
 
 A two-tier AI world — open West, restricted China — is hardening, with Hong Kong drifting onto the wrong side of the line for some products. Watch which other banks and corporates follow Goldman’s strict reading; that determines whether this is a Goldman-specific reading or an industry shift.
-
-*Source: Financial Times, 29 April 2026, Arjun Neil Alim, Zijing Wu and Tim Bradshaw.*
-

@@ -12,10 +12,6 @@ summary: |
 order: 7
 ---
 
-# How Citi’s $52mn hire was forced out of JPMorgan over his behaviour
-
-**The story in one line.** Citi’s star 2024 hire Vis Raghavan — sold to investors as a coup — was in fact a banker JPMorgan had just told he had no future at the firm.
-
 ## Key numbers / facts
 
 - Pay package for Raghavan at Citi: **$52mn**
@@ -35,6 +31,3 @@ For Citi, the bet has paid off financially in the short term: Raghavan delivered
 ## Takeaway
 
 Succession-planning risk just got more concrete. Both leading internal candidates to succeed Jane Fraser — Raghavan and Sieg — carry conduct allegations. Buy-side governance teams will pay closer attention.
-
-*Source: Financial Times, 29 April 2026, Joshua Franklin, Julie Steinberg, Ortenca Aliaj and Akila Quinio.*
-

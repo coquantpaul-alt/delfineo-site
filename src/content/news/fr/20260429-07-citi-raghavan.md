@@ -12,10 +12,6 @@ summary: |
 order: 7
 ---
 
-# Comment la recrue à 52 M$ de Citi a été poussée vers la sortie de JPMorgan
-
-**L’histoire en une phrase.** Vis Raghavan, embauche-vedette de Citi en 2024 — présentée comme un coup — était en réalité un banquier à qui JPMorgan venait d’annoncer qu’il n’avait plus d’avenir dans la maison.
-
 ## Les chiffres clés
 
 - Package de rémunération de Raghavan chez Citi : **52 M$**
@@ -35,6 +31,3 @@ Pour Citi, le pari est rentable à court terme : Raghavan a livré des revenus I
 ## À retenir
 
 Le risque succession se précise. Les deux candidats internes pressentis pour succéder à Jane Fraser — Raghavan et Sieg — portent des accusations sur leur conduite. Les équipes de gouvernance côté buy-side vont y prêter attention.
-
-*Source : Financial Times, 29 avril 2026, Joshua Franklin, Julie Steinberg, Ortenca Aliaj et Akila Quinio.*
-

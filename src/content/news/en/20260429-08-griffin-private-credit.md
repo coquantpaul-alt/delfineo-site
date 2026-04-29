@@ -14,10 +14,6 @@ insight: |
 order: 8
 ---
 
-# Ken Griffin warns wealthy retail does not understand private credit
-
-**The story in one line.** Ken Griffin, Jamie Dimon and John Waldron all flagged in the same week that wealthy individuals piling into private-credit funds may be carrying more risk than they realise.
-
 ## Key numbers
 
 | Metric | Value |
@@ -40,6 +36,3 @@ Dimon, on the same day in Oslo: with more than **1,000** private-credit firms, "
 ## Takeaway
 
 Three of finance’s biggest names sounding the same alarm in the same week is a marker of the cycle. Watch BDC discounts and gating headlines as leading indicators of stress. For long-term holders of alternative-asset managers, the retail channel that powered fee growth is also the most exposed when redemptions accelerate.
-
-*Source: Financial Times, 29 April 2026, Harriet Agnew and Robin Wigglesworth.*
-

@@ -12,10 +12,6 @@ summary: |
 order: 10
 ---
 
-# Goldman Sachs interdit Claude d’Anthropic à ses banquiers de Hong Kong
-
-**L’histoire en une phrase.** Goldman coupe l’accès de ses banquiers de Hong Kong aux modèles Claude — dernière collision entre l’IA occidentale et les tensions sino-américaines.
-
 ## Les faits clés
 
 - Personnes concernées : **tous les salariés Goldman à Hong Kong** (pas d’accès Claude via API directe ou plateforme interne)
@@ -34,6 +30,3 @@ La peur du distillage est le moteur : les entreprises occidentales redoutent que
 ## À retenir
 
 Un monde IA à deux vitesses — Ouest ouvert, Chine restreinte — se solidifie, avec Hong Kong glissant du mauvais côté de la ligne pour certains produits. Surveiller les autres banques et grands groupes qui suivront la lecture stricte de Goldman ; c’est ce qui dira si l’événement reste isolé ou marque un basculement sectoriel.
-
-*Source : Financial Times, 29 avril 2026, Arjun Neil Alim, Zijing Wu et Tim Bradshaw.*
-

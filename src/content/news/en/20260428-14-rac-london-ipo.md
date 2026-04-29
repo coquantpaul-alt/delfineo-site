@@ -12,10 +12,6 @@ summary: |
 order: 14
 ---
 
-# RAC pumps the brakes on £5bn London IPO
-
-**The story in one line.** British driving-services group RAC has pushed back its planned £5bn London IPO to late 2026, prolonging the City’s listing drought as volatile markets disrupt deal timelines.
-
 ## Key numbers
 
 | Item | Value |
@@ -39,6 +35,3 @@ A roadside-services business is a steady cash generator; **15.5 million members*
 ## Takeaway
 
 When the IPO drought lifts, RAC will be one of the bigger names to test demand. Until then, London’s structural-decline narrative continues to dominate the post-Brexit narrative.
-
-*Source: Financial Times, 28 April 2026, Kieran Smith, Ashley Armstrong and Ivan Levingston.*
-

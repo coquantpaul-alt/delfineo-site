@@ -12,10 +12,6 @@ summary: |
 order: 9
 ---
 
-# EU in talks with Hungary’s Péter Magyar on workaround for frozen funds
-
-**The story in one line.** Brussels and incoming Hungarian PM Péter Magyar are scrambling to design a workaround that keeps part of €10bn in frozen Covid-recovery funds available beyond the August 31 deadline.
-
 ## Key numbers
 
 | Item | Amount |
@@ -40,6 +36,3 @@ The political stakes are large too. Magyar — a pro-EU conservative who unseate
 ## Takeaway
 
 The fundamentals (yields, growth, deficit) make EU money critical. The politics (Magyar’s mandate, Brussels’ desire to reset relations) make a deal likely — but legal complexity around the August deadline keeps execution risk live.
-
-*Source: Financial Times, 29 April 2026, Paola Tamma, Henry Foy and Marton Dunai.*
-

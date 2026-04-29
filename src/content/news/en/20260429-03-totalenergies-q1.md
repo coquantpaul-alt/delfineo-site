@@ -14,10 +14,6 @@ insight: |
 order: 3
 ---
 
-# TotalEnergies profits jump as Middle East war lifts oil prices
-
-**The story in one line.** TotalEnergies’ Q1 2026 net profit jumped 51% to $5.8bn, approaching early-Ukraine-war records as Middle East-driven price spikes flowed through the income statement.
-
 ## Key numbers
 
 | Metric (Q1 2026) | Value | Variation |
@@ -45,6 +41,3 @@ The strategic news is the **EPH transaction**: €5bn of European gas-power and 
 ## Takeaway
 
 Cash machine. With $8.6bn quarterly cash flow, TotalEnergies can absorb large all-stock deals (EPH) and keep returning capital to shareholders. Watch the Kretinsky alignment for governance and downstream-electricity strategy implications.
-
-*Source: Les Echos, 29 April 2026, Hortense Goulard.*
-

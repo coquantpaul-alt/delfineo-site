@@ -12,10 +12,6 @@ summary: |
 order: 5
 ---
 
-# « Le début de la fin de l’Opep » : le cartel peut-il survivre à la sortie des EAU ?
-
-**L’histoire en une phrase.** Les Émirats arabes unis — troisième plus grand producteur de l’Opep — annoncent leur retrait du cartel vieux de 66 ans, mais les marchés pétroliers à peine bronché, l’attention restant rivée sur la guerre en Iran et la fermeture du détroit d’Ormuz.
-
 ## Les chiffres clés
 
 | Indicateur | Valeur |
@@ -39,6 +35,3 @@ Le risque : **un effet domino**. Si le Venezuela, l’Irak ou l’Iran suivent, 
 ## À retenir
 
 À court terme : le prix du pétrole reste ancré à Ormuz, pas à l’Opep. À long terme : prix structurellement plus bas probables avec une production émirienne sans bride — favorable aux consommateurs, défavorable au producteur marginal à coût élevé.
-
-*Source : Financial Times, 29 avril 2026, Verity Ratcliffe et Malcolm Moore.*
-

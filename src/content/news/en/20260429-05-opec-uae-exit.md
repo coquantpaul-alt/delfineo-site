@@ -12,10 +12,6 @@ summary: |
 order: 5
 ---
 
-# ‘The beginning of the end of Opec’: can the cartel survive the UAE’s exit?
-
-**The story in one line.** The UAE — Opec’s third-largest producer — said it will quit the 66-year-old cartel, but oil markets barely flinched, fixated instead on the Iran war and Strait of Hormuz closure.
-
 ## Key numbers
 
 | Metric | Value |
@@ -39,6 +35,3 @@ Risk: **a domino effect**. If Venezuela, Iraq or Iran follow, Opec’s ability t
 ## Takeaway
 
 Short term: oil price stays anchored to Hormuz, not Opec. Long term: structurally lower oil prices likely as the UAE produces unconstrained — bullish for global consumers, bearish for the marginal high-cost producer.
-
-*Source: Financial Times, 29 April 2026, Verity Ratcliffe and Malcolm Moore.*
-

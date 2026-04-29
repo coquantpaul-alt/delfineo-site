@@ -12,10 +12,6 @@ summary: |
 order: 12
 ---
 
-# Airbus plombé par la pénurie de moteurs Pratt & Whitney au premier trimestre
-
-**L’histoire en une phrase.** Airbus livre nettement moins d’avions commerciaux que prévu au T1 2026, mais maintient ses objectifs annuels grâce à un carnet record et à une division défense solide.
-
 ## Les chiffres clés
 
 | Indicateur (T1 2026) | Valeur | Variation |
@@ -41,6 +37,3 @@ Le **carnet de 9 037 avions** à fin mars reste l’ancre structurelle : malgré
 ## À retenir
 
 Un T1 faible que l’entreprise considère comme transitoire. Les problèmes moteurs et fuselage sont le facteur clé pour la guidance annuelle — si l’un ou l’autre dérape sur le S2, l’objectif de 870 dérape avec. La défense devient discrètement un contributeur plus structurant.
-
-*Source : Les Echos, 28 avril 2026, Charles Plantade.*
-

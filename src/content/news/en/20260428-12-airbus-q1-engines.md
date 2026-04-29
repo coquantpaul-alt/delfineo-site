@@ -12,10 +12,6 @@ summary: |
 order: 12
 ---
 
-# Airbus dragged down by Pratt & Whitney engine shortage in Q1
-
-**The story in one line.** Airbus delivered far fewer commercial aircraft than expected in Q1 2026, but it kept its full-year targets thanks to a record backlog and a strong defence quarter.
-
 ## Key numbers
 
 | Metric (Q1 2026) | Value | Variation |
@@ -41,6 +37,3 @@ The **9,037-aircraft backlog** at end-March is the structural anchor: even with 
 ## Takeaway
 
 A weak Q1 that the company is treating as transitory. The engine and fuselage issues are the swing factor on FY guidance — if either drags into H2, the 870 target slips. Defence quietly becomes a more meaningful contributor.
-
-*Source: Les Echos, 28 April 2026, Charles Plantade.*
-

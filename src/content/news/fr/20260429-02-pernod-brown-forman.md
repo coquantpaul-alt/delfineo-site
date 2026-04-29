@@ -12,10 +12,6 @@ summary: |
 order: 2
 ---
 
-# Pernod Ricard et Brown-Forman renoncent à fusionner
-
-**L’histoire en une phrase.** La fusion qui aurait donné naissance à un leader mondial franco-américain des spiritueux s’effondre dans la nuit, envoyant les deux titres dans le rouge.
-
 ## Les chiffres clés
 
 | Indicateur | Valeur |
@@ -39,6 +35,3 @@ Pernod Ricard a abaissé ses objectifs annuels mi-avril, parlant d’**« année
 ## À retenir
 
 La combinaison stratégique la plus propre est écartée. Brown-Forman doit désormais choisir : accepter Sazerac avec son risque antitrust, ou rester indépendant et traverser le cycle. La chute de 12 % de Pernod Ricard intègre le double signal : pas de deal transformateur + guidance abaissée.
-
-*Source : Les Echos, 29 avril 2026.*
-

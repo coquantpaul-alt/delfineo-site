@@ -12,10 +12,6 @@ summary: |
 order: 14
 ---
 
-# Le RAC reporte son IPO de 5 milliards de livres à Londres
-
-**L’histoire en une phrase.** Le britannique RAC, prestataire de services automobiles, repousse à la fin 2026 son projet de cotation à Londres pour 5 Mds £, prolongeant la sécheresse de la place alors que la volatilité des marchés bouscule les calendriers.
-
 ## Les chiffres clés
 
 | Indicateur | Valeur |
@@ -39,6 +35,3 @@ Un service de dépannage routier est un générateur de cash régulier ; **15,5 
 ## À retenir
 
 Quand la sécheresse des IPO se lèvera, le RAC fera partie des premiers gros noms à tester la demande. D’ici là, le récit du déclin structurel post-Brexit de Londres continue de dominer.
-
-*Source : Financial Times, 28 avril 2026, Kieran Smith, Ashley Armstrong et Ivan Levingston.*
-

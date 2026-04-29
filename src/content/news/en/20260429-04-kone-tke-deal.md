@@ -14,10 +14,6 @@ insight: |
 order: 4
 ---
 
-# Lift maker Kone strikes €29bn deal to buy TK Elevator
-
-**The story in one line.** Finland’s Kone has agreed to buy German rival TK Elevator for €29bn — the biggest deal in Finnish history and one of Europe’s largest M&A transactions in recent years.
-
 ## Key numbers
 
 | Metric | Value |
@@ -46,6 +42,3 @@ For Kone, the deal combines its Asian strength with TKE’s US presence; for Adv
 ## Takeaway
 
 Industrial logic looks sound; regulatory approval is the swing factor (deal closes earliest Q2 2027). The implied **~3.2x EV/sales** offers a useful anchor for valuing other elevator pure-plays, including Schindler.
-
-*Source: Financial Times, 29 April 2026, Ivan Levingston and Richard Milne.*
-

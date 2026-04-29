@@ -14,10 +14,6 @@ insight: |
 order: 4
 ---
 
-# Kone rachète TK Elevator pour 29 milliards d’euros
-
-**L’histoire en une phrase.** Le finlandais Kone met la main sur son concurrent allemand TK Elevator pour 29 Mds € — la plus grosse opération de l’histoire finlandaise et l’une des plus importantes M&A européennes récentes.
-
 ## Les chiffres clés
 
 | Indicateur | Valeur |
@@ -46,6 +42,3 @@ Pour Kone, l’opération combine sa force en Asie avec la présence américaine
 ## À retenir
 
 La logique industrielle paraît solide ; l’approbation réglementaire reste le facteur clé (clôture au plus tôt au T2 2027). Le multiple implicite **~3,2x VE/CA** constitue un repère utile pour valoriser d’autres pure-players de l’ascenseur, dont Schindler.
-
-*Source : Financial Times, 29 avril 2026, Ivan Levingston et Richard Milne.*
-

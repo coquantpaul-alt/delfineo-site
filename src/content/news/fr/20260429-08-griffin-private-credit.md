@@ -14,10 +14,6 @@ insight: |
 order: 8
 ---
 
-# Ken Griffin alerte sur les risques du private credit pour les particuliers fortunés
-
-**L’histoire en une phrase.** Ken Griffin, Jamie Dimon et John Waldron ont signalé la même semaine que les particuliers fortunés se ruant sur le private credit prennent plus de risque qu’ils ne l’imaginent.
-
 ## Les chiffres clés
 
 | Indicateur | Valeur |
@@ -40,6 +36,3 @@ Dimon, le même jour à Oslo : avec plus de **1 000** fonds de private credit, �
 ## À retenir
 
 Trois des plus grandes voix de la finance qui sonnent la même alerte la même semaine, c’est un marqueur de cycle. Surveiller les décotes des BDC et les annonces de gating comme indicateurs avancés. Pour les détenteurs longs de gérants alternatifs, le canal retail qui a porté la croissance des frais est aussi le plus exposé en cas d’accélération des rachats.
-
-*Source : Financial Times, 29 avril 2026, Harriet Agnew et Robin Wigglesworth.*
-

@@ -14,10 +14,6 @@ insight: |
 order: 6
 ---
 
-# L’Allemagne se réarme : quelles conséquences pour l’Europe ?
-
-**L’histoire en une phrase.** Le plan quinquennal de défense allemand à 779 Mds € donnera à Berlin, dès 2030, un budget militaire supérieur à la somme du Royaume-Uni et de la France — la mutation la plus lourde de la sécurité européenne depuis la Guerre froide.
-
 ## Les chiffres clés
 
 | Indicateur | Valeur |
@@ -58,6 +54,3 @@ L’opinion est divisée : ~75 % soutiennent le doublement, mais **61 %** s’op
 ## À retenir
 
 Pour les actions européennes de défense, la lecture est nette : **les acteurs en place gagnent les 3-5 prochaines années**. La question structurante reste : la dépense renforcera-t-elle l’autonomie stratégique européenne, ou verrouillera-t-elle simplement la dépendance américaine sous étiquette allemande ?
-
-*Source : Financial Times, 29 avril 2026, Anne-Sylvaine Chassany et Leila Abboud.*
-

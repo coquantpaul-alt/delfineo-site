@@ -14,10 +14,6 @@ insight: |
 order: 3
 ---
 
-# TotalEnergies : la guerre au Moyen-Orient fait décoller les bénéfices
-
-**L’histoire en une phrase.** Le bénéfice net de TotalEnergies bondit de 51 % à 5,8 Mds $ au T1 2026, se rapprochant des records du début de la guerre en Ukraine, dopé par l’envolée des prix liée à la guerre au Moyen-Orient.
-
 ## Les chiffres clés
 
 | Indicateur (T1 2026) | Valeur | Variation |
@@ -45,6 +41,3 @@ L’actualité stratégique est l’**opération EPH** : 5 Mds € d’actifs eu
 ## À retenir
 
 Machine à cash. Avec 8,6 Mds $ de cash trimestriel, TotalEnergies peut absorber de grosses opérations 100 % actions (EPH) et continuer à rémunérer ses actionnaires. À surveiller : l’alignement avec Kretinsky pour les implications gouvernance et stratégie électricité.
-
-*Source : Les Echos, 29 avril 2026, Hortense Goulard.*
-

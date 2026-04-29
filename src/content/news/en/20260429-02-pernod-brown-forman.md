@@ -12,10 +12,6 @@ summary: |
 order: 2
 ---
 
-# Pernod Ricard and Brown-Forman call off Jack Daniel’s merger
-
-**The story in one line.** A merger that would have created a global Franco-American spirits leader collapsed overnight, sending both stocks down hard.
-
 ## Key numbers
 
 | Metric | Value |
@@ -39,6 +35,3 @@ Pernod Ricard cut its annual guidance in mid-April, calling 2025-26 a **"transit
 ## Takeaway
 
 The cleanest strategic combination is off the table. Brown-Forman now faces a binary choice: take Sazerac at antitrust risk, or stay independent and ride out the cycle. Pernod Ricard’s 12% sell-off prices in: no transformative deal + downgraded guidance.
-
-*Source: Les Echos, 29 April 2026.*
-
