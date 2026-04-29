@@ -1,7 +1,7 @@
 ---
 title: "Germany re-arms: what does it mean for Europe?"
-category: Defence
-date: 2026-04-29
+category: "Defence"
+date: "2026-04-29"
 dateDisplay: "April 29, 2026"
 summary: |
   Germany’s defence budget is on track to match the combined total of the UK and France by the end of this decade, marking the biggest shift in European military balance since the post-war settlement. After loosening its constitutional debt brake, Berlin will allocate €779bn to defence between 2026 and 2030 — more than double the previous five years.

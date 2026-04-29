@@ -1,7 +1,7 @@
 ---
 title: "Pernod Ricard et Brown-Forman renoncent à fusionner"
-category: Fusions-Acquisitions
-date: 2026-04-29
+category: "Fusions-Acquisitions"
+date: "2026-04-29"
 dateDisplay: "29 avril 2026"
 summary: |
   Pernod Ricard et l’américain Brown-Forman, propriétaire de Jack Daniel’s, ont mis fin dans la nuit du 28 au 29 avril aux discussions de « fusion entre égaux » qu’ils avaient annoncées fin mars, faute d’accord sur des conditions acceptables pour les deux parties.

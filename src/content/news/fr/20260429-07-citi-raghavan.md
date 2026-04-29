@@ -1,7 +1,7 @@
 ---
 title: "Comment la recrue à 52 M$ de Citi a été poussée vers la sortie de JPMorgan"
-category: Banque
-date: 2026-04-29
+category: "Banque"
+date: "2026-04-29"
 dateDisplay: "29 avril 2026"
 summary: |
   Le recrutement par Citi en 2024 de Vis Raghavan comme responsable de la banque d’investissement — présenté aux actionnaires comme un coup de maître, avec un package de rémunération de 52 M$ destiné à « l’inciter » à quitter JPMorgan — relève en réalité d’un sauvetage négocié en un week-end : trois jours plus tôt, JPMorgan lui avait signifié qu’il n’avait plus d’avenir à long terme dans la banque, après des années de plaintes sur son comportement.

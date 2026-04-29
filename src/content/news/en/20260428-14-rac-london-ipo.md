@@ -1,7 +1,7 @@
 ---
 title: "RAC pumps the brakes on £5bn London IPO"
-category: Capital Markets
-date: 2026-04-28
+category: "Capital Markets"
+date: "2026-04-28"
 dateDisplay: "April 28, 2026"
 summary: |
   British driving-services group RAC has pushed back its planned London IPO to the final months of 2026, prolonging the capital’s listing drought as volatile markets disrupt deal timelines. The flotation, targeting a roughly £5bn valuation, had been pencilled in for the first half of the year.

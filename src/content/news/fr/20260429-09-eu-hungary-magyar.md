@@ -1,7 +1,7 @@
 ---
 title: "L’UE négocie avec Péter Magyar un compromis sur les fonds gelés de la Hongrie"
-category: Politique européenne
-date: 2026-04-29
+category: "Politique européenne"
+date: "2026-04-29"
 dateDisplay: "29 avril 2026"
 summary: |
   Bruxelles négocie avec Péter Magyar, futur Premier ministre hongrois, un dispositif qui maintiendrait une partie des 10 Mds € de fonds européens de relance Covid encore gelés au-delà de la date limite du 31 août. Magyar — conservateur pro-européen dont la victoire électorale a mis fin au règne de Viktor Orbán — rencontre la présidente de la Commission européenne Ursula von der Leyen mercredi.

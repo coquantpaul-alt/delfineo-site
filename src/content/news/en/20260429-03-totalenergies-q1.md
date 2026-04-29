@@ -1,7 +1,7 @@
 ---
 title: "TotalEnergies profits jump as Middle East war lifts oil prices"
-category: Energy
-date: 2026-04-29
+category: "Energy"
+date: "2026-04-29"
 dateDisplay: "April 29, 2026"
 summary: |
   TotalEnergies reported first-quarter 2026 net profit of $5.8bn, up 51% year on year, and cash flow of $8.6bn (+23%). The numbers approach the records set in the early months of the Ukraine war, this time driven by surging oil and refined-product prices following the outbreak of the Middle East war.

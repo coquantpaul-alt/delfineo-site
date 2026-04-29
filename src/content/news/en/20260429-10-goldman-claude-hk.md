@@ -1,7 +1,7 @@
 ---
 title: "Goldman Sachs stops bankers using Anthropic’s Claude in Hong Kong"
-category: AI
-date: 2026-04-29
+category: "AI"
+date: "2026-04-29"
 dateDisplay: "April 29, 2026"
 summary: |
   Goldman Sachs has stopped its Hong Kong bankers from using Anthropic’s Claude AI models — the latest sign of how the technology is colliding with US-China tensions. Employees in the territory have been unable to access Claude either directly or through Goldman’s in-house AI platform for the past few weeks, according to four sources familiar with the decision.

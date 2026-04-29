@@ -1,7 +1,7 @@
 ---
 title: "Lift maker Kone strikes €29bn deal to buy TK Elevator"
-category: Mergers & Acquisitions
-date: 2026-04-29
+category: "Mergers & Acquisitions"
+date: "2026-04-29"
 dateDisplay: "April 29, 2026"
 summary: |
   Finland’s Kone has agreed to buy German rival TK Elevator (TKE) in a €29bn deal — the largest takeover in Finnish corporate history and one of Europe’s biggest M&A trades in recent years. The combined group would generate roughly €21bn in annual revenues.

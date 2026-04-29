@@ -1,7 +1,7 @@
 ---
 title: "Kone rachète TK Elevator pour 29 milliards d’euros"
-category: Fusions-Acquisitions
-date: 2026-04-29
+category: "Fusions-Acquisitions"
+date: "2026-04-29"
 dateDisplay: "29 avril 2026"
 summary: |
   Le finlandais Kone a annoncé le rachat de son concurrent allemand TK Elevator (TKE) pour 29 milliards d’euros — la plus grosse acquisition de l’histoire d’une entreprise finlandaise et l’une des plus importantes opérations de M&A en Europe ces dernières années. L’ensemble combiné générerait environ 21 Mds € de chiffre d’affaires annuel.

@@ -1,7 +1,7 @@
 ---
 title: "L’Allemagne se réarme : quelles conséquences pour l’Europe ?"
-category: Défense
-date: 2026-04-29
+category: "Défense"
+date: "2026-04-29"
 dateDisplay: "29 avril 2026"
 summary: |
   Le budget de défense allemand atteindra, d’ici la fin de la décennie, le total cumulé de ceux du Royaume-Uni et de la France — le plus grand basculement de l’équilibre militaire européen depuis l’après-guerre. Après avoir desserré son frein constitutionnel à la dette, Berlin allouera 779 Mds € à la défense entre 2026 et 2030, soit plus du double des cinq années précédentes.

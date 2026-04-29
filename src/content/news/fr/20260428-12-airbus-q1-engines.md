@@ -1,7 +1,7 @@
 ---
 title: "Airbus plombé par la pénurie de moteurs Pratt & Whitney au premier trimestre"
-category: Aérospatiale
-date: 2026-04-28
+category: "Aérospatiale"
+date: "2026-04-28"
 dateDisplay: "28 avril 2026"
 summary: |
   Airbus a livré 114 avions commerciaux au premier trimestre 2026, soit 22 de moins qu’un an plus tôt et 29 de moins que son concurrent Boeing en plein redressement. Le chiffre d’affaires consolidé recule de 7 % à 12,7 Mds €, et le bénéfice net tombe à 300 M €, contre 624 M € il y a un an. Les résultats sont inférieurs aux attentes des analystes (résultat d’exploitation ajusté de ~512 M € sur ~12,87 Mds € de revenus).

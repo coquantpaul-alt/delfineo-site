@@ -1,7 +1,7 @@
 ---
 title: "Ken Griffin alerte sur les risques du private credit pour les particuliers fortunés"
-category: Private Credit
-date: 2026-04-29
+category: "Private Credit"
+date: "2026-04-29"
 dateDisplay: "29 avril 2026"
 summary: |
   Ken Griffin — fondateur du hedge fund Citadel (67 Mds $ d’actifs) et de la société de trading Citadel Securities — doute que les particuliers fortunés comprennent réellement les risques du « private credit » et avertit qu’ils pourraient avoir du mal à récupérer leur argent en cas de crise. Ses propos, tenus au Financial Times, alimentent l’inquiétude grandissante sur l’expansion rapide du secteur vers la clientèle particulière.

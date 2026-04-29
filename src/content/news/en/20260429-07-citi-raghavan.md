@@ -1,7 +1,7 @@
 ---
 title: "How Citi’s $52mn hire was forced out of JPMorgan over his behaviour"
-category: Banking
-date: 2026-04-29
+category: "Banking"
+date: "2026-04-29"
 dateDisplay: "April 29, 2026"
 summary: |
   Citi’s 2024 hiring of Vis Raghavan as head of banking — sold to shareholders as a coup with a $52mn pay package needed to “incentivise” him to leave JPMorgan — was in fact a weekend rescue: just three days earlier, JPMorgan had told the investment banker he had no long-term future at the bank, after years of complaints about his conduct.

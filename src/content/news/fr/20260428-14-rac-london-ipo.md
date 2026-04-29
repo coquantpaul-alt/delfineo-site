@@ -1,7 +1,7 @@
 ---
 title: "Le RAC reporte son IPO de 5 milliards de livres à Londres"
-category: Marchés de capitaux
-date: 2026-04-28
+category: "Marchés de capitaux"
+date: "2026-04-28"
 dateDisplay: "28 avril 2026"
 summary: |
   Le britannique RAC, prestataire de services automobiles, a reporté à la fin 2026 son projet d’introduction en Bourse à Londres, prolongeant la sécheresse des cotations dans la capitale britannique alors que la volatilité des marchés perturbe les calendriers. L’opération, qui vise une valorisation d’environ 5 Mds £, était initialement envisagée au premier semestre.

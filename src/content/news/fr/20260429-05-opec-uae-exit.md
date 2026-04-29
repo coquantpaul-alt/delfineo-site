@@ -1,7 +1,7 @@
 ---
 title: "« Le début de la fin de l’Opep » : le cartel peut-il survivre à la sortie des Émirats ?"
-category: Énergie
-date: 2026-04-29
+category: "Énergie"
+date: "2026-04-29"
 dateDisplay: "29 avril 2026"
 summary: |
   Les Émirats arabes unis ont annoncé mardi leur départ de l’Opep, privant le cartel pétrolier vieux de 66 ans de son troisième plus grand producteur et de l’un de ses membres les plus influents. Le baril de Brent a progressé pour la septième séance consécutive, mais cette hausse est tirée par la fermeture du détroit d’Ormuz et non par le retrait émirien — signal de l’érosion durable du pouvoir de l’Opep sur le marché.

@@ -1,7 +1,7 @@
 ---
 title: "TotalEnergies : la guerre au Moyen-Orient fait décoller les bénéfices"
-category: Énergie
-date: 2026-04-29
+category: "Énergie"
+date: "2026-04-29"
 dateDisplay: "29 avril 2026"
 summary: |
   TotalEnergies publie un bénéfice net de 5,8 milliards de dollars au premier trimestre 2026, en hausse de 51 % sur un an, et un cash-flow de 8,6 Mds $ (+23 %). Des résultats qui se rapprochent des records enregistrés au début de la guerre en Ukraine, dopés cette fois par l’envolée des prix du pétrole et des produits raffinés depuis le déclenchement de la guerre au Moyen-Orient.

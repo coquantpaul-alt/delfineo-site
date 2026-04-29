@@ -1,7 +1,7 @@
 ---
 title: "EU in talks with Hungary’s Péter Magyar on workaround for frozen funds"
-category: EU Politics
-date: 2026-04-29
+category: "EU Politics"
+date: "2026-04-29"
 dateDisplay: "April 29, 2026"
 summary: |
   Brussels is negotiating with Péter Magyar, Hungary’s incoming prime minister, over a workaround that would keep part of €10bn in frozen Covid-19 recovery funds available beyond an August 31 deadline. Magyar — a pro-EU conservative whose election victory ended Viktor Orbán’s rule — meets European Commission president Ursula von der Leyen on Wednesday.

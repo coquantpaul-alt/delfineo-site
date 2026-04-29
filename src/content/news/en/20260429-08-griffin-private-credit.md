@@ -1,7 +1,7 @@
 ---
 title: "Ken Griffin warns wealthy retail does not understand private credit"
-category: Private Credit
-date: 2026-04-29
+category: "Private Credit"
+date: "2026-04-29"
 dateDisplay: "April 29, 2026"
 summary: |
   Ken Griffin — founder of $67bn hedge fund Citadel and trading firm Citadel Securities — has questioned whether wealthy individuals understand the risks of private credit, warning they could struggle to pull their money out in a downturn. His comments, made in an FT interview, add to growing concern about the sector’s rapid expansion into retail.

@@ -1,7 +1,7 @@
 ---
 title: "‘The beginning of the end of Opec’: can the cartel survive the UAE’s exit?"
-category: Energy
-date: 2026-04-29
+category: "Energy"
+date: "2026-04-29"
 dateDisplay: "April 29, 2026"
 summary: |
   The United Arab Emirates announced on Tuesday it will leave Opec, stripping the 66-year-old oil cartel of its third-largest producer and one of its most influential members. Brent crude rose for a seventh consecutive day, but the move was driven by fears around the closure of the Strait of Hormuz rather than the UAE’s exit, a signal of how far Opec’s market influence has eroded.

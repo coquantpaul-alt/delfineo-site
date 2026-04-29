@@ -1,7 +1,7 @@
 ---
 title: "Pernod Ricard and Brown-Forman call off Jack Daniel’s merger"
-category: Mergers & Acquisitions
-date: 2026-04-29
+category: "Mergers & Acquisitions"
+date: "2026-04-29"
 dateDisplay: "April 29, 2026"
 summary: |
   Pernod Ricard and US-based Brown-Forman, the owner of Jack Daniel’s, ended their “merger of equals” talks overnight on 28-29 April after failing to agree on terms acceptable to both sides. The talks had been announced in late March.

@@ -1,7 +1,7 @@
 ---
 title: "Airbus dragged down by Pratt & Whitney engine shortage in Q1"
-category: Aerospace
-date: 2026-04-28
+category: "Aerospace"
+date: "2026-04-28"
 dateDisplay: "April 28, 2026"
 summary: |
   Airbus delivered 114 commercial aircraft in the first quarter of 2026, 22 fewer than a year ago and 29 fewer than rival Boeing, which is staging a comeback. Consolidated revenue fell 7% to €12.7bn and net profit dropped to €300mn, against €624mn a year earlier. The results came in below analyst expectations (~€512mn adjusted operating profit on ~€12.87bn of revenue).

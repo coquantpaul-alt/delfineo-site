@@ -1,7 +1,7 @@
 ---
 title: "Goldman Sachs interdit Claude d’Anthropic à ses banquiers de Hong Kong"
-category: IA
-date: 2026-04-29
+category: "IA"
+date: "2026-04-29"
 dateDisplay: "29 avril 2026"
 summary: |
   Goldman Sachs a interdit à ses banquiers de Hong Kong l’usage des modèles d’intelligence artificielle Claude d’Anthropic — dernier signe de l’irruption des tensions sino-américaines dans la technologie. Les collaborateurs sur place n’ont plus accès à Claude, ni directement ni via la plateforme IA interne de Goldman, depuis plusieurs semaines, selon quatre sources proches du dossier.
