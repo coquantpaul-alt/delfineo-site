@@ -465,6 +465,51 @@ input::placeholder { color: var(--text-light); }
   padding-top: 4px;
 }
 
+/* Hero pull-quote (cream sidecar — last-resort fallback when neither
+   an external chart nor a Delfineo take is available for the lead). */
+.hero-pullquote {
+  background: transparent;
+  border-left: 3px solid var(--ink);
+  padding: 8px 0 8px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-self: center;
+}
+.hero-pullquote .label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.hero-pullquote .quote {
+  font-family: var(--font-display);
+  font-size: 26px;
+  line-height: 1.32;
+  color: var(--ink);
+  letter-spacing: -0.005em;
+  margin: 0;
+  font-style: italic;
+}
+.hero-pullquote .quote::before {
+  content: '“';
+  font-family: var(--font-display);
+  font-size: 36px;
+  line-height: 0.5;
+  color: var(--rule-strong);
+  margin-right: 4px;
+  vertical-align: -0.18em;
+}
+.hero-pullquote .attribution {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0;
+}
+
 /* ─── Editorial section filters (replaces the pill chip bar) ─────── */
 .editorial-filters {
   padding: 22px var(--pad-x);

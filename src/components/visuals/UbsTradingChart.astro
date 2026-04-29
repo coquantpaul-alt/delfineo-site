@@ -1,0 +1,189 @@
+---
+// <UbsTradingChart> — bilingual single-panel horizontal bar chart of
+// UBS Q1 2026 markets-division revenue, by business line, in $bn.
+// Mirrors the MunitionsChart pattern: yellow "Chart" eyebrow (hero),
+// title, subtitle, source. Used inline in the news brief and in the
+// homepage hero's right column.
+//
+// Wraps an <InteractiveChart> instance so it inherits the global
+// Chart.js loader.
+//
+// Props:
+//   lang     — "en" | "fr"  (default "en")
+//   variant  — "article" | "hero"  (hero variant uses tighter layout)
+import InteractiveChart from './InteractiveChart.astro';
+
+interface Props {
+  lang?: 'en' | 'fr';
+  variant?: 'article' | 'hero';
+}
+const { lang = 'en', variant = 'article' } = Astro.props;
+const isFr = lang === 'fr';
+
+// Three lines: Equities $2.3bn (+29%), Fixed income $0.9bn (+38%),
+// Investment banking pre-tax profit $1.2bn (+30% revenues, IB pre-tax
+// nearly doubled vs $0.7bn). We chart the three Q1 revenue figures
+// to keep apples to apples on the dollar axis; YoY % is in the labels.
+const labels = isFr
+  ? ['Trading actions  ·  +29 %', 'Trading obligataire  ·  +38 %', 'Banque d’investissement  ·  +30 %']
+  : ['Equities trading  ·  +29%', 'Fixed-income trading  ·  +38%', 'Investment banking  ·  +30%'];
+
+// Navy for equities (largest), darker navy for fixed income, gold for IB
+const COLORS = ['#0a2540', '#0a2540', '#c8a96a'];
+
+const data = {
+  labels,
+  datasets: [
+    {
+      label: isFr ? 'Revenus T1 2026 (Mds $)' : 'Q1 2026 revenue ($bn)',
+      data: [2.3, 0.9, 1.2],
+      backgroundColor: COLORS,
+      borderColor: COLORS,
+      borderWidth: 0,
+    },
+  ],
+};
+
+const opts = {
+  indexAxis: 'y',
+  plugins: {
+    legend: { display: false },
+    barValueLabels: { display: false },
+  },
+  scales: {
+    x: {
+      min: 0,
+      max: 2.6,
+      ticks: {
+        font: { size: 10 },
+        callback: (v) => '$' + v + 'bn',
+      },
+      grid: { color: 'rgba(5,28,44,0.08)' },
+    },
+    y: {
+      ticks: { font: { size: 10 } },
+      grid: { display: false },
+    },
+  },
+  devicePixelRatio: 2,
+};
+
+const title = isFr
+  ? 'UBS : revenus de trading record au premier trimestre'
+  : 'UBS posts a record markets quarter on Middle East volatility';
+const subtitle = isFr
+  ? 'Revenus T1 2026 par ligne de métier (Mds $) — variation a/a en libellé'
+  : 'Q1 2026 revenues by business line ($bn) — YoY change shown in labels';
+const source = isFr
+  ? 'Source : Financial Times, 29 avril 2026'
+  : 'Source: Financial Times, 29 April 2026';
+const eyebrow = isFr ? 'Graphique' : 'Chart';
+---
+
+<figure class={`ubs-chart ubs-chart-${variant}`}>
+  <span class="ubs-chart-eyebrow">{eyebrow}</span>
+  <h3 class="ubs-chart-title">{title}</h3>
+  <p class="ubs-chart-sub">{subtitle}</p>
+
+  <div class="ubs-chart-panel">
+    <InteractiveChart type="bar" data={data} options={opts} width="full" />
+  </div>
+
+  <p class="ubs-chart-source">{source}</p>
+</figure>
+
+<style>
+  .ubs-chart {
+    margin: 0;
+    padding: 16px 22px 14px;
+    background: rgba(5, 28, 44, 0.04);
+    border: 1px solid rgba(5, 28, 44, 0.08);
+    border-radius: 4px;
+  }
+  .ubs-chart-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    background: #f6e07c;
+    padding: 3px 8px;
+    color: #051c2c;
+    margin-bottom: 12px;
+    display: inline-block;
+  }
+  .ubs-chart-title {
+    font-family: var(--font-display);
+    font-size: 19px;
+    line-height: 1.2;
+    color: var(--ink);
+    margin: 4px 0 4px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+  .ubs-chart-sub {
+    font-family: var(--font-serif);
+    font-size: 12px;
+    color: var(--muted-2);
+    margin: 0 0 10px;
+    font-style: italic;
+  }
+  .ubs-chart-panel { min-width: 0; }
+  .ubs-chart-source {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    color: var(--muted-2);
+    margin: 10px 0 0;
+    line-height: 1.4;
+  }
+  .ubs-chart :global(.figure-interactive) {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+  }
+  .ubs-chart :global(.figure-interactive .figure-eyebrow) { display: none; }
+  .ubs-chart :global(.figure-interactive figcaption) { display: none; }
+
+  .ubs-chart-article :global(.figure-chart.figure-interactive .chart-canvas-wrap) {
+    height: 240px !important;
+    position: relative;
+  }
+  .ubs-chart-hero {
+    padding: 12px 14px 10px;
+  }
+  .ubs-chart-hero :global(.figure-chart.figure-interactive .chart-canvas-wrap) {
+    height: 220px !important;
+    position: relative;
+  }
+  .ubs-chart-hero .ubs-chart-title { font-size: 16px; line-height: 1.2; }
+  .ubs-chart-hero .ubs-chart-sub { font-size: 11px; margin-bottom: 10px; }
+  .ubs-chart-hero .ubs-chart-source { font-size: 9.5px; margin-top: 10px; }
+
+  /* Article variant: naked, FT-style */
+  .ubs-chart-article {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-top: 1px solid var(--ink, #051c2c);
+    padding: 0;
+    margin: 36px 0 32px;
+  }
+  .ubs-chart-article .ubs-chart-eyebrow { display: none; }
+  .ubs-chart-article .ubs-chart-title {
+    font-size: 22px;
+    margin: 18px 0 6px;
+    font-weight: 600;
+  }
+  .ubs-chart-article .ubs-chart-sub {
+    font-size: 14px;
+    margin: 0 0 18px;
+    font-style: normal;
+    color: var(--muted-2);
+  }
+  .ubs-chart-article .ubs-chart-source {
+    margin-top: 14px;
+    border-top: 1px solid rgba(5, 28, 44, 0.12);
+    padding-top: 10px;
+  }
+</style>

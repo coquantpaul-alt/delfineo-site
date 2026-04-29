@@ -4,6 +4,7 @@ import AuthScript from '../../components/AuthScript.astro';
 import EditorialHero from '../../components/editorial/EditorialHero.astro';
 import IranOutlookChart from '../../components/visuals/IranOutlookChart.astro';
 import MunitionsChart from '../../components/visuals/MunitionsChart.astro';
+import UbsTradingChart from '../../components/visuals/UbsTradingChart.astro';
 import EditorialFilters from '../../components/editorial/EditorialFilters.astro';
 import EditorialStoryRow from '../../components/editorial/EditorialStoryRow.astro';
 import ResearchHero from '../../components/editorial/ResearchHero.astro';
@@ -79,6 +80,9 @@ let rowNum = 1;  // hero is No 01
         )}
         {heroNews.slug.endsWith('us-munitions-low') && (
           <MunitionsChart slot="aside" lang={lang} variant="hero" />
+        )}
+        {heroNews.slug.endsWith('ubs-q1-trading') && (
+          <UbsTradingChart slot="aside" lang={lang} variant="hero" />
         )}
       </EditorialHero>
     )}
