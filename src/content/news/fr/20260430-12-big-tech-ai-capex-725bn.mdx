@@ -1,0 +1,69 @@
+---
+title: "La facture IA des Big Tech atteint 725 Mds$ alors que Google distance ses rivaux dans le cloud"
+category: "Technologie"
+date: "2026-04-30"
+dateDisplay: "30 avril 2026"
+summary: |
+  Les "Big Four" hyperscalers — Amazon, Meta, Microsoft et Alphabet — prévoient ensemble 725 milliards de dollars de capex IA en 2025, soit **77 % de plus** que les 410 milliards record de 2024. Google ressort en grand gagnant du trimestre : résultat net en hausse de **81 % à 62,6 Mds$**, chiffre d'affaires **+22 % à 110 Mds$**, ventes Google Cloud en hausse de **63 %** à 20 Mds$. L'action Alphabet montait de 6 % en pré-marché, en passe d'ouvrir près d'une valorisation record de 4 500 milliards de dollars. La recherche a apporté à elle seule 60,4 Mds$ (+19 %), et le groupe a comptabilisé une plus-value latente de 36,9 Mds$ sur des titres de capital (il détient des participations dans SpaceX, valorisée 1 250 Mds$, et Anthropic, 380 Mds$).
+
+  Microsoft a publié un chiffre d'affaires record de 82,9 Mds$ et un résultat net de 32 Mds$, porté par une hausse de 40 % des ventes cloud ; Azure a ajouté 7,9 Mds$ sur un an pour atteindre 34,7 Mds$. Mais la directrice financière Amy Hood a guidé le capex 2026 à 190 Mds$ — bien au-dessus du consensus à 152 Mds$ — dont 25 Mds$ liés à la hausse des prix des puces mémoire, et a prévenu que les contraintes de capacité dureraient "au moins jusqu'à fin 2026". L'action Microsoft a perdu 1,8 % après avoir gagné 18 % sur le mois écoulé. Amazon Cloud a ajouté 8,3 Mds$ sur un an à 37,6 Mds$, avec un pipeline de contrats de 364 Mds$ fin mars, dont un récent contrat Anthropic à 100 Mds$ ; le titre gagnait 1,8 %.
+
+  Meta est le perdant du tour. La guidance de capex grimpe à **145 Mds$** (+10 Mds$), le chiffre d'affaires bondit certes de 33 % à 56,3 Mds$, mais la baisse du nombre d'utilisateurs et le calendrier flou de Mark Zuckerberg sur les modèles IA ont fait chuter le titre de 8 % en pré-marché — soit environ **113 Mds$** de capitalisation envolée. Dec Mullarkey, de SLC Management, résume la critique : "Les investisseurs s'inquiètent de voir la machine à cash autrefois peu gourmande de Zuckerberg se transformer en incinérateur capitalistique." Le PDG de Microsoft Satya Nadella a salué la fin de l'exclusivité avec OpenAI, qui donne à son groupe "un modèle frontière, royalty-free, avec tous les droits de PI, jusqu'en 2032". Source : Financial Times, 30 avril 2026, Stephen Morris, Ryan McMorrow, Hannah Murphy, Rafe Rosner-Uddin, Michael Acton.
+order: 12
+---
+
+import { InteractiveChart, DataTable } from '../../../components/visuals';
+
+## L'histoire en une phrase
+
+**Le capex IA combiné des Big Tech en 2025, à 725 Mds$, est en hausse de 77 % par rapport au record de 410 Mds$ de 2024 — et Google se détache (CA +22 %, résultat net +81 %, Cloud +63 %) alors que Meta perd 113 Mds$ de capitalisation sur une guidance ratée.**
+
+## Capex 2025 par hyperscaler
+
+<InteractiveChart
+  type="bar"
+  caption="Big Four hyperscalers — guidance capex IA 2025 (Mds$)"
+  source="Source : Financial Times, 30 avril 2026 ; résultats T1 2026 des sociétés"
+  data={{
+    labels: ['Microsoft', 'Google', 'Meta', 'Amazon (impliqué)'],
+    datasets: [{
+      label: 'Mds USD',
+      data: [190, 190, 145, 200],
+      backgroundColor: ['#1a5276', '#a85432', '#7a8f9e', '#2e7d32']
+    }]
+  }}
+  options={{
+    plugins: {
+      legend: { display: false },
+      barValueLabels: { display: true, format: (v) => v + ' Mds$' }
+    },
+    scales: {
+      y: { beginAtZero: true, ticks: { callback: (v) => v + ' Mds$' } }
+    }
+  }}
+/>
+
+## Faits marquants T1 2026
+
+<DataTable caption="Big Four hyperscalers T1 2026 — CA, capex et réaction de Bourse" source="Source : Financial Times, 30 avril 2026">
+
+| Société | CA T1 | Croissance Cloud | Capex 2025 | Réaction de Bourse |
+| ------- | ----: | ---------------: | ---------: | -----------------: |
+| Alphabet (Google) | 110 Mds$ (+22 %) | +63 % à 20 Mds$ | 190 Mds$ (+5 Mds$) | +6 % (record ~4 500 Mds$) |
+| Amazon | n/d | Cloud +8,3 Mds$ yoy à 37,6 Mds$ | n/d (pipeline 364 Mds$) | +1,8 % |
+| Microsoft | 82,9 Mds$ (record) | +40 % (Azure 34,7 Mds$) | 190 Mds$ (vs 152 Mds$ attendus) | -1,8 % |
+| Meta | 56,3 Mds$ (+33 %) | n/a | 145 Mds$ (+10 Mds$) | -8 % (-113 Mds$ de cap.) |
+
+</DataTable>
+
+## Pourquoi c'est important
+
+Le chiffre de 725 Mds$ est le nouveau centre de gravité du cycle mondial de capex. Les 25 Mds$ de capex Microsoft liés à la hausse des prix des puces mémoire sont le signal le plus concret que la construction IA fait désormais transiter l'inflation des coûts d'intrant dans la dépense des entreprises. Les chiffres de pipeline — 460 Mds$ de carnet pour Google, 364 Mds$ pour Amazon dont un contrat Anthropic de 100 Mds$ — suggèrent que la demande reste devant l'offre. Le marché du cloud pèse 500 Mds$ et Google "commence à prendre un peu de part de marché", selon Melissa Otto (S&P Global).
+
+L'humeur Meta est la variante intéressante. Une perte de 113 Mds$ de capitalisation pour 10 Mds$ de capex ajouté, c'est la sanction d'une incapacité à articuler le chemin du chiffre d'affaires. À l'inverse, le re-rating du cloud Google montre que le marché tolère une dépense énorme tant qu'elle se voit dans le revenu cloud. À surveiller au prochain trimestre : la capacité de Meta à transformer son capex IA en gain visible de revenu publicitaire ou de contenu.
+
+## À retenir
+
+Le supercycle de capex IA continue d'accélérer. Deux questions clés : (1) les prix des puces mémoire vont-ils continuer à entamer les marges opérationnelles, et (2) Meta va-t-elle trouver un moyen de combler l'écart entre son capex et son revenu ? Pour les investisseurs hors hyperscalers, la lecture structurelle reste : chaque dollar de revenu IA requiert plusieurs dollars de capex, et la thèse "pelles et pioches" (mémoire, GPU, électricité) est devenue un moteur de top line dans tout le secteur.
+
+*Source : Financial Times, 30 avril 2026, Stephen Morris, Ryan McMorrow, Hannah Murphy, Rafe Rosner-Uddin, Michael Acton.*

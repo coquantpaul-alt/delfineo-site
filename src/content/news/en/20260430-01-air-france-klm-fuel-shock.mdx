@@ -1,0 +1,60 @@
+---
+title: "Air France-KLM cuts capacity guidance as fuel bill jumps to $9.3bn"
+category: "Aviation"
+date: "2026-04-30"
+dateDisplay: "April 30, 2026"
+summary: |
+  Air France-KLM is downgrading its 2026 capacity outlook as the war in Iran sends jet-fuel prices through the roof. The Franco-Dutch group now expects to pay $9.3bn for kerosene this year — $2.4bn more than in 2025 and 35% above its pre-conflict forecast of €6.9bn. Of that bill, $1.1bn falls in Q2 alone. The shares still rose more than 1% as the first-quarter print held up: revenue €7.5bn (+4.4%), operating loss €27mn (€301mn better than a year earlier), net loss €252mn (+1.2%).
+
+  Capacity growth for 2026 is now guided at 2 to 4%, against 3 to 5% before; long-haul falls to 2 to 4% from 4%, and Transavia (the low-cost arm) to 8 to 10% from 10%. CEO Ben Smith warned the fuel hit "will weigh on the next quarters" but that 60% of the April overcost has already been offset, helped by a 66% average yearly fuel hedge and a 3.4% rise in unit revenue (more premium tickets, an industry-wide capacity cut and a fare surcharge introduced in March). Q1 traffic still grew: 22.3 million passengers (+2.3%) at an 86.3% load factor (+0.3pt).
+
+  The group is keeping its powder dry. Liquidity is €10.6bn (€1.3bn more than March 2025), but capex is now guided below €3bn, hiring of support staff is paused and non-essential spending cut. Bernstein analysts read the cut positively, noting it "reflects a profit-friendly environment with strong travel demand". Air France, KLM and Transavia have little Middle East exposure and reallocated capacity to North America, Latin America and Asia. Source: Les Echos, 30 April 2026, Charles Plantade.
+order: 1
+---
+
+import { InteractiveChart, DataTable } from '../../../components/visuals';
+
+## The story in one line
+
+**Air France-KLM is preparing for a $9.3bn fuel bill — $2.4bn more than 2025 and 35% above pre-war guidance — and is trimming 2026 capacity growth to digest it.**
+
+## Fuel bill before and after the war
+
+<InteractiveChart
+  type="bar"
+  caption="Air France-KLM 2026 fuel bill vs prior plans (USD bn)"
+  source="Source: Les Echos, 30 April 2026; Air France-KLM Q1 2026 results"
+  data={{
+    labels: ['Actual 2025', 'Pre-conflict 2026 forecast', 'New 2026 guidance', 'Of which Q2 2026'],
+    datasets: [{
+      label: 'USD bn',
+      data: [6.9, 6.9, 9.3, 1.1],
+      backgroundColor: ['#7a8f9e', '#7a8f9e', '#a85432', '#1a5276']
+    }]
+  }}
+  options={{
+    plugins: {
+      legend: { display: false },
+      barValueLabels: { display: true, format: (v) => '$' + v + 'bn' }
+    },
+    scales: {
+      y: { beginAtZero: true, ticks: { callback: (v) => '$' + v + 'bn' } }
+    }
+  }}
+/>
+
+## Key numbers
+
+- 2026 fuel bill guided at **$9.3bn**, +**$2.4bn** vs 2025, **+35%** vs pre-conflict €6.9bn estimate
+- **$1.1bn** of that hits in Q2 alone
+- Q1 revenue **€7.5bn** (+4.4%), operating loss **-€27mn** (+€301mn yoy), net loss **-€252mn**
+- 2026 capacity: **2–4%** (vs 3–5%); long-haul **2–4%** (vs 4%); Transavia **8–10%** (vs 10%)
+- April fuel overcost **60% offset** by 3.4% unit revenue uplift and a 66% fuel hedge
+- 22.3 million passengers Q1 (+2.3%), load factor **86.3%** (+0.3pt)
+- Liquidity **€10.6bn**, capex now guided **below €3bn**
+
+## Takeaway
+
+Hedging at 66% means Air France-KLM has bought itself two or three quarters before the fuel shock fully bleeds through. The lever is yield: a 3.4% unit-revenue rise plus a March surcharge already covers most of April's overcost. If Brent stays above $120 and the ceasefire holds, it stays manageable. If the war escalates and the hedge rolls off into a higher curve, the 2026 op result moves from "small profit" to "small loss" fast.
+
+*Source: Les Echos, 30 April 2026, Charles Plantade.*

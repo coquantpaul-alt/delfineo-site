@@ -1,0 +1,60 @@
+---
+title: "Air France-KLM abaisse ses prévisions face à une facture carburant de 9,3 milliards de dollars"
+category: "Aviation"
+date: "2026-04-30"
+dateDisplay: "30 avril 2026"
+summary: |
+  Air France-KLM revoit à la baisse ses perspectives 2026 alors que la guerre en Iran fait flamber le kérosène. Le groupe franco-néerlandais s'attend désormais à payer 9,3 milliards de dollars de carburant cette année — 2,4 milliards de plus qu'en 2025 et 35 % de plus que la prévision pré-conflit de 6,9 milliards d'euros. Sur ce total, 1,1 milliard tombe rien qu'au deuxième trimestre. L'action progressait tout de même de plus de 1 %, le premier trimestre tenant le choc : chiffre d'affaires de 7,5 milliards d'euros (+4,4 %), résultat opérationnel à -27 millions (+301 millions sur un an), perte nette de 252 millions (+1,2 %).
+
+  La croissance des capacités 2026 est ramenée à une fourchette de 2 à 4 % (contre 3 à 5 %) ; les long-courriers à 2-4 % (contre 4 %), et Transavia (la filiale low cost) à 8-10 % (contre 10 %). Le PDG Ben Smith a prévenu que la hausse du carburant "pèsera sur les prochains trimestres" mais que 60 % du surcoût d'avril est déjà absorbé, grâce à une couverture moyenne de 66 % sur l'année et à une recette unitaire en hausse de 3,4 % (premiumisation des billets, réduction de l'offre de sièges à l'échelle du secteur, surcharge tarifaire de début mars). Le trafic du T1 reste en hausse : 22,3 millions de passagers (+2,3 %), taux de remplissage à 86,3 % (+0,3 point).
+
+  Le groupe garde la main sur ses dépenses. Sa trésorerie atteint 10,6 milliards d'euros (1,3 milliard de plus qu'en mars 2025), mais le capex est désormais guidé sous 3 milliards d'euros, les embauches de personnel de soutien sont suspendues et les dépenses non essentielles réduites. Bernstein lit positivement la révision, qui "témoigne d'un environnement favorable aux bénéfices et d'une forte demande". Air France, KLM et Transavia, peu exposés au Moyen-Orient, ont réalloué leur offre vers l'Atlantique Nord, l'Amérique du Sud et l'Asie. Source : Les Echos, 30 avril 2026, Charles Plantade.
+order: 1
+---
+
+import { InteractiveChart, DataTable } from '../../../components/visuals';
+
+## L'histoire en une phrase
+
+**Air France-KLM se prépare à une facture carburant de 9,3 Mds$ — 2,4 Mds$ de plus qu'en 2025 et 35 % au-dessus du scénario d'avant-guerre — et réduit la croissance de ses capacités 2026 pour la digrer.**
+
+## La facture carburant avant et après la guerre
+
+<InteractiveChart
+  type="bar"
+  caption="Air France-KLM : facture carburant 2026 vs scénarios précédents (Mds USD)"
+  source="Source : Les Echos, 30 avril 2026 ; résultats Air France-KLM T1 2026"
+  data={{
+    labels: ['Réel 2025', 'Scénario pré-conflit 2026', 'Nouvelle guidance 2026', 'Dont T2 2026'],
+    datasets: [{
+      label: 'Mds USD',
+      data: [6.9, 6.9, 9.3, 1.1],
+      backgroundColor: ['#7a8f9e', '#7a8f9e', '#a85432', '#1a5276']
+    }]
+  }}
+  options={{
+    plugins: {
+      legend: { display: false },
+      barValueLabels: { display: true, format: (v) => v + ' Mds$' }
+    },
+    scales: {
+      y: { beginAtZero: true, ticks: { callback: (v) => v + ' Mds$' } }
+    }
+  }}
+/>
+
+## Chiffres clés
+
+- Facture carburant 2026 guidée à **9,3 Mds$**, +**2,4 Mds$** vs 2025, **+35 %** vs prévision pré-conflit (6,9 Mds€)
+- **1,1 Md$** rien que sur le T2 2026
+- T1 : CA **7,5 Mds€** (+4,4 %), résultat op **-27 M€** (+301 M€ sur un an), perte nette **-252 M€**
+- Capacités 2026 : **2-4 %** (vs 3-5 %) ; long-courriers **2-4 %** (vs 4 %) ; Transavia **8-10 %** (vs 10 %)
+- Surcoût avril **compensé à 60 %** par +3,4 % de recette unitaire et une couverture de 66 %
+- 22,3 millions de passagers au T1 (+2,3 %), taux de remplissage **86,3 %** (+0,3 pt)
+- Liquidités **10,6 Mds€**, capex désormais guidé **sous 3 Mds€**
+
+## À retenir
+
+La couverture de 66 % offre à Air France-KLM deux à trois trimestres avant que le choc carburant ne se diffuse pleinement. Le levier est le yield : la hausse de 3,4 % de la recette unitaire et la surcharge de mars couvrent déjà l'essentiel du surcoût d'avril. Si le Brent reste au-dessus de 120 dollars et que le cessez-le-feu tient, c'est gérable. Si le conflit s'envole et que la couverture s'érode à des prix plus élevés, le résultat op 2026 bascule rapidement d'un léger bénéfice à une légère perte.
+
+*Source : Les Echos, 30 avril 2026, Charles Plantade.*

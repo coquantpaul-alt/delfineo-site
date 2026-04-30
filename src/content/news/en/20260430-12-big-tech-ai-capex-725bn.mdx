@@ -1,0 +1,69 @@
+---
+title: "Big Tech's AI capex bill hits $725bn as Google's cloud growth dwarfs rivals"
+category: "Technology"
+date: "2026-04-30"
+dateDisplay: "April 30, 2026"
+summary: |
+  The "Big Four" hyperscalers — Amazon, Meta, Microsoft and Alphabet — together expect to spend $725bn on AI infrastructure capex in 2025, **77% above** the record $410bn they spent in 2024. Google emerged as Q1's clear winner: net income jumped **81% to $62.6bn**, revenue **+22% to $110bn**, and Google Cloud sales rose **63%** to $20bn. Alphabet shares rose 6% pre-market, on course to open near a record $4.5tn market value. Search revenue alone added $60.4bn (+19%), and the company booked a $36.9bn unrealised gain on equity securities (it owns stakes in SpaceX, valued at $1.25tn, and Anthropic, $380bn).
+
+  Microsoft posted record total revenue of $82.9bn and net income of $32bn, lifted by a 40% rise in cloud sales; cloud unit Azure added $7.9bn yoy to $34.7bn. But CFO Amy Hood guided 2026 capex at $190bn — well above the $152bn analyst forecast — including $25bn from rising memory-chip prices, and warned of capacity constraints "at least through 2026". Microsoft shares fell 1.8% after gaining 18% over the past month. Amazon Cloud added $8.3bn yoy to $37.6bn, with a contract pipeline at $364bn end-March, including a recent $100bn Anthropic deal; the stock rose 1.8%.
+
+  Meta was the loser of the round. Capex guidance jumped to **$145bn** (+$10bn), revenue did rise 33% to $56.3bn, but a drop in users and CEO Mark Zuckerberg's vague AI-model timeline sent the stock down 8% pre-market — wiping out roughly **$113bn** of market value. SLC Management's Dec Mullarkey captured the criticism: "Investors continue to be concerned about how Zuckerberg's once capital-light money machine may be morphing into a capital-intensive incinerator." Microsoft chief Satya Nadella said the end of its OpenAI exclusivity gives the company "a frontier model, royalty-free, with all the IP rights, all the way till 2032". Source: Financial Times, 30 April 2026, Stephen Morris, Ryan McMorrow, Hannah Murphy, Rafe Rosner-Uddin, Michael Acton.
+order: 12
+---
+
+import { InteractiveChart, DataTable } from '../../../components/visuals';
+
+## The story in one line
+
+**Big Tech's combined 2025 AI capex of $725bn is up 77% vs 2024's record $410bn, with Google emerging as the clear quarter-winner (revenue +22%, net income +81%, Cloud +63%) while Meta sheds $113bn in market value on a guidance miss.**
+
+## 2025 capex by hyperscaler
+
+<InteractiveChart
+  type="bar"
+  caption="Big Four hyperscalers — 2025 AI capex guidance ($bn)"
+  source="Source: Financial Times, 30 April 2026; company Q1 2026 results"
+  data={{
+    labels: ['Microsoft', 'Google', 'Meta', 'Amazon (implied)'],
+    datasets: [{
+      label: 'USD bn',
+      data: [190, 190, 145, 200],
+      backgroundColor: ['#1a5276', '#a85432', '#7a8f9e', '#2e7d32']
+    }]
+  }}
+  options={{
+    plugins: {
+      legend: { display: false },
+      barValueLabels: { display: true, format: (v) => '$' + v + 'bn' }
+    },
+    scales: {
+      y: { beginAtZero: true, ticks: { callback: (v) => '$' + v + 'bn' } }
+    }
+  }}
+/>
+
+## Q1 2026 highlights
+
+<DataTable caption="Big Four hyperscaler Q1 2026 — revenue, capex and stock reaction" source="Source: Financial Times, 30 April 2026">
+
+| Company | Q1 revenue | Cloud growth | 2025 capex | Stock reaction |
+| ------- | ---------: | -----------: | ---------: | -------------: |
+| Alphabet (Google) | $110bn (+22%) | +63% to $20bn | $190bn (+$5bn) | +6% (record ~$4.5tn) |
+| Amazon | n/d | Cloud +$8.3bn yoy to $37.6bn | n/d ($364bn pipeline) | +1.8% |
+| Microsoft | $82.9bn (record) | +40% (Azure unit $34.7bn) | $190bn (vs $152bn forecast) | -1.8% |
+| Meta | $56.3bn (+33%) | n/a | $145bn (+$10bn) | -8% (-$113bn market cap) |
+
+</DataTable>
+
+## Why it matters
+
+The $725bn figure is the new gravity centre of the global capex cycle. Microsoft's $25bn of capex tied to rising memory-chip prices is the single most concrete signal that the AI buildout is now passing input-cost inflation through to corporate spending. The pipeline numbers — Google's $460bn contract backlog, Amazon's $364bn pipeline including a $100bn Anthropic deal — suggest the demand side is still ahead of the supply side. The cloud market is sized at $500bn and Google is "starting to take a little market share", per S&P Global's Melissa Otto.
+
+The Meta mood is the variant. A $113bn market-cap loss on an $10bn capex addition is the punchment for failing to articulate the revenue path. Conversely, Google's cloud growth re-rating shows that markets will tolerate huge spend if it shows up in cloud revenue. Watch the next earnings cycle for Meta's ability to convert AI spend into visible advertising or content revenue gains.
+
+## Takeaway
+
+The AI capex super-cycle keeps accelerating. The two big questions are: (1) does memory-chip pricing keep eating into operating margins, and (2) does Meta find a way to stop the gap between its capex and its revenue path? For investors not in the hyperscalers, the structural read remains: every dollar of AI revenue requires multiples in capex, and the picks-and-shovels story (memory, GPUs, power) is now a top-line driver across the industry.
+
+*Source: Financial Times, 30 April 2026, Stephen Morris, Ryan McMorrow, Hannah Murphy, Rafe Rosner-Uddin, Michael Acton.*
