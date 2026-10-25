@@ -1,0 +1,74 @@
+---
+import '../styles/holding.css';
+import { COPY } from '../site.js';
+
+const { lang = 'fr' } = Astro.props;
+const c = COPY[lang];
+const other = lang === 'fr' ? 'en' : 'fr';
+const site = 'https://delfineo.com';
+---
+<!DOCTYPE html>
+<html lang={c.htmlLang}>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#123f32" />
+  <meta name="description" content={c.description} />
+  <title>{c.title}</title>
+  <link rel="canonical" href={`${site}/${lang}/`} />
+  <link rel="alternate" hreflang={lang} href={`${site}/${lang}/`} />
+  <link rel="alternate" hreflang={other} href={`${site}/${other}/`} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta property="og:title" content={c.title} />
+  <meta property="og:description" content={c.description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={`${site}/${lang}/`} />
+</head>
+<body>
+  <header class="hdr">
+    <a class="logo" href={`/${lang}/`} aria-label={c.homeLabel}>
+      <img src="/brand/lockup-on-light.svg" alt={c.logoAlt} />
+    </a>
+    <nav class="nav" aria-label={c.navLabel}>
+      <a href="#about">{c.navAbout}</a>
+      <a href="#contact">{c.navContact}</a>
+      <span class="lang">
+        {lang === 'fr' ? (
+          <>
+            <span class="on">FR</span><span class="sep">/</span><a href="/en/" hreflang="en" lang="en">EN</a>
+          </>
+        ) : (
+          <>
+            <a href="/fr/" hreflang="fr" lang="fr">FR</a><span class="sep">/</span><span class="on">EN</span>
+          </>
+        )}
+      </span>
+    </nav>
+  </header>
+
+  <main id="top">
+    <slot />
+  </main>
+
+  <footer class="ftr">
+    <div class="wrap cols">
+      <div class="brand">
+        <img src="/brand/lockup-on-dark.svg" alt={c.logoAlt} />
+      </div>
+      <div class="col">
+        <p class="eyebrow">{c.footerAbout}</p>
+        <p class="first"><a href={`/${lang}/`}>{c.footerHome}</a></p>
+        <p><a href="#about">{c.footerApproach}</a></p>
+      </div>
+      <div class="col">
+        <p class="eyebrow">{c.footerContact}</p>
+        <p class="first">{c.footerCity}</p>
+        <p><a href="#contact">{c.footerForm}</a></p>
+      </div>
+    </div>
+    <div class="wrap legal">
+      <p>{c.copyright}</p>
+    </div>
+  </footer>
+</body>
+</html>

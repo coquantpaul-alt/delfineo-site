@@ -1,0 +1,116 @@
+// Site copy, FR and EN. Keep both in step: every key exists in both languages.
+export const COPY = {
+  fr: {
+    htmlLang: 'fr',
+    title: 'Delfineo Partners — Holding familiale',
+    description:
+      'Delfineo Partners est une holding familiale qui investit dans le bien-être, avec un horizon de long terme.',
+    logoAlt: 'Delfineo Partners',
+    homeLabel: 'Delfineo Partners — accueil',
+    navLabel: 'Navigation principale',
+    navAbout: 'À propos',
+    navContact: 'Contact',
+    eyebrow: 'Holding familiale',
+    heroTitle: 'Une holding familiale qui investit dans le bien-être, avec un horizon de long terme.',
+    heroText:
+      'Delfineo Partners prend des participations directes dans des entreprises du bien-être, qu’elle a vocation à conserver.',
+    approach: 'Notre approche',
+    pillars: [
+      {
+        title: 'Un capital patient',
+        text: 'Nous investissons directement, avec le capital de la famille et sans échéance de sortie. Les entreprises que nous rejoignons ont vocation à rester dans la durée.',
+      },
+      {
+        title: 'Des dirigeants aux commandes',
+        text: 'Nous soutenons les équipes en place sans nous substituer à elles. La marque, les équipes et la manière de travailler de chaque entreprise restent les siennes.',
+      },
+      {
+        title: 'La discrétion',
+        text: 'Nos échanges sont confidentiels. Nous ne communiquons sur aucune participation sans l’accord de ses dirigeants.',
+      },
+    ],
+    contact: 'Contact',
+    contactText:
+      'Si vous dirigez une entreprise du bien-être, ou si vous conseillez son dirigeant, vous pouvez nous écrire. Chaque message reçoit une réponse personnelle et reste confidentiel.',
+    formLabel: 'Formulaire de contact',
+    fName: 'Nom',
+    fEmail: 'Adresse e-mail',
+    fCompany: 'Société',
+    fSubject: 'Objet',
+    fMessage: 'Votre message',
+    send: 'Envoyer',
+    sending: 'Envoi en cours…',
+    sent: 'Merci. Votre message a bien été envoyé.',
+    failed:
+      'Votre message n’a pas pu être envoyé. Merci de réessayer dans quelques instants.',
+    invalid: 'Merci de renseigner votre nom, une adresse e-mail valide et votre message.',
+    domainNote:
+      'Les communications légitimes de Delfineo Partners proviennent uniquement d’adresses se terminant par @delfineo.com.',
+    footerAbout: 'À propos',
+    footerHome: 'Accueil',
+    footerApproach: 'Notre approche',
+    footerContact: 'Contact',
+    footerCity: 'Paris',
+    footerForm: 'Formulaire de contact',
+    copyright: '© 2026 Delfineo Partners. Tous droits réservés.',
+    altLang: 'EN',
+    altPath: '/en/',
+    thisLang: 'FR',
+  },
+  en: {
+    htmlLang: 'en',
+    title: 'Delfineo Partners — Family holding',
+    description:
+      'Delfineo Partners is a family holding investing in wellness, with a long-term horizon.',
+    logoAlt: 'Delfineo Partners',
+    homeLabel: 'Delfineo Partners — home',
+    navLabel: 'Main navigation',
+    navAbout: 'About',
+    navContact: 'Contact',
+    eyebrow: 'Family holding',
+    heroTitle: 'A family holding investing in wellness, with a long-term horizon.',
+    heroText:
+      'Delfineo Partners takes direct stakes in wellness businesses that it intends to keep.',
+    approach: 'Our approach',
+    pillars: [
+      {
+        title: 'Patient capital',
+        text: 'We invest directly, with the family’s capital and no exit date. The companies we join are meant to stay for the long run.',
+      },
+      {
+        title: 'Executives in charge',
+        text: 'We support the teams in place without replacing them. Each company’s brand, people and way of working remain its own.',
+      },
+      {
+        title: 'Discretion',
+        text: 'Our conversations are confidential. We do not communicate about any holding without the agreement of its executives.',
+      },
+    ],
+    contact: 'Contact',
+    contactText:
+      'If you run a wellness business, or advise its owner, you are welcome to write to us. Every message receives a personal reply and remains confidential.',
+    formLabel: 'Contact form',
+    fName: 'Name',
+    fEmail: 'Email address',
+    fCompany: 'Company',
+    fSubject: 'Subject',
+    fMessage: 'Your message',
+    send: 'Send',
+    sending: 'Sending…',
+    sent: 'Thank you. Your message has been sent.',
+    failed: 'Your message could not be sent. Please try again in a few moments.',
+    invalid: 'Please enter your name, a valid email address and your message.',
+    domainNote:
+      'Legitimate communications from Delfineo Partners come only from addresses ending in @delfineo.com.',
+    footerAbout: 'About',
+    footerHome: 'Home',
+    footerApproach: 'Our approach',
+    footerContact: 'Contact',
+    footerCity: 'Paris',
+    footerForm: 'Contact form',
+    copyright: '© 2026 Delfineo Partners. All rights reserved.',
+    altLang: 'FR',
+    altPath: '/fr/',
+    thisLang: 'EN',
+  },
+};

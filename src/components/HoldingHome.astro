@@ -1,0 +1,121 @@
+---
+import Holding from '../layouts/Holding.astro';
+import { COPY } from '../site.js';
+
+const { lang = 'fr' } = Astro.props;
+const c = COPY[lang];
+---
+<Holding lang={lang}>
+  <section class="sec hero">
+    <div class="wrap">
+      <p class="eyebrow" style="color:var(--ink-muted)">{c.eyebrow}</p>
+      <h1 class="serif">{c.heroTitle}</h1>
+      <p class="lead">{c.heroText}</p>
+    </div>
+  </section>
+
+  <section id="about" class="sec approach">
+    <div class="wrap">
+      <div class="rules">
+        <div class="row">
+          <p class="eyebrow">{c.approach}</p>
+        </div>
+        {c.pillars.map((p) => (
+          <div class="row">
+            <h2 class="serif">{p.title}</h2>
+            <p>{p.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="sec contact">
+    <div class="wrap">
+      <div class="intro">
+        <p class="eyebrow">{c.contact}</p>
+        <p class="serif">{c.contactText}</p>
+      </div>
+      <form
+        class="contact-form"
+        id="contact-form"
+        aria-label={c.formLabel}
+        novalidate
+        data-sending={c.sending}
+        data-sent={c.sent}
+        data-failed={c.failed}
+        data-invalid={c.invalid}
+      >
+        <div class="grid2">
+          <div class="field">
+            <label class="lbl" for="f-name">{c.fName}</label>
+            <input class="fld" id="f-name" name="name" type="text" autocomplete="name" required maxlength="120" />
+          </div>
+          <div class="field">
+            <label class="lbl" for="f-email">{c.fEmail}</label>
+            <input class="fld" id="f-email" name="email" type="email" autocomplete="email" required maxlength="200" />
+          </div>
+          <div class="field">
+            <label class="lbl" for="f-company">{c.fCompany}</label>
+            <input class="fld" id="f-company" name="company" type="text" autocomplete="organization" maxlength="200" />
+          </div>
+          <div class="field">
+            <label class="lbl" for="f-subject">{c.fSubject}</label>
+            <input class="fld" id="f-subject" name="subject" type="text" maxlength="200" />
+          </div>
+        </div>
+        <div class="field">
+          <label class="lbl" for="f-message">{c.fMessage}</label>
+          <textarea class="fld" id="f-message" name="message" rows="6" required maxlength="5000"></textarea>
+        </div>
+        <div class="hp" aria-hidden="true">
+          <label for="f-website">Website</label>
+          <input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off" />
+        </div>
+        <div>
+          <button class="btn" type="submit" data-label={c.send}>{c.send}</button>
+        </div>
+        <p class="form-status" role="status" aria-live="polite"></p>
+        <p class="note">{c.domainNote}</p>
+      </form>
+    </div>
+  </section>
+
+  <script is:inline>
+    (function () {
+      var form = document.getElementById('contact-form');
+      if (!form) return;
+      var status = form.querySelector('.form-status');
+      var btn = form.querySelector('button[type=submit]');
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var d = form.dataset;
+        var data = {};
+        new FormData(form).forEach(function (v, k) { data[k] = String(v); });
+        var emailOk = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test((data.email || '').trim());
+        if (!(data.name || '').trim() || !emailOk || !(data.message || '').trim()) {
+          status.textContent = d.invalid;
+          return;
+        }
+        btn.disabled = true;
+        status.textContent = d.sending;
+        fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data),
+        })
+          .then(function (r) { return r.json().catch(function () { return { ok: false }; }); })
+          .then(function (res) {
+            if (res && res.ok) {
+              form.reset();
+              status.textContent = d.sent;
+            } else {
+              status.textContent = d.failed;
+            }
+          })
+          .catch(function () { status.textContent = d.failed; })
+          .then(function () { btn.disabled = false; });
+      });
+    })();
+  </script>
+</Holding>
