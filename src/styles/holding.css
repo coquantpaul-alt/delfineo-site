@@ -55,7 +55,7 @@ button { font-family: inherit; }
   border-bottom: 1px solid var(--border);
 }
 .hdr .logo { display: flex; align-items: center; }
-.hdr .logo img { height: 48px; width: auto; display: block; }
+.hdr .logo img { height: 40px; width: auto; display: block; }
 .nav { display: flex; align-items: center; gap: 32px; }
 .nav a { font-size: 14px; line-height: 22px; }
 .nav a:hover { text-decoration: underline; text-underline-offset: 6px; }
