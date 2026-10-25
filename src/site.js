@@ -2,9 +2,8 @@
 export const COPY = {
   fr: {
     htmlLang: 'fr',
-    title: 'Delfineo Partners — Holding familiale',
-    description:
-      'Delfineo Partners est une holding familiale qui investit dans le bien-être, avec un horizon de long terme.',
+    title: 'Delfineo Partners',
+    description: 'Delfineo Partners',
     logoAlt: 'Delfineo Partners',
     homeLabel: 'Delfineo Partners — accueil',
     navLabel: 'Navigation principale',
@@ -59,9 +58,8 @@ export const COPY = {
   },
   en: {
     htmlLang: 'en',
-    title: 'Delfineo Partners — Family holding',
-    description:
-      'Delfineo Partners is a family holding investing in wellness, with a long-term horizon.',
+    title: 'Delfineo Partners',
+    description: 'Delfineo Partners',
     logoAlt: 'Delfineo Partners',
     homeLabel: 'Delfineo Partners — home',
     navLabel: 'Main navigation',
